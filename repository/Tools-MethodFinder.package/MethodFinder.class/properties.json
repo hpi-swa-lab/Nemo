@@ -1,0 +1,27 @@
+{
+	"category" : "Tools-MethodFinder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AddAndRemove",
+		"Approved",
+		"Blocks",
+		"Dangerous" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"data",
+		"answers",
+		"selector",
+		"argMap",
+		"thisData",
+		"mapStage",
+		"mapList",
+		"expressions",
+		"cachedClass",
+		"cachedArgNum",
+		"cachedSelectorLists" ],
+	"name" : "MethodFinder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
