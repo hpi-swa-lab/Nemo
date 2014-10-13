@@ -1,12 +1,12 @@
 arg maps
-permuteArgs 
-	"Run through ALL the permutations.  First one was as presented."
-
-	data first size <= 1 ifTrue: [^ false].	"no other way"
-	mapList ifNil: [self makeAllMaps].
+permuteArgs
+	self numberOfArgsPerTuple <= 1
+		ifTrue: [^ false].
+	mapList
+		ifNil: [self generatePermutationsOfInputArguments].
 	mapStage := mapStage + 1.
-	mapStage > mapList size ifTrue: [^ false].
+	mapStage > mapList size
+		ifTrue: [^ false].
 	argMap := mapList at: mapStage.
 	self mapData.
 	^ true
-	

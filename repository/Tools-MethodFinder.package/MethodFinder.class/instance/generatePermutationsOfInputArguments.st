@@ -1,5 +1,5 @@
 arg maps
-makeAllMaps 
+generatePermutationsOfInputArguments 
 	"Calculate and store all permutations of argMap in mapList"
 
 	| ii |

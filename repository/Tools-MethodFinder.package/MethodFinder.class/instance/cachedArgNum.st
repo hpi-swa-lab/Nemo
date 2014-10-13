@@ -1,0 +1,4 @@
+accessing
+cachedArgNum
+
+	^ cachedArgNum
