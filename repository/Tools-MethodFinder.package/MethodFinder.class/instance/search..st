@@ -1,7 +1,7 @@
 search
 search: multi
 	"if Multi is true, collect all selectors that work."
-self halt.
+
 	selector := OrderedCollection new.	"list of them"
 	self simpleSearch.
 	multi not & (selector isEmpty not) ifTrue:[^ selector].
