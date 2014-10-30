@@ -1,0 +1,14 @@
+{
+	"category" : "COPPlayground",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSPL1",
+	"pools" : [
+		 ],
+	"super" : "CSLayer",
+	"type" : "normal" }
