@@ -1,21 +1,17 @@
 actions
 createLiteralsOutput: aClassName
 	| literals literalsResult class |
-	literals := Dictionary new.
+	literals := Bag new.
 	class := self cleanInput: aClassName.
 	class ifNil: [^ ''].
-	class withAllSubclasses do: [ :eaClass |
+	class withAllSubclassesDo: [ :eaClass |
 		eaClass methodDict valuesDo: [ :compiledMethod |
-			compiledMethod literalsDo: [ :literal | 
-				literals at: literal put: (literals at: literal ifAbsentPut: 0) + 1
+			compiledMethod literalsDo: [ :literal |
+				literal isSymbol ifTrue: [
+					literals add: literal
+				]
 			]
 		]
 	].
 
-	literalsResult := OrderedCollection new.
-	literals associationsDo: [ :ea |
-		literalsResult add:  {ea key. ea value}
-	].
-	literalsResult sort: [ :a :b | a second > b second ].
-
-	^ self formatOutput: literalsResult
+	^ self formatOutput: literals sortedCounts
