@@ -1,0 +1,18 @@
+{
+	"category" : "COPPlayground",
+	"classinstvars" : [
+		"layerCounter",
+		"interceptionBlocks" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"layeredMethod",
+		"interceptions",
+		"layerName",
+		"interceptionBlockHashes" ],
+	"name" : "COPInterceptor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
