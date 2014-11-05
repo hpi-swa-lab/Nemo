@@ -5,9 +5,11 @@
 	"instance" : {
 		"classes" : "LS 10/23/2014 17:12:05.195",
 		"classes:" : "LS 10/23/2014 17:12:15.324",
-		"createCountingBlockFor:on:" : "LS 10/23/2014 17:27:16.493",
+		"createCountingBlockFor:on:" : "LS 11/3/2014 16:23:41.982",
 		"initialize" : "LS 10/30/2014 11:53:47.939",
 		"initializeClasses:without:" : "LS 10/30/2014 11:55:42.286",
 		"interceptor" : "LS 10/23/2014 17:21:33.145",
 		"interceptor:" : "LS 10/23/2014 17:21:50.865",
-		"run:" : "LS 10/23/2014 17:26:28.535" } }
+		"run:" : "LS 10/30/2014 16:07:56.706",
+		"startCounting" : "LS 11/3/2014 16:22:06.207",
+		"stopCounting" : "LS 10/30/2014 16:11:21.447" } }
