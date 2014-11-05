@@ -1,8 +1,11 @@
 actions
 formatOutput: aPairCollection
-	| output |
-	output := ''.	
-	aPairCollection do: [ :eaEntry |
-		output := output , eaEntry first , ' -> ' , eaEntry second , Character cr
+
+	^ String streamContents: [:stream |
+		aPairCollection do: [ :eaEntry |
+			stream nextPutAll: eaEntry key asString.
+			stream nextPutAll: ' -> '.
+			stream nextPutAll: eaEntry value asString.
+			stream nextPutAll: Character cr asString
+		].
 	].
-	^ output
