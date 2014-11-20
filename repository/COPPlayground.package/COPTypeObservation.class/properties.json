@@ -1,0 +1,15 @@
+{
+	"category" : "COPPlayground",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classes",
+		"interceptor" ],
+	"name" : "COPTypeObservation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

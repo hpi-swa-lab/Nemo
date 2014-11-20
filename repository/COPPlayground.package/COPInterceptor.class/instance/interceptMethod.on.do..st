@@ -11,7 +11,9 @@ interceptMethod: aMethodSymbol on: aClass do: aBlock
 	sourceCodeLines := {
 		aClass standardMethodHeaderFor: aMethodSymbol.
 		'<layer: #', self layerName,'>'.
-		'COPInterceptor runBlock: ', aBlock hash asString , ' without: #', self layerName, '.'.
+		'COPInterceptor runBlock: ', aBlock hash asString
+						, ' without: #', self layerName
+						, ' withArguments: ', argsCollectionString , '.'.
 		'^self proceedWithArgs: ' , argsCollectionString , '.'
 	}.
 	aClass compile: (sourceCodeLines join: (Character cr asString)).

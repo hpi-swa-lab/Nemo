@@ -1,0 +1,18 @@
+{
+	"category" : "COPPlayground",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"package",
+		"isObserving",
+		"updateIntervalHandler",
+		"methodList",
+		"observer" ],
+	"name" : "BPH1ParameterTypeTool",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

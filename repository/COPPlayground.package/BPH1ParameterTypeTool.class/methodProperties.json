@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildMethodListWith:" : "LS 11/19/2014 15:10:32.527",
+		"buildObserveButtonWith:" : "LS 11/19/2014 10:35:35.692",
+		"buildPackageInputWith:" : "LS 11/19/2014 10:35:35.707",
+		"buildWith:" : "LS 11/19/2014 10:35:35.72",
+		"createClassesList" : "LS 11/19/2014 10:35:35.762",
+		"createMethodNameFrom:withTypes:" : "LS 11/20/2014 10:48:13.46",
+		"createTypeStringsFrom:" : "LS 11/20/2014 10:40:39.353",
+		"generateMethods" : "LS 11/20/2014 10:09:39.542",
+		"initObserver" : "LS 11/19/2014 15:12:52.221",
+		"initialize" : "LS 11/19/2014 10:35:35.792",
+		"isObserving" : "LS 11/19/2014 10:35:35.807",
+		"isObserving:" : "LS 11/19/2014 10:35:35.82",
+		"methodList" : "LS 11/19/2014 15:17:35.281",
+		"methodList:" : "LS 11/19/2014 15:10:47.626",
+		"observer" : "LS 11/19/2014 15:11:43.864",
+		"observer:" : "LS 11/19/2014 15:11:35.772",
+		"onPackageKeystroke:" : "LS 11/19/2014 10:35:35.879",
+		"open" : "LS 11/19/2014 10:35:35.894",
+		"package" : "LS 11/19/2014 10:35:35.908",
+		"package:" : "LS 11/19/2014 10:35:35.923",
+		"toggleObserve" : "LS 11/19/2014 15:13:56.591",
+		"updateIntervalHandler" : "LS 11/19/2014 10:35:36.006",
+		"updateIntervalHandler:" : "LS 11/19/2014 10:35:36.023",
+		"updateList" : "LS 11/20/2014 10:08:06.879" } }
