@@ -1,0 +1,15 @@
+{
+	"category" : "PipeOperator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"start",
+		"chain" ],
+	"name" : "Pipe",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
