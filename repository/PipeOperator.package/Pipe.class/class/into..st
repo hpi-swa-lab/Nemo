@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 into: anObject
-	^self new start: anObject
+	^self new proxyTo: anObject

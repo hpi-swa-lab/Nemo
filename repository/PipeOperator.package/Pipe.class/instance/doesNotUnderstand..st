@@ -1,4 +1,5 @@
 as yet unclassified
 doesNotUnderstand: aMessage
+	"Catch any unknown messages and delegate them to the internal object."
 
-	start := start perform: aMessage selector withArguments: aMessage arguments.
+	internal := internal perform: aMessage selector withArguments: aMessage arguments.

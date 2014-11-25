@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JSA 11/25/2014 12:19:57.905",
 	"instvars" : [
-		"start",
-		"chain" ],
+		"internal" ],
 	"name" : "Pipe",
 	"pools" : [
 		 ],
