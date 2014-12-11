@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-StaticAnalysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methods",
+		"currentIndex" ],
+	"name" : "RecommendOnDebugTool",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }
