@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"for:and:" : "DS 11/27/2014 14:05" },
+	"instance" : {
+		"aboutToStyle:" : "DS 11/27/2014 14:22",
+		"buildLabelWith:" : "DS 11/27/2014 14:06",
+		"buildWith:" : "DS 11/27/2014 14:09",
+		"clazz" : "DS 11/27/2014 14:04",
+		"clazz:" : "DS 11/27/2014 14:04",
+		"compileMessage:notifying:" : "DS 11/27/2014 14:30",
+		"contents:notifying:" : "DS 11/27/2014 14:26",
+		"defineMessageFrom:notifying:" : "DS 11/27/2014 14:34",
+		"initializeCodePane" : "DS 11/27/2014 13:58",
+		"labelString" : "DS 11/27/2014 14:08",
+		"methodName" : "DS 11/27/2014 12:10",
+		"methodName:" : "DS 11/27/2014 12:10",
+		"open" : "DS 12/11/2014 11:50",
+		"selectedClass" : "DS 11/27/2014 14:04",
+		"selectedMessageName" : "DS 11/27/2014 13:53",
+		"wantsAnnotationPane" : "DS 11/27/2014 14:38",
+		"wantsOptionalButtons" : "DS 11/27/2014 14:37" } }

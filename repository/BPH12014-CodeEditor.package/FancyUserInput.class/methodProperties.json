@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"display:with:do:onEnterAction:" : "DS 12/4/2014 12:07" },
+	"instance" : {
+		"actionListener" : "DS 12/4/2014 11:20",
+		"actionListener:" : "DS 12/4/2014 11:20",
+		"actionSelector" : "DS 12/4/2014 11:53",
+		"actionSelector:" : "DS 12/4/2014 11:53",
+		"buildInputFieldWith:" : "DS 12/3/2014 17:10",
+		"buildWith:" : "DS 12/4/2014 11:16",
+		"contents:" : "DS 12/11/2014 13:02",
+		"enterAction" : "DS 12/4/2014 11:24",
+		"enterAction:" : "DS 12/4/2014 11:24",
+		"fancyKeyStroke:" : "DS 12/11/2014 11:12",
+		"fancyUI" : "DS 12/11/2014 11:11",
+		"fancyUI:" : "DS 12/11/2014 11:11",
+		"initializeContents:" : "DS 12/4/2014 12:07",
+		"open" : "DS 12/11/2014 12:14" } }

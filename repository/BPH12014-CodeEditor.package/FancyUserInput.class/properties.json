@@ -1,0 +1,17 @@
+{
+	"category" : "BPH12014-CodeEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"enterAction",
+		"actionListener",
+		"actionSelector",
+		"fancyUI" ],
+	"name" : "FancyUserInput",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }
