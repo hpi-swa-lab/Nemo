@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakOverflow",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"leftOutput",
+		"rightOutput" ],
+	"name" : "SqueakOverflowUI",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

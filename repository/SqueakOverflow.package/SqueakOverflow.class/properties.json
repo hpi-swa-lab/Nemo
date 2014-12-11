@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakOverflow",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqueakOverflow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
