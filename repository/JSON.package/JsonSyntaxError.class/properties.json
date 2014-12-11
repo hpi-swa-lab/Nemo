@@ -1,0 +1,14 @@
+{
+	"category" : "JSON",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "JsonSyntaxError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
