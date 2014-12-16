@@ -1,0 +1,14 @@
+{
+	"category" : "COPPlayground",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TypeHintTextMorph" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SmalltalkEditorWithTypeHints",
+	"pools" : [
+		 ],
+	"super" : "SmalltalkEditor",
+	"type" : "normal" }

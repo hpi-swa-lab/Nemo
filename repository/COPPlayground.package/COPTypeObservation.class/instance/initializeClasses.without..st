@@ -19,6 +19,6 @@ initializeClasses: classesList without: blacklistedClassMethods
 	rankedClassMethods keysAndValuesDo: [ :aClass :methods |
 		self classes at: aClass put: Dictionary new.
 		methods do: [ :methodName |
-			(self classes at: aClass) at: methodName put: OrderedCollection new.
+			(self classes at: aClass) at: methodName put: Dictionary new.
 		].
 	].

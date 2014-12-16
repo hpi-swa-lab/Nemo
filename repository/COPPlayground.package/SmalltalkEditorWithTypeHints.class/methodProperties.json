@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"TypeHintTextMorph" : "LS 11/26/2014 08:25:18.409",
+		"TypeHintTextMorph:" : "LS 11/26/2014 08:25:04.698" },
+	"instance" : {
+		"handleMouseOverAtIndex:" : "LS 11/25/2014 17:22:39.776",
+		"replaceTypeHintTextMorphWith:" : "LS 11/26/2014 08:25:55.282",
+		"spawnTypeHintForMethod:onClass:atArgument:" : "LS 12/16/2014 14:22:54.48" } }

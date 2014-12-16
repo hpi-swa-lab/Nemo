@@ -1,15 +1,25 @@
 {
 	"class" : {
-		 },
+		"availableInstVarNamesOn:" : "LS 12/11/2014 11:30:38.575",
+		"availableMethodsOn:in:on:with:" : "LS 12/16/2014 15:05:17.324",
+		"availableTempVarNamesIn:on:with:" : "LS 12/11/2014 11:30:27.042",
+		"availableVarNamesIn:on:with:" : "LS 12/11/2014 11:34:39.535",
+		"availableVarsIn:on:with:" : "LS 12/11/2014 13:15:02.037",
+		"availableVarsIn:on:with:ofType:" : "LS 12/11/2014 16:22:03.983",
+		"createMethodNameFrom:withTypes:" : "LS 12/11/2014 11:08:08.89",
+		"createTypeStringsFrom:" : "LS 11/25/2014 16:28:50.489",
+		"guessVarTypeFrom:" : "LS 12/11/2014 16:20:47.081",
+		"observations" : "LS 11/20/2014 15:14:49.78",
+		"observations:" : "LS 11/20/2014 15:13:22.571",
+		"typesFor:in:on:" : "LS 12/11/2014 16:21:37.304",
+		"typesForMethod:onClass:atArgument:" : "LS 11/25/2014 16:37:04.26" },
 	"instance" : {
 		"buildMethodListWith:" : "LS 11/19/2014 15:10:32.527",
 		"buildObserveButtonWith:" : "LS 11/19/2014 10:35:35.692",
 		"buildPackageInputWith:" : "LS 11/19/2014 10:35:35.707",
 		"buildWith:" : "LS 11/19/2014 10:35:35.72",
 		"createClassesList" : "LS 11/19/2014 10:35:35.762",
-		"createMethodNameFrom:withTypes:" : "LS 11/20/2014 10:48:13.46",
-		"createTypeStringsFrom:" : "LS 11/20/2014 10:40:39.353",
-		"generateMethods" : "LS 11/20/2014 10:09:39.542",
+		"generateMethods" : "LS 11/25/2014 16:27:57.821",
 		"initObserver" : "LS 11/19/2014 15:12:52.221",
 		"initialize" : "LS 11/19/2014 10:35:35.792",
 		"isObserving" : "LS 11/19/2014 10:35:35.807",
@@ -25,4 +35,4 @@
 		"toggleObserve" : "LS 11/19/2014 15:13:56.591",
 		"updateIntervalHandler" : "LS 11/19/2014 10:35:36.006",
 		"updateIntervalHandler:" : "LS 11/19/2014 10:35:36.023",
-		"updateList" : "LS 11/20/2014 10:08:06.879" } }
+		"updateList" : "LS 11/25/2014 16:18:42.731" } }
