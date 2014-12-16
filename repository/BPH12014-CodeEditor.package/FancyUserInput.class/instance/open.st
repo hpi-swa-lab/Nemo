@@ -5,5 +5,5 @@ open
 	fancyUI textMorph on: #keyStroke send: #fancyKeyStroke: to: self.
 	^ fancyUI 
 		setProperty: #alwaysAccept toValue: true;
-		extent: 200@25;
+		extent: 200@20;
 		yourself

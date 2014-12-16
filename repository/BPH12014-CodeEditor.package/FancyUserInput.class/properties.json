@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"parent",
 		"enterAction",
 		"actionListener",
 		"actionSelector",

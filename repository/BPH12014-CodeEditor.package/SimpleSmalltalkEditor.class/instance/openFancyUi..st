@@ -4,6 +4,7 @@ openFancyUi: aKeyboardEvent
 	| fancyUIMorph |
 	fancyUIMorph := ((FancyUserInput
 		display: (self hasSelection ifTrue: [self selection] ifFalse: [''])
+		inParent: self morph
 		with: self
 		do: #resultSelected:
 		onEnterAction: [:input | 

@@ -1,6 +1,7 @@
 as yet unclassified
-display: aString with: aActionListener do: anActionSelector onEnterAction: aBlock
+display: aString inParent: aParent with: aActionListener do: anActionSelector onEnterAction: aBlock
 	^ self new
+		parent: aParent;
 		actionListener: aActionListener;
 		enterAction: aBlock;
 		actionSelector: anActionSelector;
