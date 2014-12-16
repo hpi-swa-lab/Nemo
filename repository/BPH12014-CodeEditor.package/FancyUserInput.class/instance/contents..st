@@ -2,7 +2,7 @@ as yet unclassified
 contents: aText
 	| menu results |
 	super contents: aText.
-	"self dependents first delete."
+	self dependents first delete.
 
 	results := self enterAction value: aText asString.
 

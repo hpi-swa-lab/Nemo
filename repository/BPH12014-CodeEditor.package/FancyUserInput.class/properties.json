@@ -10,7 +10,8 @@
 		"enterAction",
 		"actionListener",
 		"actionSelector",
-		"fancyUI" ],
+		"fancyUI",
+		"onCloseAction" ],
 	"name" : "FancyUserInput",
 	"pools" : [
 		 ],

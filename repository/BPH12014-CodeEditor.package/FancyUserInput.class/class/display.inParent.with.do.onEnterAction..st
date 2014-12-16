@@ -1,7 +1,7 @@
 as yet unclassified
-display: aString inParent: aParent with: aActionListener do: anActionSelector onEnterAction: aBlock
+display: aString inParent: aParentMorph with: aActionListener do: anActionSelector onEnterAction: aBlock
 	^ self new
-		parent: aParent;
+		parent: aParentMorph;
 		actionListener: aActionListener;
 		enterAction: aBlock;
 		actionSelector: anActionSelector;

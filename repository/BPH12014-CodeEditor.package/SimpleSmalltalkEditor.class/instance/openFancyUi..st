@@ -8,9 +8,10 @@ openFancyUi: aKeyboardEvent
 		with: self
 		do: #resultSelected:
 		onEnterAction: [:input | 
-			self findMessagesAndFormatResult: input]) open).
+			self generateSuggestions: input])
+		onCloseAction: [self onCloseFancyUI.]; open).
 
 	fancyUIMorph position: self positionForPopUp.
 	self morph addMorphFront: fancyUIMorph.
-	ActiveHand newKeyboardFocus: fancyUIMorph.
+	ActiveHand newKeyboardFocus: fancyUIMorph textMorph.
 	^ true
