@@ -1,0 +1,4 @@
+accessing
+isBase
+	
+	^ layers isNil
