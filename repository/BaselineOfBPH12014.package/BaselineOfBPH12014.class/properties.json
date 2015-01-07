@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfBPH12014",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfBPH12014",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
