@@ -1,3 +1,4 @@
+# Gotta love Erlang!
 language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
