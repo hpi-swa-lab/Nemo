@@ -17,7 +17,7 @@ Metacello new
   load: 'TravisCI'.
 
 "Run the tests"
-"TravisCIHarness
+TravisCIHarness
   value: #( 'BaselineOfBPH12014' )
   value: 'TravisCISuccess.txt' 
-  value: 'TravisCIFailure.txt'."
+  value: 'TravisCIFailure.txt'.
