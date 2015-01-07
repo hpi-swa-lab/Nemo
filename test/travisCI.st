@@ -7,17 +7,17 @@ gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
   ifNotNil: [:fileDirectoryClass | (fileDirectoryClass default directoryNamed: gitCache ) fullName].
 
 Metacello new
-  baseline: 'Project11';
-  repository: 'filetree://', gitPath, '/Diff-Merge-Helper/packages';
+  baseline: 'BPH12014';
+  repository: 'filetree://', gitPath, '/BP2014H1/repository';
   get.
 
 Metacello new
-  baseline: 'Project11';
-  repository: 'filetree://', gitPath, '/Diff-Merge-Helper/packages';
+  baseline: 'BPH12014';
+  repository: 'filetree://', gitPath, '/BP2014H1/repository';
   load: 'TravisCI'.
 
 "Run the tests"
-TravisCIHarness
-  value: #( 'BaselineOfProject11' )
+"TravisCIHarness
+  value: #( 'BaselineOfBPH12014' )
   value: 'TravisCISuccess.txt' 
-  value: 'TravisCIFailure.txt'.
+  value: 'TravisCIFailure.txt'."
