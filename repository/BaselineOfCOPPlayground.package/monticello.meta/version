@@ -1,1 +1,1 @@
-(name 'BaselineOfCOPPlayground-DS.1' message 'added baseline' id '3372312b-74dc-e548-bf62-82df2c12aaa0' date '7 January 2015' time '3:51:31.585 pm' author 'DS' ancestors () stepChildren ())
+(name 'BaselineOfCOPPlayground-DS.2' message 'empty log message' id '911dc667-ff4e-894e-99a8-c32a38cb3dc8' date '7 January 2015' time '3:51:58.205 pm' author 'DS' ancestors ((name 'BaselineOfCOPPlayground-DS.1' message 'added baseline' id '3372312b-74dc-e548-bf62-82df2c12aaa0' date '7 January 2015' time '3:51:31.585 pm' author 'DS' ancestors () stepChildren ())) stepChildren ())
