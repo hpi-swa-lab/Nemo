@@ -12,7 +12,7 @@ baseline: spec
 			spec
 				className: 'BaselineOfSqueakOverflow';
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
-
+"
 		spec package: 'AST-Core' with: [
 			spec
 				repository: 'http://www.squeaksource.com/rb'].
@@ -20,7 +20,7 @@ baseline: spec
 		spec package: 'BPH12014-AST-UI' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
-"
+
 		spec package: 'BPH12014-CodeEditor' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
@@ -32,4 +32,4 @@ baseline: spec
 "
 		spec
 			group: 'default' with: #('core');
-			group: 'core' with: #('BPH12014-AST-UI' "'BPH12014-CodeEditor' 'BPH12014-StaticAnalysis' 'BaselineOfCOPPlayground' 'SqueakOverflow'")].
+			group: 'core' with: #('AST-Core' "'BPH12014-AST-UI'" "'BPH12014-CodeEditor' 'BPH12014-StaticAnalysis' 'BaselineOfCOPPlayground' 'SqueakOverflow'")].
