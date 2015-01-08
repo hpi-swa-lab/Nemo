@@ -12,6 +12,7 @@ if [ $exitcode -eq 0 ]; then
 	cp $BUILDER_CI_HOME/images/*.changes BP2014H1.changes
 	cp $BUILDER_CI_HOME/sources/*.sources .
 	echo "$VM_PATH/Linux/squeak -nosound -plugins "$VM_PATH/Linux" -encoding Latin1 -nodisplay BP2014H1.image"
+	bash -c "while true; do printf .; sleep 10; done" &
 	$VM_PATH/Linux/squeak -nosound -plugins "$VM_PATH/Linux" -encoding Latin1 -nodisplay BP2014H1.image tests/build_image.st
 	echo "uploading..."
 	curl -T BP2014H1.image http://www.lively-kernel.org/babelsberg/BP2014H1/
