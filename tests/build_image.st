@@ -35,7 +35,7 @@ Preferences setPreference: #warnIfNoSourcesFile toValue: false.
 PluggableSystemWindow allSubInstances do: [:w | w delete].
 
 UIManager default
-  edit: 'Welcome to our bachelor''s project'!
+  edit: 'Welcome to our bachelor''s project.
 
 In the open code editor window you can try a few of our showcases.
 The code that is already present is a standard method from
