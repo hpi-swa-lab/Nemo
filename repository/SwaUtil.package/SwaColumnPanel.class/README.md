@@ -1,1 +1,0 @@
-This is a container for column-like layouting purposes.

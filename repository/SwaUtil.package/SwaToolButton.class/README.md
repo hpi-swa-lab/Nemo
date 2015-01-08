@@ -1,1 +1,0 @@
-I am a button that can be used for toolbars.

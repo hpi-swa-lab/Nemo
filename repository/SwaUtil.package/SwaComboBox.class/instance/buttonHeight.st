@@ -1,4 +1,0 @@
-geometry
-buttonHeight
-	
-	^ 16

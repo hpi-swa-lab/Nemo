@@ -1,3 +1,0 @@
-*SwaUtil
-isTestCaseClass
-	^ true

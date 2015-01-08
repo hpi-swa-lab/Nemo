@@ -1,4 +1,0 @@
-scrolling
-scrollByKeyboard: event 
-
-	^false

@@ -1,4 +1,0 @@
-styling
-disable
-
-	enabled := false.

@@ -1,4 +1,0 @@
-constants
-defaultHeight
-
-	^ 500
