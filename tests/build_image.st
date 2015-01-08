@@ -54,6 +54,6 @@ but can also display a lot of context information about the
 code snippet that your are editing and the variables and types
 that are currently involved.' label: 'Welcome'.
 
-((Smalltalk at: #SimpleCodeEditor) for: OrderedCollection and: #at:) open.
+"((Smalltalk at: #SimpleCodeEditor) for: OrderedCollection and: #at:) open."
 
 SmalltalkImage current snapshot: true andQuit: true.
