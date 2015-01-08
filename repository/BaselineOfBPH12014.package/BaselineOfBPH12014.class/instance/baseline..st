@@ -37,7 +37,7 @@ baseline: spec
 		spec package: 'Tools-MethodFinder' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
-"test"
+
 		spec
 			group: 'default' with: #('core');
 			group: 'TravisCI' with: #('default');
