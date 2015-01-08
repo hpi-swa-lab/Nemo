@@ -36,7 +36,7 @@ PluggableSystemWindow allSubInstances do: [:w | w delete].
 
 UIManager default
   edit: 'Welcome to our bachelor''s project!
-  
+
 In the open code editor window you can try a few of our showcases.
 The code that is already present is a standard method from
 the OrderedCollection class. This would be a sample of how to edit
@@ -54,6 +54,6 @@ but can also display a lot of context information about the
 code snippet that your are editing and the variables and types
 that are currently involved.' label: 'Welcome'.
 
-((Smalltalk at: #SimpleCodeEditor) for: OrderedCollection and: #at:) open
+((Smalltalk at: #SimpleCodeEditor) for: OrderedCollection and: #at:) open.
 
 SmalltalkImage current snapshot: true andQuit: true.
