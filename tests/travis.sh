@@ -17,6 +17,7 @@ if [ $exitcode -eq 0 ]; then
 	echo "uploading..."
 	curl -T BP2014H1.image http://www.lively-kernel.org/babelsberg/BP2014H1/
 	curl -T BP2014H1.changes http://www.lively-kernel.org/babelsberg/BP2014H1/
+	curl -T *.sources http://www.lively-kernel.org/babelsberg/BP2014H1/
     fi
 fi
 exit $exitcode
