@@ -1,6 +1,6 @@
 search
 findMessage
-	"Finds all expressions matching the current data"
+	"Control the search."
 
 	data do: [:alist |
 		(alist isKindOf: SequenceableCollection) ifFalse: [
