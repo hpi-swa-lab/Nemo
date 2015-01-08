@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSqueakOverflow",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSqueakOverflow",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
