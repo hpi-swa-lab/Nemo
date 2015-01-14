@@ -38,7 +38,11 @@ baseline: spec
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
+		spec package: 'BPH12014-UI' with: [
+			spec
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
+
 		spec
 			group: 'default' with: #('core');
 			group: 'TravisCI' with: #('default');
-			group: 'core' with: #('BPH12014-AST-UI' 'BPH12014-CodeEditor' 'BPH12014-StaticAnalysis' 'BaselineOfCOPPlayground' 'SqueakOverflow' 'Tools-MethodFinder' 'BPH12014-Examples')].
+			group: 'core' with: #('BPH12014-AST-UI' 'BPH12014-UI' 'BPH12014-CodeEditor' 'BPH12014-StaticAnalysis' 'BaselineOfCOPPlayground' 'SqueakOverflow' 'Tools-MethodFinder' 'BPH12014-Examples')].
