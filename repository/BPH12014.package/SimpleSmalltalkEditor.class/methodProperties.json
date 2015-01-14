@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"initializeCmdKeyShortcuts" : "DS 12/11/2014 11:09" },
+	"instance" : {
+		"availableInputsIn:on:with:at:" : "LS 12/16/2014 15:10:12.351",
+		"currentLine" : "DS 12/4/2014 12:04",
+		"findMessagesAndFormatResult:" : "DS 12/5/2014 13:50",
+		"generateSuggestions:" : "LS 12/16/2014 16:44:08.112",
+		"guessIt:" : "LS 12/16/2014 16:10:48.849",
+		"onCloseFancyUI" : "LS 12/16/2014 15:37:26.288",
+		"openCompletionUi:" : "DS 12/16/2014 16:08",
+		"openFancyUi:" : "LS 12/16/2014 15:37:30.084",
+		"openMethodFinder:" : "DS 12/4/2014 12:02",
+		"positionForPopUp" : "JSA 12/11/2014 16:55:22.39",
+		"resultSelected:" : "LS 12/16/2014 15:53:20.686",
+		"variableNoteAtCaret" : "LS 12/16/2014 16:44:34.243" } }
