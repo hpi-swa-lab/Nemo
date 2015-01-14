@@ -45,5 +45,5 @@ baseline: spec
 		spec
 			group: 'default' with: #('core');
 			group: 'Tests' with: #('BPH12014-UI-Tests');
-			group: 'TravisCI' with: #('Tests');
+			group: 'TravisCI' with: #('core Tests');
 			group: 'core' with: #('BPH12014-AST-UI' 'BPH12014-UI' 'BPH12014-CodeEditor' 'BPH12014-StaticAnalysis' 'BaselineOfCOPPlayground' 'SqueakOverflow' 'Tools-MethodFinder' 'BPH12014-Examples')].
