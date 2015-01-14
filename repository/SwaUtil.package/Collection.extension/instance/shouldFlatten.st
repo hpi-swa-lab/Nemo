@@ -1,4 +1,0 @@
-*SwaUtil
-shouldFlatten
-
-	^ true

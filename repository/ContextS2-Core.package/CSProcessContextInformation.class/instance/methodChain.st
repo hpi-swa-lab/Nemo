@@ -1,4 +1,0 @@
-accessing
-methodChain
-	
-	^ methodChain

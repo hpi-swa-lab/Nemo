@@ -1,6 +1,6 @@
 arg maps
 makeAllMaps 
-	"Calculate and store all permutations of argMap in mapList"
+	"Make a giant list of all permutations of the args.  To find the function, we will try these permutations of the input data.  receiver, args."
 
 	| ii |
 	mapList := Array new: argMap size factorial.

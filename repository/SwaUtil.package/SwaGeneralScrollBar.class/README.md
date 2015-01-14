@@ -1,1 +1,0 @@
-Extracted from Polymorph. Support for GeneralScrollPane.

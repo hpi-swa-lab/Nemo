@@ -1,3 +1,0 @@
-ui-layers
-selectedLayerIndex
-	^ selectedLayerIndex

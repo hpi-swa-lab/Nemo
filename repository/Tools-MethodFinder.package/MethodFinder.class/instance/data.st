@@ -1,4 +1,4 @@
-accessing
+access
 data
 
 	^ data

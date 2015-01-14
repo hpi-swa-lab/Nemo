@@ -1,4 +1,0 @@
-constants
-borderWidth
-
-	^ 5

@@ -1,4 +1,0 @@
-accessing
-setIndexSelector
-
-	^ setIndexSelector

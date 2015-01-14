@@ -1,4 +1,0 @@
-constants
-nonLayeredMarker
-	
-	^ #'-- non-layered --'

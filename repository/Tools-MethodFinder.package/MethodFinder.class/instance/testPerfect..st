@@ -2,7 +2,7 @@ search
 testPerfect: aSelector
 	"Try this selector! Return true if it answers every example perfectly.  Take the args in the order they are.  Do not permute them.  Survive errors.  later cache arg lists."
 
-| sz argList val rec activeSel perform |
+| sz argList val rec activeSel perform currentAnswer |
 	"Transcript cr; show: aSelector.		debug"
 perform := aSelector beginsWith: 'perform:'.
 sz := argMap size.
@@ -33,6 +33,11 @@ sz := argMap size.
 							^ false].
 	"self test3."
 	"self test2: (thisData at: ii)."
-	((answers at: ii) closeTo: val) ifFalse: [^ false].
+	currentAnswer := answers at: ii.
+	(currentAnswer isBlock 
+		ifTrue: [currentAnswer value: val]
+		ifFalse: [currentAnswer isBehavior
+			ifTrue: [val class allSuperclasses anySatisfy: [:superclass | superclass = currentAnswer]]
+			ifFalse: [currentAnswer closeTo: val]]) ifFalse: [^ false].
 	].
 ^ true

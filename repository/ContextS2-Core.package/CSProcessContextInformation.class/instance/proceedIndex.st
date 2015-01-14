@@ -1,4 +1,0 @@
-accessing
-proceedIndex
-
-	^ proceedIndex

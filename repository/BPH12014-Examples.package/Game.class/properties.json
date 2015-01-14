@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph" ],
+	"name" : "Game",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

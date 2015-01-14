@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfCOPPlayground",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfCOPPlayground",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

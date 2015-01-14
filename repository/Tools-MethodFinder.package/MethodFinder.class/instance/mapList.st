@@ -1,4 +1,0 @@
-accessing
-mapList
-
-	^ mapList
