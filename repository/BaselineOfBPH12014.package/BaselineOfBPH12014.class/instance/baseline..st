@@ -23,7 +23,8 @@ baseline: spec
 
 		spec package: 'BPH12014' with: [
 			spec
-				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
+				requires: #('AST-Core')].
 
 		spec
 			group: 'default' with: #('core');
