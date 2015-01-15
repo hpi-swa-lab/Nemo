@@ -7,5 +7,5 @@ generateSuggestions: aString
 			^self availableInputsIn: self model methodName
 					on: self model clazz
 					with: (RBParser parseMethod: self model contents asString)
-					at: self variableNoteAtCaret token value
+					at: (self variableNodeAtCaret ifNil: [''] ifNotNilDo: [ :node | node token value ])
 		].

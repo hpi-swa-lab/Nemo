@@ -1,5 +1,9 @@
 as yet unclassified
 visitNode: aNode
-	((aNode start >= (self caretPosition)) and: [self enclosingNode isNil]) ifTrue: [self enclosingNode: self lastAcceptedNode].
-	self lastAcceptedNode: aNode.
+	(aNode stop <= self caretPosition) ifTrue: [
+		self enclosingNode
+			ifNil: [self enclosingNode: aNode]
+			ifNotNil: [((self caretPosition - aNode stop) <= (self caretPosition - self enclosingNode stop))
+						ifTrue: [self enclosingNode: aNode]]].
+
 	^ super visitNode: aNode

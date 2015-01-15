@@ -5,6 +5,6 @@ searchEnclosingNodeFor: aPosition on: aNode
 		caretPosition: aPosition;
 		visitNode: aNode;
 		enclosingNode.
-	^ node ifNil: [self lastAcceptedNode]
+	^ node ifNil: [aNode]
 	
 	
