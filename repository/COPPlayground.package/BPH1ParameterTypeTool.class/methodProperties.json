@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"availableInstVarNamesOn:" : "LS 12/11/2014 11:30:38.575",
-		"availableMethodsOn:in:on:with:" : "DS 1/14/2015 13:33:34.439",
+		"availableMethodsOn:in:on:with:" : "DS 1/15/2015 13:36:55.323",
 		"availableTempVarNamesIn:on:with:" : "LS 12/11/2014 11:30:27.042",
 		"availableVarNamesIn:on:with:" : "LS 12/11/2014 11:34:39.535",
 		"availableVarsIn:on:with:" : "LS 12/11/2014 13:15:02.037",
@@ -9,7 +9,7 @@
 		"createMethodNameFrom:withTypes:" : "LS 12/11/2014 11:08:08.89",
 		"createTypeStringsFrom:" : "LS 11/25/2014 16:28:50.489",
 		"detectAvailableVarsOn:in:on:with:" : "DS 1/14/2015 13:27:17.426",
-		"guessVarTypeFrom:" : "LS 12/11/2014 16:20:47.081",
+		"guessVarTypeFrom:" : "DS 1/14/2015 18:19:49.188",
 		"observations" : "LS 11/20/2014 15:14:49.78",
 		"observations:" : "LS 11/20/2014 15:13:22.571",
 		"typesFor:in:on:" : "LS 12/11/2014 16:21:37.304",

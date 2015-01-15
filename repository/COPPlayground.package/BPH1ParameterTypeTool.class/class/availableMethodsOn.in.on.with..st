@@ -5,4 +5,6 @@ availableMethodsOn: aString in: aMethodSymbol on: aClass with: aMethodNode
 	(self detectAvailableVarsOn: aString in: aMethodSymbol on: aClass with: aMethodNode)
 		ifNil: [ ^ OrderedCollection new ]
 		ifNotNilDo: [ :varEntry |
-			^ (varEntry at: #types) asOrderedCollection first methodDict keys clone ].
+			^ (varEntry at: #types) asOrderedCollection
+				ifEmpty: [ ^ OrderedCollection new ]
+				ifNotEmptyDo: [ :nonEmptyCollection | nonEmptyCollection first methodDict keys clone ]]

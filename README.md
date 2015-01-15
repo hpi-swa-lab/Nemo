@@ -6,7 +6,7 @@
 
 ### BP 2014 H1 Repo
 
-For convenience, we always have the latest compiling images & changes available for you:
+For convenience, we always have the latest compiling images & changes available for you: 
 
 - [Latest image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1.image)
 - [Latest changes](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1.changes)
