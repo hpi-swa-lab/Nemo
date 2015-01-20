@@ -8,6 +8,10 @@ baseline: spec
 				className: 'BaselineOfCOPPlayground';
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
+		spec package: 'VB-Regex' with: [
+			spec
+				repository: 'http://www.squeaksource.com/Regex'].
+
 		spec project: 'SqueakOverflow' with: [
 			spec
 				className: 'BaselineOfSqueakOverflow';
@@ -24,7 +28,7 @@ baseline: spec
 		spec package: 'BPH12014' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
-				requires: #('AST-Core')].
+				requires: #('AST-Core' 'VB-Regex')].
 
 		spec
 			group: 'default' with: #('core');
