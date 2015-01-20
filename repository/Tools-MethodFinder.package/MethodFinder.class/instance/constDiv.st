@@ -1,15 +1,18 @@
 find a constant
 constDiv
-	| const subTest got |
-	"See if (data1 // C) is the answer"
-
-	const := ((thisData at: 1) at: 1) // (answers at: 1).  "May not be right!"
-	got := (subTest := MethodFinder new copy: self addArg: const) 
-				searchForOne isEmpty not.
-	got ifFalse: [^ false]. 
-
-	"replace data2 with const in expressions"
-	subTest expressions do: [:exp |
-		expressions add: (exp copyReplaceAll: 'data2' with: const printString)].
-	selector addAll: subTest selectors.
-	^ true
+	| const got |
+	"See if (data1 // C) is the answer.  // Truncates the answer.
+	MethodFinder methodFor: #( (3 7) 3  (10 7) 5  (25 5) 10)
+"
+	(answers at: 1) = 0 ifTrue: [^ false].
+	const _ ((thisData at: 1) at: 1) // (answers at: 1).  "May not be right!"
+	got := false.
+	(self testSel: #// aditionalArg: const) ifTrue: [
+		"replace data2 with const in expressions"
+		resultsList add: { #//.   self newData1, ' // ', const printString.  (thisData at: 1), {const} }.
+		got := true].
+	(self testSel: #quo: aditionalArg: const) ifTrue: [
+		"replace data2 with const in expressions"
+		resultsList add: { #quo:.   self newData1, ' quo: ', const printString.  (thisData at: 1), {const} }.
+		got := true].
+	^ got

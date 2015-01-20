@@ -1,14 +1,14 @@
 search
 search: multi
 	"if Multi is true, collect all selectors that work."
-	selector := OrderedCollection new.	"list of them"
+	"resultsList := OrderedCollection new.	  list of them"
 	self simpleSearch.
-	multi not & (selector isEmpty not) ifTrue:[^ selector].
+	multi not & (resultsList isEmpty not) ifTrue:[^ resultsList].
+	self insertConstants.
 
 	[self permuteArgs] whileTrue:
 		[self simpleSearch.
-		multi not & (selector isEmpty not) ifTrue: [^ selector]].
+		multi not & (resultsList isEmpty not) ifTrue: [^ resultsList].
+		self insertConstants].
 
-	self insertConstants.
-	"(selector isEmpty not) ifTrue: [^ selector]].    expression is the answer, not a selector"
 	^ #()

@@ -1,6 +1,8 @@
 search
-findMessage
-	"Launch a search for expressions that compute the answers.  Return just the expressions sorted."
+findResults
+	"Launch a search for expressions that compute the answers.  Return an OC of triples of 
+	( selector,  expression string,  receiver and arg objects )
+	(printStringBase:  'data2 printStringBase: data1'  (2 4))."
 
 	data do: [:alist |
 		alist isSequenceable ifFalse: [
@@ -11,7 +13,5 @@ findMessage
 	resultsList isEmpty & (noMoreRecursion == nil) ifTrue: [
 		noMoreRecursion := true.
 		resultsList := (MethodFinderStage2 new loadData: data answers: answers) searchForOne ].
-	resultsList isEmpty ifTrue: [^ OrderedCollection with: 'no single method does that function'].
-	"resultsList isString ifTrue: [^ OrderedCollection with: resultsList]."
 	noMoreRecursion := nil.	"allow next time"
- 	^ self sortedExpressions
+	^ (SortedCollection sortBlock: [:aa :bb | aa second < bb second]) addAll: resultsList

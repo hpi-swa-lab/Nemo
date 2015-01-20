@@ -1,8 +1,9 @@
 search
 searchForOne
-	"Look for and return just one answer"
+	"Run a search.  Stop after the first premutation of args that gives an answer, usually just one expression. "
 
-	expressions := OrderedCollection new.
+	
+	resultsList := OrderedCollection new.
 	self search: false.	"non-multi"
-	^ expressions
+	^ resultsList
 			

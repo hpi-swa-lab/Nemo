@@ -10,15 +10,16 @@ initialize
 "Object"  
 	#("in class, instance creation" categoryForUniclasses chooseUniqueClassName initialInstance isSystemDefined newFrom: officialClass readCarefullyFrom:
 "accessing" at: basicAt: basicSize bindWithTemp: in: size yourself 
-"testing" basicType ifNil: ifNil:ifNotNil: ifNotNil: ifNotNil:ifNil: isColor isFloat isFraction isInMemory isInteger isMorph isNil isNumber isPoint isPseudoContext isText isTransparent isWebBrowser knownName notNil pointsTo: wantsSteps 
+"testing" basicType ifNil: ifNil:ifNotNil: ifNotNil: ifNotNil:ifNil: belongsToUniClass costumes isArray isBehavior isBlock isCharacter isClosure isCollection isColor isColorForm isCompiledMethod isComplex isContext isDictionary isFloat isForm isFraction isHeap isInteger isInterval isMessageSend isMethodContext isMethodProperties isMorph isMorphicEvent isMorphicModel isNumber isPlayer isPoint isPrimitiveCostume isPseudoContext isRectangle isScriptEditorMorph isSequenceable isSketchMorph isStream isString isSymbol isSystemWindow isText isTextView isTrait isTransparent isVariableBinding isWebBrowser knownName "name nameForViewer" shouldBePrintedAsLiteral showDiffs stepTime  vocabularyDemanded wantsDiffFeedback wantsSteps 
+	"ProtoObject" notNil pointsTo:  
 "comparing" = == closeTo: hash identityHash identityHashPrintString ~= ~~ 
 "copying" clone copy shallowCopy 
 "dependents access" canDiscardEdits dependents hasUnacceptedEdits 
 "updating" changed changed: okToChange update: windowIsClosing 
 "printing" fullPrintString isLiteral longPrintString printString storeString stringForReadout stringRepresentation 
-"class membership" class isKindOf: isKindOf:orOf: isMemberOf: respondsTo: xxxClass 
+"class membership" class isKindOf: isKindOf:orOf: isMemberOf: respondsTo: "xxxClass" 
 "error handling" 
-"user interface" addModelMenuItemsTo:forMorph:hand: defaultBackgroundColor defaultLabelForInspector fullScreenSize initialExtent modelWakeUp mouseUpBalk: newTileMorphRepresentative windowActiveOnFirstClick windowReqNewLabel: 
+"user interface" addModelMenuItemsTo:forMorph:hand: defaultBackgroundColor defaultLabelForInspector fullScreenSize initialExtent modelWakeUp  newTileMorphRepresentative windowActiveOnFirstClick windowReqNewLabel: 
 "system primitives" asOop instVarAt: instVarNamed: 
 "private" 
 "associating" -> 
@@ -173,7 +174,7 @@ initialize
 "Collection"
 	#("accessing" anyOne
 "testing" includes: includesAllOf: includesAnyOf: includesSubstringAnywhere: isEmpty isSequenceable occurrencesOf:
-"enumerating" collect: collect:thenSelect: count: detect: detect:ifNone: detectMax: detectMin: detectSum: inject:into: reject: select: select:thenCollect: intersection:
+"enumerating" collect: collect:thenSelect: count: detect: detect:ifNone: detectMax: detectMin: detectSum: inject:into: reject: select: select:thenCollect: union: difference: intersection:
 "converting" asBag asCharacterSet asSet asSortedArray asSortedCollection asSortedCollection:
 "printing"
 "private" maxSize

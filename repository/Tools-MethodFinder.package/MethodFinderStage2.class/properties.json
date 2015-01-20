@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-MethodFinder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tk 10/31/2014 08:25",
+	"instvars" : [
+		 ],
+	"name" : "MethodFinderStage2",
+	"pools" : [
+		 ],
+	"super" : "MethodFinder",
+	"type" : "normal" }
