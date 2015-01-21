@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-StaticAnalysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"output",
+		"context" ],
+	"name" : "ChangeColorTool",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

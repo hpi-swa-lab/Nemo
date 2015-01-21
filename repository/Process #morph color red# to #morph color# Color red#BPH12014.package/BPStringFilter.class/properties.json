@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"entries",
+		"remainingEntries" ],
+	"name" : "BPStringFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

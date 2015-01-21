@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"withContext:" : "DS 11/19/2014 11:11" },
+	"instance" : {
+		"buildInputFieldWith:" : "DS 11/19/2014 10:56",
+		"buildInputPanelWith:" : "DS 11/19/2014 11:00",
+		"buildOutputPanelWith:" : "DS 11/19/2014 10:58",
+		"buildWith:" : "DS 11/19/2014 10:57",
+		"cleanInput:" : "DS 11/19/2014 11:09",
+		"contents:" : "DS 11/19/2014 11:06",
+		"context" : "DS 11/19/2014 11:13",
+		"context:" : "DS 11/19/2014 11:13",
+		"createRecommendationOutput:" : "DS 11/20/2014 16:46",
+		"findMethodFor:changing:" : "DS 11/20/2014 16:46",
+		"formatOutput:" : "DS 11/19/2014 13:25",
+		"open" : "DS 11/19/2014 10:56",
+		"output" : "DS 11/19/2014 10:59",
+		"output:" : "DS 11/19/2014 10:59" } }

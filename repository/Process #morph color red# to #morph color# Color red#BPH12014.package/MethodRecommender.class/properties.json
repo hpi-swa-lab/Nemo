@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-StaticAnalysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context" ],
+	"name" : "MethodRecommender",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

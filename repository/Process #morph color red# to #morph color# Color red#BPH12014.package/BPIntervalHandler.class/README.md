@@ -1,0 +1,1 @@
+Provides interface for creating timed threads and intervals
