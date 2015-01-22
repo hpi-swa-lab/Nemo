@@ -6,9 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"entries",
+		"maxItems",
+		"listMorph",
+		"filterMorph",
+		"filterString",
+		"itemMorphs" ],
 	"name" : "BPSuggestionListMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

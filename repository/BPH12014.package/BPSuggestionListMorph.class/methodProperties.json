@@ -1,5 +1,28 @@
 {
 	"class" : {
-		 },
+		"example" : "LS 1/21/2015 13:26:51.903" },
 	"instance" : {
-		 } }
+		"addItemMorph:" : "LS 1/21/2015 16:25",
+		"addItemMorphsFor:" : "LS 1/21/2015 16:16",
+		"createItemMorphFor:" : "LS 1/20/2015 16:19:31.272",
+		"deleteAllItemMorphs" : "LS 1/21/2015 16:25",
+		"entries" : "LS 1/20/2015 16:08:46.897",
+		"entries:" : "LS 1/20/2015 16:08:55.469",
+		"filterListFor:" : "LS 1/21/2015 14:45",
+		"filterMorph" : "LS 1/21/2015 14:04",
+		"filterMorph:" : "LS 1/21/2015 14:04",
+		"filterString" : "LS 1/21/2015 14:46",
+		"filterString:" : "LS 1/21/2015 14:46",
+		"initialize" : "LS 1/21/2015 14:30",
+		"initializeFilterMorph" : "LS 1/21/2015 15:02",
+		"initializeListMorph" : "LS 1/21/2015 15:02",
+		"initializeVariables" : "LS 1/21/2015 16:26",
+		"itemMorphs" : "LS 1/21/2015 16:25",
+		"listMorph" : "LS 1/21/2015 13:59",
+		"listMorph:" : "LS 1/21/2015 13:59",
+		"maxItems" : "LS 1/21/2015 13:49",
+		"maxItems:" : "LS 1/21/2015 13:56",
+		"renderList" : "LS 1/21/2015 14:55",
+		"stopItemIndex" : "LS 1/21/2015 13:54",
+		"updateEntries:" : "LS 1/21/2015 13:39",
+		"updateMaxItems:" : "LS 1/21/2015 13:56" } }

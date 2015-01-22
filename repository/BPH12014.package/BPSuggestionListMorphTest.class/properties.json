@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-UI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph" ],
+	"name" : "BPSuggestionListMorphTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

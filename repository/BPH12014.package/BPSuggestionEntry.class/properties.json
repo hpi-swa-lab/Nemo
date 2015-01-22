@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dictionary" ],
+	"name" : "BPSuggestionEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"onChangeBlock",
+		"textMorph" ],
+	"name" : "BPSuggestionFilterMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

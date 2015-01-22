@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dictionary" ],
+	"name" : "BPVariableTypeBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

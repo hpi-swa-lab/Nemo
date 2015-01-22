@@ -2,6 +2,7 @@
 	"class" : {
 		"initializeCmdKeyShortcuts" : "DS 1/21/2015 10:48:55.617" },
 	"instance" : {
+		"availableInputsIn:on:with:at:" : "LS 12/16/2014 15:10:12.351",
 		"availableInputsIn:on:withTemps:withArgs:at:" : "DS 1/21/2015 11:08:44.268",
 		"currentLine" : "DS 12/4/2014 12:04",
 		"findMessagesAndFormatResult:" : "DS 12/5/2014 13:50",

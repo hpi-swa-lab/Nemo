@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Filters-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filter" ],
+	"name" : "BPMethodsOnClassFilterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

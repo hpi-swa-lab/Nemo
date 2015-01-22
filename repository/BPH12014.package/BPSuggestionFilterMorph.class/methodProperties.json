@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"filterString" : "LS 1/22/2015 10:54",
+		"filterString:" : "LS 1/22/2015 11:48",
+		"handlesKeyboard:" : "LS 1/21/2015 14:09",
+		"initialize" : "LS 1/22/2015 12:03",
+		"initializeTextMorph" : "LS 1/22/2015 12:02",
+		"onChange" : "LS 1/21/2015 14:34",
+		"onChange:" : "LS 1/21/2015 14:34",
+		"textMorph" : "LS 1/22/2015 10:55",
+		"textMorph:" : "LS 1/22/2015 10:55",
+		"textMorphKeyStroke:" : "LS 1/22/2015 11:53" } }
