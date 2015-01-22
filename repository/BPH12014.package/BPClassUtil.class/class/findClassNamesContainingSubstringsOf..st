@@ -1,4 +1,4 @@
-as yet unclassified
+finding
 findClassNamesContainingSubstringsOf: aSubString
 	| substring classNames |
 	substring := aSubString.

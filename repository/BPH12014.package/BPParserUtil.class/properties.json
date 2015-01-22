@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "BPClassUtil",
+	"name" : "BPParserUtil",
 	"pools" : [
 		 ],
 	"super" : "Object",

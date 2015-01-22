@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterClassesNames: aClassNameList containing: aSubString
 	| substringLow |
 	substringLow := aSubString asLowercase.

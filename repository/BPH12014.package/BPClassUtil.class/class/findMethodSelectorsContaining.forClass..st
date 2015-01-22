@@ -1,4 +1,4 @@
-as yet unclassified
+finding
 findMethodSelectorsContaining: aSubString forClass: aClass
 	| aSubStringLow |
 	aSubStringLow := aSubString asLowercase.
