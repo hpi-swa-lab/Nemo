@@ -2,9 +2,9 @@ running
 setUp
 
 	self stringFilter: (BPStringFilter new entries: {
-		Dictionary new at: #id put: 1; at: #value put: 'abc'; yourself.
-		Dictionary new at: #id put: 2; at: #value put: 'a01wsbsdgfc'; yourself.
-		Dictionary new at: #id put: 3; at: #value put: 'sdfgabcsgdgh'; yourself.
-		Dictionary new at: #id put: 4; at: #value put: 'ab5'; yourself.
-		Dictionary new at: #id put: 5; at: #value put: 'acdf'; yourself.
+		BPSuggestionEntry new id: 1; value: 'abc'.
+		BPSuggestionEntry new id: 2; value: 'a01wsbsdgfc'.
+		BPSuggestionEntry new id: 3; value: 'sdfgabcsgdgh'.
+		BPSuggestionEntry new id: 4; value: 'ab5'.
+		BPSuggestionEntry new id: 5; value: 'acdf'.
 	}).
