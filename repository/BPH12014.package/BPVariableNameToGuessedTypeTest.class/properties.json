@@ -1,14 +1,14 @@
 {
-	"category" : "BPH12014-Filters",
+	"category" : "BPH12014-Filters-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "BPVariableNameToTypeFilter",
+		"filter" ],
+	"name" : "BPVariableNameToGuessedTypeTest",
 	"pools" : [
 		 ],
-	"super" : "BPFilter",
+	"super" : "TestCase",
 	"type" : "normal" }

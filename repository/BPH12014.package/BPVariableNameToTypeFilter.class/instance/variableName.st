@@ -1,4 +1,4 @@
-private-processing
+accessing
 variableName
 
 	^ self at: #variableName

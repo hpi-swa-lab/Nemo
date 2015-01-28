@@ -1,4 +1,4 @@
 private-processing
 process
 
-	self methods: self clazz methodDict keys clone
+	self methods: self variableType methodDict keys clone

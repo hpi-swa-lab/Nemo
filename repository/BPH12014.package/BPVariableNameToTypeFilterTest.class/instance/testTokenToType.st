@@ -6,4 +6,4 @@ testTokenToType
 			clazz: BPExampleClass;
 			method: #method:;
 			variableTypeBook: (BPVariableTypeBook new typeOfVariable: #myVar inClass: BPExampleClass inMethod: #method: put: String; yourself);
-			run; variableName)
+			run; variableType)

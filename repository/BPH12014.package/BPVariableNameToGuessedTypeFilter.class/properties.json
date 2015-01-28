@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "BPVariableNameToTypeFilter",
+	"name" : "BPVariableNameToGuessedTypeFilter",
 	"pools" : [
 		 ],
 	"super" : "BPFilter",
