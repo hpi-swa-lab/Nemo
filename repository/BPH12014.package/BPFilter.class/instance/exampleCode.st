@@ -1,10 +1,9 @@
 as yet unclassified
 exampleCode
 
-	| BPTokenizerFilter BPTokenAtCaretFilter BPTokenToTypeFilter BPMethodsOnClassFilter |
 	BPFilter pipeline: {
-		BPTokenizerFilter new sourceCode: 'abc 123'.
-		BPTokenAtCaretFilter new caretPosition: 5.
-		BPTokenToTypeFilter new variableTypes: 'SomeClass>>anyMethod'.
-		BPMethodsOnClassFilter new
-	}.
+		BPTokenizerFilter new clazz: BPExampleClass; sourceCode: 'method: arg'.
+		BPVariableNameAtCaretFilter new caretPosition: 9.
+		BPVariableNameToTypeFilter new method: #method:; variableTypeBook: (BPVariableTypeBook new typeOfVariable: #myVar inClass: BPExampleClass inMethod: #method: put: String; yourself).
+		BPMethodsOnClassFilter new.
+		BPSqueakOverflowFilter new}
