@@ -1,4 +1,4 @@
 running
 setUp
 
-	filter := BPVariableNameToGuessedTypeFilter new.
+	filter := BPVariableNameToGuessedTypeBookFilter new.

@@ -1,4 +1,4 @@
-accessing
+consumes
 clazz
 
 	^ self at: #clazz

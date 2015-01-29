@@ -1,4 +1,4 @@
-accessing
+produces
 variableType
 
 	^ self at: #variableType

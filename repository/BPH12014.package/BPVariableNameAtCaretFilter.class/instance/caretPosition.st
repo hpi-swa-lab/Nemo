@@ -1,4 +1,4 @@
-accessing
+consumes
 caretPosition
 
 	^ self at: #caretPosition

@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPCommandsToVariableNameFilter",
+	"pools" : [
+		 ],
+	"super" : "BPFilter",
+	"type" : "normal" }

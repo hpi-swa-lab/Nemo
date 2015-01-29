@@ -1,4 +1,4 @@
-accessing
+consumes
 tokens
 
 	^ self at: #tokens

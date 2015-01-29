@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parameterTranslations" ],
+	"name" : "BPParameterTranslator",
+	"pools" : [
+		 ],
+	"super" : "BPFilter",
+	"type" : "normal" }

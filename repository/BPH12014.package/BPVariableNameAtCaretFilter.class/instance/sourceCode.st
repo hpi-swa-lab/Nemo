@@ -1,4 +1,4 @@
-accessing
+consumes
 sourceCode
 
 	^ self at: #sourceCode

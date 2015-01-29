@@ -1,4 +1,4 @@
-accessing
+consumes
 method
 
 	^ self at: #method

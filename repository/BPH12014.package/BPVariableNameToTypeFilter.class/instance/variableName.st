@@ -1,4 +1,4 @@
-accessing
+consumes
 variableName
 
 	^ self at: #variableName
