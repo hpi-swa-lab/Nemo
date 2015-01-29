@@ -8,7 +8,8 @@ env:
 
 # For SqueakSSL
 before_install:
-   - sudo apt-get -qq install libssl0.9.8:i386
+   - sudo apt-get update   
+   - sudo apt-get -qq install libssl0.9.8:i386 --fix-missing
 
 # Boilerplate ... should be no reason to edit the install section
 install:
