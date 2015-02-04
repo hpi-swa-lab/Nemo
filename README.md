@@ -8,9 +8,14 @@
 
 For convenience, we always have the latest compiling images & changes available for you: 
 
-- [Latest image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1.image)
-- [Latest changes](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1.changes)
+- [Latest stable image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1.image)
+- [Latest stable changes](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1.changes)
 - [Sources file](http://www.lively-kernel.org/babelsberg/BP2014H1/SqueakV41.sources)
+
+These builds didn't run through, but might still work:
+
+- [Latest unstable/errored image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing.image)
+- [Latest unstable/errored changes](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing.changes)
 
 ```
                                 ,
