@@ -2,7 +2,7 @@ as yet unclassified
 suggestHelp: aKeyboardEvent 
 	| command menu results methods filter |
 	command := self selection asString withBlanksTrimmed.
-	self halt.
+
 	"methods := (BPFilter pipeline: {
 			BPTokenizerFilter new clazz: self model clazz; sourceCode: paragraph text asString.
 			BPVariableNameAtCaretFilter new caretPosition: self startIndex.
@@ -31,7 +31,7 @@ suggestHelp: aKeyboardEvent
 			BPVariableNameAtCaretFilter new caretPosition: self startIndex.
 			BPMarkovFilter new.}) run.
 		methods := (filter sourceToSource at: filter variableName) sortedCounts
-			select: [ :x | x value size >= 4 ]
+			select: [ :x | (x value size >= 4) and: [x key >= 2] and: [ x value startsWithDigit not] ]
 			thenCollect: [ :x | x value ].
 
 	"methods := (BPFilter pipeline: {
@@ -50,7 +50,8 @@ suggestHelp: aKeyboardEvent
 			ifTrue: [clazzAndMethods add: (clazz , '>>', m selector asString)]]].
 	methods := clazzAndMethods."
 
-	results := methods "sort: [ :a :b | a size < b size ]".
+	"sort: [ :a :b | a size < b size ]".
+	results := methods first: ((methods size > 20) ifTrue: [ 20 ] ifFalse: [methods size]). 
 	menu := MenuMorph new.
 	menu defaultTarget: self.
 	results do: [ :result | menu add: result selector: #resultSelected: argument: result ].

@@ -1,10 +1,11 @@
 private-processing
 process
 
-	| token |
-	token := self tokens detect: [ :aToken |
-			aToken end >= self caretPosition
-			and: [aToken start <= self caretPosition]
-		] ifNone: [^nil].
-	self variableToken: token.
-	self variableName: (self sourceCode copyFrom: token start to: token end)
+	| resultToken |
+	resultToken := self tokens ifNotEmpty: [ :t | t reduce: [ :lastToken :token |
+		(token start >= self caretPosition) 
+			ifTrue: [ lastToken ]
+			ifFalse: [ token ]]].
+
+	self variableToken: resultToken.
+	self variableName: (self sourceCode copyFrom: resultToken start to: resultToken end)
