@@ -1,8 +1,8 @@
 as yet unclassified
 suggestHelp: aKeyboardEvent 
-	| command menu results methods |
+	| command menu results methods filter |
 	command := self selection asString withBlanksTrimmed.
-
+	self halt.
 	"methods := (BPFilter pipeline: {
 			BPTokenizerFilter new clazz: self model clazz; sourceCode: paragraph text asString.
 			BPVariableNameAtCaretFilter new caretPosition: self startIndex.
@@ -10,8 +10,8 @@ suggestHelp: aKeyboardEvent
 			BPVariableNameToTypeFilter new.
 			BPMethodsOnClassFilter new
 		}) run methods."
-	self selectLine.
-	methods := (BPFilter pipeline: {
+	"self selectLine."
+	"methods := (BPFilter pipeline: {
 			BPLineToCommandsFilter new inputLine: self selection asString.
 			BPCommandsToVariableNameFilter new.
 			BPVariableNameToGuessedTypeBookFilter new clazz: self model clazz; method: self model methodName.
@@ -24,7 +24,15 @@ suggestHelp: aKeyboardEvent
 			BPCommandsToMethodSelectorFilter new.
 			BPClassNamesAndSelectorToUnderstandingClassesFilter new.
 			BPOutputFormattingFilter new.
-		}) run results.
+		}) run results."
+
+		filter := (BPFilter pipeline: {
+			BPTokenizerFilter new clazz: self model clazz; sourceCode: paragraph text asString.
+			BPVariableNameAtCaretFilter new caretPosition: self startIndex.
+			BPMarkovFilter new.}) run.
+		methods := (filter sourceToSource at: filter variableName) sortedCounts
+			select: [ :x | x value size >= 4 ]
+			thenCollect: [ :x | x value ].
 
 	"methods := (BPFilter pipeline: {
 			BPLineToCommandsFilter new inputLine: self selection asString.
@@ -42,7 +50,7 @@ suggestHelp: aKeyboardEvent
 			ifTrue: [clazzAndMethods add: (clazz , '>>', m selector asString)]]].
 	methods := clazzAndMethods."
 
-	results := methods sort: [ :a :b | a size < b size ].
+	results := methods "sort: [ :a :b | a size < b size ]".
 	menu := MenuMorph new.
 	menu defaultTarget: self.
 	results do: [ :result | menu add: result selector: #resultSelected: argument: result ].

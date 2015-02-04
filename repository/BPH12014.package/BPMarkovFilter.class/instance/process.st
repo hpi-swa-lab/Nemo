@@ -7,7 +7,7 @@ process
 
 	self retrieveStaticData.
 
-	self tokens reduce: [ :lastToken :token || lastSource source |
+	self tokens ifNotEmpty: [ :t | t reduce: [ :lastToken :token || lastSource source |
 		lastSource := self sourceCode copyFrom: lastToken start to: lastToken end.
 		source := self sourceCode copyFrom: token start to: token end.
 
@@ -20,4 +20,4 @@ process
 		self sourceToSource at: lastSource put:
 			((self sourceToSource at: lastSource ifAbsentPut: [ Bag new ]) add: source; yourself).
 
-		token]
+		token]]
