@@ -6,4 +6,5 @@ process
 			aToken end >= self caretPosition
 			and: [aToken start <= self caretPosition]
 		] ifNone: [^nil].
+	self variableToken: token.
 	self variableName: (self sourceCode copyFrom: token start to: token end)
