@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"createInstance" : "DS 2/5/2015 14:21",
+		"initialize" : "DS 2/5/2015 14:39",
+		"initializeNotifier" : "DS 2/5/2015 14:18",
+		"instanceCreationErrorString" : "DS 2/5/2015 14:21",
+		"methodEvent:" : "DS 2/5/2015 14:43",
+		"new" : "DS 2/5/2015 14:21",
+		"printDebugString" : "DS 2/5/2015 15:25",
+		"resetUniqueInstance" : "DS 2/5/2015 15:24",
+		"uniqueInstance" : "DS 2/5/2015 14:33" },
+	"instance" : {
+		"append:" : "DS 2/5/2015 15:25",
+		"handleMethodEvent:" : "DS 2/5/2015 15:04",
+		"initialize" : "DS 2/5/2015 15:25",
+		"methodList" : "DS 2/5/2015 14:45",
+		"methodList:" : "DS 2/5/2015 14:45",
+		"suggestMethodsFor:" : "DS 2/5/2015 15:30" } }

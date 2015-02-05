@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UniqueInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodList" ],
+	"name" : "BPMethodModificationBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

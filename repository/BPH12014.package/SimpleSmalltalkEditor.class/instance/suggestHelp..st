@@ -35,6 +35,10 @@ suggestHelp: aKeyboardEvent
 			"select: [ :x | (x value size >= 4) and: [x key >= 2] and: [ x value startsWithDigit not] ];"
 			collect: [ :x | x value ];
 			do.
+		(filter variableName = 'self') ifTrue: [
+			methods := BPMethodModificationBook uniqueInstance suggestMethodsFor: self model clazz.
+			(methods size < 7) ifTrue: [ self model clazz methodDict keysDo: [ :method | (methods size < 7)
+				ifTrue: [methods add: method ifPresent: []] ] ] ].
 
 	"methods := (BPFilter pipeline: {
 			BPLineToCommandsFilter new inputLine: self selection asString.
