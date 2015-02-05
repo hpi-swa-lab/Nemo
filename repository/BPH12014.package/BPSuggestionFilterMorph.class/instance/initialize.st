@@ -2,7 +2,7 @@ as yet unclassified
 initialize
 
 	super initialize.
-	self layoutPolicy: BPFillLayout new.
+	self layoutPolicy: (BPFillLayout new padding: 2).
 	self initializeTextMorph.
 	self color: Color white.
 	self borderColor: Color gray.
