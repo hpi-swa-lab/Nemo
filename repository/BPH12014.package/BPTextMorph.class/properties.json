@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textChangedHandler" ],
+	"name" : "BPTextMorph",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }

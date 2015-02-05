@@ -3,12 +3,13 @@
 		 },
 	"instance" : {
 		"filterString" : "LS 1/22/2015 10:54",
-		"filterString:" : "LS 1/22/2015 11:48",
+		"filterString:" : "LS 2/5/2015 11:42:33.159",
 		"handlesKeyboard:" : "LS 1/21/2015 14:09",
-		"initialize" : "LS 1/22/2015 12:03",
-		"initializeTextMorph" : "LS 1/22/2015 12:02",
+		"initialize" : "LS 2/5/2015 11:42:22.725",
+		"initializeTextMorph" : "LS 2/5/2015 11:43:15.997",
+		"notifyChangeFor:" : "LS 2/4/2015 15:48:44.929",
 		"onChange" : "LS 1/21/2015 14:34",
 		"onChange:" : "LS 1/21/2015 14:34",
+		"textChanged:" : "LS 2/4/2015 16:29:36.789",
 		"textMorph" : "LS 1/22/2015 10:55",
-		"textMorph:" : "LS 1/22/2015 10:55",
-		"textMorphKeyStroke:" : "LS 1/22/2015 11:53" } }
+		"textMorph:" : "LS 1/22/2015 10:55" } }

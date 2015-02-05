@@ -7,3 +7,4 @@ initialize
 	self color: Color white.
 	self borderColor: Color gray.
 	self borderWidth: 1.
+	self filterString: ''.

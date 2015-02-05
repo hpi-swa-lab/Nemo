@@ -1,8 +1,7 @@
 as yet unclassified
 initializeTextMorph
 
-	self textMorph: (TextMorph new).
-	self height: self textMorph textHeight.
-	self textMorph contents: ''.
+	self textMorph: (BPTextMorph new).
 	self addMorph: self textMorph.
-	self textMorph on: #keyStroke send: #textMorphKeyStroke to: self.
+	self height: self textMorph textHeight.
+	self textMorph textChangedHandler: [ :aString | self textChanged: aString.].
