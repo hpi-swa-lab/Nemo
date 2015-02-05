@@ -1,12 +1,10 @@
 {
 	"category" : "BPH12014-Filters",
 	"classinstvars" : [
-		"tokenToToken",
-		"tokenToSource",
-		"sourceToSource" ],
+		"markovChain" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jsa 2/5/2015 11:53:08.994",
 	"instvars" : [
 		 ],
 	"name" : "BPMarkovFilter",
