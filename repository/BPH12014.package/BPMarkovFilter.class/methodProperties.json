@@ -1,12 +1,18 @@
 {
 	"class" : {
-		"initialize" : "DS 2/4/2015 12:43",
+		"enrichChain:ForCode:withTokens:usingOrder:" : "jsa 2/5/2015 15:11:49.96",
+		"initialize" : "jsa 2/5/2015 15:12:07.616",
+		"markovChain" : "jsa 2/5/2015 12:07:27.806",
+		"order" : "jsa 2/5/2015 12:06:07.072",
 		"sourceToSource" : "DS 2/4/2015 12:24",
 		"tokenToSource" : "DS 2/4/2015 12:23",
 		"tokenToToken" : "DS 2/4/2015 12:23" },
 	"instance" : {
-		"process" : "DS 2/4/2015 14:56",
-		"retrieveStaticData" : "DS 2/4/2015 12:57",
+		"addEntry:forToken:andCode:" : "jsa 2/5/2015 15:47:12.669",
+		"markovChain" : "jsa 2/5/2015 15:15:57.209",
+		"markovChain:" : "jsa 2/5/2015 15:16:13.953",
+		"process" : "jsa 2/5/2015 15:40:50.202",
+		"retrieveStaticData" : "jsa 2/5/2015 15:40:36.22",
 		"sourceCode" : "DS 2/4/2015 12:46",
 		"sourceCode:" : "DS 2/4/2015 13:34",
 		"sourceToSource" : "DS 2/4/2015 12:46",
