@@ -30,9 +30,11 @@ suggestHelp: aKeyboardEvent
 			BPTokenizerFilter new clazz: self model clazz; sourceCode: paragraph text asString.
 			BPVariableNameAtCaretFilter new caretPosition: self startIndex.
 			BPMarkovFilter new.}) run.
-		methods := (filter sourceToSource at: filter variableName) sortedCounts
-			select: [ :x | (x value size >= 4) and: [x key >= 2] and: [ x value startsWithDigit not] ]
-			thenCollect: [ :x | x value ].
+		methods := ((filter sourceToSource at: filter variableName) sortedCounts) asPipe
+			"collect: [ :x | x value join: ' ' ];"
+			"select: [ :x | (x value size >= 4) and: [x key >= 2] and: [ x value startsWithDigit not] ];"
+			collect: [ :x | x value ];
+			do.
 
 	"methods := (BPFilter pipeline: {
 			BPLineToCommandsFilter new inputLine: self selection asString.
