@@ -9,7 +9,7 @@ enrichChain: chain ForCode: sourceCode withTokens: tokens usingOrder: order
 	lastToken := tokens first.
 
 	"simulate a reduce with tail list instead of just the element"
-	tokens asOrderedCollection withIndexCollect: [ :token :i || lastSource tailTokens tailSource |
+	tokens asOrderedCollection withIndexCollect: [ :token :i || lastSource tailTokens tailSource | (token ~= lastToken) ifTrue: [
 		lastSource := sourceCode copyFrom: lastToken start to: lastToken end.
 		tailTokens := tokens copyFrom: i to: ({tokens size. i + (order - 1)} min).
 		tailSource := tailTokens collect: [ :x | sourceCode copyFrom: x start to: x end ].
@@ -19,7 +19,7 @@ enrichChain: chain ForCode: sourceCode withTokens: tokens usingOrder: order
 			(chain at: lastToken type) at: lastSource ifAbsentPut: [ Bag new ].
 			((chain at: lastToken type) at: lastSource) add: tailSource].
 
-		lastToken := token].
+		lastToken := token]].
 
 	^chain
 				
