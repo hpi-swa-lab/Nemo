@@ -1,10 +1,12 @@
 {
 	"class" : {
-		"initializeCmdKeyShortcuts" : "DS 1/21/2015 10:48:55.617",
+		"initializeCmdKeyShortcuts" : "LS 2/11/2015 12:32:27.95",
 		"openForClass:andMethod:" : "DS 2/11/2015 10:59" },
 	"instance" : {
+		"absolutePositionForPopUp" : "LS 2/11/2015 12:33:56.004",
 		"availableInputsIn:on:with:at:" : "DS 2/11/2015 12:19",
 		"availableInputsIn:on:withTemps:withArgs:at:" : "DS 2/11/2015 12:19",
+		"comboSuggest:" : "LS 2/11/2015 12:33:31.319",
 		"currentLine" : "DS 2/11/2015 12:19",
 		"findMessagesAndFormatResult:" : "DS 2/11/2015 12:19",
 		"generateSuggestions:" : "DS 2/11/2015 12:19",
