@@ -1,4 +1,4 @@
 private-accessing
 addItemMorph: aMorph
 
-	self listMorph addMorph: aMorph.
+	self listMorph addMorphBack: aMorph.

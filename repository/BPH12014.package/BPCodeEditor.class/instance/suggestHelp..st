@@ -1,6 +1,6 @@
 as yet unclassified
 suggestHelp: aKeyboardEvent
-	| command menu results methods filter |
+	| command methods filter |
 	command := self selection asString withBlanksTrimmed.
 
 	"methods := (BPFilter pipeline: {
@@ -57,11 +57,16 @@ suggestHelp: aKeyboardEvent
 	methods := clazzAndMethods."
 
 	"sort: [ :a :b | a size < b size ]".
-	results := methods first: ((methods size > 20) ifTrue: [ 20 ] ifFalse: [methods size]). 
-	menu := MenuMorph new.
-	menu defaultTarget: self.
-	results do: [ :result | menu add: result selector: #resultSelected: argument: result ].
-	"menu add: 'test' subMenu: MenuMorph example target: self selector: #resultSelected: argumentList: {'test'}."
-	menu popUpInWorld.
-	menu position: self positionForPopUp + self morph editView position + (5@1).
+	BPSuggestionListMorph new
+		updateMaxItems: 20;
+		updateEntries: (methods collectWithIndex: [ :aMethodString :index |
+			BPSuggestionEntry new id: index; value: aMethodString.
+		]);
+		onSelect: [ :aSuggestionEntry |
+			self afterSelectionInsertAndSelect: aSuggestionEntry value.
+		];
+		position: self absolutePositionForPopUp;
+		width: 300;
+		openInWorld;
+		focusTextFIeld.
 	^ true

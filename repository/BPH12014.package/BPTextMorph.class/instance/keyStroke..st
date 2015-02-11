@@ -1,5 +1,10 @@
 as yet unclassified
 keyStroke: anEvent
 
+	| oldContents newContents |
+	oldContents := self contents asString.
 	super keyStroke: anEvent.
-	self textChangedHandler ifNotNilDo: [:aBlock | ^ aBlock value: self contents asString.].
+	newContents := self contents asString.
+	oldContents = newContents ifFalse: [
+		self textChangedHandler ifNotNilDo: [:aBlock | ^ aBlock value: self contents asString.].
+	].

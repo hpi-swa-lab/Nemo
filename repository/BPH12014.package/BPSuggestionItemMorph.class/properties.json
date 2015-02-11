@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"entry" ],
+		"entry",
+		"textMorph" ],
 	"name" : "BPSuggestionItemMorph",
 	"pools" : [
 		 ],
