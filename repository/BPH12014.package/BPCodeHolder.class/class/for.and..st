@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 for: aClass and: aMethodName
 	^ self new
 		clazz: aClass;

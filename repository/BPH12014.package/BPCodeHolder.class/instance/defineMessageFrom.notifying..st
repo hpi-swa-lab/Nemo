@@ -1,4 +1,4 @@
-as yet unclassified
+method saving
 defineMessageFrom: aString notifying: aController
 	"Compile the expressions in aString. Notify aController if a syntax error occurs. Install the compiled method in the selected class classified under  the currently selected message category name. Answer the selector obtained if compilation succeeds, nil otherwise."
 	| selectedMessageName selector category oldMessageList |

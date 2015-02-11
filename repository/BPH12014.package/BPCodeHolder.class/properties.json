@@ -8,7 +8,7 @@
 	"instvars" : [
 		"clazz",
 		"methodName" ],
-	"name" : "SimpleCodeEditor",
+	"name" : "BPCodeHolder",
 	"pools" : [
 		 ],
 	"super" : "CodeHolder",

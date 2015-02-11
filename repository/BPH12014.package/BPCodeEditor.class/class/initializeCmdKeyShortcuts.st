@@ -1,4 +1,4 @@
-as yet unclassified
+keyboard shortcut tables
 initializeCmdKeyShortcuts
 	super initializeCmdKeyShortcuts.
 	cmdActions at: $g asciiValue + 1 put: #guessIt:.

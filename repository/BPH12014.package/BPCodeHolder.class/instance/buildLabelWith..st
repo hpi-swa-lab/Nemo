@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildLabelWith: builder
 	| spec |
 	spec := builder pluggableTextSpec new.

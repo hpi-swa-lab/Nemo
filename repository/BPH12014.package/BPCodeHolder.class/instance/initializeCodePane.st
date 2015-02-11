@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 initializeCodePane
 	contents := nil
