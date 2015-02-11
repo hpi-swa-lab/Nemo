@@ -1,4 +1,4 @@
-as yet unclassified
+private-accessing
 addItemMorphsFor: anEntryList
 
 	anEntryList do: [ :anEntry |

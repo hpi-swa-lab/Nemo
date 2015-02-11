@@ -11,9 +11,11 @@
 		"listMorph",
 		"filterMorph",
 		"filterString",
-		"itemMorphs" ],
+		"itemMorphs",
+		"selectIndex",
+		"onSelectBlock" ],
 	"name" : "BPSuggestionListMorph",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "BorderedMorph",
 	"type" : "normal" }

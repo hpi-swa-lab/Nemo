@@ -1,4 +1,4 @@
-as yet unclassified
+private-accessing
 filterListFor: aString
 
 	self filterString: aString.

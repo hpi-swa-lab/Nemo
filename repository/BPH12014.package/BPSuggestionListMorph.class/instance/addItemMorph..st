@@ -1,4 +1,4 @@
-as yet unclassified
+private-accessing
 addItemMorph: aMorph
 
 	self listMorph addMorph: aMorph.

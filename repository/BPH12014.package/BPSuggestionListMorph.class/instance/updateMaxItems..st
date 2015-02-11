@@ -1,4 +1,4 @@
-accessing
+private-accessing
 updateMaxItems: aNumber
 	
 	self maxItems: aNumber.

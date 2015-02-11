@@ -1,4 +1,4 @@
-as yet unclassified
+private-rendering
 createItemMorphFor: anEntry
 
 	^BPSuggestionItemMorph newFor: anEntry.

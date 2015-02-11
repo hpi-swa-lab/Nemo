@@ -1,4 +1,4 @@
-as yet unclassified
+private-rendering
 renderList
 
 	| matchingEntries |
@@ -8,4 +8,5 @@ renderList
 		filterBy: self filterString.
 	self addItemMorphsFor: (matchingEntries 
 		copyFrom: 1
-		to: {matchingEntries size. self stopItemIndex} min)
+		to: {matchingEntries size. self stopItemIndex} min).
+	self updateSelectIndex: self selectIndex.

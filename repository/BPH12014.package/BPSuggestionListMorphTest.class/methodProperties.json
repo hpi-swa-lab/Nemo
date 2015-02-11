@@ -7,8 +7,12 @@
 		"setUp" : "LS 1/21/2015 14:58",
 		"tearDown" : "LS 1/21/2015 13:27:55.147",
 		"testChangeOfEntries" : "LS 1/21/2015 14:00",
+		"testConfirmSelection" : "LS 2/11/2015 10:57:56.819",
+		"testConfirmSelectionOnEnter" : "LS 2/11/2015 11:13:44.629",
 		"testFilterString" : "LS 2/4/2015 16:29:12.128",
 		"testItemsWidth" : "LS 2/5/2015 12:46:57.142",
 		"testLimitNumberEntries" : "LS 1/21/2015 14:00",
 		"testLimitNumberOfEntries" : "LS 1/21/2015 14:00",
-		"testNumberListItems" : "LS 1/21/2015 14:00" } }
+		"testNumberListItems" : "LS 1/21/2015 14:00",
+		"testSelectingNext" : "LS 2/11/2015 11:06:25.975",
+		"testSelectingPrevious" : "LS 2/5/2015 15:36:13.07" } }

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 filterString: aString
 
 	self textMorph contentsWrapped: aString.

@@ -1,4 +1,4 @@
-as yet unclassified
+private-accessing
 filterString: aString
 
 	filterString := aString.

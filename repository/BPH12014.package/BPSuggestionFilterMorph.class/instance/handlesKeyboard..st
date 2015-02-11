@@ -1,4 +1,4 @@
-as yet unclassified
+private-event-handling
 handlesKeyboard: anEvent
 
 	^true
