@@ -1,4 +1,4 @@
-as yet unclassified
+selection
 select
 
 	self color: Color gray darker.

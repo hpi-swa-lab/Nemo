@@ -1,4 +1,4 @@
-as yet unclassified
+selection
 deselect
 
 	self color: Color transparent.

@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"entry",
-		"textMorph" ],
+		"textMorph",
+		"onMouseEnterBlock",
+		"onClickBlock" ],
 	"name" : "BPSuggestionItemMorph",
 	"pools" : [
 		 ],

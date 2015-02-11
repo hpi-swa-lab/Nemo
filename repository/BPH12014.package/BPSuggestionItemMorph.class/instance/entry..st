@@ -1,4 +1,4 @@
-as yet unclassified
+private-accessing
 entry: anEntry
 
 	entry := anEntry.

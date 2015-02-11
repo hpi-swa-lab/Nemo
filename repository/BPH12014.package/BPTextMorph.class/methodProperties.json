@@ -3,7 +3,14 @@
 		 },
 	"instance" : {
 		"drawNullTextOn:" : "LS 2/5/2015 16:02:07.917",
+		"editable" : "LS 2/11/2015 16:52:22.233",
+		"editable:" : "LS 2/11/2015 16:52:12.82",
 		"focus" : "LS 2/5/2015 15:05:15.956",
-		"keyStroke:" : "LS 2/11/2015 13:43:37.297",
+		"handlesKeyboard:" : "LS 2/11/2015 16:53:33.382",
+		"handlesMouseDown:" : "LS 2/11/2015 16:56:56.704",
+		"handlesMouseMove:" : "LS 2/11/2015 16:57:00.076",
+		"handlesMouseUp:" : "LS 2/11/2015 16:56:53.311",
+		"initialize" : "LS 2/11/2015 16:55:09.963",
+		"keyStroke:" : "LS 2/11/2015 16:53:15.816",
 		"textChangedHandler" : "LS 2/4/2015 16:26:27.761",
 		"textChangedHandler:" : "LS 2/4/2015 16:26:19.386" } }

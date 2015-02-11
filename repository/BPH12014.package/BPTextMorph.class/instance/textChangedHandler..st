@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 textChangedHandler: aBlock
 
 	textChangedHandler := aBlock.
