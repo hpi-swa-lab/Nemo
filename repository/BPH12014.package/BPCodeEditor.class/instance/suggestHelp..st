@@ -63,7 +63,7 @@ suggestHelp: aKeyboardEvent
 			BPSuggestionEntry new id: index; value: aMethodString.
 		]);
 		onSelect: [ :aSuggestionEntry |
-			self afterSelectionInsertAndSelect: aSuggestionEntry value.
+			self pasteAtCaret: aSuggestionEntry value.
 		];
 		position: self absolutePositionForPopUp;
 		width: 300;
