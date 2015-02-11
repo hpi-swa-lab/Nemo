@@ -3,4 +3,21 @@
 		"initializeCmdKeyShortcuts" : "DS 1/21/2015 10:48:55.617",
 		"openForClass:andMethod:" : "DS 2/11/2015 10:59" },
 	"instance" : {
-		 } }
+		"availableInputsIn:on:with:at:" : "DS 2/11/2015 12:19",
+		"availableInputsIn:on:withTemps:withArgs:at:" : "DS 2/11/2015 12:19",
+		"currentLine" : "DS 2/11/2015 12:19",
+		"findMessagesAndFormatResult:" : "DS 2/11/2015 12:19",
+		"generateSuggestions:" : "DS 2/11/2015 12:19",
+		"guessIt:" : "DS 2/11/2015 12:19",
+		"guessItBySHParser:" : "DS 2/11/2015 12:19",
+		"nodeAtCaret" : "DS 2/11/2015 12:19",
+		"onCloseFancyUI" : "DS 2/11/2015 12:20",
+		"openCompletionUi:" : "DS 2/11/2015 12:20",
+		"openFancyUi:" : "DS 2/11/2015 12:20",
+		"openMethodFinder:" : "DS 2/11/2015 12:20",
+		"parseMethodTempsAndArgs" : "DS 2/11/2015 12:20",
+		"positionForPopUp" : "DS 2/11/2015 12:20",
+		"resultSelected:" : "DS 2/11/2015 12:20",
+		"suggestHelp2:" : "DS 2/11/2015 12:20",
+		"suggestHelp:" : "DS 2/11/2015 12:20",
+		"variableNodeAtCaret" : "DS 2/11/2015 12:20" } }

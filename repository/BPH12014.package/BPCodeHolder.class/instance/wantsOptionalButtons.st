@@ -1,0 +1,3 @@
+optional panes
+wantsOptionalButtons
+	^ false

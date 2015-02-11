@@ -2,8 +2,19 @@
 	"class" : {
 		"for:and:" : "DS 11/27/2014 14:05" },
 	"instance" : {
-		"buildLabelWith:" : "DS 11/27/2014 14:06",
-		"compileMessage:notifying:" : "DS 11/27/2014 14:30",
-		"defineMessageFrom:notifying:" : "DS 11/27/2014 14:34",
-		"initializeCodePane" : "DS 11/27/2014 13:58",
-		"selectedClass" : "DS 2/11/2015 11:02" } }
+		"aboutToStyle:" : "DS 2/11/2015 12:22",
+		"buildLabelWith:" : "DS 2/11/2015 12:22",
+		"buildWith:" : "DS 2/11/2015 12:22",
+		"clazz" : "DS 2/11/2015 12:21",
+		"clazz:" : "DS 2/11/2015 12:22",
+		"compileMessage:notifying:" : "DS 2/11/2015 12:21",
+		"contents:notifying:" : "DS 2/11/2015 12:22",
+		"defineMessageFrom:notifying:" : "DS 2/11/2015 12:21",
+		"initializeCodePane" : "DS 2/11/2015 12:21",
+		"labelString" : "DS 2/11/2015 12:22",
+		"methodName" : "DS 2/11/2015 12:22",
+		"methodName:" : "DS 2/11/2015 12:22",
+		"selectedClass" : "DS 2/11/2015 12:22",
+		"selectedMessageName" : "DS 2/11/2015 12:22",
+		"wantsAnnotationPane" : "DS 2/11/2015 12:22",
+		"wantsOptionalButtons" : "DS 2/11/2015 12:23" } }
