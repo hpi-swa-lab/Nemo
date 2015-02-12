@@ -1,3 +1,3 @@
 toolbuilder
 labelString
-	^ self selectedClass asString , '>>' , self selectedMessageName
+	^ 'Code tool'"self selectedClass asString , '>>' , self selectedMessageName"

@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"enrichChain:ForCode:withTokens:usingOrder:" : "jsa 2/5/2015 17:07:38.476",
-		"initialize" : "jsa 2/5/2015 15:12:07.616",
+		"enrichChain:ForCode:withTokens:usingOrder:" : "DS 2/12/2015 16:36:06.147",
+		"initialize" : "DS 2/12/2015 16:36:19.769",
 		"markovChain" : "jsa 2/5/2015 12:07:27.806",
-		"order" : "jsa 2/5/2015 12:06:07.072" },
+		"order" : "DS 2/12/2015 15:17:55.018",
+		"preFilterTokens:" : "DS 2/12/2015 16:35:31.641",
+		"validToken:" : "DS 2/12/2015 17:20:11.62" },
 	"instance" : {
 		"addEntry:forToken:andCode:" : "jsa 2/5/2015 15:47:12.669",
 		"markovChain" : "jsa 2/5/2015 15:15:57.209",

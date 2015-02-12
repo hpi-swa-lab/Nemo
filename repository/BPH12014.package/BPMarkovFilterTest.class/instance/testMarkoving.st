@@ -6,7 +6,7 @@ testMarkoving
 			#keyword -> (Dictionary newFrom: { 'aaaab' -> (Bag new add: #('bcde' 'blubberbla'); yourself) }).
 			#variable -> (Dictionary newFrom: { 'bcde' -> (Bag new add: #('blubberbla'); yourself) }) })
 		equals: (filter 
-			sourceCode: 'aaaab bcde blubberbla';
+			sourceCode: 'aaaab bcde blubberbla. dddd';
 			tokens: {
 				SHRange start: 1 end: 5 type: #keyword. 
 				SHRange start: 7 end: 10 type: #variable.

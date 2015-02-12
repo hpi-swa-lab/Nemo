@@ -4,6 +4,6 @@ buildNavigationPanelWith: builder
 	spec := builder pluggableTextSpec new.
 	spec
 		model: self;
-		getText: #labelString;
-		setText: #methodChanged:.
+		getText: #methodSelectionString;
+		setText: #methodSelectionStringChanged:.
 	^ spec
