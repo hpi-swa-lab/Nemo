@@ -1,3 +1,4 @@
+#!/bin/bash -x
 $BUILDER_CI_HOME/testTravisCI.sh -verbose
 exitcode=$?
 
