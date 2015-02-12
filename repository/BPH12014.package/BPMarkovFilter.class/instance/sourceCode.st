@@ -1,3 +1,3 @@
 consumes
 sourceCode
-	^ self at: #sourceCode
+	self at: #sourceCode
