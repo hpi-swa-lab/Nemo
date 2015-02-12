@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Observation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"observer" ],
+	"name" : "BPCOPObservatorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

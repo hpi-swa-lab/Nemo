@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"default" : "LS 2/12/2015 13:54:24.879",
+		"instance:" : "LS 2/12/2015 15:25:21.487",
+		"instanceCounter" : "LS 2/12/2015 15:23:25.22",
+		"instanceCounter:" : "LS 2/12/2015 15:23:10.31",
+		"instances" : "LS 2/12/2015 15:26:04.621",
+		"new" : "LS 2/12/2015 15:27:25.935",
+		"uniqueInstanceID" : "LS 2/12/2015 15:22:50.878" },
+	"instance" : {
+		"argsCollectionStringFrom:" : "LS 2/12/2015 15:54:56.995",
+		"initialize" : "LS 2/12/2015 15:54:01.627",
+		"instanceID" : "LS 2/12/2015 15:22:03.062",
+		"interceptionBlocks" : "LS 2/12/2015 15:50:28.357",
+		"interceptionBlocks:" : "LS 2/12/2015 15:50:15.715",
+		"layerName" : "LS 2/12/2015 15:58:28.97",
+		"normalizedMethodIdentifierFor:" : "LS 2/12/2015 15:41:50.075",
+		"startObservationOfMethod:" : "LS 2/12/2015 16:07:51.655",
+		"stopObservationOfMethod:" : "LS 2/12/2015 16:10:43.49" } }

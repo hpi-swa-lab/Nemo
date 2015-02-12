@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-Observation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"started",
+		"methods" ],
+	"name" : "BPObserver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

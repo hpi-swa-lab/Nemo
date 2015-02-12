@@ -1,0 +1,17 @@
+{
+	"category" : "BPH12014-Observation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultInstance",
+		"InstanceCounter",
+		"Instances" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instanceID",
+		"interceptionBlocks" ],
+	"name" : "BPCOPObserver",
+	"pools" : [
+		 ],
+	"super" : "BPObserver",
+	"type" : "normal" }
