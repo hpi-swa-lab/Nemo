@@ -7,6 +7,7 @@ renderList
 	matchingEntries := BPStringFilter new
 		entries: self entries;
 		filterBy: self filterString.
+	matchingEntries ifEmpty: [ ^ self ].
 	self addItemMorphsFor: (matchingEntries 
 		copyFrom: 1
 		to: {matchingEntries size. self stopItemIndex} min).

@@ -1,14 +1,14 @@
 {
-	"category" : "BPH12014-Books",
+	"category" : "BPH12014-Util-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dictionary" ],
-	"name" : "BPVariableTypeBook",
+		 ],
+	"name" : "BPClassUtilTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

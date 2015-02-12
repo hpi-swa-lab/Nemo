@@ -3,11 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"VariableTypeBook" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dictionary" ],
-	"name" : "BPVariableTypeBook",
+		"dictionary",
+		"variableTypeBook" ],
+	"name" : "BPBookshelf",
 	"pools" : [
 		 ],
 	"super" : "Object",

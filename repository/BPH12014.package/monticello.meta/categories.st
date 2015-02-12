@@ -9,3 +9,4 @@ SystemOrganization addCategory: #'BPH12014-UI'!
 SystemOrganization addCategory: #'BPH12014-UI-Tests'!
 SystemOrganization addCategory: #'BPH12014-Util'!
 SystemOrganization addCategory: #'BPH12014-Util-Tests'!
+SystemOrganization addCategory: #'BPH12014-Books'!

@@ -3,6 +3,7 @@
 		"match:range:in:" : "DS 1/22/2015 13:03",
 		"parseMethodArgsAndTempVarNamesIn:for:" : "DS 1/22/2015 13:10",
 		"parseTokensIn:for:" : "DS 1/22/2015 11:47",
-		"tokenBeforeCaret:in:for:" : "DS 1/22/2015 13:43" },
+		"tokenBeforeCaret:in:for:" : "DS 1/22/2015 13:43",
+		"tokenValuesFor:inSourceCode:matching:" : "LS 2/12/2015 12:09:20.539" },
 	"instance" : {
 		 } }

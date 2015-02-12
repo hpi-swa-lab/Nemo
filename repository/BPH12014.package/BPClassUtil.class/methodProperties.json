@@ -1,9 +1,14 @@
 {
 	"class" : {
+		"argVariablesForClass:inSourceCode:" : "LS 2/12/2015 12:20:08.801",
 		"filterClasseNames:understanding:" : "DS 1/21/2015 15:56:00.83",
 		"filterClassesNames:containing:" : "DS 1/21/2015 15:59:03.583",
 		"findClassNamesContaining:" : "DS 1/21/2015 15:34:38.334",
 		"findClassNamesContainingSubstringsOf:" : "DS 1/21/2015 15:39:51.617",
-		"findMethodSelectorsContaining:forClass:" : "DS 1/21/2015 14:52:33.872" },
+		"findMethodSelectorsContaining:forClass:" : "DS 1/21/2015 14:52:33.872",
+		"sourceCodeForMethod:in:" : "LS 2/12/2015 11:39:07.963",
+		"tempVariablesForClass:inSourceCode:" : "LS 2/12/2015 12:21:53.008",
+		"variablesForClass:inMethod:" : "LS 2/12/2015 12:28:42.935",
+		"variablesForClass:inSourceCode:" : "LS 2/12/2015 12:22:46.348" },
 	"instance" : {
 		 } }
