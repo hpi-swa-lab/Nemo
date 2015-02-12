@@ -8,4 +8,5 @@ pasteAtCaret: aString
 		with: aString
 		and: [self selectAt: self startIndex + aString size.].
 	
-	self morph editView selectionInterval: self selectionInterval
+	self morph editView selectionInterval: self selectionInterval.
+	self invalidateEditorMorph.
