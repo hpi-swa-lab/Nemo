@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Filters-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callback" ],
+	"name" : "BPTestFilter",
+	"pools" : [
+		 ],
+	"super" : "BPFilter",
+	"type" : "normal" }

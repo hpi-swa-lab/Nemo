@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"branches" ],
+	"name" : "BPBranchingFilter",
+	"pools" : [
+		 ],
+	"super" : "BPFilter",
+	"type" : "normal" }
