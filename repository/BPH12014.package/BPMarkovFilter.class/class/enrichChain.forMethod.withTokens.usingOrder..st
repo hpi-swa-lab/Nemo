@@ -1,10 +1,10 @@
 class initialization
-enrichChain: chain ForCode: sourceCode withTokens: tokens usingOrder: order
+enrichChain: chain forMethod: aMethod withTokens: tokens usingOrder: order
 	"Builds a markov chain with a given maximum order out of the given tokens and source code"
 
-	| lastToken filteredTokens |
-
+	| lastToken filteredTokens sourceCode |
 	tokens ifEmpty: [ ^Dictionary new ].
+	sourceCode := aMethod getSource asString.
 	filteredTokens := self preFilterTokens: tokens.
 	lastToken := tokens first.
 
@@ -17,10 +17,14 @@ enrichChain: chain ForCode: sourceCode withTokens: tokens usingOrder: order
 			tailSource := tailTokens collect: [ :x | sourceCode copyFrom: x start to: x end ].
 
 			(tailTokens allSatisfy: [ :x | self validToken: x ]) ifTrue: [
-				tailTokens ifNotEmpty: [
+				tailTokens ifNotEmpty: [| markovTail |
+					markovTail := BPMarkovChainTail new
+						method: aMethod;
+						tailSource: tailSource;
+						tailTokens: tailTokens.
 					chain at: lastToken type ifAbsentPut: [ Dictionary new  ].
 					(chain at: lastToken type) at: lastSource ifAbsentPut: [ Bag new ].
-					((chain at: lastToken type) at: lastSource) add: tailSource]].
+					((chain at: lastToken type) at: lastSource) add: markovTail]].
 
 		lastToken := token]].
 

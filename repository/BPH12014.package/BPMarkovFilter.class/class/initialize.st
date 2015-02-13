@@ -7,7 +7,7 @@ initialize
 	SystemNavigation allClasses 
 		do: [ :clazz | clazz methodsDo: [ :method || tokens sourceCode |
 			sourceCode := method getSource asString.
-			tokens := SHParserST80 new rangesIn: sourceCode classOrMetaClass: clazz workspace: nil  environment: nil.
+			tokens := SHParserST80 new rangesIn: sourceCode classOrMetaClass: clazz workspace: nil environment: nil.
 
-			BPMarkovFilter enrichChain: markovChain ForCode: sourceCode withTokens: tokens usingOrder: self order.]]
+			BPMarkovFilter enrichChain: markovChain forMethod: method withTokens: tokens usingOrder: self order.]]
 		displayingProgress: 'Scanning the systems source-code, please wait.'

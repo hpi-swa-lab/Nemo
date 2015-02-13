@@ -1,16 +1,24 @@
 as yet unclassified
 testMarkoving
-
-	self 
-		assert: (Dictionary newFrom: {
-			#keyword -> (Dictionary newFrom: { 'aaaab' -> (Bag new add: #('bcde' 'blubberbla'); yourself) }).
-			#instVar -> (Dictionary newFrom: { 'bcde' -> (Bag new add: #('blubberbla'); yourself) }) })
-		equals: (filter 
-			sourceCode: 'aaaab bcde blubberbla. dddd';
-			tokens: {
-				SHRange start: 1 end: 5 type: #keyword. 
-				SHRange start: 7 end: 10 type: #instVar.
-				SHRange start: 12 end: 21 type: #unary};
+	| chain bag |
+	chain := (filter 
+			method: BPMarkovFilterTest >> #exampleTestMethod1;
+			tokens: (SHParserST80 new
+				rangesIn: (self class >> #exampleTestMethod1) getSource asString
+				classOrMetaClass: self class
+				workspace: nil
+				environment: nil);
 			variableToken: (SHRange start: 7 end: 9 type: #instVar);
 			variableName: 'bcde';
-			run; markovChain)
+			run; markovChain).
+	self 
+		assert: 3 equals: chain size;
+		assert: (chain includesKey: #methodTempBar);
+		assert: (chain includesKey: #return);
+		assert: (chain includesKey: #tempVar).
+	bag := (((chain at: #methodTempBar) at: '|')).
+	self
+		assert: (bag isKindOf: Bag);
+		assert: 1 equals: bag size;
+		assert: (bag asOrderedCollection first isKindOf: BPMarkovChainTail);
+		assert: {'morph'. ':='. 'Morph'} asOrderedCollection equals: (bag asOrderedCollection first tailSource)

@@ -29,11 +29,11 @@ suggestHelp: aKeyboardEvent
 		filter := (BPFilter pipeline: {
 			BPTokenizerFilter new clazz: self model clazz; sourceCode: paragraph text asString.
 			BPVariableNameAtCaretFilter new caretPosition: self startIndex.
-			BPMarkovFilter new.}) run.
+			BPMarkovFilter new method: (self model clazz compiledMethodAt: self model methodName asSymbol).}) run.
 		methods := (((filter markovChain at: filter variableToken type) at: filter variableName) sortedCounts) asPipe
 			"collect: [ :x | x value join: ' ' ];"
 			"select: [ :x | (x value size >= 4) and: [x key >= 2] and: [ x value startsWithDigit not] ];"
-			collect: [ :x | x value join: ' '];
+			collect: [ :x | x value tailSource join: ' '];
 			do.
 		(filter variableName = 'self') ifTrue: [
 			methods := BPMethodModificationBook uniqueInstance suggestMethodsFor: self model clazz.

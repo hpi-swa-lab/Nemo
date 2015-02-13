@@ -3,8 +3,8 @@ process
 
 	self markovChain: Dictionary new.
 	self retrieveStaticData.
-	self tokens ifNotEmpty: [ :t | BPMarkovFilter 
+	self tokens ifNotEmpty: [ :tokens | BPMarkovFilter 
 		enrichChain: self markovChain 
-		ForCode: self sourceCode 
-		withTokens: self tokens 
+		forMethod: self method 
+		withTokens: tokens
 		usingOrder: BPMarkovFilter order ].
