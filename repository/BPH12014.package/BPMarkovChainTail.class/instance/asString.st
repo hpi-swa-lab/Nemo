@@ -1,3 +1,3 @@
 converting
 asString
-	^ self tailSource
+	^ self tailSource join: ' '
