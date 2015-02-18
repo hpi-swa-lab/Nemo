@@ -3,7 +3,7 @@ startObservationOfMethod: aMethodReference
 
 	|  sourceCodeLines methodIdentifier argsCollectionString |
 	methodIdentifier := self normalizedMethodIdentifierFor: aMethodReference.
-	self interceptionBlocks at: methodIdentifier put: (self createInterceptionBlockFor: aMethodReference).
+	self interceptionBlocks at: methodIdentifier put: (self createInterceptionBlockFor: aMethodReference withArgumentNames: (BPParserUtil argumentNamesFromMethodReference: aMethodReference)).
 	argsCollectionString := self argsCollectionStringFrom: aMethodReference.
 	sourceCodeLines := {
 		aMethodReference actualClass standardMethodHeaderFor: aMethodReference methodSymbol.

@@ -9,7 +9,7 @@
 		"uniqueInstanceID" : "LS 2/12/2015 15:22:50.878" },
 	"instance" : {
 		"argsCollectionStringFrom:" : "LS 2/12/2015 15:54:56.995",
-		"createInterceptionBlockFor:" : "LS 2/12/2015 18:01:12.464",
+		"createInterceptionBlockFor:withArgumentNames:" : "LS 2/18/2015 11:06:23.226",
 		"initialize" : "LS 2/12/2015 15:54:01.627",
 		"instanceID" : "LS 2/12/2015 15:22:03.062",
 		"interceptionBlocks" : "LS 2/12/2015 15:50:28.357",
@@ -18,6 +18,6 @@
 		"normalizedMethodIdentifierFor:" : "LS 2/12/2015 15:41:50.075",
 		"notifyForMethod:withArguments:" : "LS 2/12/2015 17:57:27.899",
 		"start" : "LS 2/12/2015 17:47:55.262",
-		"startObservationOfMethod:" : "LS 2/12/2015 17:50:15.068",
+		"startObservationOfMethod:" : "LS 2/18/2015 10:58:33.455",
 		"stop" : "LS 2/12/2015 17:51:51.681",
 		"stopObservationOfMethod:" : "LS 2/12/2015 16:10:43.49" } }

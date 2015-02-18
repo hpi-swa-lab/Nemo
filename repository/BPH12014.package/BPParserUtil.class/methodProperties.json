@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"argumentNamesFromMethodReference:" : "LS 2/18/2015 11:01:21.666",
 		"match:range:in:" : "DS 1/22/2015 13:03",
 		"parseMethodArgsAndTempVarNamesIn:for:" : "DS 1/22/2015 13:10",
 		"parseTokensIn:for:" : "DS 1/22/2015 11:47",
