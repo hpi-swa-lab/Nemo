@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"enrichChain:forMethod:withTokens:usingOrder:" : "DS 2/13/2015 17:17:35.036",
+		"enrichChain:forMethod:forCurrentSourceCode:withTokens:usingOrder:" : "DS 2/18/2015 10:59:49.842",
+		"enrichChain:forMethod:withTokens:usingOrder:" : "DS 2/18/2015 11:01:13.619",
 		"initialize" : "DS 2/13/2015 14:23:28.511",
 		"markovChain" : "jsa 2/5/2015 12:07:27.806",
 		"order" : "DS 2/12/2015 15:17:55.018",
@@ -12,8 +13,10 @@
 		"markovChain:" : "jsa 2/5/2015 15:16:13.953",
 		"method" : "DS 2/13/2015 16:53:51.441",
 		"method:" : "DS 2/13/2015 16:54:41.488",
-		"process" : "DS 2/13/2015 16:56:00.608",
+		"process" : "DS 2/18/2015 11:00:01.62",
 		"retrieveStaticData" : "jsa 2/5/2015 15:40:36.22",
+		"sourceCode" : "DS 2/18/2015 11:02:08.633",
+		"sourceCode:" : "DS 2/18/2015 11:02:53.468",
 		"tokens" : "DS 2/4/2015 12:46",
 		"tokens:" : "DS 2/4/2015 13:34",
 		"variableName" : "DS 2/4/2015 12:58",
