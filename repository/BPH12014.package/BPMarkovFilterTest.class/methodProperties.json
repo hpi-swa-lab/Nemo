@@ -4,6 +4,8 @@
 	"instance" : {
 		"exampleTestMethod1" : "DS 2/13/2015 17:01:51.701",
 		"exampleTestMethod2" : "DS 2/18/2015 14:43:05.873",
+		"exampleTestMethod3:" : "DS 2/19/2015 17:40:08.392",
 		"setUp" : "DS 2/4/2015 13:12",
+		"testFilterIncompleteTokens" : "DS 2/19/2015 19:29:31.587",
 		"testMarkoving" : "DS 2/18/2015 16:16:33.979",
 		"testSplitTokensByDelimiter" : "DS 2/18/2015 14:47:16.229" } }
