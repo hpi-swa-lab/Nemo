@@ -1,19 +1,12 @@
 {
 	"class" : {
-		"open" : "DS 1/21/2015 17:50:23.742",
-		"open (BPCOPObserver52)" : "LS 2/18/2015 11:06:29.074" },
+		"open" : "DS 1/21/2015 17:50:23.742" },
 	"instance" : {
-		"initialize" : "LS 2/12/2015 12:28:57.929",
-		"initialize (BPCOPObserver52)" : "LS 2/18/2015 11:06:28.728",
+		"complex:" : "DS 2/18/2015 13:43:06.441",
+		"initialize" : "DS 2/18/2015 17:08:00.613",
 		"initialize2:" : "DS 2/5/2015 15:50",
-		"initialize2: (BPCOPObserver52)" : "LS 2/18/2015 11:06:28.216",
 		"initialize3" : "DS 2/5/2015 15:32",
-		"initialize3 (BPCOPObserver52)" : "LS 2/18/2015 11:06:28.049",
 		"initializeWith:" : "LS 2/12/2015 12:30:42.775",
-		"initializeWith: (BPCOPObserver52)" : "LS 2/18/2015 11:06:28.385",
 		"initializeWith:and:" : "LS 2/12/2015 12:30:26.073",
-		"initializeWith:and: (BPCOPObserver52)" : "LS 2/18/2015 11:06:28.902",
 		"morph" : "DS 2/5/2015 15:32",
-		"morph (BPCOPObserver52)" : "LS 2/18/2015 11:06:28.553",
-		"morph:" : "DS 2/5/2015 15:50",
-		"morph: (BPCOPObserver52)" : "LS 2/18/2015 11:06:27.876" } }
+		"morph:" : "DS 2/5/2015 15:50" } }

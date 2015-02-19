@@ -1,10 +1,11 @@
 as yet unclassified
 testMarkoving
-	| chain bag |
+	| chain |
 	chain := (filter 
-			method: BPMarkovFilterTest >> #exampleTestMethod1;
+			methodReference: (MethodReference class: BPMarkovFilterTest selector: #exampleTestMethod1);
+			sourceCode: filter methodReference sourceString;
 			tokens: (SHParserST80 new
-				rangesIn: (self class >> #exampleTestMethod1) getSource asString
+				rangesIn: filter methodReference sourceString
 				classOrMetaClass: self class
 				workspace: nil
 				environment: nil);
@@ -12,13 +13,14 @@ testMarkoving
 			variableName: 'bcde';
 			run; markovChain).
 	self 
-		assert: 3 equals: chain size;
-		assert: (chain includesKey: #methodTempBar);
-		assert: (chain includesKey: #return);
-		assert: (chain includesKey: #tempVar).
-	bag := (((chain at: #methodTempBar) at: '|')).
+		assert: 4 equals: chain size;
+		assert: (chain includesKey: #ansiAssignment);
+		assert: (chain includesKey: #globalVar);
+		assert: (chain includesKey: #tempVar);
+		assert: (chain includesKey: #return).
+	"bag := (((chain at: #methodTempBar) at: '|')).
 	self
 		assert: (bag isKindOf: Bag);
 		assert: 1 equals: bag size;
-		assert: (bag asOrderedCollection first isKindOf: BPMarkovChainTail);
-		assert: {'morph'. ':='. 'Morph'} asOrderedCollection equals: (bag asOrderedCollection first tailSource)
+		assert: (bag asOrderedCollection first isKindOf: BPMarkovChain);
+		assert: {'morph'. ':='. 'Morph'} asOrderedCollection equals: (bag asOrderedCollection first tailSource)"

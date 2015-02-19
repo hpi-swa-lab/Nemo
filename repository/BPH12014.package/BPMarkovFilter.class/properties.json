@@ -1,7 +1,7 @@
 {
 	"category" : "BPH12014-Filters",
 	"classinstvars" : [
-		"markovChain" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "jsa 2/5/2015 11:53:08.994",

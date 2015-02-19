@@ -3,13 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"MarkovChainBook",
-		"VariableTypeBook" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dictionary",
-		"variableTypeBook" ],
-	"name" : "BPBookshelf",
+		"markovChain" ],
+	"name" : "BPMarkovChainBook",
 	"pools" : [
 		 ],
 	"super" : "Object",

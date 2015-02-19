@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Observation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPMarkovObserver",
+	"pools" : [
+		 ],
+	"super" : "BPObserver",
+	"type" : "normal" }

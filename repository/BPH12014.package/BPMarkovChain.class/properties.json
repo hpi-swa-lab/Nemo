@@ -1,15 +1,16 @@
 {
-	"category" : "BPH12014-Books",
+	"category" : "BPH12014-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"MarkovChainBook",
-		"VariableTypeBook" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dictionary",
-		"variableTypeBook" ],
-	"name" : "BPBookshelf",
+		"tailTokens",
+		"tailSource",
+		"method",
+		"count" ],
+	"name" : "BPMarkovChain",
 	"pools" : [
 		 ],
 	"super" : "Object",

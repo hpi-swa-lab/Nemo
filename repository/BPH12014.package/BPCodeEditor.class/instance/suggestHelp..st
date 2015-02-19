@@ -29,9 +29,13 @@ suggestHelp: aKeyboardEvent
 		filter := (BPFilter pipeline: {
 			BPTokenizerFilter new clazz: self model clazz; sourceCode: paragraph text asString.
 			BPVariableNameAtCaretFilter new caretPosition: self startIndex.
-			BPMarkovFilter new method: (self model clazz compiledMethodAt: self model methodName asSymbol).}) run.
-		methods := (((filter markovChain at: filter variableToken type) at: filter variableName) sortedCounts)
-			collect: [ :assoc | assoc value ].
+			BPMarkovFilter new methodReference: (MethodReference class: self model clazz selector: self model methodName asSymbol).}) run.
+		methods := (((filter markovChain at: filter variableToken type ifAbsent: [Dictionary new])
+						at: filter variableName ifAbsent: [Bag new]) sortedCounts)
+			collect: [ :assoc | | aBPMarkovChainTail |
+				aBPMarkovChainTail := assoc value.
+				aBPMarkovChainTail count: assoc key.
+				aBPMarkovChainTail].
 		"(filter variableName = 'self') ifTrue: [
 			methods := BPMethodModificationBook uniqueInstance suggestMethodsFor: self model clazz.
 			self model clazz methodDict keysDo: [ :method | methods add: method ifPresent: []] ]."
