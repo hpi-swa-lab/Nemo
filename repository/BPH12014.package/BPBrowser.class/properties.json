@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-CodeEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clazz",
+		"methodName" ],
+	"name" : "BPBrowser",
+	"pools" : [
+		 ],
+	"super" : "Browser",
+	"type" : "normal" }

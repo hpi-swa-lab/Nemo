@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPPluggableSuggestionCodePaneSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableCodePaneSpec",
+	"type" : "normal" }

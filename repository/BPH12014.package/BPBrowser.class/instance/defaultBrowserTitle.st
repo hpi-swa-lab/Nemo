@@ -1,0 +1,3 @@
+toolbuilder
+defaultBrowserTitle
+	^ 'Suggestion Browser'
