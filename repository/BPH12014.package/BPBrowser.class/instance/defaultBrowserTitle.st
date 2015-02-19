@@ -1,3 +1,3 @@
-toolbuilder
+user interface
 defaultBrowserTitle
 	^ 'Suggestion Browser'
