@@ -7,11 +7,11 @@ mergeArrayTokens: tokens
 	mergedTokens := OrderedCollection new: tokens size.
 	arrayStartedCount := 0.
 	tokens do: [ :token | 
-		token type = #arrayStart
+		(token type = #arrayStart or: [token type = #byteArrayStart])
 			ifTrue: [ arrayStartedCount isZero
 				ifTrue: [ mergedTokens add: token ].
 				arrayStartedCount := arrayStartedCount + 1 ] 
-			ifFalse: [ token type = #arrayEnd
+			ifFalse: [ (token type = #arrayEnd or: [token type = #byteArrayEnd])
 				ifTrue: [ arrayStartedCount = 1
 					ifTrue: [ mergedTokens add: token ].
 					arrayStartedCount := arrayStartedCount - 1 ]

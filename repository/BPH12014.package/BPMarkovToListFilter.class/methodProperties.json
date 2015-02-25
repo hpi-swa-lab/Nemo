@@ -1,9 +1,6 @@
 {
 	"class" : {
-		"initialize" : "DS 2/5/2015 12:29",
-		"sourceToSource" : "DS 2/5/2015 12:29",
-		"tokenToSource" : "DS 2/5/2015 12:29",
-		"tokenToToken" : "DS 2/5/2015 12:29" },
+		 },
 	"instance" : {
 		"markovList" : "DS 2/5/2015 12:36",
 		"markovList:" : "DS 2/5/2015 12:34",

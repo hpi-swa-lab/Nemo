@@ -1,4 +1,7 @@
 as yet unclassified
 absolutePositionForPopUp
-
-	^ self positionForPopUp + self morph editView position + (5@1)
+	| y |
+	y := self paragraph caretRect
+		ifNil: [0]
+		ifNotNil: [(self paragraph caretRect topRight y - self paragraph caretRect bottomRight y) - 5].
+	^ self positionForPopUp + (5@y)

@@ -59,11 +59,11 @@ suggestHelp: aKeyboardEvent
 	"sort: [ :a :b | a size < b size ]".
 	BPSuggestionListMorph new
 		updateMaxItems: 20;
-		updateEntries: (methods collectWithIndex: [ :aBPMarkovChainTail :index |
+		updateEntries: (methods collectWithIndex: [ :aBPMarkovChain :index |
 			BPSuggestionEntry new
 				id: index;
-				value: aBPMarkovChainTail;
-				displayValue: aBPMarkovChainTail asString.
+				value: aBPMarkovChain;
+				displayValue: aBPMarkovChain asString.
 		]);
 		onSelect: [ :aSuggestionEntry |
 			self pasteAtCaret: aSuggestionEntry displayValue.
