@@ -10,3 +10,4 @@ pasteAtCaret: aString
 	
 	self morph editView selectionInterval: self selectionInterval.
 	self invalidateEditorMorph.
+	ActiveHand newKeyboardFocus: self morph 
