@@ -1,5 +1,8 @@
 filtering
 leftRightParenthesisDifference: tokens
+
+"Detects useful token sequences, by counting if all opening paranthesis are closed etc."
+
 	| parenthesesDepth rightParens leftParens |
 	parenthesesDepth := 0.
 	rightParens := #(rightParenthesis rightParenthesis1 rightParenthesis2 rightParenthesis3 rightParenthesis4 rightParenthesis5 rightParenthesis6 rightParenthesis7 rightBrace blockEnd blockEnd1 blockEnd2 blockEnd3 blockEnd4 blockEnd5 blockEnd6 blockEnd7) asSet.

@@ -1,5 +1,5 @@
 markov
-enrichMarkovChain: chain from: tokens for: aMethodReference
+enrichMarkovChain: chain from: tokens for: aMethodReference for: sourceCode
 	| hasTooManyRightParenthesis |
 	1 to: tokens size do: [ :leftIndex |
 		hasTooManyRightParenthesis := false.
@@ -11,6 +11,7 @@ enrichMarkovChain: chain from: tokens for: aMethodReference
 					self putTokens: subTokens
 						intoChain: chain
 						for: aMethodReference
+						for: sourceCode
 				].
 				hasTooManyRightParenthesis := difference < 0.
 			]

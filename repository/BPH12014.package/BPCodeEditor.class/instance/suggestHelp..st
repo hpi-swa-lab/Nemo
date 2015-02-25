@@ -29,7 +29,7 @@ suggestHelp: aKeyboardEvent
 		filter := (BPFilter pipeline: {
 			BPTokenizerFilter new clazz: self model selectedClass; sourceCode: paragraph text asString.
 			BPVariableNameAtCaretFilter new caretPosition: self startIndex.
-			BPMarkovFilter new methodReference: (MethodReference class: self model selectedClass selector: self model selectedMessageName).}) run.
+			BPMarkovFilter new methodReference: (MethodReference class: self model selectedClassOrMetaClass selector: self model selectedMessageName).}) run.
 		methods := (((filter markovChain at: filter variableToken type ifAbsent: [Dictionary new])
 						at: filter variableName ifAbsent: [Bag new]) sortedCounts)
 			collect: [ :assoc | | aBPMarkovChainTail |

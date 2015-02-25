@@ -9,8 +9,9 @@ enrichChain: chain forMethodReference: aMethodReference forCurrentSourceCode: cu
 	lastToken := tokens first.
 
 	"simulate a reduce with tail list instead of just the element"
-	(self splitTokensByDelimiter: filteredTokens) do: [ :subTokens |
-		self enrichMarkovChain: chain from: subTokens for: aMethodReference.
+	(self splitTokensByDelimiter: filteredTokens) do: [ :subTokens | | mergedSubTokens |
+		mergedSubTokens := self mergeArrayTokens: subTokens.
+		self enrichMarkovChain: chain from: mergedSubTokens for: aMethodReference for: sourceCode.
 	].
 	^ chain.
 	"filteredTokens withIndexCollect: [ :token :i | | lastSource tailTokens tailSource |

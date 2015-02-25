@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"enrichChain:forMethodReference:forCurrentSourceCode:withTokens:usingOrder:" : "DS 2/18/2015 16:15:06.939",
+		"enrichChain:forMethodReference:forCurrentSourceCode:withTokens:usingOrder:" : "DS 2/25/2015 10:12:58.405",
 		"enrichChain:forMethodReference:withTokens:usingOrder:" : "DS 2/18/2015 12:17:03.454",
-		"enrichMarkovChain:from:for:" : "DS 2/19/2015 19:09:25.983",
+		"enrichMarkovChain:from:for:for:" : "DS 2/20/2015 13:35:19.447",
 		"isTokenDelimiter:" : "DS 2/18/2015 15:14:24.849",
-		"leftRightParenthesisDifference:" : "DS 2/19/2015 19:08:53.706",
+		"leftRightParenthesisDifference:" : "DS 2/25/2015 10:20:01.933",
+		"mergeArrayTokens:" : "DS 2/25/2015 10:17:18.568",
 		"order" : "DS 2/12/2015 15:17:55.018",
 		"preFilterTokens:" : "DS 2/12/2015 16:35:31.641",
-		"putTokens:intoChain:for:" : "DS 2/18/2015 17:36:34.35",
+		"putTokens:intoChain:for:for:" : "DS 2/20/2015 13:34:17.159",
 		"splitTokensByDelimiter:" : "DS 2/18/2015 14:39:18.863",
 		"validToken:" : "DS 2/18/2015 13:33:38.564" },
 	"instance" : {
