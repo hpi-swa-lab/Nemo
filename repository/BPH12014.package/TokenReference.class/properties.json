@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method",
+		"token" ],
+	"name" : "TokenReference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -9,6 +9,7 @@
 		"uniqueInstanceID" : "LS 2/12/2015 15:22:50.878" },
 	"instance" : {
 		"argsCollectionStringFrom:" : "LS 2/12/2015 15:54:56.995",
+		"createInterceptionBlockFor:" : "LS 2/25/2015 16:29:04.858",
 		"createInterceptionBlockFor:withArgumentNames:" : "LS 2/18/2015 11:06:23.226",
 		"initialize" : "LS 2/12/2015 15:54:01.627",
 		"instanceID" : "LS 2/12/2015 15:22:03.062",
