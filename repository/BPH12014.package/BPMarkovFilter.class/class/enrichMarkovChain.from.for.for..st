@@ -11,9 +11,5 @@ enrichMarkovChain: chain from: tokens for: aMethodReference for: sourceCode
 					self putTokens: subTokens
 						intoChain: chain
 						for: aMethodReference
-						for: sourceCode
-				].
-				hasTooManyRightParenthesis := difference < 0.
-			]
-		]
-	]
+						for: sourceCode].
+				hasTooManyRightParenthesis := difference < 0.]]]

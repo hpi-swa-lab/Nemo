@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"enrichChain:forMethodReference:forCurrentSourceCode:withTokens:usingOrder:" : "DS 2/25/2015 10:12:58.405",
+		"enrichChain:forMethodReference:forCurrentSourceCode:withTokens:usingOrder:" : "JSA 2/25/2015 15:05",
 		"enrichChain:forMethodReference:withTokens:usingOrder:" : "DS 2/18/2015 12:17:03.454",
-		"enrichMarkovChain:from:for:for:" : "DS 2/20/2015 13:35:19.447",
+		"enrichMarkovChain:from:for:for:" : "JSA 2/25/2015 15:09",
 		"isTokenDelimiter:" : "DS 2/18/2015 15:14:24.849",
 		"leftRightParenthesisDifference:" : "DS 2/25/2015 10:20:01.933",
 		"mergeArrayTokens:" : "DS 2/25/2015 10:17:18.568",

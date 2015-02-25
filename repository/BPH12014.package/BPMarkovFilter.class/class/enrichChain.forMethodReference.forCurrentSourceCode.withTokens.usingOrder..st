@@ -4,7 +4,7 @@ enrichChain: chain forMethodReference: aMethodReference forCurrentSourceCode: cu
 
 	| lastToken filteredTokens sourceCode |
 	tokens ifEmpty: [ ^Dictionary new ].
-	sourceCode := currentSourceCode ifNil: [aMethodReference sourceString] ifNotNil: [currentSourceCode].
+	sourceCode := currentSourceCode ifNil: [aMethodReference sourceString].
 	filteredTokens := self preFilterTokens: tokens.
 	lastToken := tokens first.
 
