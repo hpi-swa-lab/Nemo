@@ -1,7 +1,8 @@
 Utilities setAuthorInitials: 'travisCI'.
 FileStream stdout nextPutAll: 'Author set'; cr; flush.
 
-MCMcmUpdater updateFromServer
+MCFileBasedRepository flushAllCaches.
+MCMcmUpdater updateFromDefaultRepository.
 
 Transcript class compile: '
 nextPutAll: aColl
