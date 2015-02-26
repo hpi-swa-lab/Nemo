@@ -63,10 +63,10 @@ suggestHelp: aKeyboardEvent
 			BPSuggestionEntry new
 				id: index;
 				value: aBPMarkovChain;
-				displayValue: aBPMarkovChain asString.
+				displayValue: aBPMarkovChain asText.
 		]);
 		onSelect: [ :aSuggestionEntry |
-			self pasteAtCaret: aSuggestionEntry displayValue.
+			self pasteAtCaret: aSuggestionEntry value asString.
 		];
 		position: self absolutePositionForPopUp;
 		width: 300;
