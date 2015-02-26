@@ -17,8 +17,11 @@ These builds didn't run through, but might still work:
 - [Latest unstable/errored image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing.image)
 - [Latest unstable/errored changes](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing.changes)
 
+These **trunk** builds didn't run through, but might still work:
+
 - [Latest unstable/errored trunk image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing_trunk.image)
 - [Latest unstable/errored trunk changes](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing_trunk.changes)
+
 
 ```
                                 ,
