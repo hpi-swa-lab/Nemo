@@ -1,5 +1,8 @@
 Utilities setAuthorInitials: 'travisCI'.
 FileStream stdout nextPutAll: 'Author set'; cr; flush.
+
+MCMcmUpdater updateFromServer
+
 Transcript class compile: '
 nextPutAll: aColl
 	([FileStream stdout] on: Error do: [])
