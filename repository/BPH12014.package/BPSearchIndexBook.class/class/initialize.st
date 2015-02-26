@@ -13,9 +13,9 @@ initialize
 			tokens do: [ :token | | tokenSource |
 				tokenSource :=  sourceCode copyFrom: token start to: token end.
 				
-				index at: tokenSource ifAbsentPut: [ OrderedCollection new ].
+				"index at: tokenSource ifAbsentPut: [ OrderedCollection new ].
 				(index at: tokenSource) add: (TokenReference new 
 					method: method methodReference;
 					token: token;
-					yourself) ]]]
+					yourself)" ]]]
 		displayingProgress: 'Scanning the systems source-code, please wait.'
