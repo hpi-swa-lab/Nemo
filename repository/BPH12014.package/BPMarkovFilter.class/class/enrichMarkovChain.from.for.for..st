@@ -6,10 +6,11 @@ enrichMarkovChain: chain from: tokens for: aMethodReference for: sourceCode
 		leftIndex to: tokens size do: [ :rightIndex | | subTokens difference |
 			hasTooManyRightParenthesis ifFalse: [
 				subTokens := (tokens copyFrom: leftIndex to: rightIndex).
+				(self subTokensValid: subTokens) ifTrue: [ 
 				difference := (self leftRightParenthesisDifference: subTokens).
 				difference isZero ifTrue: [
 					self putTokens: subTokens
 						intoChain: chain
 						for: aMethodReference
 						for: sourceCode].
-				hasTooManyRightParenthesis := difference < 0.]]]
+				hasTooManyRightParenthesis := difference < 0.]]]]
