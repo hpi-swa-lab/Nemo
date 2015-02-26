@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptVisitor:" : "StephaneDucasse 3/29/2013 15:37",
+		"addArgumentWithNameBasedOn:to:" : "",
+		"constructLookupNodeFor:in:" : "",
+		"copyInContext:" : "lr 11/24/2009 23:30",
+		"createBlockFor:" : "MarcusDenker 8/28/2013 10:20",
+		"createMatchingBlock" : "",
+		"createReplacingBlock" : "",
+		"lookupMatchFor:in:" : "",
+		"match:inContext:" : "",
+		"matchingBlock" : "ClementBera 7/26/2013 17:16",
+		"replacePatternNodesIn:" : "",
+		"replacingBlock" : "ClementBera 7/26/2013 17:16",
+		"sentMessages" : "lr 5/30/2010 14:27" } }

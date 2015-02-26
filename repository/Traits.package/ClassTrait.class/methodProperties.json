@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"for:" : "ar 12/30/2009 01:58" },
+	"instance" : {
+		"asMCDefinition" : "ar 12/22/2009 08:49",
+		"baseTrait" : "ar 11/18/2007 23:00",
+		"baseTrait:" : "ar 12/30/2009 01:59",
+		"bindingOf:" : "ar 12/21/2009 20:18",
+		"category" : "nice 2/15/2011 23:16",
+		"definition" : "ar 12/20/2009 03:55",
+		"instanceSide" : "ar 5/11/2008 01:51",
+		"isClassTrait" : "ar 11/18/2007 22:59",
+		"isMeta" : "ar 11/18/2007 22:21",
+		"isObsolete" : "ar 12/30/2009 02:43",
+		"name" : "ar 11/18/2007 21:44",
+		"soleInstance" : "ar 12/19/2009 18:38",
+		"theMetaClass" : "ar 12/20/2009 02:55",
+		"theNonMetaClass" : "ar 12/20/2009 14:29",
+		"uses:" : "ar 3/11/2010 08:45" } }

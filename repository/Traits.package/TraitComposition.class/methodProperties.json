@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"+" : "ar 12/29/2009 18:21",
+		"-" : "ar 12/29/2009 18:11",
+		"@" : "ar 12/29/2009 18:11",
+		"allTraits" : "ar 12/29/2009 18:11",
+		"asTraitComposition" : "ar 12/29/2009 18:11",
+		"copyTraitExpression" : "ar 12/29/2009 18:11",
+		"isAliasSelector:" : "ar 12/29/2009 18:11",
+		"isLocalAliasSelector:" : "ar 12/29/2009 18:11",
+		"isTraitTransformation" : "ar 12/29/2009 18:11",
+		"printOn:" : "ar 12/29/2009 18:11",
+		"selectorsAndMethodsDo:" : "ar 12/29/2009 18:11",
+		"traitCompositionString" : "ar 12/29/2009 18:11",
+		"traits" : "ar 12/29/2009 18:11",
+		"traitsDo:" : "ar 12/29/2009 18:11" } }

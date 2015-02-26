@@ -1,0 +1,3 @@
+converting
+- anArrayOfSelectors
+	^self subclassResponsibility

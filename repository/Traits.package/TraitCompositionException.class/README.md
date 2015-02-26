@@ -1,0 +1,1 @@
+Signals invalid trait compositions.

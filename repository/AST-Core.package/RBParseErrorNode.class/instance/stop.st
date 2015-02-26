@@ -1,0 +1,3 @@
+accessing
+stop
+	^ token stop

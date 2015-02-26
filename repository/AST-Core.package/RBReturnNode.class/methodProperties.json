@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"return:value:" : "",
+		"value:" : "" },
+	"instance" : {
+		"=" : "",
+		"acceptVisitor:" : "StephaneDucasse 3/29/2013 15:38",
+		"children" : "",
+		"containsReturn" : "",
+		"copyInContext:" : "lr 11/24/2009 23:35",
+		"equalTo:withMapping:" : "",
+		"hash" : "",
+		"isFaulty" : "GiselaDecuzzi 6/5/2013 10:30",
+		"isReturn" : "",
+		"match:inContext:" : "lr 5/30/2010 11:35",
+		"postCopy" : "lr 11/1/2009 22:34",
+		"replaceNode:withNode:" : "",
+		"return" : "lr 2/12/2010 19:21",
+		"return:" : "lr 2/12/2010 19:21",
+		"return:value:" : "",
+		"start" : "",
+		"stop" : "",
+		"value" : "",
+		"value:" : "" } }

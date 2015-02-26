@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"assertValidAliasDefinition:" : "ar 12/29/2009 18:21",
+		"with:aliases:" : "ar 12/29/2009 18:14" },
+	"instance" : {
+		"-" : "ar 12/29/2009 18:22",
+		"@" : "ar 12/29/2009 18:17",
+		"aliases" : "ar 12/29/2009 18:14",
+		"aliases:" : "ar 12/29/2009 18:14",
+		"copyTraitExpression" : "ar 12/29/2009 18:17",
+		"includesSelector:" : "ar 12/29/2009 18:14",
+		"initialize" : "ar 12/29/2009 18:14",
+		"initializeFrom:" : "ar 12/29/2009 18:21",
+		"isAliasSelector:" : "ar 12/29/2009 18:14",
+		"isLocalAliasSelector:" : "ar 12/29/2009 18:14",
+		"printOn:" : "ar 12/29/2009 18:14",
+		"selectorsAndMethodsDo:" : "ul 8/2/2011 20:12" } }

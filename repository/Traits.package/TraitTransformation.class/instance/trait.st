@@ -1,0 +1,3 @@
+accessing
+trait
+	^subject trait

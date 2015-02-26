@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"canMatch:" : "",
+		"foundMatchFor:" : "",
+		"initialize" : "",
+		"replace:with:" : "",
+		"searchFor:replaceWith:" : "StephaneDucasse 3/29/2013 18:00",
+		"searchFor:replaceWith:when:" : "StephaneDucasse 3/29/2013 18:01",
+		"searchForMethod:replaceWith:" : "StephaneDucasse 3/29/2013 18:01",
+		"searchForMethod:replaceWith:when:" : "StephaneDucasse 3/29/2013 18:01",
+		"searchForTree:replaceWith:" : "StephaneDucasse 3/29/2013 18:01",
+		"searchForTree:replaceWith:when:" : "StephaneDucasse 3/29/2013 18:01" } }

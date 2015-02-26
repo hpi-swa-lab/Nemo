@@ -1,0 +1,1 @@
+Defines a trait in the system. Like Class, I concretize my superclass by providing instance variables for the name and the environment.

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"with:exclusions:" : "ar 12/29/2009 18:11" },
+	"instance" : {
+		"-" : "ar 12/29/2009 18:22",
+		"@" : "ar 12/29/2009 18:21",
+		"copyTraitExpression" : "ar 12/29/2009 18:22",
+		"exclusions" : "ar 12/29/2009 18:11",
+		"exclusions:" : "ar 12/29/2009 18:11",
+		"includesSelector:" : "ar 12/29/2009 18:11",
+		"initialize" : "ar 12/29/2009 18:11",
+		"printOn:" : "ar 12/29/2009 18:11",
+		"selectorsAndMethodsDo:" : "ar 12/29/2009 18:11" } }

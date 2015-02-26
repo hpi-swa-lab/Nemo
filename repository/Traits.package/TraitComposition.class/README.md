@@ -1,0 +1,1 @@
+A trait composition is a collection of Traits or TraitTransformations.

@@ -1,0 +1,3 @@
+accessing
+allTraits
+	^subject allTraits

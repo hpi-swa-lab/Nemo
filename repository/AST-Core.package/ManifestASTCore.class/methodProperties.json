@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"rejectClasses" : "StephaneDucasse 3/29/2013 18:06",
+		"rejectRules" : "StephaneDucasse 3/29/2013 18:06",
+		"ruleEquivalentSuperclassMethodsRuleV1FalsePositive" : "StephaneDucasse 3/29/2013 18:06",
+		"ruleLongMethodsRuleV1FalsePositive" : "StephaneDucasse 3/29/2013 18:06",
+		"ruleRefersToClassRuleV1FalsePositive" : "StephaneDucasse 3/29/2013 18:06",
+		"ruleSendsDifferentSuperRuleV1TODO" : "StephaneDucasse 3/29/2013 18:06" },
+	"instance" : {
+		 } }

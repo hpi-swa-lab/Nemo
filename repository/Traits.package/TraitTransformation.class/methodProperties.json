@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"+" : "ar 12/29/2009 18:20",
+		"-" : "ar 12/29/2009 18:11",
+		"@" : "ar 12/29/2009 18:11",
+		"addTraitUser:" : "ar 12/29/2009 18:11",
+		"allTraits" : "ar 12/29/2009 18:11",
+		"asTraitComposition" : "ar 12/29/2009 18:20",
+		"asTraitTransform" : "ar 12/29/2009 18:11",
+		"copyTraitExpression" : "ar 12/29/2009 18:11",
+		"includesTrait:" : "ar 12/29/2009 18:11",
+		"initialize" : "ar 12/29/2009 18:11",
+		"isAliasSelector:" : "ar 12/29/2009 18:11",
+		"isLocalAliasSelector:" : "ar 12/29/2009 18:11",
+		"isTraitTransformation" : "ar 12/29/2009 18:11",
+		"removeTraitUser:" : "ar 12/29/2009 18:11",
+		"selectorsAndMethodsDo:" : "ar 12/29/2009 18:11",
+		"subject:" : "ar 12/29/2009 18:11",
+		"trait" : "ar 12/29/2009 18:11",
+		"traitsDo:" : "ar 12/29/2009 18:11",
+		"updateSelector:withTraitMethod:from:" : "ar 12/29/2009 18:11",
+		"updateTraits" : "ar 12/29/2009 18:11" } }

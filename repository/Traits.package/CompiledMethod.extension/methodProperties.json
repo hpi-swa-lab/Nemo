@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"conflictMarker" : "al 1/23/2004 13:11",
+		"explicitRequirementMarker" : "al 1/23/2004 13:11",
+		"implicitRequirementMarker" : "al 1/23/2004 13:11" },
+	"instance" : {
+		"isConflict" : "al 1/23/2004 13:12",
+		"isExplicitlyRequired" : "NS 3/22/2005 16:32",
+		"isExplicitlyRequired:" : "NS 3/22/2005 16:32",
+		"isImplicitlyRequired:" : "NS 3/22/2005 16:32",
+		"isProvided" : "NS 3/22/2005 16:40",
+		"isProvided:" : "NS 3/22/2005 16:40",
+		"isRequired" : "NS 3/22/2005 16:38",
+		"isRequired:" : "NS 3/22/2005 16:38",
+		"originalTraitMethod" : "ar 12/22/2009 08:23",
+		"originalTraitMethod:" : "ar 12/29/2009 18:22",
+		"originalTraitOrClass" : "ar 12/28/2009 00:30",
+		"sameTraitCodeAs:" : "nice 3/22/2010 22:07" } }

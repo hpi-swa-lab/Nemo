@@ -1,0 +1,14 @@
+{
+	"category" : "Traits-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 12/29/2009 18:16",
+	"instvars" : [
+		"baseTrait" ],
+	"name" : "ClassTrait",
+	"pools" : [
+		 ],
+	"super" : "TraitDescription",
+	"type" : "normal" }

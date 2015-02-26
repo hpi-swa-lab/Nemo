@@ -1,0 +1,3 @@
+*Traits-constants
+implicitRequirementMarker
+	^ #requirement

@@ -1,0 +1,1 @@
+A trait transformation representing the exclusion (-) operator.

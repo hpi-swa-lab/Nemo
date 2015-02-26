@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"startPosition:contents:stopPosition:isByteArray:" : "",
+		"value:" : "" },
+	"instance" : {
+		"=" : "",
+		"acceptVisitor:" : "StephaneDucasse 3/29/2013 15:36",
+		"children" : "",
+		"contents" : "",
+		"contents:" : "",
+		"copyInContext:" : "lr 11/24/2009 23:36",
+		"equalTo:withMapping:" : "",
+		"isFaulty" : "GiselaDecuzzi 6/5/2013 10:29",
+		"isForByteArray" : "",
+		"isLiteralArray" : "",
+		"match:inContext:" : "lr 5/30/2010 11:34",
+		"postCopy" : "lr 11/1/2009 22:35",
+		"replaceNode:withNode:" : "",
+		"replaceSourceWith:" : "",
+		"startPosition:contents:stopPosition:isByteArray:" : "",
+		"startWithoutParentheses" : "",
+		"stopWithoutParentheses" : "",
+		"value" : "" } }

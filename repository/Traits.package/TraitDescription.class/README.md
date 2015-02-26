@@ -1,0 +1,1 @@
+TraitDescription combines common behavior for both (instance) traits and (meta) class traits.

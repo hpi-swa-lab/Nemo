@@ -1,0 +1,3 @@
+*Traits-constants
+conflictMarker
+	^ #traitConflict

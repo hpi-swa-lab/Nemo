@@ -1,0 +1,3 @@
+testing
+isLocalAliasSelector: selector
+	^false

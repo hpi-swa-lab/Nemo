@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"literalToken:" : "StephaneDucasse 3/29/2013 17:52",
+		"value:" : "" },
+	"instance" : {
+		"=" : "lr 5/30/2010 11:36",
+		"acceptVisitor:" : "StephaneDucasse 3/29/2013 15:37",
+		"copyInContext:" : "lr 11/24/2009 23:36",
+		"isFaulty" : "GiselaDecuzzi 6/5/2013 10:30",
+		"literalToken:" : "",
+		"startWithoutParentheses" : "",
+		"stopWithoutParentheses" : "",
+		"token" : "",
+		"value" : "" } }

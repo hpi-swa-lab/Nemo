@@ -1,0 +1,3 @@
+converting
+@ anArrayOfAssociations
+	^self subclassResponsibility
