@@ -1,6 +1,8 @@
 | gitPath gitCache |
 Transcript cr; show: 'travis---->travisCI.st'.
 
+MCMcmUpdater updateFromServer.
+
 gitCache := 'git_cache'.
 gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
   ifNil: [ ((Smalltalk at: #'FileSystem') workingDirectory / gitCache) pathString ]
