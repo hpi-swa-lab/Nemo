@@ -1,7 +1,8 @@
 | gitPath gitCache |
 Transcript cr; show: 'travis---->travisCI.st'.
 
-MCMcmUpdater updateFromServer.
+MCFileBasedRepository flushAllCaches.
+MCMcmUpdater updateFromDefaultRepository.
 
 gitCache := 'git_cache'.
 gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
