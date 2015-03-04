@@ -9,7 +9,8 @@
 		"tailTokens",
 		"tailSource",
 		"method",
-		"count" ],
+		"count",
+		"hash" ],
 	"name" : "BPMarkovChain",
 	"pools" : [
 		 ],

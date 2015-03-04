@@ -1,6 +1,7 @@
 as yet unclassified
 suggestHelp: aKeyboardEvent
-	| command methods filter |
+	| time |
+	time := MessageTally time:[| command methods filter |
 	command := self selection asString withBlanksTrimmed.
 
 	"methods := (BPFilter pipeline: {
@@ -56,20 +57,23 @@ suggestHelp: aKeyboardEvent
 			ifTrue: [clazzAndMethods add: (clazz , '>>', m selector asString)]]].
 	methods := clazzAndMethods."
 
+	"methods := self filterIncludedMarkovChains: methods."
+
 	"sort: [ :a :b | a size < b size ]".
 	BPSuggestionListMorph new
 		updateMaxItems: 20;
 		updateEntries: (methods collectWithIndex: [ :aBPMarkovChain :index |
-			BPSuggestionEntry new
+			[BPSuggestionEntry new
 				id: index;
-				value: aBPMarkovChain;
-				displayValue: aBPMarkovChain asText.
+				data: aBPMarkovChain;
+				displayValue: aBPMarkovChain asText].
 		]);
 		onSelect: [ :aSuggestionEntry |
-			self pasteAtCaret: aSuggestionEntry value asString.
+			self pasteAtCaret: aSuggestionEntry data asString.
 		];
 		position: self absolutePositionForPopUp;
 		width: 300;
 		openInWorld;
-		focusTextFIeld.
+		focusTextFIeld.].
+Transcript cr; show: time.
 	^ true

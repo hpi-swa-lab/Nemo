@@ -1,4 +1,4 @@
-as yet unclassified
-id: aString
+accessing
+id: anObject
 
-	self dictionary at: #id put: aString
+	id := anObject

@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dictionary",
-		"displayValue" ],
+		"data",
+		"displayValue",
+		"id" ],
 	"name" : "BPSuggestionEntry",
 	"pools" : [
 		 ],

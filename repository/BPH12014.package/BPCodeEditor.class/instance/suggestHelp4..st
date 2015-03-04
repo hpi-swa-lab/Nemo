@@ -26,7 +26,7 @@ suggestHelp4: aKeyboardEvent
 		updateEntries: (methods collectWithIndex: [ :aBPMarkovChain :index |
 			BPSuggestionEntry new
 				id: index;
-				value: aBPMarkovChain;
+				data: aBPMarkovChain;
 				displayValue: aBPMarkovChain asText ]);
 		onSelect: [ :aSuggestionEntry |
 			self pasteAtCaret: aSuggestionEntry value asString ];

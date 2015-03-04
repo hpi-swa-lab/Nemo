@@ -5,6 +5,6 @@ initializeFor: anEntry
 	self color: Color transparent.
 	self textMorph: (BPTextMorph new 
 		editable: false;
-		contents: anEntry value asText).
+		contents: anEntry value displayValue). 
 	self addMorph: self textMorph.
 	self bounds: self submorphBounds.
