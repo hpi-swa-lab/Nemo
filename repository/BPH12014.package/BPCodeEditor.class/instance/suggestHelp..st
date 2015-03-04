@@ -57,7 +57,7 @@ suggestHelp: aKeyboardEvent
 			ifTrue: [clazzAndMethods add: (clazz , '>>', m selector asString)]]].
 	methods := clazzAndMethods."
 
-	"methods := self filterIncludedMarkovChains: methods."
+	methods := self filterIncludedMarkovChains: methods.
 
 	"sort: [ :a :b | a size < b size ]".
 	BPSuggestionListMorph new
