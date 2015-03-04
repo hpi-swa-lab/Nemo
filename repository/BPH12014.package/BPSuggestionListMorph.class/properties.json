@@ -13,7 +13,9 @@
 		"filterString",
 		"itemMorphs",
 		"selectIndex",
-		"onSelectBlock" ],
+		"onSelectBlock",
+		"onConfirmSelectionBlock",
+		"onEscapeBlock" ],
 	"name" : "BPSuggestionListMorph",
 	"pools" : [
 		 ],

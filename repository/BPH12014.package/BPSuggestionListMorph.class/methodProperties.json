@@ -4,7 +4,7 @@
 	"instance" : {
 		"addItemMorph:" : "LS 2/11/2015 14:02:43.495",
 		"addItemMorphsFor:" : "LS 1/21/2015 16:16",
-		"confirmSelection" : "LS 2/11/2015 14:05:39.872",
+		"confirmSelection" : "LS 3/4/2015 14:16:24.277",
 		"createItemMorphFor:" : "LS 2/11/2015 16:40:01.519",
 		"deleteAllItemMorphs" : "LS 1/21/2015 16:25",
 		"deselectSelectedItem" : "LS 2/11/2015 13:56:21.019",
@@ -17,8 +17,9 @@
 		"filterString" : "LS 1/21/2015 14:46",
 		"filterString:" : "LS 1/21/2015 14:46",
 		"focusTextFIeld" : "LS 2/5/2015 15:06:21.25",
+		"handleEscape" : "LS 3/4/2015 15:26:24.72",
 		"initialize" : "LS 2/5/2015 14:39:16.731",
-		"initializeFilterMorph" : "LS 2/11/2015 10:51:28.917",
+		"initializeFilterMorph" : "LS 3/4/2015 15:26:05.164",
 		"initializeListMorph" : "LS 2/11/2015 13:47:06.085",
 		"initializeVariables" : "LS 2/5/2015 15:35:40.456",
 		"itemMorphs" : "LS 1/21/2015 16:25",
@@ -28,6 +29,10 @@
 		"maxItems:" : "LS 1/21/2015 13:56",
 		"navigateArrow:" : "DS 2/13/2015 18:14:09.999",
 		"numberDisplayedItems" : "LS 2/11/2015 13:39:15.961",
+		"onConfirmSelection" : "LS 3/4/2015 13:53:50.121",
+		"onConfirmSelection:" : "LS 3/4/2015 13:54:04.696",
+		"onEscape" : "LS 3/4/2015 15:26:46.88",
+		"onEscape:" : "LS 3/4/2015 15:26:35.967",
 		"onSelect" : "LS 2/11/2015 10:53:12.414",
 		"onSelect:" : "LS 2/11/2015 10:53:05.425",
 		"renderList" : "LS 2/12/2015 11:37:59.398",
@@ -40,4 +45,4 @@
 		"stopItemIndex" : "LS 1/21/2015 13:54",
 		"updateEntries:" : "LS 1/21/2015 13:39",
 		"updateMaxItems:" : "LS 1/21/2015 13:56",
-		"updateSelectIndex:" : "LS 2/11/2015 16:50:16.563" } }
+		"updateSelectIndex:" : "LS 3/4/2015 14:00:07.468" } }

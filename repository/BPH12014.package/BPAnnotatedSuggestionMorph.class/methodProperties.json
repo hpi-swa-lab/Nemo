@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"codeUsageMorph" : "LS 3/4/2015 13:39:03.617",
+		"codeUsageMorph:" : "LS 3/4/2015 13:38:56.17",
+		"focusTextFIeld" : "LS 3/4/2015 13:46:27.714",
+		"forMethodReference:" : "LS 3/4/2015 15:49:18.827",
+		"initialize" : "LS 3/4/2015 15:57:16.743",
+		"initializeCodeUsageMorph" : "LS 3/4/2015 16:01:00.253",
+		"initializeSuggestionListMorph" : "LS 3/4/2015 15:50:10.155",
+		"suggestionListMorph" : "LS 3/4/2015 13:38:28.876",
+		"suggestionListMorph:" : "LS 3/4/2015 13:38:36.183",
+		"updateEntries:" : "LS 3/4/2015 15:49:04.725" } }

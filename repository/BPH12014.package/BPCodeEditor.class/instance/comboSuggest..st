@@ -5,12 +5,12 @@ comboSuggest: aKeyboardEvent
 	expressionAtCaret := self receiverAtCaret ifNotNilDo: [ :receivingNode |
 		guessedType := self guessTypeFor: receivingNode formattedCode..
 		guessedType ifNil: [ ^ true ].
-		suggestionMorph := BPSuggestionListMorph new
+		suggestionMorph := BPAnnotatedSuggestionMorph new
 			updateEntries: 	(guessedType asOrderedCollection first methodDict keys
 				collect: [ :aMethodSymbol |
 					BPSuggestionEntry new
 						id: aMethodSymbol;
-						value: aMethodSymbol;
+						value: (MethodReference class: guessedType asOrderedCollection first selector: aMethodSymbol);
 						displayValue: aMethodSymbol, (aMethodSymbol value ifNil: [''] ifNotNilDo: [ :aClass | ':',aClass asString]).
 				]);
 			position: self absolutePositionForPopUp;

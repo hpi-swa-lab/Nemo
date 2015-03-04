@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"suggestionListMorph",
+		"codeUsageMorph" ],
+	"name" : "BPAnnotatedSuggestionMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

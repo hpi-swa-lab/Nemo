@@ -2,7 +2,6 @@ as yet unclassified
 guessTypeByInferencingFor: anExpressionString
 
 	| typeSet |
-	'123' asNumber.
 	typeSet := (Compiler new analyze: anExpressionString
 						in:  nil
 						to: nil
