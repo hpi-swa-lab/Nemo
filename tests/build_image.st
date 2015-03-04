@@ -2,7 +2,10 @@ Utilities setAuthorInitials: 'travisCI'.
 FileStream stdout nextPutAll: 'Author set'; cr; flush.
 
 MCFileBasedRepository flushAllCaches.
+FileStream stdout nextPutAll: 'Repository caches flushed'; cr; flush.
+
 MCMcmUpdater updateFromDefaultRepository.
+FileStream stdout nextPutAll: 'Image updated'; cr; flush.
 
 Transcript class compile: '
 nextPutAll: aColl
@@ -10,13 +13,15 @@ nextPutAll: aColl
 		ifNotNilDo: [:s | s nextPutAll: aColl; flush].
 	^ super nextPutAll: aColl
 '.
+FileStream stdout nextPutAll: 'Transcript #nextPutAll: dupped'; cr; flush.
+
 Transcript class compile: '
 nextPut: aChar
 	([FileStream stdout] on: Error do: [])
 		ifNotNilDo: [:s | s nextPut: aChar; flush].
 	^ super nextPut: aChar
 '.
-FileStream stdout nextPutAll: 'Transcript dupped'; cr; flush.
+FileStream stdout nextPutAll: 'Transcript #nextPut: dupped'; cr; flush.
 
 "Get the Metacello configuration (for Squeak users)"
 Installer swasource
