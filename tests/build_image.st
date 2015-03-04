@@ -22,20 +22,25 @@ Installer swasource
   project: 'SwaUtilities';
   addPackage: 'ConfigurationOfMetacello';
   install.
+FileStream stdout nextPutAll: 'Installed Metacello'; cr; flush.
 
 "Bootstrap Metacello Preview, using mcz files (#'previewBootstrap' symbolic version"
 ((Smalltalk at: #ConfigurationOfMetacello) project version: #'previewBootstrap') load.
+FileStream stdout nextPutAll: 'Bootstrapped Metacello Preview'; cr; flush.
 
 (Smalltalk at: #Metacello) new
   baseline: 'BPH12014';
   repository: 'filetree://', FileDirectory default fullName, '/repository';
   load.
+FileStream stdout nextPutAll: 'Installed BPH12014 baseline'; cr; flush.
 
 "Prepare image for saving"
 Preferences setPreference: #warnIfNoChangesFile toValue: false.
 Preferences setPreference: #warnIfNoSourcesFile toValue: false.
+FileStream stdout nextPutAll: 'Prepared image for saving'; cr; flush.
 
 PluggableSystemWindow allSubInstances do: [:w | w delete].
+FileStream stdout nextPutAll: 'Closed all windows'; cr; flush.
 
 UIManager default
   edit: 'Welcome to our bachelor''s project.
@@ -56,7 +61,6 @@ This field also takes method finder expressions like above,
 but can also display a lot of context information about the
 code snippet that your are editing and the variables and types
 that are currently involved.' label: 'Welcome'.
-
-((Smalltalk at: #SimpleCodeEditor) for: OrderedCollection and: #at:) open.
+FileStream stdout nextPutAll: 'Created welcome message, now quitting'; cr; flush.
 
 SmalltalkImage current snapshot: true andQuit: true.
