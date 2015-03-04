@@ -1,7 +1,6 @@
 as yet unclassified
 suggestHelp: aKeyboardEvent
-	| time |
-	time := MessageTally time:[| command methods filter |
+	| command methods filter |
 	command := self selection asString withBlanksTrimmed.
 
 	"methods := (BPFilter pipeline: {
@@ -74,6 +73,5 @@ suggestHelp: aKeyboardEvent
 		position: self absolutePositionForPopUp;
 		width: 300;
 		openInWorld;
-		focusTextFIeld.].
-Transcript cr; show: time.
+		focusTextFIeld.
 	^ true
