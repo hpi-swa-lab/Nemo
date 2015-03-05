@@ -1,6 +1,6 @@
 as yet unclassified
 suggestHelp: aKeyboardEvent
-	| command methods filter |
+	| command methods filter suggestionMorph |
 	command := self selection asString withBlanksTrimmed.
 
 	"methods := (BPFilter pipeline: {
@@ -59,7 +59,7 @@ suggestHelp: aKeyboardEvent
 	methods := self filterIncludedMarkovChains: methods.
 
 	"sort: [ :a :b | a size < b size ]".
-	BPSuggestionListMorph new
+	suggestionMorph := BPSuggestionListMorph new
 		updateMaxItems: 20;
 		updateEntries: (methods collectWithIndex: [ :aBPMarkovChain :index |
 			[BPSuggestionEntry new
@@ -67,11 +67,14 @@ suggestHelp: aKeyboardEvent
 				data: aBPMarkovChain;
 				displayValue: aBPMarkovChain asText].
 		]);
-		onSelect: [ :aSuggestionEntry |
-			self pasteAtCaret: aSuggestionEntry data asString.
-		];
 		position: self absolutePositionForPopUp;
 		width: 300;
 		openInWorld;
 		focusTextFIeld.
+	suggestionMorph bounds: (suggestionMorph bounds translatedToBeWithin: ActiveWorld bounds).
+	suggestionMorph
+		onEscape: [ suggestionMorph delete ];
+		onConfirmSelection: [ :aSuggestionEntry |
+			self pasteAtCaret: aSuggestionEntry data asString.
+			suggestionMorph delete ].
 	^ true
