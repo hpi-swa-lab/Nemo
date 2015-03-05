@@ -10,7 +10,7 @@ comboSuggest: aKeyboardEvent
 				collect: [ :aMethodSymbol |
 					BPSuggestionEntry new
 						id: aMethodSymbol;
-						value: (MethodReference class: guessedType asOrderedCollection first selector: aMethodSymbol);
+						data: (MethodReference class: guessedType asOrderedCollection first selector: aMethodSymbol);
 						displayValue: aMethodSymbol, (aMethodSymbol value ifNil: [''] ifNotNilDo: [ :aClass | ':',aClass asString]).
 				]);
 			position: self absolutePositionForPopUp;
