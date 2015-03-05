@@ -1,6 +1,9 @@
 | gitPath gitCache |
 Transcript cr; show: 'travis---->travisCI.st'.
 
+Utilities setAuthorInitials: 'travisCI'.
+FileStream stdout nextPutAll: 'Author set'; cr; flush.
+
 MCFileBasedRepository flushAllCaches.
 MCMcmUpdater updateFromDefaultRepository.
 
