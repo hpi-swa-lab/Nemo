@@ -3,7 +3,7 @@ testConfirmSelectionOnEnter
 
 	| selectedEntry |
 	self morph updateSelectIndex: 2;
-		onSelect: [ :aSuggestionEntry | selectedEntry := aSuggestionEntry. ].
+		onConfirmSelection: [ :aSuggestionEntry | selectedEntry := aSuggestionEntry. ].
 	self morph filterMorph onEnter value.
 
 	self assert: (selectedEntry = nil) not description: 'an entry should have been selected '.
