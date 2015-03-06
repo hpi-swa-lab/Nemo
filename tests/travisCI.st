@@ -1,7 +1,7 @@
 | gitPath gitCache |
 Transcript cr; show: 'travis---->travisCI.st'.
 
-Utilities setAuthorInitials: 'travisCI'.
+MetacelloPlatform current authorName: 'travisCI'.
 FileStream stdout nextPutAll: 'Author set'; cr; flush.
 
 MCFileBasedRepository flushAllCaches.
