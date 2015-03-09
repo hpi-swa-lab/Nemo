@@ -1,9 +1,6 @@
 | gitPath gitCache |
 Transcript cr; show: 'travis---->travisCI.st'.
 
-MetacelloPlatform current authorName: 'travisCI'.
-FileStream stdout nextPutAll: 'Author set'; cr; flush.
-
 MCFileBasedRepository flushAllCaches.
 MCMcmUpdater updateFromDefaultRepository.
 
@@ -21,6 +18,9 @@ Metacello new
   baseline: 'BPH12014';
   repository: 'filetree://', gitPath, '/BP2014H1/repository';
   load: 'TravisCI'.
+  
+(Smalltalk at: #MetacelloPlatform) current authorName: 'travisCI'.
+FileStream stdout nextPutAll: 'Author set'; cr; flush.
 
 "Run the tests"
 TravisCIHarness
