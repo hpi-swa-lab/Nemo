@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"for:from:" : "SantiagoBragagnolo 7/15/2012 13:05",
+		"new" : "SantiagoBragagnolo 7/15/2012 13:05" },
+	"instance" : {
+		"cascadeNode" : "SantiagoBragagnolo 7/15/2012 13:01",
+		"compiler:" : "SantiagoBragagnolo 7/15/2012 13:06",
+		"fetchContextVariable:" : "SantiagoBragagnolo 7/15/2012 13:03",
+		"fetchLiteral:" : "SantiagoBragagnolo 7/15/2012 13:02",
+		"fetchSharedVariable:" : "SantiagoBragagnolo 7/15/2012 13:02",
+		"fetchVariable:" : "SantiagoBragagnolo 7/15/2012 13:03",
+		"initialize" : "SantiagoBragagnolo 7/15/2012 14:39",
+		"owner:" : "SantiagoBragagnolo 7/15/2012 13:06",
+		"parent" : "SantiagoBragagnolo 7/15/2012 23:31",
+		"parent:" : "SantiagoBragagnolo 7/15/2012 23:31",
+		"storeCascadeNode:" : "SantiagoBragagnolo 7/15/2012 13:00",
+		"storeVariable:definedBy:" : "SantiagoBragagnolo 7/15/2012 12:49" } }

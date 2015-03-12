@@ -1,0 +1,3 @@
+*TypeInference
+isNodeSuper
+	^ false

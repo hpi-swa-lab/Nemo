@@ -1,0 +1,16 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TInference classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TypeInferenceBaseRecursivity",
+	"pools" : [
+		 ],
+	"super" : "TypeInferenceBaseTestCase",
+	"traitcomposition" : "TInference",
+	"type" : "normal" }

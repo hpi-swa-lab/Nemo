@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:ifPresent:" : "",
+		"addReturningExisting:" : "",
+		"getIndexToAdd:" : "" } }

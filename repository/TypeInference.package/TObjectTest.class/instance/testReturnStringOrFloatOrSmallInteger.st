@@ -1,0 +1,3 @@
+returns
+testReturnStringOrFloatOrSmallInteger
+ self baseTypeTest:' TObject returnStringOrFloatOrSmallInteger'.

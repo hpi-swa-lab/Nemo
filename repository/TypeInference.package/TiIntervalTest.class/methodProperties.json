@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"instantiation" : "SantiagoBragagnolo 6/24/2012 23:42",
+		"testAllSatisfy" : "SantiagoBragagnolo 6/25/2012 00:03",
+		"testAny" : "SantiagoBragagnolo 7/10/2012 22:32",
+		"testAnySatisfy" : "SantiagoBragagnolo 6/25/2012 00:03",
+		"testAt" : "SantiagoBragagnolo 7/10/2012 22:32",
+		"testCollect" : "SantiagoBragagnolo 7/10/2012 22:34",
+		"testDo" : "SantiagoBragagnolo 7/10/2012 22:35",
+		"testEquals" : "SantiagoBragagnolo 7/10/2012 22:31",
+		"testExtent" : "SantiagoBragagnolo 7/10/2012 22:35",
+		"testFirst" : "SantiagoBragagnolo 7/10/2012 22:35",
+		"testIncrement" : "SantiagoBragagnolo 7/10/2012 22:40",
+		"testIndxOf" : "SantiagoBragagnolo 7/10/2012 22:39",
+		"testInstantiation" : "SantiagoBragagnolo 6/25/2012 00:03",
+		"testIsInterval" : "SantiagoBragagnolo 7/10/2012 22:37",
+		"testLast" : "SantiagoBragagnolo 7/10/2012 22:37",
+		"testMinus" : "SantiagoBragagnolo 7/10/2012 22:30",
+		"testPermutationsDo" : "SantiagoBragagnolo 7/10/2012 22:38",
+		"testPlus" : "SantiagoBragagnolo 7/10/2012 22:30",
+		"testRangeIncludes" : "SantiagoBragagnolo 7/10/2012 22:39",
+		"testReverseDo" : "SantiagoBragagnolo 7/10/2012 22:40",
+		"testReverseSize" : "SantiagoBragagnolo 7/10/2012 22:41",
+		"testSizeInterval" : "SantiagoBragagnolo 8/20/2012 22:30",
+		"testWorkingClass" : "SantiagoBragagnolo 6/25/2012 00:03",
+		"workingClass" : "SantiagoBragagnolo 6/24/2012 23:42" } }

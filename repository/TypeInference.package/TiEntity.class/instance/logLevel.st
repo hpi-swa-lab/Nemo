@@ -1,0 +1,3 @@
+log
+logLevel 
+	^10

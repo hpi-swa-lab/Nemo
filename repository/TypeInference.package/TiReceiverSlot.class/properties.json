@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Slots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previousSlot",
+		"instanceSlot" ],
+	"name" : "TiReceiverSlot",
+	"pools" : [
+		 ],
+	"super" : "TiSlot",
+	"type" : "normal" }

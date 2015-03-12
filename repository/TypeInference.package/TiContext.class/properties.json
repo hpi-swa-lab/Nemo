@@ -1,0 +1,18 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variables",
+		"cascadeNode",
+		"compiler",
+		"owner",
+		"parent" ],
+	"name" : "TiContext",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

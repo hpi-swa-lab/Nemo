@@ -1,0 +1,18 @@
+{
+	"category" : "TypeInference-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"causeType",
+		"causeMessage",
+		"cuttedType",
+		"messageArguments",
+		"heuristic" ],
+	"name" : "TiEmptyResult",
+	"pools" : [
+		 ],
+	"super" : "TiResult",
+	"type" : "normal" }

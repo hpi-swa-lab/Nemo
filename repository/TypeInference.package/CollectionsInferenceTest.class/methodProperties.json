@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testNewArrayedCollection" : "SantiagoBragagnolo 6/24/2012 22:39",
+		"testNewDictionary" : "SantiagoBragagnolo 6/24/2012 22:39",
+		"testNewIdentityDictionary" : "SantiagoBragagnolo 6/24/2012 22:39",
+		"testNewMatrix" : "SantiagoBragagnolo 6/24/2012 22:39",
+		"testNewPluggableDictionary" : "SantiagoBragagnolo 6/24/2012 22:39",
+		"testNewSmallDictionary" : "SantiagoBragagnolo 6/24/2012 22:39",
+		"testNewSmallIdentityDictionary" : "SantiagoBragagnolo 6/24/2012 22:39",
+		"testNewSortedCollection" : "SantiagoBragagnolo 6/24/2012 22:39" } }

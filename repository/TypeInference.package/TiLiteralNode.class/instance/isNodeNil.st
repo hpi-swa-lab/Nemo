@@ -1,0 +1,3 @@
+testing
+isNodeNil
+	^ value isNil

@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"exception",
+		"sharedType" ],
+	"name" : "TiExceptionType",
+	"pools" : [
+		 ],
+	"super" : "TiType",
+	"type" : "normal" }
