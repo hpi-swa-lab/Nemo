@@ -1,5 +1,6 @@
 *Traits
 asTraitComposition
+
 	"For convenience the composition {T1. T2 ...} is the same as T1 + T2 + ..."
 	^self isEmpty
 		ifFalse: [

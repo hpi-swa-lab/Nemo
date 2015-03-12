@@ -1,3 +1,4 @@
 converting
 asTraitComposition
+
 	^self
