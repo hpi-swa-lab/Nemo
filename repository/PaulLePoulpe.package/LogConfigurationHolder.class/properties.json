@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe-Configuration",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dict" ],
+	"name" : "LogConfigurationHolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

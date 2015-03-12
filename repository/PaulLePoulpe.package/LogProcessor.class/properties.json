@@ -1,0 +1,16 @@
+{
+	"category" : "PaulLePoulpe",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filter",
+		"formatter",
+		"writer" ],
+	"name" : "LogProcessor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+configuration
+resetConfiguration
+	LogConfigurationHolder reset.

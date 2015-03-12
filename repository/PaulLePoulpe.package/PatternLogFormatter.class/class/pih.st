@@ -1,0 +1,3 @@
+symbols
+pih
+	^'%pih'.

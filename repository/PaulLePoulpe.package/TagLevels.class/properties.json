@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TagLevels",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

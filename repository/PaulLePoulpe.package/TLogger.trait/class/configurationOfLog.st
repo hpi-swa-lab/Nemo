@@ -1,0 +1,3 @@
+configuration
+configurationOfLog
+	<logConfigurationAs: #metacelloConfiguration >

@@ -1,0 +1,20 @@
+{
+	"category" : "PaulLePoulpe",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originObject",
+		"originSelector",
+		"arguments",
+		"tag",
+		"logBlock",
+		"timestamp",
+		"pih" ],
+	"name" : "LogEntity",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

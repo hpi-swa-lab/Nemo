@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testInfoCategoryFilterAccepted" : "SantiagoBragagnolo 6/1/2012 23:15",
+		"testInfoCategoryFilterNotAccepted" : "SantiagoBragagnolo 6/1/2012 23:19",
+		"testInfoHigherLevelFilterNotAccepted" : "SantiagoBragagnolo 6/2/2012 20:59",
+		"testInfoLowerLevelFilterAccepted" : "SantiagoBragagnolo 6/1/2012 23:19",
+		"testInfoSameLevelFilterAccepted" : "SantiagoBragagnolo 6/2/2012 20:57" } }

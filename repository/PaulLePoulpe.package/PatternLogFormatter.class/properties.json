@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe-Formatter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pattern" ],
+	"name" : "PatternLogFormatter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

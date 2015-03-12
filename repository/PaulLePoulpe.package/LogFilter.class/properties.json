@@ -1,0 +1,16 @@
+{
+	"category" : "PaulLePoulpe-Filter",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPAnnouncer classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer" ],
+	"name" : "LogFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TPAnnouncer",
+	"type" : "normal" }

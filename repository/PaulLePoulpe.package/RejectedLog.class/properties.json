@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe-Announcement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RejectedLog",
+	"pools" : [
+		 ],
+	"super" : "LogEntityBasedAnnouncement",
+	"type" : "normal" }

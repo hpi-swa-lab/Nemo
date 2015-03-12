@@ -1,0 +1,6 @@
+{
+	"category" : "PaulLePoulpe",
+	"classtraitcomposition" : "TDefaultLogger classTrait",
+	"commentStamp" : "",
+	"name" : "TLogger",
+	"traitcomposition" : "TDefaultLogger" }

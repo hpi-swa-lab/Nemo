@@ -1,0 +1,15 @@
+{
+	"category" : "PaulLePoulpe-Writer",
+	"classinstvars" : [
+		"instances" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"path",
+		"stream" ],
+	"name" : "LogFileWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

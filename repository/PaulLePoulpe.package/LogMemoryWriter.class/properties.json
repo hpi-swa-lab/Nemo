@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe-Writer",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"logs" ],
+	"name" : "LogMemoryWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

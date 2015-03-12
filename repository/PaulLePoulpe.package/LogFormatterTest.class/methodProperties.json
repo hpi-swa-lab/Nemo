@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCustomFormatter" : "SantiagoBragagnolo 6/1/2012 23:32",
+		"testPatternFormatterClassSelector" : "SantiagoBragagnolo 6/1/2012 23:49",
+		"testPatternFormatterClassSymbol" : "SantiagoBragagnolo 6/1/2012 23:40",
+		"testPatternFormatterEmptyArgument" : "SantiagoBragagnolo 6/1/2012 23:39",
+		"testPatternFormatterSelector" : "SantiagoBragagnolo 6/1/2012 23:42",
+		"testPatternFormatterTag" : "SantiagoBragagnolo 6/1/2012 23:46",
+		"testPatternFormatterTimeStamp" : "SantiagoBragagnolo 6/1/2012 23:46",
+		"testSimpleFormatter" : "SantiagoBragagnolo 6/2/2012 12:33" } }

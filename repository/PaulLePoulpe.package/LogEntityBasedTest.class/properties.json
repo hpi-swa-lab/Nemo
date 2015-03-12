@@ -1,0 +1,17 @@
+{
+	"category" : "PaulLePoulpe-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"info",
+		"debug",
+		"error",
+		"warn" ],
+	"name" : "LogEntityBasedTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

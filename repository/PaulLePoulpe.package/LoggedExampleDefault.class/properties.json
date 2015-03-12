@@ -1,0 +1,16 @@
+{
+	"category" : "PaulLePoulpe-Examples",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TDefaultLogger classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LoggedExampleDefault",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TDefaultLogger",
+	"type" : "normal" }

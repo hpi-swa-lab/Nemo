@@ -1,0 +1,9 @@
+SystemOrganization addCategory: #PaulLePoulpe!
+SystemOrganization addCategory: #'PaulLePoulpe-Configuration'!
+SystemOrganization addCategory: #'PaulLePoulpe-Examples'!
+SystemOrganization addCategory: #'PaulLePoulpe-Filter'!
+SystemOrganization addCategory: #'PaulLePoulpe-Formatter'!
+SystemOrganization addCategory: #'PaulLePoulpe-Test'!
+SystemOrganization addCategory: #'PaulLePoulpe-Writer'!
+SystemOrganization addCategory: #'PaulLePoulpe-Announcement'!
+SystemOrganization addCategory: #'PaulLePoulpe-SqueakCompat'!

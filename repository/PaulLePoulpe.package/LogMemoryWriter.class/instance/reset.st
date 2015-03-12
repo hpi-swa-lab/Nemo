@@ -1,0 +1,3 @@
+write
+reset
+	self initialize.

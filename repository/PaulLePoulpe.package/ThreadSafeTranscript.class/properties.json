@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe-SqueakCompat",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "stephane.ducasse 4/1/2009 21:25",
+	"instvars" : [
+		 ],
+	"name" : "ThreadSafeTranscript",
+	"pools" : [
+		 ],
+	"super" : "TranscriptStream",
+	"type" : "normal" }

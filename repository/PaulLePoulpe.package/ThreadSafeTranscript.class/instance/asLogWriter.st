@@ -1,0 +1,3 @@
+*PaulLePoulpe
+asLogWriter 
+	^LogTranscriptWriter new.

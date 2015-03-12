@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LogFilterTest",
+	"pools" : [
+		 ],
+	"super" : "LogEntityBasedTest",
+	"type" : "normal" }

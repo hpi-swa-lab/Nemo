@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe-Announcement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"logEntity" ],
+	"name" : "LogEntityBasedAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

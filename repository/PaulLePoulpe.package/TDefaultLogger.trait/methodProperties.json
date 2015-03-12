@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"configurationOfLog" : "SantiagoBragagnolo 12/18/2012 11:40",
+		"debug:" : "SantiagoBragagnolo 9/17/2012 15:47",
+		"info:" : "SantiagoBragagnolo 9/17/2012 15:47",
+		"logError:" : "SantiagoBragagnolo 9/17/2012 15:48",
+		"processor" : "SantiagoBragagnolo 6/2/2012 11:22",
+		"resetConfiguration" : "SantiagoBragagnolo 5/31/2012 23:05",
+		"warn:" : "SantiagoBragagnolo 9/17/2012 15:48" },
+	"instance" : {
+		"debug:" : "SantiagoBragagnolo 6/2/2012 22:05",
+		"info:" : "SantiagoBragagnolo 6/2/2012 11:23",
+		"logError:" : "SantiagoBragagnolo 6/2/2012 11:23",
+		"transaction:" : "SantiagoBragagnolo 6/2/2012 11:22",
+		"warn:" : "SantiagoBragagnolo 6/2/2012 11:23" } }

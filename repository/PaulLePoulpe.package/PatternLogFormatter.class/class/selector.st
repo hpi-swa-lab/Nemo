@@ -1,0 +1,3 @@
+symbols
+selector
+	^'%selector'.

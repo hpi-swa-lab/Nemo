@@ -1,0 +1,14 @@
+{
+	"category" : "PaulLePoulpe-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LevelLogFilter",
+	"pools" : [
+		 ],
+	"super" : "CategoryLogFilter",
+	"type" : "normal" }
