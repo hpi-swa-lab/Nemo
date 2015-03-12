@@ -1,4 +1,4 @@
 private-selection
-onNavigateRIght
+onNavigateRight
 
-	^ onNavigateRIghtBlock
+	^ onNavigateRightBlock

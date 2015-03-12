@@ -1,4 +1,4 @@
 private-selection
-onNavigateRIght: aBlock
+onNavigateRight: aBlock
 
-	onNavigateRIghtBlock := aBlock.
+	onNavigateRightBlock := aBlock.
