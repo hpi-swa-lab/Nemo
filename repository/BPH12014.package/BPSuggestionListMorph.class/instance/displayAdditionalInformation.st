@@ -12,4 +12,10 @@ displayAdditionalInformation
 		SystemNavigation default 
 			browseMessageList: (Array with: mr)
 			name: mr asStringOrText
-			autoSelect: stringToSelect]
+			autoSelect: stringToSelect].
+	(markov isKindOf: BPMarkovFromASTChain) ifTrue: [
+		mr := markov methodReference.
+		SystemNavigation default 
+			browseMessageList: (Array with: mr)
+			name: mr asStringOrText
+			autoSelect: markov selector]

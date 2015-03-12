@@ -1,0 +1,16 @@
+{
+	"category" : "BPH12014-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"methodReference",
+		"count" ],
+	"name" : "BPMarkovFromASTChain",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"initializeCmdKeyShortcuts" : "LS 2/11/2015 12:32:27.95",
+		"initializeCmdKeyShortcuts" : "DS 3/12/2015 14:09:57.101",
 		"openForClass:andMethod:" : "DS 2/11/2015 10:59" },
 	"instance" : {
 		"absolutePositionForPopUp" : "DS 2/25/2015 18:01:30.263",
@@ -24,7 +24,7 @@
 		"openFancyUi:" : "DS 2/11/2015 12:20",
 		"openMethodFinder:" : "DS 2/11/2015 12:20",
 		"parseMethodTempsAndArgs" : "DS 2/11/2015 12:20",
-		"pasteAtCaret:" : "DS 2/25/2015 11:02:00.278",
+		"pasteAtCaret:" : "DS 3/12/2015 15:20:22.471",
 		"positionForPopUp" : "DS 2/25/2015 16:23:29.013",
 		"provideUsageEntriesFor:" : "LS 3/12/2015 15:45:17.574",
 		"receiverAtCaret" : "LS 2/26/2015 16:57:54.496",
@@ -32,5 +32,6 @@
 		"selectFrom:to:" : "DS 2/11/2015 17:06:15.11",
 		"suggestHelp2:" : "DS 2/11/2015 12:20",
 		"suggestHelp4:" : "DS 3/4/2015 15:12:17.54",
-		"suggestHelp:" : "DS 3/5/2015 17:15:36.645",
+		"suggestHelp:" : "DS 3/12/2015 14:08:59.609",
+		"suggestHelpAST:" : "DS 3/12/2015 15:54:49.729",
 		"variableNodeAtCaret" : "LS 2/26/2015 12:37:10.126" } }

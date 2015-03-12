@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"MarkovASTChainBook",
 		"MarkovChainBook",
 		"VariableTypeBook" ],
 	"commentStamp" : "",
