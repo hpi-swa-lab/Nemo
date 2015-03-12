@@ -1,0 +1,16 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TInference classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Workspaces",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TInference",
+	"type" : "normal" }

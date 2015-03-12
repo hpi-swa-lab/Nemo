@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TiScripts",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

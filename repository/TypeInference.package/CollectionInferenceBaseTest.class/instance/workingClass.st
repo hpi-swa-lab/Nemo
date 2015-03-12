@@ -1,0 +1,3 @@
+auxiliars
+workingClass 
+	self subclassResponsibility.

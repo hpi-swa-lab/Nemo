@@ -1,0 +1,17 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Singleton" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"typeMemory",
+		"classes",
+		"interpreter",
+		"compiler" ],
+	"name" : "TiSystem",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

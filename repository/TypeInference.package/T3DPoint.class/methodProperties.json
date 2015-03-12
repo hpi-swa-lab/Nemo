@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"x:y:z:" : "" },
+	"instance" : {
+		"changeSomething" : "",
+		"changeZ" : "",
+		"initialize" : "",
+		"printOn:" : "",
+		"setX:y:z:" : "",
+		"superReturnFive" : "",
+		"z:" : "" } }

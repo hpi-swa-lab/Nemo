@@ -1,0 +1,3 @@
+messages
+returnOne 
+	^1.

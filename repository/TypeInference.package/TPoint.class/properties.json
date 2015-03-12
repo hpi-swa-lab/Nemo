@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"x",
+		"y" ],
+	"name" : "TPoint",
+	"pools" : [
+		 ],
+	"super" : "TObject",
+	"type" : "normal" }

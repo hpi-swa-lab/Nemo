@@ -1,0 +1,3 @@
+returns
+superReturnFour
+	^ super returnFour

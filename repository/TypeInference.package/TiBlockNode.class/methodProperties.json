@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"argumentCount" : "SantiagoBragagnolo 5/13/2012 15:06",
+		"connectReturnNodesTo:" : "SantiagoBragagnolo 5/25/2012 13:21",
+		"evaluateWith:" : "SantiagoBragagnolo 5/25/2012 13:21",
+		"inAConditionalContext:" : "SantiagoBragagnolo 5/27/2012 15:52",
+		"initialize" : "SantiagoBragagnolo 5/13/2012 15:06",
+		"makeConnections" : "SantiagoBragagnolo 5/25/2012 13:21",
+		"printOn:" : "",
+		"printOn:level:" : "",
+		"returns" : "SantiagoBragagnolo 5/13/2012 15:06",
+		"seedNonLocalReturn:" : "SantiagoBragagnolo 5/25/2012 13:21",
+		"setAnalyzedBlock:" : "SantiagoBragagnolo 5/25/2012 13:21" } }

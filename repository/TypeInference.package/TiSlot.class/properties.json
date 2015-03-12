@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Slots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"typeSet",
+		"connections" ],
+	"name" : "TiSlot",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

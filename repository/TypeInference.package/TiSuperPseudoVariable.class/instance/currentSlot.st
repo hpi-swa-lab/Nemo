@@ -1,0 +1,3 @@
+accessing
+currentSlot
+	^ receiver currentSlot

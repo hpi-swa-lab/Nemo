@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"argumentTypesArray" : "SantiagoBragagnolo 5/25/2012 13:35",
+		"canMakeCartesianProduct" : "SantiagoBragagnolo 5/25/2012 13:35",
+		"checkSpecialSelectors" : "SantiagoBragagnolo 5/25/2012 13:35",
+		"connectReturnNodesTo:" : "SantiagoBragagnolo 6/3/2012 15:30",
+		"imAppearToBeConditional" : "SantiagoBragagnolo 5/27/2012 16:38",
+		"inAConditionalContext:" : "SantiagoBragagnolo 7/7/2012 16:46",
+		"makeConnections" : "SantiagoBragagnolo 5/25/2012 13:35",
+		"printOn:level:" : "SantiagoBragagnolo 5/12/2012 20:29",
+		"receiverNode" : "SantiagoBragagnolo 5/25/2012 13:35",
+		"refreshCartesianProductWith:forArgument:" : "SantiagoBragagnolo 5/25/2012 15:07",
+		"seed:fromArgument:" : "tfel 2/25/2015 15:04",
+		"seedResult:" : "SantiagoBragagnolo 5/26/2012 19:18",
+		"setSelector:receiver:arguments:" : "SantiagoBragagnolo 5/25/2012 13:42" } }

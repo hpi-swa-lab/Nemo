@@ -1,0 +1,17 @@
+{
+	"category" : "TypeInference-Slots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variableName",
+		"typeSet",
+		"receiverSlot",
+		"variableSlot" ],
+	"name" : "TiInstanceSlot",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

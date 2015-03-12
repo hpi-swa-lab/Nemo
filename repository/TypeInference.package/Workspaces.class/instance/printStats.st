@@ -1,0 +1,5 @@
+inference
+printStats
+	TiSystem current printAnalyzedMethods;
+					   printStatus;
+					   printTypes.

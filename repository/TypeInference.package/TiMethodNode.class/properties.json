@@ -1,0 +1,19 @@
+{
+	"category" : "TypeInference-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"arguments",
+		"temporaries",
+		"statements",
+		"conditional",
+		"precedence" ],
+	"name" : "TiMethodNode",
+	"pools" : [
+		 ],
+	"super" : "TiParseNode",
+	"type" : "normal" }

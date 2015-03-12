@@ -1,0 +1,3 @@
+messages
+indirectRecursion
+	^ self intermediateRecursion

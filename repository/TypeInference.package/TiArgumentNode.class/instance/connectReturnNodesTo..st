@@ -1,0 +1,3 @@
+type propagation
+connectReturnNodesTo: aBlockOrMethodNode
+	actualArgument connectReturnNodesTo: aBlockOrMethodNode.

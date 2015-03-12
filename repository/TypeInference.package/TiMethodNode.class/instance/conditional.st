@@ -1,0 +1,3 @@
+type propagation
+conditional
+	^conditional.

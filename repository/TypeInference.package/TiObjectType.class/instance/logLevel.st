@@ -1,0 +1,3 @@
+private
+logLevel 
+	^1.

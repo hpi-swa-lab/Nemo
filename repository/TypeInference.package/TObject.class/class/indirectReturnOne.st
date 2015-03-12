@@ -1,0 +1,6 @@
+messages
+indirectReturnOne
+	^ self returnOne
+
+	
+

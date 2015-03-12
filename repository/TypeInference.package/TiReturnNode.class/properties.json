@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expression" ],
+	"name" : "TiReturnNode",
+	"pools" : [
+		 ],
+	"super" : "TiParseNode",
+	"type" : "normal" }

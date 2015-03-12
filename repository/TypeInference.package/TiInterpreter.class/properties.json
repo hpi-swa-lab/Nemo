@@ -1,0 +1,20 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "AnObsoleteTPAnnouncer classTrait",
+	"classvars" : [
+		"Level" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"receiverStack",
+		"selectorStack",
+		"argumentsStack",
+		"analyzedMethodStack",
+		"announcer" ],
+	"name" : "TiInterpreter",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"traitcomposition" : "AnObsoleteTPAnnouncer",
+	"type" : "normal" }

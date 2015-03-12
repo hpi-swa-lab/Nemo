@@ -1,0 +1,3 @@
+accessing
+slot
+	self subclassResponsibility

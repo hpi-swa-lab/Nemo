@@ -1,0 +1,3 @@
+initialization
+returnOne
+	^1

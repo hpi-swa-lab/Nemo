@@ -1,0 +1,3 @@
+returns
+returnString
+	^ 'string'

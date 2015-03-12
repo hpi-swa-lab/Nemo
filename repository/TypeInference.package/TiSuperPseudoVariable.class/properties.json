@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"methodClass",
+		"receiver" ],
+	"name" : "TiSuperPseudoVariable",
+	"pools" : [
+		 ],
+	"super" : "TiVariableNode",
+	"type" : "normal" }

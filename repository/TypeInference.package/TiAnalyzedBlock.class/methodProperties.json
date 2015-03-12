@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"argumentCount" : "SantiagoBragagnolo 5/13/2012 15:05",
+		"definition:" : "SantiagoBragagnolo 5/25/2012 13:32",
+		"evaluateWith:" : "SantiagoBragagnolo 6/3/2012 18:43",
+		"inAConditionalContext:" : "SantiagoBragagnolo 5/27/2012 15:50",
+		"makeConnections" : "SantiagoBragagnolo 5/25/2012 13:31",
+		"printOn:" : "",
+		"printOn:level:" : "",
+		"returns" : "SantiagoBragagnolo 5/13/2012 15:06",
+		"veryDeepCopyWith:" : "SantiagoBragagnolo 5/13/2012 15:06" } }

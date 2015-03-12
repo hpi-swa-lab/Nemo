@@ -1,0 +1,16 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "AnObsoleteTLogger classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "fg 8/13/2001 12:53",
+	"instvars" : [
+		 ],
+	"name" : "TiEntity",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "AnObsoleteTLogger",
+	"type" : "normal" }

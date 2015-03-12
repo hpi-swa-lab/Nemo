@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"elements",
+		"contextBuilder" ],
+	"name" : "BracedArrayCascadeNodeBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

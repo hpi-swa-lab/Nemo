@@ -1,0 +1,16 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TInference classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ExpressionTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "TInference",
+	"type" : "normal" }

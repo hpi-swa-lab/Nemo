@@ -1,0 +1,3 @@
+large integer
+primitiveSubtractLargeIntegers
+	^	self primitiveAddLargeIntegers.

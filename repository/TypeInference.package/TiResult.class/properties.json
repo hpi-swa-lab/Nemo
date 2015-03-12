@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"return",
+		"arguments" ],
+	"name" : "TiResult",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"NeverFailSelectors" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"receiver",
+		"arguments",
+		"neverFail" ],
+	"name" : "TiPrimitiveBasis",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

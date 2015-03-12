@@ -1,0 +1,3 @@
+analyzing
+resolveCurrentAnalyzedMethod
+	^self analyzedMethodStack last.

@@ -1,0 +1,4 @@
+returns
+returnGlobal
+	^ World
+

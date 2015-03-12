@@ -1,0 +1,1 @@
+I am a class to hold all the Type Inference subclasses

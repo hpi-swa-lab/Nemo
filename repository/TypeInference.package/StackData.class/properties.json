@@ -1,0 +1,21 @@
+{
+	"category" : "TypeInference-Announcement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receptor",
+		"selector",
+		"arguments",
+		"method",
+		"sender",
+		"senderMethod",
+		"senderSelector",
+		"senderArguments" ],
+	"name" : "StackData",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

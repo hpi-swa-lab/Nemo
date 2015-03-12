@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TiTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

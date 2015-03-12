@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TiTestRunner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

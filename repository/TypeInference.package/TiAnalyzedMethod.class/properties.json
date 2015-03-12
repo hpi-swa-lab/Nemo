@@ -1,0 +1,22 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"selector",
+		"primitive",
+		"definition",
+		"invocations",
+		"currentInvocationArgTypesArray",
+		"conditionalContext",
+		"realReceiverType",
+		"context" ],
+	"name" : "TiAnalyzedMethod",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+exactClass
+	^ exactClass

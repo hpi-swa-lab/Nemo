@@ -1,0 +1,3 @@
+returns
+superReturnFive
+	^ super returnFive

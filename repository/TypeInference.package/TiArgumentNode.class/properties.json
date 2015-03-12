@@ -1,0 +1,18 @@
+{
+	"category" : "TypeInference-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"typeSet",
+		"message",
+		"actualArgument",
+		"position",
+		"resultSlot" ],
+	"name" : "TiArgumentNode",
+	"pools" : [
+		 ],
+	"super" : "TiNode",
+	"type" : "normal" }

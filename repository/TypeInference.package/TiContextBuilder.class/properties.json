@@ -1,0 +1,16 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"compiler",
+		"analyzedMethod",
+		"context" ],
+	"name" : "TiContextBuilder",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

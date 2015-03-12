@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"symbol",
+		"sharedType" ],
+	"name" : "TiSymbolType",
+	"pools" : [
+		 ],
+	"super" : "TiType",
+	"type" : "normal" }

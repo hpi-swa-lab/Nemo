@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Announcement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StackPushed",
+	"pools" : [
+		 ],
+	"super" : "StackData",
+	"type" : "normal" }

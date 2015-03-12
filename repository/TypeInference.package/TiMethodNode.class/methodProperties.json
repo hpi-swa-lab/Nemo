@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"argumentTypeSets" : "SantiagoBragagnolo 5/25/2012 13:43",
+		"conditional" : "SantiagoBragagnolo 5/27/2012 15:49",
+		"inAConditionalContext:" : "SantiagoBragagnolo 5/27/2012 15:56",
+		"makeConnections" : "SantiagoBragagnolo 6/17/2012 17:30",
+		"printOn:" : "",
+		"receiverTypeSet" : "SantiagoBragagnolo 5/25/2012 13:43",
+		"seedReceiver:arguments:" : "SantiagoBragagnolo 7/7/2012 16:09",
+		"setReceiver:arguments:temporaries:statements:conditional:precedence:" : "SantiagoBragagnolo 7/7/2012 09:30",
+		"statements" : "SantiagoBragagnolo 5/13/2012 16:16" } }

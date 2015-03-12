@@ -1,0 +1,3 @@
+braces
+simpleBraceExpression
+	^{ #a . #b }

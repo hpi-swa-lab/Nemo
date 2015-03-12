@@ -1,0 +1,3 @@
+building
+initialize
+	self subclassResponsibility

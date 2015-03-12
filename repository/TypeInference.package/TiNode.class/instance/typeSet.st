@@ -1,0 +1,3 @@
+type propagation
+typeSet
+	self subclassResponsibility

@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+configuration
+configurationOfLog
+	^self.

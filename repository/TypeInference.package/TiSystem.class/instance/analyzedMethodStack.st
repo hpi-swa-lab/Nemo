@@ -1,0 +1,3 @@
+accessing
+analyzedMethodStack
+	^ interpreter analyzedMethodStack.

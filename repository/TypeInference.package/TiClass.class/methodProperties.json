@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"analyzedMethodAt:calledFromContextOf:" : "SantiagoBragagnolo 7/16/2012 00:09",
+		"classSymbol" : "SantiagoBragagnolo 5/25/2012 13:20",
+		"methodDict" : "SantiagoBragagnolo 5/25/2012 13:20",
+		"printOn:" : "SantiagoBragagnolo 5/13/2012 16:16",
+		"selectors" : "SantiagoBragagnolo 5/25/2012 13:20",
+		"selectorsDo:" : "SantiagoBragagnolo 5/25/2012 13:20",
+		"setClass:" : "SantiagoBragagnolo 5/25/2012 13:20",
+		"totalInvocations" : "SantiagoBragagnolo 5/25/2012 13:19",
+		"totalMethods" : "SantiagoBragagnolo 5/25/2012 13:19",
+		"wrappedClass" : "SantiagoBragagnolo 5/25/2012 13:19" } }

@@ -1,0 +1,3 @@
+returns
+returnSymbol
+	^ #symbol

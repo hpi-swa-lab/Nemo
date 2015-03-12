@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"initialize" : "",
+		"new" : "" },
+	"instance" : {
+		"analyzedMethodStack" : "SantiagoBragagnolo 7/14/2012 11:18",
+		"announcer" : "SantiagoBragagnolo 6/5/2012 00:38",
+		"announcer:" : "SantiagoBragagnolo 6/5/2012 00:38",
+		"detectRecursion" : "SantiagoBragagnolo 7/7/2012 16:35",
+		"isAFakeRecursion:and:" : "SantiagoBragagnolo 7/7/2012 16:34",
+		"lookupMethod:sentToType:receiverNode:" : "SantiagoBragagnolo 5/25/2012 13:07",
+		"lookupMethod:sentToType:startingFromClass:" : "SantiagoBragagnolo 7/16/2012 00:14",
+		"popAll" : "SantiagoBragagnolo 6/9/2012 13:17",
+		"pushReceiver:selector:arguments:anlyzedMethod:" : "SantiagoBragagnolo 6/9/2012 13:17",
+		"resetStack" : "SantiagoBragagnolo 5/25/2012 13:04",
+		"resolveAnnouncer" : "topa 2/25/2015 11:50",
+		"selectorStack" : "SantiagoBragagnolo 5/25/2012 13:04",
+		"sendMessage:withArgs:" : "SantiagoBragagnolo 7/7/2012 16:51",
+		"sendMessage:withArgs:receiverNode:from:" : "SantiagoBragagnolo 7/15/2012 14:41",
+		"senderContextOf:" : "SantiagoBragagnolo 6/17/2012 11:17",
+		"stackContextOf:" : "SantiagoBragagnolo 6/17/2012 13:48" } }

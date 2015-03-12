@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variableName" ],
+	"name" : "TiVariable",
+	"pools" : [
+		 ],
+	"super" : "TiVariableNode",
+	"type" : "normal" }

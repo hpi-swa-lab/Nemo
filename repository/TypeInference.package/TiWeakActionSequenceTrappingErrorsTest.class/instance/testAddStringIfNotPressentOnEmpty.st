@@ -1,0 +1,3 @@
+testing
+testAddStringIfNotPressentOnEmpty
+ ^self baseTypeTest: 'TiWeakActionSequenceTrappingErrorsTest new addStringIfNotPressentOnEmpty.'.

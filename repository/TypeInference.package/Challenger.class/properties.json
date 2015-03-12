@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"success",
+		"fail" ],
+	"name" : "Challenger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

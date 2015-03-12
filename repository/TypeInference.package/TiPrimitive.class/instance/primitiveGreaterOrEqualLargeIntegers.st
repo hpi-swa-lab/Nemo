@@ -1,0 +1,3 @@
+large integer
+primitiveGreaterOrEqualLargeIntegers
+	^self primitiveEqualLargeIntegers

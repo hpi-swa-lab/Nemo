@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"failed" : "" },
+	"instance" : {
+		"addReturn:" : "SantiagoBragagnolo 5/25/2012 12:35",
+		"canFail" : "SantiagoBragagnolo 5/25/2012 12:34",
+		"isEmptyResult" : "SantiagoBragagnolo 5/25/2012 12:34",
+		"isSuccess" : "SantiagoBragagnolo 5/25/2012 12:34",
+		"printOn:" : "",
+		"setReceiver:arguments:" : "SantiagoBragagnolo 5/25/2012 12:33",
+		"setReceiver:arguments:return:" : "SantiagoBragagnolo 5/25/2012 12:33",
+		"setSuccessFlag:" : "SantiagoBragagnolo 5/25/2012 12:32" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Blocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nonLocalReturnSlot",
+		"analyzedBlock" ],
+	"name" : "TiBlockNode",
+	"pools" : [
+		 ],
+	"super" : "TiParseNode",
+	"type" : "normal" }

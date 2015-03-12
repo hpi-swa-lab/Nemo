@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"example" : "",
+		"example2" : "" },
+	"instance" : {
+		"connectTo:" : "",
+		"connections" : "",
+		"name:" : "",
+		"printOn:" : "" } }

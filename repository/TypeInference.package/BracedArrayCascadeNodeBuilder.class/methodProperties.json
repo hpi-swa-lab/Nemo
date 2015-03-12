@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"buildFor:" : "SantiagoBragagnolo 6/30/2012 17:59",
+		"buildFor:using:" : "SantiagoBragagnolo 7/16/2012 00:22" },
+	"instance" : {
+		"build" : "SantiagoBragagnolo 7/16/2012 00:24",
+		"elements:" : "SantiagoBragagnolo 6/30/2012 17:48",
+		"endMessage" : "SantiagoBragagnolo 7/16/2012 00:24",
+		"messageFor:" : "SantiagoBragagnolo 7/16/2012 00:24",
+		"messages" : "SantiagoBragagnolo 6/30/2012 18:02",
+		"receptor" : "SantiagoBragagnolo 7/16/2012 00:23",
+		"using:" : "SantiagoBragagnolo 7/16/2012 00:22" } }

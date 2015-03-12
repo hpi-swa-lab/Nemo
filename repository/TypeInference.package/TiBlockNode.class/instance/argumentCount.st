@@ -1,0 +1,3 @@
+accessing
+argumentCount
+	^ analyzedBlock argumentCount

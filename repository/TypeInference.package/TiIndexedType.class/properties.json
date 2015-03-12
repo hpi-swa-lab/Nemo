@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"indexedVarTypes" ],
+	"name" : "TiIndexedType",
+	"pools" : [
+		 ],
+	"super" : "TiObjectType",
+	"type" : "normal" }

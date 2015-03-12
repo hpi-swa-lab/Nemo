@@ -1,0 +1,3 @@
+changing
+changeSomething
+	^ self changeZ

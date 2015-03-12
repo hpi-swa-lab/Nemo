@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Blocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"definition",
+		"evaluations" ],
+	"name" : "TiAnalyzedBlock",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

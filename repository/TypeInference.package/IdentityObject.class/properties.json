@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oop" ],
+	"name" : "IdentityObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

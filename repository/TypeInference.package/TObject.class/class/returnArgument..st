@@ -1,0 +1,3 @@
+returns
+returnArgument: anObject
+	^ anObject

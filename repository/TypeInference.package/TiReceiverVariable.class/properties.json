@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instVars" ],
+	"name" : "TiReceiverVariable",
+	"pools" : [
+		 ],
+	"super" : "TiRegularVariable",
+	"type" : "normal" }

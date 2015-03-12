@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"argumentResultSlot" : "SantiagoBragagnolo 5/25/2012 13:44",
+		"connectReturnNodesTo:" : "SantiagoBragagnolo 5/25/2012 13:44",
+		"connectTo:" : "",
+		"isNodeNil" : "SantiagoBragagnolo 5/25/2012 13:44",
+		"isNodeSelf" : "SantiagoBragagnolo 5/25/2012 13:44",
+		"isNodeSuper" : "SantiagoBragagnolo 5/25/2012 13:44",
+		"isReceiverNode" : "SantiagoBragagnolo 5/25/2012 13:44",
+		"isReturnSelf" : "SantiagoBragagnolo 5/25/2012 13:44",
+		"isVariableNode" : "SantiagoBragagnolo 5/25/2012 13:44",
+		"makeConnections" : "",
+		"printOn:" : "",
+		"printOn:level:" : "",
+		"seed:" : "",
+		"slot" : "",
+		"typeSet" : "",
+		"variableName" : "" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sharedVariables",
+		"literals",
+		"currentContextBuilder" ],
+	"name" : "TiCompiler",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

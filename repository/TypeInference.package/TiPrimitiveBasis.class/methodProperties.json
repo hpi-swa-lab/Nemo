@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"implementedPrimitives" : "SantiagoBragagnolo 6/17/2012 15:32",
+		"implementedQuantity" : "SantiagoBragagnolo 6/17/2012 15:32",
+		"initialize" : "SantiagoBragagnolo 6/24/2012 22:19",
+		"primitiveTable" : "SantiagoBragagnolo 6/30/2012 18:07",
+		"toBeImplemented" : "SantiagoBragagnolo 6/17/2012 15:32",
+		"toPort" : "SantiagoBragagnolo 6/17/2012 15:32" },
+	"instance" : {
+		"addIntegerReturnTo:" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"argumentTypeSets" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"argumentTypeSetsFrom:" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"booleanResult" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"createResult" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"createResultReceiver:arguments:return:" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"generalizedMatchOrFail:" : "SantiagoBragagnolo 7/1/2012 17:49",
+		"matchOrFail:" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"messageArguments" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"neverFail" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"primitiveSignal" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"printOn:" : "SantiagoBragagnolo 6/17/2012 15:31",
+		"receiver" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"receiverTypeSet" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"selector" : "SantiagoBragagnolo 6/17/2012 16:00",
+		"selector:" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"setReceiver:arguments:" : "SantiagoBragagnolo 6/17/2012 15:30",
+		"try" : "SantiagoBragagnolo 6/17/2012 16:57" } }

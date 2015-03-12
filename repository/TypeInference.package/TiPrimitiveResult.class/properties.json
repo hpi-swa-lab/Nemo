@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"successFlag" ],
+	"name" : "TiPrimitiveResult",
+	"pools" : [
+		 ],
+	"super" : "TiMessageResult",
+	"type" : "normal" }

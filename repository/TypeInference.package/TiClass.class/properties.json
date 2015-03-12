@@ -1,0 +1,15 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"methodDict" ],
+	"name" : "TiClass",
+	"pools" : [
+		 ],
+	"super" : "TiEntity",
+	"type" : "normal" }

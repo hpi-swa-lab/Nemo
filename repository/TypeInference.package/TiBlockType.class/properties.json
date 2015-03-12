@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Blocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"blockNode" ],
+	"name" : "TiBlockType",
+	"pools" : [
+		 ],
+	"super" : "TiObjectType",
+	"type" : "normal" }

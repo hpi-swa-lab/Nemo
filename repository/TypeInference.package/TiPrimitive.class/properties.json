@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "TiPrimitive",
+	"pools" : [
+		 ],
+	"super" : "TiPrimitiveBasis",
+	"type" : "normal" }

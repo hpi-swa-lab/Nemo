@@ -1,0 +1,19 @@
+{
+	"category" : "TypeInference-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"selector",
+		"arguments",
+		"cartesianProduct",
+		"results",
+		"conditionalContext" ],
+	"name" : "TiMessageNode",
+	"pools" : [
+		 ],
+	"super" : "TiParseNode",
+	"type" : "normal" }

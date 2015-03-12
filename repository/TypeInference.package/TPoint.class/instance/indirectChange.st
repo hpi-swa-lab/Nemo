@@ -1,0 +1,3 @@
+changing
+indirectChange
+	self changeSomething.

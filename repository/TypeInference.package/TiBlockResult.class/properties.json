@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nonLocalReturn" ],
+	"name" : "TiBlockResult",
+	"pools" : [
+		 ],
+	"super" : "TiResult",
+	"type" : "normal" }

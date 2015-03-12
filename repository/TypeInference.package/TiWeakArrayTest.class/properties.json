@@ -1,0 +1,16 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TInference classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TiWeakArrayTest",
+	"pools" : [
+		 ],
+	"super" : "CollectionInferenceBaseTest",
+	"traitcomposition" : "TInference",
+	"type" : "normal" }

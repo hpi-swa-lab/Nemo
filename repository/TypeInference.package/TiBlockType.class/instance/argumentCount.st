@@ -1,0 +1,3 @@
+accessing
+argumentCount
+	^ blockNode argumentCount

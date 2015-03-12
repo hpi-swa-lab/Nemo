@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context" ],
+	"name" : "ContextualDeepCopier",
+	"pools" : [
+		 ],
+	"super" : "DeepCopier",
+	"type" : "normal" }

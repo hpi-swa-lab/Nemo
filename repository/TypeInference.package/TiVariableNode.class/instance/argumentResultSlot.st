@@ -1,0 +1,3 @@
+accessing
+argumentResultSlot
+	^ self newSlot

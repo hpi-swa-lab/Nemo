@@ -1,0 +1,14 @@
+{
+	"category" : "TypeInference-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"z" ],
+	"name" : "T3DPoint",
+	"pools" : [
+		 ],
+	"super" : "TPoint",
+	"type" : "normal" }
