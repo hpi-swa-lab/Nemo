@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "klub 2/26/2010 21:36",
+		"testAllSubscriptions" : "klub 2/26/2010 21:22",
+		"testRegisterBasic" : "klub 2/26/2010 21:22",
+		"testRegisterCollections" : "klub 2/26/2010 21:23",
+		"testRegisterCollections2" : "klub 2/26/2010 21:23",
+		"testRemoveSubscriptions" : "klub 2/26/2010 21:25",
+		"testSubscriptionsOfFor" : "klub 2/26/2010 21:25" } }

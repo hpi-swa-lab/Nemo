@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAnnounce" : "klub 2/26/2010 21:27",
+		"testInitialize" : "klub 2/26/2010 21:36",
+		"testMayAnnounce" : "klub 2/26/2010 21:28",
+		"testMultipleSubscriptions" : "klub 2/26/2010 21:29",
+		"testOnDo" : "klub 2/26/2010 21:37",
+		"testOnSendTo" : "klub 2/26/2010 21:38",
+		"testSubcription" : "klub 2/26/2010 21:35",
+		"testSubcription1" : "klub 2/26/2010 21:29",
+		"testSubcription2" : "klub 2/26/2010 21:30",
+		"testSubcriptionCollection" : "klub 2/26/2010 21:31",
+		"testSubcriptionWhenSendTo" : "klub 2/26/2010 21:33",
+		"testSubscriptionRegistry" : "klub 2/26/2010 21:36",
+		"testUnsubscribe" : "klub 2/26/2010 21:33",
+		"testWhenDo" : "klub 2/26/2010 21:39",
+		"testWhenDoFor" : "klub 2/26/2010 21:39",
+		"testWhenSendTo" : "klub 2/26/2010 21:40" } }

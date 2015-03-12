@@ -1,0 +1,14 @@
+{
+	"category" : "Announcements-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ul 11/3/2006 03:23",
+	"instvars" : [
+		 ],
+	"name" : "PerformanceTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer",
+		"announcementClass",
+		"subscriber",
+		"interceptors",
+		"selector" ],
+	"name" : "Subscription",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

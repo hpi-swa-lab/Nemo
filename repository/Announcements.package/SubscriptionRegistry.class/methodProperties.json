@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allSubscriptions" : "klub 2/26/2010 21:46",
+		"allSubscriptionsDo:" : "klub 2/26/2010 20:28",
+		"initialize" : "klub 2/26/2010 21:22",
+		"isEmpty" : "ul 9/8/2007 14:24",
+		"register:" : "klub 2/26/2010 21:46",
+		"removeSubscription:" : "klub 2/26/2010 20:58",
+		"removeSubscriptions:" : "ul 9/8/2007 14:33",
+		"subscriptionClass" : "ul 9/8/2007 14:34",
+		"subscriptionClass:" : "ul 9/8/2007 14:34",
+		"subscriptionsFor:" : "klub 2/26/2010 21:46",
+		"subscriptionsFor:announce:" : "ul 9/8/2007 14:39",
+		"subscriptionsOf:" : "klub 2/26/2010 21:46",
+		"subscriptionsOf:for:" : "ul 9/8/2007 14:40" } }

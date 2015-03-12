@@ -1,0 +1,14 @@
+{
+	"category" : "Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WeakSubscription",
+	"pools" : [
+		 ],
+	"super" : "StrongSubscription",
+	"type" : "normal" }

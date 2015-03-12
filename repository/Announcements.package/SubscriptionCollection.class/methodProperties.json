@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"interceptWith:while:" : "ul 9/8/2007 13:22",
+		"make:" : "ul 9/6/2007 17:27",
+		"makeStrong" : "klub 2/26/2010 21:22",
+		"makeWeak" : "klub 2/26/2010 21:36",
+		"suspendWhile:" : "ul 9/8/2007 13:22",
+		"suspendWhile:ifAnyMissed:" : "ul 9/8/2007 13:21",
+		"value:" : "ul 9/8/2007 14:44" } }

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"announce:" : "ul 9/8/2007 15:06",
+		"announcementBaseClass" : "ul 9/8/2007 15:04",
+		"announcementBaseClass:" : "ul 9/8/2007 15:04",
+		"initialize" : "klub 2/26/2010 21:36",
+		"mayAnnounce:" : "ul 9/8/2007 15:06",
+		"on:do:" : "ul 9/8/2007 15:09",
+		"on:send:to:" : "ul 9/8/2007 15:09",
+		"subscriptionRegistry" : "ul 9/8/2007 15:04",
+		"unsubscribe:" : "ul 9/8/2007 15:10",
+		"unsubscribe:from:" : "ul 9/8/2007 15:11",
+		"when:do:" : "ul 9/8/2007 15:11",
+		"when:do:for:" : "klub 2/26/2010 21:45",
+		"when:send:to:" : "klub 2/26/2010 21:46" } }

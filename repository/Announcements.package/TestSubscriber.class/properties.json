@@ -1,0 +1,16 @@
+{
+	"category" : "Announcements-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcements",
+		"announcers",
+		"runs" ],
+	"name" : "TestSubscriber",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
