@@ -37,5 +37,12 @@ suggestHelpAST: aKeyboardEventOrString
 			self pasteAtCaret: selectedDataString.
 			suggestionMorph delete.
 			(selectedDataString endsWith: ':') ifFalse: [
-				self suggestHelpAST: selectedDataString] ].
+				self suggestHelpAST: selectedDataString] ];
+		onNavigateRight: [| markov mr |
+			markov := suggestionMorph selectedEntry data.
+			mr := markov methodReference.
+			SystemNavigation default 
+				browseMessageList: (Array with: mr)
+				name: mr asStringOrText
+				autoSelect: markov selector].
 	^ true

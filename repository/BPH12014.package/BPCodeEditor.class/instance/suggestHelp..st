@@ -34,5 +34,17 @@ suggestHelp: aKeyboardEvent
 		onEscape: [ suggestionMorph delete ];
 		onConfirmSelection: [ :aSuggestionEntry |
 			self pasteAtCaret: aSuggestionEntry data asString.
-			suggestionMorph delete ].
+			suggestionMorph delete ];
+		onNavigateRight: [| markov mr sourceString stringToSelect |
+			markov := suggestionMorph selectedEntry data.
+			(markov isKindOf: BPMarkovChain) ifTrue: [
+				mr := (MethodReference class: markov method actualClass selector: markov method selector).
+				sourceString := markov method sourceString.
+				stringToSelect := sourceString
+					copyFrom: markov tailTokens first start
+					to: markov tailTokens last end.
+				SystemNavigation default 
+					browseMessageList: (Array with: mr)
+					name: mr asStringOrText
+					autoSelect: stringToSelect].].
 	^ true
