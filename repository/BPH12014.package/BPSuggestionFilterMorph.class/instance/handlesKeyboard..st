@@ -1,4 +1,5 @@
-private-event-handling
-handlesKeyboard: anEvent
+event-handling
+handlesKeyboard: aKeyboardEvent
 
-	^true
+	1.
+	self halt.

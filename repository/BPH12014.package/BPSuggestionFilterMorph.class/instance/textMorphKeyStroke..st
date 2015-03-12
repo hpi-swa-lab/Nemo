@@ -1,6 +1,6 @@
 private-event-handling
 textMorphKeyStroke: aKeyboardEvent
-	
+
 	aKeyboardEvent keyValue = Character escape asciiValue ifTrue: [
 		self onEscape ifNotNilDo: [ :onEscapeBlock | onEscapeBlock value].
 	].

@@ -2,7 +2,7 @@ as yet unclassified
 guessTypeByNameFor: anExpressionString
 
 	| curVarName |
-	((RxMatcher forString: '^([a-zA-Z][a-z0-9]*)$') matchesIn: anExpressionString)
+	((RxMatcher forString: '^([a-zA-Z][a-z0-9]*)+$') matchesIn: anExpressionString)
 		ifEmpty: [ ^ nil ].
 	curVarName := anExpressionString.
 	[curVarName size > 0] whileTrue: [

@@ -1,4 +1,4 @@
-private-accessing
+accessing
 focus
 
 	ActiveHand newKeyboardFocus: self.

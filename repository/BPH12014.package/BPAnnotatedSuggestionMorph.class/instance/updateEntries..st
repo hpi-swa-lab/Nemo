@@ -1,4 +1,4 @@
 as yet unclassified
 updateEntries: anOrderedCollection
 
-	self suggestionListMorph updateEntries: anOrderedCollection.
+	self methodSuggestionListMorph updateEntries: anOrderedCollection.
