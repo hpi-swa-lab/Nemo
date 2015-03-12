@@ -1,13 +1,14 @@
 {
-	"category" : "BPH12014-Util",
+	"category" : "BPH12014-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "BPMarkovNodeVisitor",
+		"chains",
+		"methodReference" ],
+	"name" : "BPMarkovFromASTGenerator",
 	"pools" : [
 		 ],
 	"super" : "RBProgramNodeVisitor",
