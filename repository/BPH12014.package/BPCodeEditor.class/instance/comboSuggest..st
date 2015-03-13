@@ -14,7 +14,6 @@ comboSuggest: aKeyboardEvent
 						displayValue: aMethodSymbol, (aMethodSymbol value ifNil: [''] ifNotNilDo: [ :aClass | ':',aClass asString]).
 				]);
 			position: self absolutePositionForPopUp;
-			usageProvider: [ :methodEntry | self provideUsageEntriesFor: methodEntry data ];
 			width: 300;
 			openInWorld;
 			focusTextFIeld

@@ -16,7 +16,7 @@
 		"onSelectBlock",
 		"onConfirmSelectionBlock",
 		"onEscapeBlock",
-		"onNavigateRightBlock" ],
+		"onNavigateRIghtBlock" ],
 	"name" : "BPSuggestionListMorph",
 	"pools" : [
 		 ],

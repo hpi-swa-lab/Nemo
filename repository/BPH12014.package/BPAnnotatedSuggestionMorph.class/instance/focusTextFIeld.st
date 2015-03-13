@@ -1,4 +1,4 @@
 as yet unclassified
 focusTextFIeld
 	
-	self methodSuggestionListMorph focusTextFIeld.
+	self chainSuggestionListMorph focusTextFIeld.

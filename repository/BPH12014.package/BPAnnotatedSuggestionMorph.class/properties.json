@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"suggestionListMorph",
+		"chainSuggestionListMorph",
 		"codeUsageMorph",
-		"methodSuggestionListMorph",
-		"usageSuggestionListMorph",
 		"usageProviderBlock" ],
 	"name" : "BPAnnotatedSuggestionMorph",
 	"pools" : [

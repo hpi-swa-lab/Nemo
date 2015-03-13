@@ -1,4 +1,4 @@
 as yet unclassified
 updateEntries: anOrderedCollection
 
-	self methodSuggestionListMorph updateEntries: anOrderedCollection.
+	self chainSuggestionListMorph updateEntries: anOrderedCollection.
