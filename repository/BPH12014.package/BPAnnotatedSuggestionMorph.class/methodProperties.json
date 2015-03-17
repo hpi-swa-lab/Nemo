@@ -4,7 +4,7 @@
 	"instance" : {
 		"chainSuggestionListMorph" : "LS 3/13/2015 11:48:48.53",
 		"chainSuggestionListMorph:" : "LS 3/13/2015 11:48:57.115",
-		"cleanUpBPMorphicEventHandler" : "DS 3/17/2015 12:48:48.3",
+		"cleanUpBPMorphicEventHandler" : "DS 3/17/2015 15:44:42.286",
 		"codeUsageMorph" : "LS 3/4/2015 13:39:03.617",
 		"codeUsageMorph:" : "LS 3/4/2015 13:38:56.17",
 		"delete" : "DS 3/17/2015 11:39:05.475",
@@ -24,7 +24,7 @@
 		"methodSuggestionListMorph:" : "LS 3/12/2015 13:28:42.463",
 		"provideUsageEntries" : "LS 3/12/2015 15:42:12.649",
 		"updateEntries:" : "LS 3/13/2015 11:49:36.302",
-		"updateUsages" : "DS 3/13/2015 14:19:56.801",
+		"updateUsages" : "DS 3/17/2015 15:23:25.839",
 		"usageProvider" : "LS 3/12/2015 15:41:45.876",
 		"usageProvider:" : "LS 3/12/2015 15:41:35.211",
 		"usageSuggestionListMorph" : "LS 3/12/2015 13:29:12.523",

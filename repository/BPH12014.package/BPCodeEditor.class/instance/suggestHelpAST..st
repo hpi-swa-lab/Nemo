@@ -1,6 +1,6 @@
 as yet unclassified
 suggestHelpAST: aKeyboardEventOrString
-	| command filter suggestionMorph chains chainKey |
+	| command filter suggestionMorph chains chainKey entries |
 	command := self selection asString withBlanksTrimmed.
 	aKeyboardEventOrString isString
 		ifTrue: [chainKey := aKeyboardEventOrString]
@@ -17,18 +17,12 @@ suggestHelpAST: aKeyboardEventOrString
 			aBPMarkovFromASTChain count: assoc key.
 			aBPMarkovFromASTChain].
 
-	suggestionMorph := BPAnnotatedSuggestionMorph new
-		updateEntries: (chains collectWithIndex: [ :aBPMarkovFromASTChain :index |
+	entries := chains collectWithIndex: [ :aBPMarkovFromASTChain :index |
 			[BPSuggestionEntry new
 				id: index;
 				data: aBPMarkovFromASTChain;
-				displayValue: aBPMarkovFromASTChain asText].
-		]);
-		position: self absolutePositionForPopUp;
-		width: 300;
-		openInWorld;
-		focusTextFIeld.
-	suggestionMorph bounds: (suggestionMorph bounds translatedToBeWithin: ActiveWorld bounds).
+				displayValue: aBPMarkovFromASTChain asText ]].
+	suggestionMorph := self displaySuggestionMorphWith: entries.
 	suggestionMorph
 		on: #confirmSelection do: [ :aSuggestionEntry | | selectedDataString |
 			selectedDataString := aSuggestionEntry data asString.

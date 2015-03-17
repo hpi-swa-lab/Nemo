@@ -1,4 +1,7 @@
 initialization
 updateUsages
-
-	self codeUsageMorph for: self chainSuggestionListMorph selectedEntry data methodReference.
+	| selectedData |
+	selectedData := self chainSuggestionListMorph selectedEntry data.
+	self codeUsageMorph for: ((selectedData isKindOf: MethodReference)
+								ifTrue: [ selectedData ]
+								ifFalse: [ selectedData methodReference ]).
