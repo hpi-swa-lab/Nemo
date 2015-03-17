@@ -17,8 +17,7 @@ suggestHelpAST: aKeyboardEventOrString
 			aBPMarkovFromASTChain count: assoc key.
 			aBPMarkovFromASTChain].
 
-	suggestionMorph := BPSuggestionListMorph new
-		updateMaxItems: 20;
+	suggestionMorph := BPAnnotatedSuggestionMorph new
 		updateEntries: (chains collectWithIndex: [ :aBPMarkovFromASTChain :index |
 			[BPSuggestionEntry new
 				id: index;
@@ -31,8 +30,7 @@ suggestHelpAST: aKeyboardEventOrString
 		focusTextFIeld.
 	suggestionMorph bounds: (suggestionMorph bounds translatedToBeWithin: ActiveWorld bounds).
 	suggestionMorph
-		onEscape: [ suggestionMorph delete ];
-		onConfirmSelection: [ :aSuggestionEntry | | selectedDataString |
+		on: #confirmSelection do: [ :aSuggestionEntry | | selectedDataString |
 			selectedDataString := aSuggestionEntry data asString.
 			self pasteAtCaret: selectedDataString.
 			suggestionMorph delete.

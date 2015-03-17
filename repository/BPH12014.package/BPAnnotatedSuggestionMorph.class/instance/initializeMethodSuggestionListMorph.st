@@ -6,7 +6,7 @@ initializeMethodSuggestionListMorph
 	self addMorphBack: self methodSuggestionListMorph.
 	self methodSuggestionListMorph
 		updateMaxItems: 10;
-		onSelect: [ :selectedEntry | self forMethodReference: selectedEntry data from: 0 to: 10. ];
-		onNavigateRight: [ self expandUsageSuggestions. ];
-		onEscape: [ self delete. ];
-		onConfirmSelection: [ :selectedEntry | self delete. ].
+		on: #select do: [ :selectedEntry | self forMethodReference: selectedEntry data from: 0 to: 10. ];
+		on: #navigateRight do: [ self expandUsageSuggestions. ];
+		on: #escapeKeyPressed do: [ self delete. ];
+		on: #confirmSelection do: [ :selectedEntry | self delete. ].

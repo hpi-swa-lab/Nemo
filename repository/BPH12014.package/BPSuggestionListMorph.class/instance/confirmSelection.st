@@ -1,5 +1,5 @@
 selection
 confirmSelection
 
-	self onConfirmSelection ifNotNilDo: [ :onConfirmSelectionBlock | onConfirmSelectionBlock value: self selectedEntry ].
+	self emit: #confirmSelection with: self selectedEntry.
 	self delete.

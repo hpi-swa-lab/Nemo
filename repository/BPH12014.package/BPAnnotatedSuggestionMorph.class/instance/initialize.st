@@ -1,6 +1,6 @@
 initialization
 initialize
-
+	self cleanUpBPMorphicEventHandler.
 	super initialize.
 	self height: 210;
 		color: Color white.

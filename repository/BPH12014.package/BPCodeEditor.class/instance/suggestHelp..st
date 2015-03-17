@@ -31,8 +31,8 @@ suggestHelp: aKeyboardEvent
 		focusTextFIeld.
 	suggestionMorph bounds: (suggestionMorph bounds translatedToBeWithin: ActiveWorld bounds).
 	suggestionMorph
-		onEscape: [ suggestionMorph delete ];
-		onConfirmSelection: [ :aSuggestionEntry |
+		on: #escapeKeyPressed do: [ suggestionMorph delete ];
+		on: #confirmSelection do: [ :aSuggestionEntry |
 			self pasteAtCaret: aSuggestionEntry data asString.
 			suggestionMorph delete ].
 	^ true

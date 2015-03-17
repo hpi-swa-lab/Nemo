@@ -1,5 +1,5 @@
 event handling
 mouseEnter: aMouseEvent
 
-	self onMouseEnter value.
+	self emit: #mouseEntered.
 	^ true

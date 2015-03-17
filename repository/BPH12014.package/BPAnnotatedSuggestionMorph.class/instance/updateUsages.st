@@ -1,4 +1,4 @@
 initialization
 updateUsages
 
-	self codeUsageMorph for: (MethodReference class: BPAnnotatedSuggestionMorph selector: #chainSuggestionListMorph).
+	self codeUsageMorph for: self chainSuggestionListMorph selectedEntry data methodReference.

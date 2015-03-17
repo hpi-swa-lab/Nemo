@@ -1,4 +1,0 @@
-private-selection
-onNavigateRight
-
-	^ onNavigateRightBlock

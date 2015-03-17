@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-UI",
+	"classinstvars" : [
+		"dictionary" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPMorphicEventHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

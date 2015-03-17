@@ -1,4 +1,0 @@
-private-accessing
-onClick
-
-	^ onClickBlock

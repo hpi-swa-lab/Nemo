@@ -1,5 +1,5 @@
 event handling
 mouseDown: aMouseEvent
 
-	self onClick value.
+	self emit: #clicked.
 	^true

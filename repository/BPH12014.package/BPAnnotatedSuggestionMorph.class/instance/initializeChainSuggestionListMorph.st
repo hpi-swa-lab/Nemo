@@ -6,6 +6,6 @@ initializeChainSuggestionListMorph
 	self addMorphBack: self chainSuggestionListMorph.
 	self chainSuggestionListMorph
 		updateMaxItems: 10;
-		onNavigateRIght: [ self expandUsages ];
-		onEscape: [ self delete. ];
-		onConfirmSelection: [ :selectedEntry | self delete. ].
+		on: #navigateRight do: [ self expandUsages ];
+		on: #escapeKeyPressed do: [ self delete. false ];
+		on: #confirmSelection do: [ :selectedEntry | self delete. ].

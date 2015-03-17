@@ -1,4 +1,0 @@
-private-accessing
-textChangedHandler
-
-	^ textChangedHandler

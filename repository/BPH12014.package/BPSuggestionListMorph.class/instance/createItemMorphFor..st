@@ -3,8 +3,8 @@ createItemMorphFor: anEntry
 
 	| morph |
 	morph := BPSuggestionItemMorph newFor: anEntry.
-	morph onMouseEnter: [self selectMorph: morph];
-		onClick: [
+	morph on: #mouseEntered do: [self selectMorph: morph];
+		on: #clicked do: [
 			self selectMorph: morph.
 			self confirmSelection.
 		].

@@ -6,5 +6,5 @@ keyStroke: anEvent
 	super keyStroke: anEvent.
 	newContents := self contents asString.
 	oldContents = newContents ifFalse: [
-		self textChangedHandler ifNotNilDo: [:aBlock | ^ aBlock value: self contents asString.].
+		self emit: #textChanged withArgs: {newContents}.
 	].

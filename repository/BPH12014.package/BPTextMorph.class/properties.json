@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textChangedHandler",
 		"editable",
 		"keepFocus" ],
 	"name" : "BPTextMorph",

@@ -2,8 +2,8 @@ initialization
 initializeFilterMorph
 
 	self filterMorph: (BPSuggestionFilterMorph new
-		onChange: [ :aString | self filterListFor: aString. ];
-		onEscape: [ self handleEscape. ];
-		onEnter: [ self confirmSelection. ];
-		onArrow: [ :aCharacter | self navigateArrow: aCharacter ]).
+		on: #textChanged do: [ :aString | self filterListFor: aString. ];
+		on: #escapeKeyPressed do: [ self handleEscape. ];
+		on: #enterKeyPressed do: [ self confirmSelection. ];
+		on: #arrowKeyPressed do: [ :aCharacter | self navigateArrow: aCharacter ]).
 	self addMorphFront: self filterMorph.

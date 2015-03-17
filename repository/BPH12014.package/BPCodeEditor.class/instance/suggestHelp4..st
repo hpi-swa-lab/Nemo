@@ -28,7 +28,7 @@ suggestHelp4: aKeyboardEvent
 				id: index;
 				data: aBPMarkovChain;
 				displayValue: aBPMarkovChain asText ]);
-		onSelect: [ :aSuggestionEntry |
+		on: #selected do: [ :aSuggestionEntry |
 			self pasteAtCaret: aSuggestionEntry value asString ];
 		position: self absolutePositionForPopUp;
 		width: 300;
