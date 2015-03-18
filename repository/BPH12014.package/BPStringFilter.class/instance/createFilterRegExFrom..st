@@ -2,9 +2,6 @@ as yet unclassified
 createFilterRegExFrom: aFilterString
 
 	aFilterString ifEmpty: [^nil].
-	^ RxMatcher forString: (
-		'.*',
-		((aFilterString asArray collect: [ :aCharacter |
-			aCharacter asString.
-		]) join: '.*'),
-		'.*')
+	^ [ RxMatcher
+		forString: (self regexStringFrom: aFilterString)
+		ignoreCase: true ] on: RegexSyntaxError do: []

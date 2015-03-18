@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createFilterRegExFrom:" : "LS 1/15/2015 16:23:39.288",
+		"createFilterRegExFrom:" : "DS 3/18/2015 10:28:57.247",
 		"entries" : "LS 1/15/2015 11:53:20.063",
 		"entries:" : "LS 1/15/2015 15:37:56.521",
+		"escapeCharacter:" : "DS 3/18/2015 10:15:50.353",
 		"filterBy:" : "LS 2/5/2015 15:18:15.589",
-		"is:matching:" : "DS 3/4/2015 15:05:27.936" } }
+		"is:matching:" : "DS 3/4/2015 15:05:27.936",
+		"regexStringFrom:" : "DS 3/18/2015 10:26:04.843" } }
