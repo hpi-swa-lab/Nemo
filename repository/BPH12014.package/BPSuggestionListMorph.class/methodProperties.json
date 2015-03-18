@@ -4,7 +4,7 @@
 	"instance" : {
 		"addItemMorph:" : "LS 2/11/2015 14:02:43.495",
 		"addItemMorphsFor:" : "LS 1/21/2015 16:16",
-		"confirmSelection" : "DS 3/13/2015 16:29:53.496",
+		"confirmSelection" : "DS 3/18/2015 10:41:59.622",
 		"createItemMorphFor:" : "DS 3/13/2015 16:28:22.893",
 		"deleteAllItemMorphs" : "LS 1/21/2015 16:25",
 		"deselectSelectedItem" : "LS 2/11/2015 13:56:21.019",
@@ -35,7 +35,7 @@
 		"selectMorph:" : "DS 3/13/2015 17:22:59.605",
 		"selectNext" : "LS 2/11/2015 13:39:04.276",
 		"selectPrevious" : "LS 2/11/2015 13:40:05.745",
-		"selectedEntry" : "DS 3/4/2015 15:19:25.431",
+		"selectedEntry" : "DS 3/18/2015 10:38:41.687",
 		"stopItemIndex" : "LS 1/21/2015 13:54",
 		"updateEntries:" : "LS 1/21/2015 13:39",
 		"updateMaxItems:" : "LS 1/21/2015 13:56",

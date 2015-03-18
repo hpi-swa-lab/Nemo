@@ -1,5 +1,6 @@
 selection
 confirmSelection
 
-	self emit: #confirmSelection with: self selectedEntry.
-	self delete.
+	self selectedEntry ifNotNil: [ :selection |
+		self emit: #confirmSelection with: selection.
+		self delete ]
