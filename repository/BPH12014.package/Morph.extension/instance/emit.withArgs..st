@@ -1,6 +1,9 @@
 *BPH12014-UI
 emit: anEventSymbol withArgs: anOrderedCollection
 
-	(BPMorphicEventHandler for: self emit: anEventSymbol withArgs: anOrderedCollection)
-		ifFalse: [ ^ false ].
+	(self eventProperty at: anEventSymbol ifAbsentPut: [OrderedCollection new.])
+		do: [ :aBlock |
+			((aBlock valueWithArguments: anOrderedCollection asArray)
+				= false) ifTrue: [ ^ false ].
+		].
 	^ self owner ifNotNilDo: [ :owner | owner emit: anEventSymbol withArgs: anOrderedCollection ]

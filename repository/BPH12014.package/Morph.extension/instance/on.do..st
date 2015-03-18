@@ -1,4 +1,5 @@
 *BPH12014-UI
 on: anEventSymbol do: aBlock
 
-	BPMorphicEventHandler for: self on: anEventSymbol do: aBlock.
+	(self eventProperty at: anEventSymbol ifAbsentPut: [OrderedCollection new.])
+		add: aBlock.
