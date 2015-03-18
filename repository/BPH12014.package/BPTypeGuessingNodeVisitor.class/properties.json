@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"guessedType",
+		"variableName" ],
+	"name" : "BPTypeGuessingNodeVisitor",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNodeVisitor",
+	"type" : "normal" }

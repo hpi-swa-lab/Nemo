@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"forVariable:" : "LS 3/18/2015 16:34:02.16" },
+	"instance" : {
+		"guessTypeForSelector:" : "LS 3/18/2015 16:45:22.333",
+		"guessTypeOn:" : "LS 3/18/2015 16:22:37.845",
+		"guessedType" : "LS 3/18/2015 16:23:31.775",
+		"guessedType:" : "LS 3/18/2015 16:23:51.551",
+		"variableName" : "LS 3/18/2015 16:33:54.478",
+		"variableName:" : "LS 3/18/2015 16:33:45.572",
+		"visitMessageNode:" : "LS 3/18/2015 16:31:50.551",
+		"visitNode:" : "LS 3/18/2015 16:32:42.902" } }
