@@ -1,7 +1,8 @@
 as yet unclassified
-guessTypeByInferencingFor: anExpressionString
+fetchTypeByInferencingFor: anExpressionString
 
 	| typeSet |
+	anExpressionString ifNil: [ ^ nil ].
 	typeSet := (Compiler new analyze: anExpressionString
 						in:  nil
 						to: nil

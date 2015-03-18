@@ -1,7 +1,8 @@
 as yet unclassified
-guessTypeByNameFor: anExpressionString
+fetchTypeByNameFor: anExpressionString
 
 	| curVarName |
+	anExpressionString ifNil: [ ^ nil ].
 	((RxMatcher forString: '^([a-zA-Z][a-z0-9]*)+$') matchesIn: anExpressionString)
 		ifEmpty: [ ^ nil ].
 	curVarName := anExpressionString.

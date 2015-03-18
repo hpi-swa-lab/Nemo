@@ -1,5 +1,6 @@
 as yet unclassified
-guessTypeByScanningMessageCalls: aVariableString
+fetchTypeByScanningMessageCalls: aVariableString
 
+	aVariableString ifNil: [ ^ nil ].
 	^ (BPTypeGuessingNodeVisitor forVariable: aVariableString)
 		guessTypeOn: (RBParser parseFaultyMethod: paragraph text asString).
