@@ -1,6 +1,6 @@
 as yet unclassified
-is: anEntry matching: aFilterString
+matches: anEntry
 
-	^(self createFilterRegExFrom: aFilterString)
-		ifNil: [^true]
+	^ self regex
+		ifNil: [ ^ true ]
 		ifNotNilDo: [ :regEx | ^(regEx matchesIn: (anEntry value displayValue)) isEmpty not].

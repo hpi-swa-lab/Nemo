@@ -2,10 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createFilterRegExFrom:" : "DS 3/18/2015 10:28:57.247",
+		"createFilterRegExFrom:" : "DS 3/18/2015 11:06:55.72",
 		"entries" : "LS 1/15/2015 11:53:20.063",
 		"entries:" : "LS 1/15/2015 15:37:56.521",
 		"escapeCharacter:" : "DS 3/18/2015 10:15:50.353",
-		"filterBy:" : "LS 2/5/2015 15:18:15.589",
-		"is:matching:" : "DS 3/4/2015 15:05:27.936",
-		"regexStringFrom:" : "DS 3/18/2015 10:26:04.843" } }
+		"filterBy:" : "DS 3/18/2015 11:11:06.581",
+		"filterBy:limit:" : "DS 3/18/2015 12:02:16.69",
+		"matches:" : "DS 3/18/2015 11:08:30.605",
+		"regex" : "DS 3/18/2015 11:07:32.586",
+		"regex:" : "DS 3/18/2015 11:07:32.659",
+		"regexStringFrom:" : "DS 3/18/2015 10:26:04.843",
+		"remainingEntries" : "DS 3/18/2015 11:07:32.423",
+		"remainingEntries:" : "DS 3/18/2015 11:07:32.514" } }

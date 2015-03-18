@@ -3,10 +3,11 @@ renderList
 
 	| matchingEntries |
 	self deleteAllItemMorphs.
-	self entries ifNil: [^ self.	].
+	self entries ifNil: [^ self ].
 	matchingEntries := BPStringFilter new
 		entries: self entries;
-		filterBy: self filterString.
+		filterBy: self filterString
+		limit: self maxItems.
 	matchingEntries ifEmpty: [ ^ self ].
 	self addItemMorphsFor: (matchingEntries 
 		copyFrom: 1

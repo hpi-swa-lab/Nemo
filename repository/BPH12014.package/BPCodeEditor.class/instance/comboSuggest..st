@@ -24,7 +24,7 @@ comboSuggest: aKeyboardEvent
 						(selectedDataString endsWith: ':') ifFalse: [
 							self suggestHelpAST: selectedDataString ]] ]]
 		ifFalse: [
-			guessedType := self guessTypeFor: receiverNode formattedCode..
+			guessedType := self guessTypeFor: receiverNode formattedCode.
 			guessedType ifNil: [ ^ true ].
 			entries := guessedType asOrderedCollection first methodDict keys
 				collect: [ :aMethodSymbol |
