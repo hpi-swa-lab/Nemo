@@ -1,9 +1,8 @@
 as yet unclassified
 comboSuggest: aKeyboardEvent
 
-	| receiverNode guessedType entries suggestionMorph |
-	receiverNode := self receiverAtCaret.
-	guessedType := self fetchType.
+	| guessedType entries suggestionMorph |
+	guessedType := self fetchTypeForReceiver: (self receiverFrom: self nodeAtCaret) orWord: self wordAtCaret.
 	guessedType ifNil: [ ^ true ].
 	entries := (BPMarkovUtil methodsRankedByMarkovCount: guessedType)
 		collect: [ :selectorToCount |
