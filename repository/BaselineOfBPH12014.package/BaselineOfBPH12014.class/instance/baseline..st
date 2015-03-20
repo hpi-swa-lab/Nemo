@@ -17,9 +17,13 @@ baseline: spec
 				className: 'BaselineOfSqueakOverflow';
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
-		spec package: 'RefactoringBrowser' with: [
+		spec package: 'Traits' with: [
 			spec
-				repository: 'http://www.squeaksource.com/rb'].
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
+
+		spec package: 'Announcements' with: [
+			spec
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
 		spec package: 'AST-Core' with: [
 			spec
@@ -32,7 +36,7 @@ baseline: spec
 		spec package: 'BPH12014' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
-				requires: #('RefactoringBrowser' 'AST-Core' 'VB-Regex')].
+				requires: #('Traits' 'Announcements' 'AST-Core' 'VB-Regex')].
 
 		spec
 			group: 'default' with: #('core');
