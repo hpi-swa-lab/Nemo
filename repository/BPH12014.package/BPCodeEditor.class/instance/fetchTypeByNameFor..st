@@ -8,7 +8,10 @@ fetchTypeByNameFor: anExpressionString
 	curVarName := anExpressionString.
 	[curVarName size > 0] whileTrue: [
 		curVarName := curVarName first asUppercase asString, curVarName allButFirst.
-		(Smalltalk at: curVarName asSymbol ifAbsent: []) ifNotNilDo: [ :aClass | ^aClass].
-		curVarName := (RxMatcher forString: '^([a-zA-Z][a-z0-9]*)') copy: (BPParserUtil escapeForRegEx: curVarName) replacingMatchesWith: ''.
-	].
+		(Smalltalk at: curVarName asSymbol ifAbsent: [])
+			ifNotNilDo: [ :aClass | ^ BPGuessedType type: aClass guessedFrom: #variableName ].
+		curVarName := (RxMatcher
+			forString: '^([a-zA-Z][a-z0-9]*)')
+			copy: (BPParserUtil escapeForRegEx: curVarName)
+			replacingMatchesWith: '' ].
 	^nil

@@ -6,4 +6,4 @@ initializeFilterMorph
 		on: #escapeKeyPressed do: [ self handleEscape. ];
 		on: #enterKeyPressed do: [ self confirmSelection. ];
 		on: #arrowKeyPressed do: [ :aCharacter | self navigateArrow: aCharacter ]).
-	self addMorphFront: self filterMorph.
+	self addMorphBack: self filterMorph.

@@ -1,6 +1,11 @@
 as yet unclassified
 fetchTypeByScanningMessageCalls: aVariableString
 
+	| type |
 	aVariableString ifNil: [ ^ nil ].
-	^ (BPTypeGuessingNodeVisitor forVariable: aVariableString)
-		guessTypeOn: (RBParser parseFaultyMethod: paragraph text asString).
+	type := (BPTypeGuessingNodeVisitor forVariable: aVariableString)
+			guessTypeOn: (RBParser parseFaultyMethod: paragraph text asString).
+	type ifNil: [ ^ nil ].
+	^ BPGuessedType
+		type: type
+		guessedFrom: #messageCallScanning

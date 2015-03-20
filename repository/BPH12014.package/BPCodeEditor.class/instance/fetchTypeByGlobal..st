@@ -1,4 +1,6 @@
 as yet unclassified
 fetchTypeByGlobal: aString
 
-	 ^ (Smalltalk at: aString asSymbol ifAbsent: [ ^ nil ]) class
+	 ^ BPGuessedType
+		type: (Smalltalk at: aString asSymbol ifAbsent: [ ^ nil ]) class
+		guessedFrom: #globalVariable

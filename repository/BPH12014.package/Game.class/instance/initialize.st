@@ -1,4 +1,6 @@
 initialize-release
 initialize
 	morph := Morph new.
-	morph 
+	morph color: Color red.
+	"morph abstractAModel."
+	morph
