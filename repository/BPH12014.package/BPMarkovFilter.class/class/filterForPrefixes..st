@@ -1,7 +1,7 @@
 markov
 filterForPrefixes: aBag
 	
-	| counts |
+	| counts resultBag |
 	counts := (aBag sortedCounts
 		groupBy: [ :assoc | assoc key ]
 		having: [ :ignore | true ]) collect: [ :x | x collect: [ :y | y value ] ].
@@ -19,5 +19,10 @@ filterForPrefixes: aBag
 			at: (result size) ifPresent: [ :list | list add: shorten ];
 			at: (result size) ifAbsentPut: [ {shorten} asOrderedCollection ]].
 		
-	 ^counts select: [ :x | x isEmpty not ]
+	"produce a bag as outcome so we can simply replace what we got in the chain"
+	resultBag := Bag new.	 
+	(counts select: [ :x | x isEmpty not ])
+		keysAndValuesDo: [ :key :value | value do: [ :x | resultBag add: x withOccurrences: key ]].
+
+	^resultBag
 		

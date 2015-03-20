@@ -16,12 +16,11 @@ testPrefixReduction
 		
 	processed := BPMarkovFilter filterForPrefixes: bag.
 		
-	expected := Dictionary new
-		at: 3 put: ({#(a b c) asOrderedCollection} asOrderedCollection);
-		at: 2 put: ({#(b d c) asOrderedCollection. #(g h) asOrderedCollection. #(a b) asOrderedCollection} asOrderedCollection);
+	expected := Bag new
+		add: (#(a b c) asOrderedCollection) withOccurrences: 3;
+		add: (#(b d c) asOrderedCollection) withOccurrences: 2;
+		add: (#(g h) asOrderedCollection) withOccurrences: 2;
+		add: (#(a b) asOrderedCollection) withOccurrences: 2;
 		yourself.
 		
-	self assert: (processed associations allSatisfy: [ :assoc |
-		(expected includesKey: assoc key) and:
-		((expected at: assoc key) size = assoc value size) and:
-		((expected at: assoc key) value includesAllOf: assoc value)])
+	self assert: expected sortedCounts equals: processed sortedCounts

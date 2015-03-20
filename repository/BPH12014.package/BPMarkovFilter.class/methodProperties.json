@@ -3,7 +3,7 @@
 		"enrichChain:forMethodReference:forCurrentSourceCode:withTokens:usingOrder:" : "JSA 2/25/2015 15:05",
 		"enrichChain:forMethodReference:withTokens:usingOrder:" : "DS 2/18/2015 12:17:03.454",
 		"enrichMarkovChain:from:for:for:" : "DS 2/26/2015 11:01:54.803",
-		"filterForPrefixes:" : "JSA 3/17/2015 10:13:28.593",
+		"filterForPrefixes:" : "jsa 3/20/2015 14:05:42.758",
 		"initialize" : "DS 2/26/2015 17:19:44.165",
 		"isTokenDelimiter:" : "DS 2/26/2015 17:18:38.411",
 		"leftRightParenthesisDifference:" : "DS 2/26/2015 17:15:28.162",
