@@ -19,7 +19,7 @@ baseline: spec
 
 		spec package: 'AST-Core' with: [
 			spec
-				repository: 'http://www.squeaksource.com/rb'].
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
 		spec package: 'Tools-MethodFinder' with: [
 			spec
