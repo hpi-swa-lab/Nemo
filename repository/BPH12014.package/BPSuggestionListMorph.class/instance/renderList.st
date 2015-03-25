@@ -4,12 +4,10 @@ renderList
 	| matchingEntries |
 	self deleteAllItemMorphs.
 	self entries ifNil: [^ self ].
-	matchingEntries := BPStringFilter new
-		entries: self entries;
-		filterBy: self filterString
+	matchingEntries := BPStringFilter
+		filter: self entries
+		by: self filterString
 		limit: self maxItems.
 	matchingEntries ifEmpty: [ ^ self ].
-	self addItemMorphsFor: (matchingEntries 
-		copyFrom: 1
-		to: {matchingEntries size. self stopItemIndex} min).
+	self addItemMorphsFor: matchingEntries.
 	self updateSelectIndex: self selectIndex.

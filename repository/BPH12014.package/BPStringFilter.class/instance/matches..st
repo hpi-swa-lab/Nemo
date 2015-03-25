@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 matches: anEntry
 
 	^ self regex

@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterByContaining: aString limit: anInteger
 
 	| stream filteredCollection |

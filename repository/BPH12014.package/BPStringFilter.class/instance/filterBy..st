@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterBy: aString
 
 	^ self filterBy: aString limit: SmallInteger maxVal

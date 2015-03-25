@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 createFilterRegExFrom: aFilterString
 
 	aFilterString ifEmpty: [ ^ nil ].

@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterByRegexing: aString limit: anInteger enriching: aCollection
 
 	| stream |

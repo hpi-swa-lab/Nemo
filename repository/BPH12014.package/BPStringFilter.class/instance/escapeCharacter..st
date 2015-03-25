@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 escapeCharacter: aCharacter
 	aCharacter = $:
 		ifTrue: [ ^ '\:' ].

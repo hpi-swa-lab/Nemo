@@ -1,13 +1,13 @@
 {
 	"class" : {
-		 },
+		"filter:by:limit:" : "DS 3/25/2015 15:53:03.598" },
 	"instance" : {
 		"createFilterRegExFrom:" : "DS 3/18/2015 11:06:55.72",
 		"entries" : "LS 1/15/2015 11:53:20.063",
 		"entries:" : "LS 1/15/2015 15:37:56.521",
 		"escapeCharacter:" : "DS 3/18/2015 10:15:50.353",
 		"filterBy:" : "DS 3/18/2015 11:11:06.581",
-		"filterBy:limit:" : "DS 3/25/2015 15:00:19.004",
+		"filterBy:limit:" : "DS 3/25/2015 16:17:06.816",
 		"filterByContaining:limit:" : "DS 3/25/2015 14:53:38.361",
 		"filterByRegexing:limit:enriching:" : "DS 3/25/2015 15:00:25.426",
 		"matches:" : "DS 3/25/2015 14:23:36.958",
