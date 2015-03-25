@@ -5,8 +5,8 @@ fetchTypeBySelf: aString or: aProgramNode
 	isSelf := aProgramNode
 		ifNil: [ aString = 'self' ]
 		ifNotNil: [ :aNode | aNode isSelf ].
-	isSelf ifTrue: [ 
-		^ (self model selectedClass)
+	^ isSelf ifTrue: [ 
+		(self model selectedClass)
 			ifNotNil: [ :clazz |
 				BPGuessedType
 					type: clazz

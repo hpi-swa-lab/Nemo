@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "DS 3/4/2015 16:45:38.067",
+		"setUp" : "DS 3/25/2015 15:17:13.011",
 		"stringFilter" : "LS 1/15/2015 11:41:28.753",
 		"stringFilter:" : "LS 1/15/2015 11:35:53.62",
-		"testEmptyFilter" : "LS 1/15/2015 16:30:05.41",
+		"testEmptyFilter" : "DS 3/25/2015 15:18:29.393",
 		"testFilter" : "LS 1/15/2015 16:33:24.761",
+		"testFilterContaining" : "DS 3/25/2015 15:23:28.489",
+		"testFilterContainingRankedHigherThanRegex" : "DS 3/25/2015 15:24:51.415",
 		"testFilterWithLimit" : "DS 3/18/2015 15:10:51.858" } }
