@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getter" : "DS 3/25/2015 16:54:46.041",
+		"setUp" : "DS 3/25/2015 16:52:29.97",
+		"setter" : "DS 3/26/2015 14:27:08.915",
+		"setter:" : "DS 3/26/2015 14:27:17.845",
+		"temporaryGetter" : "DS 3/26/2015 14:47:38.702",
+		"temporaryGetterWithSetter" : "DS 3/26/2015 15:30:57.264",
+		"testDetectGetter" : "DS 3/26/2015 14:30:19.471",
+		"testDetectSetter" : "DS 3/26/2015 14:30:23.788",
+		"testDetectSetter2" : "DS 3/26/2015 14:30:27.143",
+		"testDetectTemporaryGetter" : "DS 3/26/2015 14:46:40.525",
+		"testDetectTemporaryGetterWithSetter" : "DS 3/26/2015 15:31:21.496",
+		"testDetectTransitiveSetter" : "DS 3/26/2015 14:43:32.656",
+		"transitiveSetter" : "DS 3/26/2015 14:43:06.756" } }
