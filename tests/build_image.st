@@ -62,7 +62,7 @@ for the type-inferencing try (caret after the morph on the 2nd line):
 morph := Morph new.
 morph
 
-[ALT] + J and [ALT] + F - Tries to find results solely based 
+[ALT] + J - Tries to find results solely based 
 on the image''s source code. This only uses a Markov-Chain under 
 the hood.' label: 'Welcome'.
 FileStream stdout nextPutAll: 'Created welcome message'; cr; flush.
@@ -72,12 +72,6 @@ BPMarkovFromASTObserver default addPackage: 'Morphic'.
 BPMarkovFromASTObserver default addPackage: 'Collections'.
 BPMarkovFromASTObserver default start.
 FileStream stdout nextPutAll: 'Finished analysing the relevant Squeak source code AST'; cr; flush.
-
-BPMarkovObserver default addPackage: 'System'.
-BPMarkovObserver default addPackage: 'Morphic'.
-BPMarkovObserver default addPackage: 'Collections'.
-BPMarkovObserver default start.
-FileStream stdout nextPutAll: 'Finished analysing the relevant Squeak source code text'; cr; flush.
 
 BPBrowser open.
 FileStream stdout nextPutAll: 'Opened browser, now quitting'; cr; flush.
