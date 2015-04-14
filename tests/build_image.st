@@ -45,22 +45,41 @@ FileStream stdout nextPutAll: 'Closed all windows'; cr; flush.
 UIManager default
   edit: 'Welcome to our bachelor''s project.
 
-In the open code editor window you can try a few of our showcases.
-The code that is already present is a standard method from
-the OrderedCollection class. This would be a sample of how to edit
-method within this new Code-Editor prototype.
-
+In the open browser window you can try a few of our showcases.
 Some interesting Hotkey combinations that work in there are:
 
-[ALT] + H - Invokes the MethodFinder at the caret. This requires
-a valid MethodFinder expression as e.g. #((3 4) 7)
-which should also return 3+4.
+[ALT] + Q - Invokes first the MethodFinder that will try to
+evaluate the line. If that yields no results, it will invoke
+the type inferencing methods, and display methods that can possibly
+be invoked on the given arguments.
 
-[ALT] + J - Open a find-all input field. This is still WIP.
-This field also takes method finder expressions like above,
-but can also display a lot of context information about the
-code snippet that your are editing and the variables and types
-that are currently involved.' label: 'Welcome'.
-FileStream stdout nextPutAll: 'Created welcome message, now quitting'; cr; flush.
+E.g. for the method finder try:
+
+3 4 7
+
+for the type-inferencing try (caret after the morph on the 2nd line):
+
+morph := Morph new.
+morph
+
+[ALT] + J and [ALT] + F - Tries to find results solely based 
+on the image''s source code. This only uses a Markov-Chain under 
+the hood.' label: 'Welcome'.
+FileStream stdout nextPutAll: 'Created welcome message'; cr; flush.
+
+BPMarkovFromASTObserver default addPackage: 'System'.
+BPMarkovFromASTObserver default addPackage: 'Morphic'.
+BPMarkovFromASTObserver default addPackage: 'Collections'.
+BPMarkovFromASTObserver default start.
+FileStream stdout nextPutAll: 'Finished analysing the relevant Squeak source code AST'; cr; flush.
+
+BPMarkovObserver default addPackage: 'System'.
+BPMarkovObserver default addPackage: 'Morphic'.
+BPMarkovObserver default addPackage: 'Collections'.
+BPMarkovObserver default start.
+FileStream stdout nextPutAll: 'Finished analysing the relevant Squeak source code text'; cr; flush.
+
+BPBrowser open.
+FileStream stdout nextPutAll: 'Opened browser, now quitting'; cr; flush.
 
 SmalltalkImage current snapshot: true andQuit: true.
