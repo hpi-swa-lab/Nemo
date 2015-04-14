@@ -3,8 +3,12 @@
 		"isNotSideEffecting:" : "DS 3/26/2015 15:47:41.016",
 		"isSideEffecting:" : "DS 3/26/2015 15:45:30.65" },
 	"instance" : {
-		"isSideEffecting:" : "DS 3/26/2015 14:32:27.61",
+		"isReturnConstant:" : "DS 3/27/2015 13:40:57.45",
+		"isReturnSelf:" : "DS 3/26/2015 17:50:41.66",
+		"isSideEffecting:" : "DS 3/26/2015 17:02:35.605",
 		"isTemporaryNode:" : "DS 3/26/2015 15:36:49.679",
+		"isVariableModifying:" : "DS 3/26/2015 18:23:54.881",
+		"quickCheck:" : "DS 3/27/2015 13:37:55.319",
 		"visitAssignmentNode:" : "DS 3/26/2015 15:41:42.594",
 		"visitMessageNode:" : "DS 3/26/2015 15:43:04.26",
 		"visitPragmaNode:" : "DS 3/26/2015 16:01:58.811" } }

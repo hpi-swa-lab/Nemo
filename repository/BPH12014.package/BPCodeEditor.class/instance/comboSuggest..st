@@ -1,7 +1,11 @@
 as yet unclassified
 comboSuggest: aKeyboardEvent
 
-	| guessedType entries suggestionMorph |
+	| guessedType entries suggestionMorph methodFinderResults |
+	methodFinderResults := self methodFinderResults.
+	methodFinderResults ifNotEmpty: [
+		self displayMethodFinderResults: methodFinderResults.
+		^ true ].
 	guessedType := self fetchTypeForReceiver: (self receiverFrom: self nodeAtCaret) orWord: self wordAtCaret.
 	guessedType ifNil: [ ^ true ].
 	entries := (BPMarkovUtil methodsRankedByMarkovCount: guessedType type)

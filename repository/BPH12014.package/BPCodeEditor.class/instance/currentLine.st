@@ -1,3 +1,5 @@
 as yet unclassified
 currentLine
-	^ (self selectLine; selection) asString withBlanksTrimmed
+	| textLine |
+	textLine := self paragraph lines at: (self paragraph lineIndexOfCharacterIndex: self pointIndex).
+	^ (self string copyFrom: textLine first to: textLine last) withBlanksTrimmed
