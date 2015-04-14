@@ -7,6 +7,7 @@
 		"findClassNamesContaining:" : "DS 1/21/2015 15:34:38.334",
 		"findClassNamesContainingSubstringsOf:" : "DS 1/21/2015 15:39:51.617",
 		"findMethodSelectorsContaining:forClass:" : "DS 1/21/2015 14:52:33.872",
+		"methodReferenceOnClassOrSuper:for:" : "LS 4/14/2015 14:21",
 		"methodsRankedBySenderCountOfClass:" : "DS 3/17/2015 14:37:45.838",
 		"sourceCodeForMethod:in:" : "LS 2/12/2015 11:39:07.963",
 		"tempVariablesForClass:inSourceCode:" : "jsa 3/5/2015 11:01:24.402",

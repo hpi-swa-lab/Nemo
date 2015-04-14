@@ -3,7 +3,6 @@ createSuggestionEntry: anId fromType: aBPGuessedType selector: aSelector count: 
 
 	^ BPSuggestionEntry new
 		id: aSelector;
-		data: (MethodReference
-			class: aBPGuessedType type
-			selector: aSelector);
+		data: (BPClassUtil methodReferenceOnClassOrSuper: aBPGuessedType type
+			for: aSelector);
 		displayValue: aSelector , ' (' , anInteger , ')'
