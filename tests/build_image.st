@@ -17,6 +17,11 @@ nextPut: aChar
 '.
 FileStream stdout nextPutAll: 'Transcript #nextPut: dupped'; cr; flush.
 
+FileStream stdout nextPutAll: 'Starting Squeak update...'; cr; flush.
+(Smalltalk at: #MCFileBasedRepository) flushAllCaches.
+(Smalltalk at: #MCMcmUpdater) updateFromDefaultRepository.
+FileStream stdout nextPutAll: 'Successfully updated Squeak!'; cr; flush.
+
 "Get the Metacello configuration (for Squeak users)"
 (Smalltalk at: #Installer) swasource
   project: 'SwaUtilities';
