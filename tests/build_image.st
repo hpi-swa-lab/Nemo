@@ -18,7 +18,7 @@ nextPut: aChar
 FileStream stdout nextPutAll: 'Transcript #nextPut: dupped'; cr; flush.
 
 "Get the Metacello configuration (for Squeak users)"
-Installer swasource
+(Smalltalk at: #Installer) swasource
   project: 'SwaUtilities';
   addPackage: 'ConfigurationOfMetacello';
   install.
