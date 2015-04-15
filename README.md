@@ -6,6 +6,8 @@
 
 ### BP 2014 H1 Repo
 
+> We're on trunk / 4.6!
+
 For convenience, we always have the latest compiling images & changes available for you: 
 
 - [Latest stable image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1.image)
@@ -17,12 +19,6 @@ These builds didn't run through, but might still work:
 - [Latest unstable/errored image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing.image)
 - [Latest unstable/errored changes](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing.changes)
 
-_Currently disabled:_
-
-> These **trunk** builds didn't run through, but might still work:
->
-> - [Latest unstable/errored trunk image](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing_trunk.image)
-> - [Latest unstable/errored trunk changes](http://www.lively-kernel.org/babelsberg/BP2014H1/BP2014H1_failing_trunk.changes)
 
 
 ```
