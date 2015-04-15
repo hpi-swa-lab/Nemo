@@ -9,3 +9,4 @@ initialize
 	self initializeFilterMorph.
 	self initializeListMorph.
 	self initializeVariables.
+	self clipSubmorphs: true
