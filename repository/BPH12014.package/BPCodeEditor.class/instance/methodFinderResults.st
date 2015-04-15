@@ -1,15 +1,19 @@
 as yet unclassified
 methodFinderResults
 
-	| parts mfResults results stringParts |
-	stringParts := (self currentLine splitBy: ' ')
-		select: [ :part | part notEmpty ].
-	parts := stringParts collect: [ :part | [Compiler evaluate: part] ifError: [ ^ {} ]].
-	results := OrderedCollection new.
-	mfResults := MethodFinder new
-		load: { parts allButLast asArray. parts last };
-		findMessage .
-	^ mfResults collect: [ :resultString | | newExp |
+	| line prefix postfix compiledPrefixes compiledPostfix parts results |
+	line := [self lines detect: [ :l | self startIndex <= l last ]] ifError: [ ^ {} ].
+	prefix := self string copyFrom: line first to: self startIndex - 1. 
+	postfix := self string copyFrom: self startIndex to: line last. 
+	compiledPrefixes := ((prefix splitBy: ' ') 
+		select: [ :part | part notEmpty ]
+		thenCollect: [ :part | [Compiler evaluate: part] ifError: [ ^ {} ]]) asArray.
+	compiledPostfix := [Compiler evaluate: postfix] ifError: [ ^ {} ].
+	parts := compiledPrefixes asOrderedCollection add: compiledPostfix; yourself.
+	results := [MethodFinder new
+		load: { compiledPrefixes. compiledPostfix };
+		findMessage] ifError: [ ^ {} ].
+	^ results collect: [ :resultString | | newExp |
 		newExp := resultString.
-		1 to: parts size do: [:i | newExp := newExp copyReplaceAll: 'data' , i with: ((parts collect: [:x| x asString]) at: i) ].
+		1 to: parts size do: [:i | newExp := newExp copyReplaceAll: 'data' , i with: ((parts collect: [:x| x printString ]) at: i) ].
 		newExp. ]		

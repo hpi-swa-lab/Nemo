@@ -1,8 +1,7 @@
 {
 	"class" : {
-		 },
+		"windowColorSpecification" : "DS 4/15/2015 10:55:17.791" },
 	"instance" : {
 		"browseMethodFull" : "DS 2/19/2015 16:07:10.152",
 		"buildCodePaneWith:" : "DS 2/19/2015 13:39:10.103",
-		"defaultBackgroundColor" : "DS 2/19/2015 15:55:43.179",
 		"defaultBrowserTitle" : "DS 2/19/2015 13:17:33.323" } }

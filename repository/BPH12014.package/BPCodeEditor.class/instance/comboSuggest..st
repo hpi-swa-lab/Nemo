@@ -4,7 +4,8 @@ comboSuggest: aKeyboardEvent
 	| guessedType entries suggestionMorph methodFinderResults |
 	methodFinderResults := self methodFinderResults.
 	methodFinderResults ifNotEmpty: [
-		self displayMethodFinderResults: methodFinderResults.
+		suggestionMorph := self displayMethodFinderResults: methodFinderResults.
+		suggestionMorph informationText: 'MethodFinder'.
 		^ true ].
 	guessedType := self fetchTypeForReceiver: (self receiverFrom: self nodeAtCaret) orWord: self wordAtCaret.
 	guessedType ifNil: [ ^ true ].
