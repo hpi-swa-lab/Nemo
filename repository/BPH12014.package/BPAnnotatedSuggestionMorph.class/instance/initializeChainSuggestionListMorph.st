@@ -2,7 +2,7 @@ initialization
 initializeChainSuggestionListMorph
 
 	self chainSuggestionListMorph: (BPSuggestionListMorph new
-			width: 200).
+			width: 300).
 	self addMorphBack: self chainSuggestionListMorph.
 	self chainSuggestionListMorph
 		updateMaxItems: 10;

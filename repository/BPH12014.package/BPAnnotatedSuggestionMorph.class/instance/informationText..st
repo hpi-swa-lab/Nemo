@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 informationText: aString
 
 	self chainSuggestionListMorph informationText: aString 

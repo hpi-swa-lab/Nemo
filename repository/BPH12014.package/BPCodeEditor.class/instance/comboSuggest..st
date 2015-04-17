@@ -2,7 +2,7 @@ as yet unclassified
 comboSuggest: aKeyboardEvent
 
 	| guessedType entries suggestionMorph methodFinderResults |
-	methodFinderResults := self methodFinderResults.
+	methodFinderResults := "self methodFinderResults" #().
 	methodFinderResults ifNotEmpty: [
 		suggestionMorph := self displayMethodFinderResults: methodFinderResults.
 		suggestionMorph informationText: 'MethodFinder'.
@@ -17,7 +17,7 @@ comboSuggest: aKeyboardEvent
 				count: selectorToCount value ].
 
 	suggestionMorph := self displaySuggestionMorphWith: entries.
-	suggestionMorph informationText: guessedType guessingSource , ' ~> ' , guessedType type.
+	suggestionMorph informationText: (self informationTextFor: guessedType).
 	suggestionMorph
 		on: #confirmSelection do: [ :aSuggestionEntry | | selectedDataString |
 			selectedDataString := aSuggestionEntry data selector.

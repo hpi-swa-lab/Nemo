@@ -5,6 +5,7 @@ methodFinderResults
 	line := [self lines detect: [ :l | self startIndex <= l last ]] ifError: [ ^ {} ].
 	prefix := self string copyFrom: line first to: self startIndex - 1. 
 	postfix := self string copyFrom: self startIndex to: line last. 
+	self halt.
 	compiledPrefixes := ((prefix splitBy: ' ') 
 		select: [ :part | part notEmpty ]
 		thenCollect: [ :part | [Compiler evaluate: part] ifError: [ ^ {} ]]) asArray.
