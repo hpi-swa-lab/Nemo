@@ -8,6 +8,7 @@ fetchTypeForReceiver: aProgramNode orWord: aString
 		[ self fetchTypeByGlobal: aString ].
 		[ self fetchTypeBySelf: aString or: aProgramNode ].
 		[ self fetchTypeBySelfClass: aProgramNode ].
+		[ self fetchTypeBySuper: aString or: aProgramNode ].
 		[ self fetchTypeFromLiteral: aProgramNode ].
 		[ self fetchTypeByScanningMessageCalls: (aProgramNode ifNotNil: [aProgramNode formattedCode]) ].
 		[ self fetchTypeByNameFor: aString ]

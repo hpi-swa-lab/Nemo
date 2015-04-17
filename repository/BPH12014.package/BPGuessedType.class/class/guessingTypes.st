@@ -10,4 +10,5 @@ guessingTypes
 		#self -> #('keyword self' true).
 		#selfClass -> #('self class' true).
 		#literal -> #('literal type' true).
+		#super -> #('keyword super' true).
 	}
