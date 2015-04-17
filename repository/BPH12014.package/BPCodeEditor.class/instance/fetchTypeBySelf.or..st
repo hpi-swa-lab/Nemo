@@ -10,4 +10,4 @@ fetchTypeBySelf: aString or: aProgramNode
 			ifNotNil: [ :clazz |
 				BPGuessedType
 					type: clazz
-					guessedFrom: #selfClass ] ]
+					guessedFrom: #self ] ]

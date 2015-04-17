@@ -7,7 +7,7 @@ comboSuggest: aKeyboardEvent
 		suggestionMorph := self displayMethodFinderResults: methodFinderResults.
 		suggestionMorph informationText: 'MethodFinder'.
 		^ true ].
-	guessedType := self fetchTypeForReceiver: (self receiverFrom: self nodeAtCaret) orWord: self wordAtCaret.
+	guessedType := self fetchTypeForReceiver: "(self receiverFrom: "self nodeAtCaret")" orWord: self wordAtCaret.
 	guessedType ifNil: [ ^ true ].
 	entries := (BPMarkovUtil methodsRankedByMarkovCount: guessedType type)
 		collect: [ :selectorToCount |
