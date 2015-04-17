@@ -2,5 +2,7 @@ initialization
 initializeCodeUsageMorph
 
 	self codeUsageMorph: (BPCodeUsageMorph new
-			width: 300;
-			borderWidth: 1).
+			width: 500;
+			color: self defaultBackgroundColor;
+			borderWidth: 1;
+			borderColor: self defaultBorderColor).
