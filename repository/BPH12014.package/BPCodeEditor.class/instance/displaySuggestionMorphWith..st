@@ -7,5 +7,5 @@ displaySuggestionMorphWith: entries
 		position: self absolutePositionForPopUp;
 		openInWorld;
 		focusTextFIeld.
-	suggestionMorph bounds: (suggestionMorph bounds translatedToBeWithin: ActiveWorld bounds).
+	"suggestionMorph bounds: (suggestionMorph bounds translatedToBeWithin: ActiveWorld bounds)."
 	^ suggestionMorph
