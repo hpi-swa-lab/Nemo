@@ -21,7 +21,26 @@ comboSuggest: aKeyboardEvent
 	suggestionMorph
 		on: #confirmSelection do: [ :aSuggestionEntry | | selectedDataString |
 			selectedDataString := aSuggestionEntry data selector.
-			self pasteAtCaret: selectedDataString.
+			self paste: selectedDataString at: ((suggestionMorph valueOfProperty: #lastInterval) ifNil: [self selectionInterval]).
 			(selectedDataString endsWith: ':') ifFalse: [
-				self suggestHelpAST: selectedDataString ]].
+				self suggestHelpAST: selectedDataString ]];
+		on: #textChanged do: [ :text | | lastInterval replacement |
+			lastInterval := suggestionMorph valueOfProperty: #lastInterval.
+			lastInterval ifNil: [ lastInterval := self selectionInterval ].			
+			replacement := text.
+			(self text at: self startIndex - 1) isSeparator ifFalse: [replacement := ' ' , replacement].
+			self
+				replace: lastInterval
+				with: replacement
+				and: [].
+			"self afterSelectionInsertAndSelect: text."
+			suggestionMorph setProperty: #lastInterval toValue: self selectionInterval.
+			ActiveHand newKeyboardFocus: suggestionMorph chainSuggestionListMorph filterMorph textMorph ];
+		on: #focusChanged do: [ :hasFocus | hasFocus ifFalse: [ suggestionMorph delete. ] ];
+		on: #suggestionCanceled do: [ suggestionMorph valueOfProperty: #lastInterval ifPresentDo: [ :lastSelectionInterval |
+			self
+				replace: lastSelectionInterval
+				with: ''
+				and: []].
+			ActiveHand newKeyboardFocus: self morph].
 	^ true
