@@ -3,7 +3,7 @@
 		"initializeCmdKeyShortcuts" : "DS 3/12/2015 14:09:57.101",
 		"openForClass:andMethod:" : "DS 2/11/2015 10:59" },
 	"instance" : {
-		"absolutePositionForPopUp" : "DS 4/17/2015 17:41:24.278",
+		"absolutePositionForPopUp" : "DS 4/22/2015 11:46:45.277",
 		"availableInputsIn:on:with:at:" : "DS 2/11/2015 12:19",
 		"availableInputsIn:on:withTemps:withArgs:at:" : "DS 2/11/2015 12:19",
 		"comboSuggest:" : "DS 4/21/2015 12:27:29.538",
@@ -31,7 +31,7 @@
 		"isChain:includedInAnotherChainIn:" : "DS 3/4/2015 12:06:44.142",
 		"messageAround:" : "LS 3/19/2015 13:57:19.187",
 		"methodFinderResults" : "DS 4/16/2015 13:27:46.456",
-		"nodeAtCaret" : "LS 3/19/2015 16:08:21.676",
+		"nodeAtCaret" : "DS 4/22/2015 10:12:08.811",
 		"onCloseFancyUI" : "DS 2/11/2015 12:20",
 		"openCompletionUi:" : "DS 2/11/2015 12:20",
 		"openFancyUi:" : "DS 2/11/2015 12:20",
