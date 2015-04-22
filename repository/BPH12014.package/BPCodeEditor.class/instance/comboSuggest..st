@@ -9,12 +9,12 @@ comboSuggest: aKeyboardEvent
 		^ true ].
 	guessedType := self fetchTypeForReceiver: "(self receiverFrom: "self nodeAtCaret")" orWord: self wordAtCaret.
 	guessedType ifNil: [ ^ true ].
-	entries := (BPMarkovUtil methodsRankedByMarkovCount: guessedType type)
+	entries := (BPMarkovUtil methodsRankedByMarkovCount: guessedType type withRanker: NemoMethodRanker new)
 		collect: [ :selectorToCount |
 			self createSuggestionEntry: selectorToCount key
 				fromType: guessedType
 				selector: selectorToCount key
-				count: selectorToCount value ].
+				count: ((selectorToCount value * 100) rounded / 100) asFloat].
 
 	suggestionMorph := self displaySuggestionMorphWith: entries.
 	suggestionMorph informationText: (self informationTextFor: guessedType).

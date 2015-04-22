@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Util-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceCode" ],
+	"name" : "BPStringUtilTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

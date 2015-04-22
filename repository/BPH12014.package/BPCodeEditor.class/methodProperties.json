@@ -6,7 +6,7 @@
 		"absolutePositionForPopUp" : "DS 4/22/2015 11:46:45.277",
 		"availableInputsIn:on:with:at:" : "DS 2/11/2015 12:19",
 		"availableInputsIn:on:withTemps:withArgs:at:" : "DS 2/11/2015 12:19",
-		"comboSuggest:" : "DS 4/21/2015 12:27:29.538",
+		"comboSuggest:" : "LS 4/22/2015 16:03",
 		"createSuggestionEntry:fromType:selector:count:" : "LS 4/14/2015 14:33",
 		"currentLine" : "DS 4/14/2015 11:57:19.58",
 		"displayMethodFinderResults:" : "DS 4/14/2015 17:27:05.221",
@@ -48,4 +48,5 @@
 		"suggestHelp4:" : "DS 3/13/2015 16:32:13.833",
 		"suggestHelp:" : "DS 3/13/2015 16:34:07.849",
 		"suggestHelpAST:" : "DS 3/17/2015 15:50:13.663",
-		"variableNodeAtCaret" : "LS 2/26/2015 12:37:10.126" } }
+		"variableNodeAtCaret" : "LS 2/26/2015 12:37:10.126",
+		"wordBeforeCaret" : "LS 4/17/2015 15:11" } }

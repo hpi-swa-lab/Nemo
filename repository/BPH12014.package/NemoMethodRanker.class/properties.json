@@ -1,0 +1,16 @@
+{
+	"category" : "BPH12014-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectorUnderstandings",
+		"requestedCount",
+		"cacheHitCount" ],
+	"name" : "NemoMethodRanker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
