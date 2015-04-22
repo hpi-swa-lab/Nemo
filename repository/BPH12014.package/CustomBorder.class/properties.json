@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"colors",
+		"widths" ],
+	"name" : "CustomBorder",
+	"pools" : [
+		 ],
+	"super" : "BorderStyle",
+	"type" : "normal" }
