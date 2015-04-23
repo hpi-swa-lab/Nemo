@@ -23,11 +23,10 @@ suggestHelpAST: aKeyboardEventOrString
 				data: aBPMarkovFromASTChain;
 				displayValue: aBPMarkovFromASTChain asText ]].
 	suggestionMorph := self displaySuggestionMorphWith: entries.
+	suggestionMorph informationText: 'Chain guess'.
 	suggestionMorph
-		on: #confirmSelection do: [ :aSuggestionEntry | | selectedDataString |
-			selectedDataString := aSuggestionEntry data asString.
-			self pasteAtCaret: selectedDataString.
-			suggestionMorph delete.
-			(selectedDataString endsWith: ':') ifFalse: [
-				self suggestHelpAST: selectedDataString] ].
+		on: #confirmSelection do: [ :aSuggestionEntry | self confirmSelection: aSuggestionEntry data asString on: suggestionMorph ];
+		on: #textChanged do: [ :text | self textChanged: text on: suggestionMorph ];
+		on: #focusChanged do: [ :hasFocus | hasFocus ifFalse: [ suggestionMorph delete. ] ];
+		on: #suggestionCanceled do: [ self suggestionCanceledOn: suggestionMorph ].
 	^ true

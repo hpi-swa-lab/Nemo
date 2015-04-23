@@ -6,10 +6,10 @@ completeWordIn: aString before: anInteger
 	index := anInteger.
 	aString size >= anInteger ifTrue: [ | nextCharacter |
 		nextCharacter := aString at: anInteger.
-		isInWord := nextCharacter isWhitespace not ].
+		isInWord := nextCharacter isSeparator not ].
 
 	isInWord ifTrue: [
-		[ index > 0 and: [(aString at: index) isWhitespace not]] whileTrue: [
+		[ index > 0 and: [(aString at: index) isSeparator not]] whileTrue: [
 			index := index - 1.
 		].
 	].

@@ -1,12 +1,15 @@
 as yet unclassified
 methodFinderResults
 
-	| line prefix postfix compiledPrefixes compiledPostfix parts results |
-	line := [self lines detect: [ :l | self startIndex <= l last ]] ifError: [ ^ {} ].
-	prefix := self string copyFrom: line first to: self startIndex - 1. 
-	postfix := self string copyFrom: self startIndex to: line last. 
-	self halt.
-	compiledPrefixes := ((prefix splitBy: ' ') 
+	| line prefix postfix compiledPrefixes compiledPostfix parts results tokens lineIndices questionMarkToken |
+	lineIndices := [self lines detect: [ :l | self startIndex - 1 <= l last ]] ifError: [ ^ {} ].
+	line := (self string copyFrom: lineIndices first to: lineIndices last).
+	tokens := BPParserUtil parseTokensIn: line for: nil.
+	questionMarkToken := tokens detect: [ :token | (line copyFrom: token start to: token end) = '?'] ifNone: [ ^ {} ].
+. 
+	prefix := line first: questionMarkToken start - 1. 
+	postfix := line copyFrom: questionMarkToken end + 1 to: line size.
+	compiledPrefixes := ((prefix splitBy: '.') 
 		select: [ :part | part notEmpty ]
 		thenCollect: [ :part | [Compiler evaluate: part] ifError: [ ^ {} ]]) asArray.
 	compiledPostfix := [Compiler evaluate: postfix] ifError: [ ^ {} ].
