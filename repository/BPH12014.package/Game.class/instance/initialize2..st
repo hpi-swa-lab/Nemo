@@ -1,5 +1,5 @@
 initialize-release
-initialize2: aNumber
+initialize2: aNumber "aNumber := 42"
 	| var1 var2 var3 |
 	morph := Morph new.
 	var1 := {3. 4}.

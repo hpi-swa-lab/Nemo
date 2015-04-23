@@ -2,6 +2,10 @@
 	"class" : {
 		"windowColorSpecification" : "DS 4/15/2015 10:55:17.791" },
 	"instance" : {
+		"bindingOf:" : "DS 4/23/2015 00:17:58.812",
 		"browseMethodFull" : "DS 2/19/2015 16:07:10.152",
 		"buildCodePaneWith:" : "DS 2/19/2015 13:39:10.103",
-		"defaultBrowserTitle" : "DS 2/19/2015 13:17:33.323" } }
+		"defaultBrowserTitle" : "DS 2/19/2015 13:17:33.323",
+		"hasBindingOf:" : "DS 4/23/2015 00:17:48.835",
+		"initialize" : "DS 4/23/2015 00:10:15.734",
+		"setBindings:" : "DS 4/23/2015 00:21:47.046" } }
