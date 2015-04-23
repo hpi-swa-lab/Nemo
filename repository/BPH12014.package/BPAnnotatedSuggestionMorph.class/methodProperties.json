@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"aboutToBeGrabbedBy:" : "LS 4/23/2015 13:34",
 		"chainSuggestionListMorph" : "LS 3/13/2015 11:48:48.53",
 		"chainSuggestionListMorph:" : "LS 3/13/2015 11:48:57.115",
 		"codeUsageMorph" : "LS 3/4/2015 13:39:03.617",
@@ -19,6 +20,7 @@
 		"isUsageMorphExpanded" : "DS 4/23/2015 12:22:06.219",
 		"methodSuggestionListMorph" : "LS 3/12/2015 13:28:49.394",
 		"methodSuggestionListMorph:" : "LS 3/12/2015 13:28:42.463",
+		"position:" : "LS 4/23/2015 13:26",
 		"provideUsageEntries" : "LS 3/12/2015 15:42:12.649",
 		"updateEntries:" : "LS 3/13/2015 11:49:36.302",
 		"updateUsages" : "DS 4/23/2015 12:24:18.692",

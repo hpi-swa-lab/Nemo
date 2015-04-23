@@ -1,0 +1,4 @@
+constants
+aboutToBeGrabbedBy: aHand
+
+	^ nil
