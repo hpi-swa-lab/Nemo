@@ -7,6 +7,8 @@ initializeChainSuggestionListMorph
 	self chainSuggestionListMorph
 		updateMaxItems: 10;
 		on: #navigateRight do: [ self expandUsages ];
+		on: #navigateUp do: [ self updateUsages ];
+		on: #navigateDown do: [ self updateUsages ];
 		on: #escapeKeyPressed do: [ self delete.
 			self emit: #suggestionCanceled.
 			false ];
