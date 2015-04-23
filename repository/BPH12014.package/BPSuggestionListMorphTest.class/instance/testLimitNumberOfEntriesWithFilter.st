@@ -11,4 +11,5 @@ testLimitNumberOfEntriesWithFilter
 	self assert: self morph listMorph submorphs size = 2.
 	self morph filterListFor: 'def'.
 	self assert: self morph listMorph submorphs size = 2.
-	self assert: 3 equals: self morph listMorph submorphs second entry id.
+	self assert: 4 equals: self morph listMorph submorphs first entry id.
+	self assert: 2 equals: self morph listMorph submorphs second entry id.
