@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textMorph" ],
+	"name" : "NemoDataSourceMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

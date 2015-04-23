@@ -22,9 +22,9 @@ initializeChainSuggestionListMorph
 		nil. 0.
 		nil. 0.
 		nil. 0}).
-	self chainSuggestionListMorph informationLabelMorph backgroundColor: self defaultBackgroundColor.
+	self chainSuggestionListMorph dataSourceMorph color: NemoUXConstants defaultBackgroundColor.
 	self chainSuggestionListMorph filterMorph textMorph color: Color transparent.
-	self chainSuggestionListMorph informationLabelMorph borderStyle: (CustomBorder colorsAndWidths: {
+	self chainSuggestionListMorph dataSourceMorph borderStyle: (CustomBorder colorsAndWidths: {
 		nil. 0.
 		nil. 0.
 		Color gray: 0.7. 1.

@@ -1,5 +1,5 @@
 accessing
 informationText: aString
 
-	self informationLabelMorph contents: aString.
-	self addMorphFront: self informationLabelMorph
+	self dataSourceMorph sourceText: aString.
+	self addMorphFront: self dataSourceMorph
