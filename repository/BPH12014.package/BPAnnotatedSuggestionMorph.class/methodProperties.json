@@ -8,8 +8,6 @@
 		"codeUsageMorph:" : "LS 3/4/2015 13:38:56.17",
 		"defaultBackgroundColor" : "DS 4/21/2015 14:19:00.695",
 		"defaultBorderColor" : "DS 4/17/2015 16:56:49.06",
-		"delete" : "DS 3/17/2015 11:39:05.475",
-		"expandUsageSuggestions" : "LS 3/12/2015 15:42:25.186",
 		"expandUsages" : "LS 3/13/2015 12:05:20.775",
 		"focusTextFIeld" : "LS 3/13/2015 11:49:41.524",
 		"forMethodReference:from:to:" : "LS 3/5/2015 16:38:25.238",
@@ -18,8 +16,6 @@
 		"initialize" : "DS 4/17/2015 15:53:27.998",
 		"initializeChainSuggestionListMorph" : "DS 4/22/2015 13:34:17.249",
 		"initializeCodeUsageMorph" : "DS 4/17/2015 16:57:00.063",
-		"initializeMethodSuggestionListMorph" : "DS 3/13/2015 16:30:56.705",
-		"initializeUsageSuggestionListMorph" : "DS 3/13/2015 16:31:57.127",
 		"keyStroke:" : "LS 3/12/2015 14:44:22.496",
 		"keyboardFocusChange:" : "LS 3/12/2015 11:49:28.042",
 		"methodSuggestionListMorph" : "LS 3/12/2015 13:28:49.394",
@@ -28,6 +24,4 @@
 		"updateEntries:" : "LS 3/13/2015 11:49:36.302",
 		"updateUsages" : "DS 3/18/2015 11:17:13.414",
 		"usageProvider" : "LS 3/12/2015 15:41:45.876",
-		"usageProvider:" : "LS 3/12/2015 15:41:35.211",
-		"usageSuggestionListMorph" : "LS 3/12/2015 13:29:12.523",
-		"usageSuggestionListMorph:" : "LS 3/12/2015 13:29:05.797" } }
+		"usageProvider:" : "LS 3/12/2015 15:41:35.211" } }

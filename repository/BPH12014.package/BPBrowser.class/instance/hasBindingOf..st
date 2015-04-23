@@ -1,4 +1,4 @@
-as yet unclassified
+binding
 hasBindingOf: aString
 
 	^ bindings includesKey: aString

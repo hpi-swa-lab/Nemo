@@ -1,4 +1,4 @@
-as yet unclassified
+binding
 bindingOf: aString 
 
 	(bindings includesKey: aString) ifFalse: [
