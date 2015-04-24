@@ -11,4 +11,5 @@ guessingTypes
 		#selfClass -> #('self class' true).
 		#literal -> #('literal type' true).
 		#super -> #('keyword super' true).
+		#methodReturnType -> #('method return type' true)
 	}

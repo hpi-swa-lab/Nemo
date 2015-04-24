@@ -4,6 +4,7 @@ fetchTypeForReceiver: aProgramNode orWord: aString
 	| strategies |
 	strategies := {
 		"[self guessTypeByInferencingFor: anExpressionString)."
+		[ self fetchTypeByNode: aProgramNode ].
 		[ self fetchTypeByBinding: aString ].
 		[ self fetchTypeByGlobal: aString ].
 		[ self fetchTypeBySelf: aString or: aProgramNode ].
