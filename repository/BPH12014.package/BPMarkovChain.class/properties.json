@@ -8,7 +8,7 @@
 	"instvars" : [
 		"tailTokens",
 		"tailSource",
-		"method",
+		"methodReference",
 		"count",
 		"hash" ],
 	"name" : "BPMarkovChain",

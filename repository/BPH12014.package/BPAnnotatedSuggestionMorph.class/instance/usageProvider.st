@@ -1,4 +1,0 @@
-initialization
-usageProvider
-
-	^ usageProviderBlock

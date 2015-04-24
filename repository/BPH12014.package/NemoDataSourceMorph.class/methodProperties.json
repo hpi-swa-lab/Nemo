@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "LS 4/23/2015 14:45",
-		"sourceText:" : "LS 4/23/2015 14:43",
+		"initialize" : "DS 4/24/2015 14:18:29.839",
+		"padding" : "DS 4/24/2015 14:18:48.824",
+		"sourceText:" : "DS 4/24/2015 14:17:22.749",
 		"textMorph" : "LS 4/23/2015 14:33",
-		"textMorph:" : "LS 4/23/2015 14:33" } }
+		"textMorph:" : "LS 4/23/2015 14:33",
+		"updateHeight" : "DS 4/24/2015 14:18:17.749" } }

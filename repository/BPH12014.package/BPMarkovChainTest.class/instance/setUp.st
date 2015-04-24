@@ -3,7 +3,7 @@ setUp
 	| method1 method2 |
 	method1 := (BPMarkovChainTest >> #exampleTestMethod1).
 	markovChainTail1 := BPMarkovChain new
-		method: method1;
+		methodReference: method1;
 		tailSource: ':= Morph new';
 		tailTokens: {SHRange start: 38 end: 39 type: #ansiAssignment.
 			SHRange start: 31 end: 45 type: #globalVar.
@@ -11,7 +11,7 @@ setUp
 
 	method2 := (BPMarkovChainTest >> #exampleTestMethod2).
 	markovChainTail2 := BPMarkovChain new
-		method: method1;
+		methodReference: method1;
 		tailSource: ':= Morph new';
 		tailTokens: {SHRange start: 50 end: 51 type: #ansiAssignment.
 			SHRange start: 53 end: 57 type: #globalVar.

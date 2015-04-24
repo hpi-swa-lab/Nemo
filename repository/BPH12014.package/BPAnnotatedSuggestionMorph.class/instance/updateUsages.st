@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 updateUsages
 	| selectedData selectedEntry |
 	selectedEntry := self chainSuggestionListMorph selectedEntry.
@@ -7,4 +7,6 @@ updateUsages
 	selectedData := selectedEntry data.
 	self codeUsageMorph for: ((selectedData isKindOf: MethodReference)
 								ifTrue: [ selectedData ]
-								ifFalse: [ selectedData methodReference ]).
+								ifFalse: [ (selectedData class canUnderstand: #methodReference)
+									ifTrue: [ selectedData methodReference ] ]).
+	self selectTextInUsageMorph: selectedEntry displayValue asString.

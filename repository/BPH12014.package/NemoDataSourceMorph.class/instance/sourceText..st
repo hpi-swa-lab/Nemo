@@ -1,4 +1,5 @@
 private-accessing
 sourceText: aString
 
-		self textMorph contents: aString asString.
+	self textMorph contents: aString asString.
+	self updateHeight.

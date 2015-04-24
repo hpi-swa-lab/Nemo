@@ -1,6 +1,6 @@
 as yet unclassified
 suggestHelp: aKeyboardEvent
-	| command methods filter suggestionMorph |
+	| command methods filter suggestionMorph entries |
 	command := self selection asString withBlanksTrimmed.
 	filter := (BPFilter pipeline: {
 		BPTokenizerFilter new clazz: self model selectedClass; sourceCode: paragraph text asString.
@@ -17,7 +17,7 @@ suggestHelp: aKeyboardEvent
 	methods := self filterIncludedMarkovChains: methods.
 
 	"sort: [ :a :b | a size < b size ]".
-	suggestionMorph := BPSuggestionListMorph new
+	"suggestionMorph := BPSuggestionListMorph new
 		updateMaxItems: 20;
 		updateEntries: (methods collectWithIndex: [ :aBPMarkovChain :index |
 			[BPSuggestionEntry new
@@ -28,11 +28,17 @@ suggestHelp: aKeyboardEvent
 		position: self absolutePositionForPopUp;
 		width: 300;
 		openInWorld;
-		focusTextFIeld.
+		focusTextFIeld."
+	entries := methods collectWithIndex: [ :aBPMarkovChain :index |
+			[BPSuggestionEntry new
+				id: index;
+				data: aBPMarkovChain;
+				displayValue: aBPMarkovChain asText] ].
+	suggestionMorph := self displaySuggestionMorphWith: entries.
 	suggestionMorph bounds: (suggestionMorph bounds translatedToBeWithin: ActiveWorld bounds).
 	suggestionMorph
-		on: #escapeKeyPressed do: [ suggestionMorph delete ];
-		on: #confirmSelection do: [ :aSuggestionEntry |
-			self pasteAtCaret: aSuggestionEntry data asString.
-			suggestionMorph delete ].
+		on: #confirmSelection do: [ :aSuggestionEntry | self confirmSelection: aSuggestionEntry data asString on: suggestionMorph ];
+		on: #textChanged do: [ :text | self textChanged: text on: suggestionMorph ];
+		on: #focusChanged do: [ :hasFocus | hasFocus ifFalse: [ suggestionMorph delete. ] ];
+		on: #suggestionCanceled do: [ self suggestionCanceledOn: suggestionMorph ].
 	^ true

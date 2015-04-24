@@ -5,7 +5,7 @@ putTokens: tokens intoChain: chain for: aMethodReference for: sourceString
 	tokens size <= 1 ifTrue: [^self].
 	newChain := BPMarkovChain new
 		tailSource: (tokens collect: [ :x | sourceString copyFrom: x start to: x end ]);
-		method: aMethodReference;
+		methodReference: aMethodReference;
 		tailTokens: tokens.
 	currentToken := tokens first.
 	currentTokenSource := sourceString copyFrom: currentToken start to: currentToken end.

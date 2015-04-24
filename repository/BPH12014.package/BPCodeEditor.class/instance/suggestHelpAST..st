@@ -1,6 +1,6 @@
 as yet unclassified
 suggestHelpAST: aKeyboardEventOrString
-	| command filter suggestionMorph chains chainKey entries |
+	| command filter suggestionMorph chains chainKey entries guessedType infoText |
 	command := self selection asString withBlanksTrimmed.
 	aKeyboardEventOrString isString
 		ifTrue: [chainKey := aKeyboardEventOrString]
@@ -17,13 +17,20 @@ suggestHelpAST: aKeyboardEventOrString
 			aBPMarkovFromASTChain count: assoc key.
 			aBPMarkovFromASTChain].
 
+	infoText := 'Untyped chain guess'.
+	
+	guessedType := self fetchTypeForReceiver: self nodeAtCaret orWord: chainKey.
+	guessedType ifNotNil: [ chains := chains select: [ :aBPMarkovFromASTChain |
+			guessedType type canUnderstand: aBPMarkovFromASTChain selector ].
+		infoText := 'Typed chain guess for: ' , guessedType type name ].
+
 	entries := chains collectWithIndex: [ :aBPMarkovFromASTChain :index |
 			[BPSuggestionEntry new
 				id: index;
 				data: aBPMarkovFromASTChain;
 				displayValue: aBPMarkovFromASTChain asText ]].
 	suggestionMorph := self displaySuggestionMorphWith: entries.
-	suggestionMorph informationText: 'Chain guess'.
+	suggestionMorph informationText: infoText.
 	suggestionMorph
 		on: #confirmSelection do: [ :aSuggestionEntry | self confirmSelection: aSuggestionEntry data asString on: suggestionMorph ];
 		on: #textChanged do: [ :text | self textChanged: text on: suggestionMorph ];

@@ -16,7 +16,7 @@ initializeChainSuggestionListMorph
 		color: Color transparent;
 		borderWidth: 0;
 		borderColor: self defaultBorderColor.
-	self chainSuggestionListMorph listMorph color: self defaultBackgroundColor.
+	self chainSuggestionListMorph listMorph color: NemoUXConstants defaultBackgroundColor.
 	self chainSuggestionListMorph listMorph borderStyle: (CustomBorder colorsAndWidths: {
 		Color gray: 0.7. 1.
 		nil. 0.
