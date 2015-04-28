@@ -3,7 +3,7 @@ comboSuggest: aKeyboardEvent
 
 	| guessedType entries suggestionMorph methodFinderResults |
 	methodFinderResults := self methodFinderResults.
-	methodFinderResults ifNotEmpty: [
+	methodFinderResults ifNotNil: [
 		suggestionMorph := self displayMethodFinderResults: methodFinderResults.
 		^ true ].
 	guessedType := self fetchTypeForReceiver: "(self receiverFrom: "self nodeAtCaret")" orWord: self wordBeforeCaret.
