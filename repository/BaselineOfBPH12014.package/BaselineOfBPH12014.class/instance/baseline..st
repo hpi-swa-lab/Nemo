@@ -41,10 +41,11 @@ baseline: spec
 		spec package: 'BPH12014' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
-				requires: #('Traits' 'Announcements' 'AST-Core' 'VB-Regex' 'SwaUtil')].
+				requires: #('AST-Core' 'VB-Regex')].
 
 		spec
 			group: 'default' with: #('core');
 			group: 'TravisCI' with: #('core');
 			group: 'core' with: #('BPH12014' 'SqueakOverflow' 'Tools-MethodFinder');
-			group: 'cop' with: #('core' 'BaselineOfCOPPlayground')].
+			group: 'cop' with: #('core' 'BaselineOfCOPPlayground');
+			group: 'overflow' with: #('core' 'SqueakOverflow')].
