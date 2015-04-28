@@ -1,14 +1,14 @@
 {
-	"category" : "BPH12014-Observation-Tests",
+	"category" : "COPPlayground",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"observer" ],
-	"name" : "BPCOPObservatorTest",
+		 ],
+	"name" : "BPObservationTestClass",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
