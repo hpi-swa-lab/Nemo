@@ -17,18 +17,18 @@ baseline: spec
 				className: 'BaselineOfSqueakOverflow';
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 		
-		spec project: 'SwaUtil' with: [
+		"spec project: 'SwaUtil' with: [
 			spec
 				className: 'ConfigurationOfSwaUtil';
-				repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository'].
+				repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository']."
 
-		spec package: 'Traits' with: [
+		"spec package: 'Traits' with: [
 			spec
-				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository']."
 
-		spec package: 'Announcements' with: [
+		"spec package: 'Announcements' with: [
 			spec
-				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository']."
 
 		spec package: 'AST-Core' with: [
 			spec
