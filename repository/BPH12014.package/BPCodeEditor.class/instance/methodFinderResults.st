@@ -6,13 +6,13 @@ methodFinderResults
 	line := (self string copyFrom: lineIndices first to: lineIndices last).
 	tokens := BPParserUtil parseTokensIn: line for: nil.
 	questionMarkToken := tokens detect: [ :token | (line copyFrom: token start to: token end) = '?'] ifNone: [ ^ {} ].
-. 
+
 	prefix := line first: questionMarkToken start - 1. 
 	postfix := line copyFrom: questionMarkToken end + 1 to: line size.
 	compiledPrefixes := ((prefix splitBy: '.') 
 		select: [ :part | part notEmpty ]
-		thenCollect: [ :part | [Compiler evaluate: part] ifError: [ ^ {} ]]) asArray.
-	compiledPostfix := [Compiler evaluate: postfix] ifError: [ ^ {} ].
+		thenCollect: [ :part | [Compiler evaluate: part environment: self model] ifError: [ ^ {} ] ]) asArray.
+	compiledPostfix := [Compiler evaluate: postfix environment: self model] ifError: [ ^ {} ].
 	parts := compiledPrefixes asOrderedCollection add: compiledPostfix; yourself.
 	results := [MethodFinder new
 		load: { compiledPrefixes. compiledPostfix };

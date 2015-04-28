@@ -6,7 +6,7 @@ fetchTypeForReceiver: aProgramNode orWord: aString
 		"[self guessTypeByInferencingFor: anExpressionString)."
 		[ self fetchTypeByNode: aProgramNode ].
 		[ self fetchTypeByBinding: aString ].
-		[ self fetchTypeByGlobal: aString ].
+		[ self fetchTypeByGlobal: aString or: aProgramNode].
 		[ self fetchTypeBySelf: aString or: aProgramNode ].
 		[ self fetchTypeBySelfClass: aProgramNode ].
 		[ self fetchTypeBySuper: aString or: aProgramNode ].
