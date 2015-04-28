@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-CodeEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mouseDownHandler" ],
+	"name" : "NemoCodeEditorGlobalEventHandler",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 isUsageMorphExpanded
 	^ self codeUsageMorph owner notNil

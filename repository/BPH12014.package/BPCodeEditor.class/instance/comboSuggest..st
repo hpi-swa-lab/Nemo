@@ -23,6 +23,6 @@ comboSuggest: aKeyboardEvent
 	suggestionMorph
 		on: #confirmSelection do: [ :aSuggestionEntry | 	self confirmSelection: aSuggestionEntry data selector on: suggestionMorph ];
 		on: #textChanged do: [ :text | self textChanged: text on: suggestionMorph ];
-		on: #focusChanged do: [ :hasFocus | hasFocus ifFalse: [ suggestionMorph delete. ] ];
 		on: #suggestionCanceled do: [ self suggestionCanceledOn: suggestionMorph ].
+	self suggestionMorph: suggestionMorph.
 	^ true

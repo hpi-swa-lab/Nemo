@@ -10,4 +10,5 @@ layout: aMorph in: box
 		aSubMorph fullBounds.
 		currentTop := currentTop + aSubMorph height.
 	].
-	aMorph height: currentTop - aMorph top + self padding.
+	self fillLast ifTrue: [
+			aMorph submorphs last height: aMorph top + aMorph height - (currentTop - aMorph submorphs last height)].

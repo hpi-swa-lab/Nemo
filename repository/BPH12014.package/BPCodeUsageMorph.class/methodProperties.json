@@ -4,7 +4,10 @@
 	"instance" : {
 		"codeMorph" : "LS 3/4/2015 13:32:37.856",
 		"codeMorph:" : "LS 3/4/2015 13:32:28.356",
-		"for:" : "LS 3/5/2015 16:37:36.353",
+		"for:" : "LS 4/28/2015 14:27",
 		"for:from:to:" : "LS 3/5/2015 16:41:51.53",
+		"highlightFragment:" : "LS 4/28/2015 14:30",
 		"initialize" : "LS 3/4/2015 16:00:24.015",
-		"initializeCodeMorph" : "DS 4/15/2015 15:34:58.833" } }
+		"initializeCodeMorph" : "LS 4/24/2015 15:30",
+		"methodReference" : "LS 4/24/2015 15:26",
+		"methodReference:" : "LS 4/24/2015 15:26" } }

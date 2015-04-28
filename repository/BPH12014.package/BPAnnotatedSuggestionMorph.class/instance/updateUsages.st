@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 updateUsages
 	| selectedData selectedEntry |
 	selectedEntry := self chainSuggestionListMorph selectedEntry.

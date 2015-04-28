@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 position: a
 
 	^ super position: a

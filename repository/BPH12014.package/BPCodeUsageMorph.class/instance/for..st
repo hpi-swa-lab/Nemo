@@ -1,4 +1,5 @@
 as yet unclassified
 for: aMethodReference
 
-	self codeMorph contents: (BPParserUtil styleCode: aMethodReference sourceString inClass: aMethodReference actualClass).
+		self codeMorph styler classOrMetaClass: aMethodReference actualClass.
+		self codeMorph setText: aMethodReference sourceString.
