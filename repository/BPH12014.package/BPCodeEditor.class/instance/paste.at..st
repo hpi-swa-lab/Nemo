@@ -5,7 +5,8 @@ paste: aString at: anInterval
 	"self selectFrom: self stopIndex to: self startIndex."
 	| replacement selectionIndex offset |
 	replacement := aString.
-	(self text at: self startIndex - 1) isSeparator ifFalse: [replacement := ' ' , replacement].
+	self startIndex > 1 ifTrue:
+		[ (self text at: self startIndex - 1) isSeparator ifFalse: [replacement := ' ' , replacement] ].
 
 	offset := (replacement indexOf: $:) > 0
 		ifTrue: [replacement indexOf: $:]

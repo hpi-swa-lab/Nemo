@@ -4,7 +4,8 @@ textChanged: aString on: aSuggestionMorph
 	lastInterval := aSuggestionMorph valueOfProperty: #lastInterval.
 	lastInterval ifNil: [ lastInterval := self selectionInterval ].			
 	replacement := aString.
-	(self text at: self startIndex - 1) isSeparator ifFalse: [replacement := ' ' , replacement].
+	self startIndex > 1 ifTrue: 
+		[ (self text at: self startIndex - 1) isSeparator ifFalse: [replacement := ' ' , replacement] ].
 	self
 		replace: lastInterval
 		with: replacement
