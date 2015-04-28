@@ -16,6 +16,11 @@ baseline: spec
 			spec
 				className: 'BaselineOfSqueakOverflow';
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
+		
+		spec project: 'SwaUtil' with: [
+			spec
+				className: 'ConfigurationOfSwaUtil';
+				repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository'].
 
 		spec package: 'Traits' with: [
 			spec
@@ -36,9 +41,10 @@ baseline: spec
 		spec package: 'BPH12014' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
-				requires: #('Traits' 'Announcements' 'AST-Core' 'VB-Regex')].
+				requires: #('Traits' 'Announcements' 'AST-Core' 'VB-Regex' 'SwaUtil')].
 
 		spec
 			group: 'default' with: #('core');
 			group: 'TravisCI' with: #('core');
-			group: 'core' with: #('BPH12014' 'BaselineOfCOPPlayground' 'SqueakOverflow' 'Tools-MethodFinder')].
+			group: 'core' with: #('BPH12014' 'SqueakOverflow' 'Tools-MethodFinder');
+			group: 'cop' with: #('core' 'BaselineOfCOPPlayground')].
