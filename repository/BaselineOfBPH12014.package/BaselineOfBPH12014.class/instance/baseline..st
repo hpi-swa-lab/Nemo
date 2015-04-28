@@ -46,6 +46,6 @@ baseline: spec
 		spec
 			group: 'default' with: #('core');
 			group: 'TravisCI' with: #('core');
-			group: 'core' with: #('BPH12014' 'SqueakOverflow' 'Tools-MethodFinder');
+			group: 'core' with: #('BPH12014' 'Tools-MethodFinder');
 			group: 'cop' with: #('core' 'BaselineOfCOPPlayground');
 			group: 'overflow' with: #('core' 'SqueakOverflow')].
