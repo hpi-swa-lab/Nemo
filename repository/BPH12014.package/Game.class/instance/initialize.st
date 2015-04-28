@@ -1,5 +1,6 @@
 initialize-release
 initialize
-	| m1 |
+	| m1 m2 |
 	m1 := Morph new.
-	m1 color: Game simpleGetter.
+	m2 := Morph new color: Color red.
+
