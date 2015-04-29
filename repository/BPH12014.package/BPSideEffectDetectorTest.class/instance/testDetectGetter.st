@@ -1,4 +1,4 @@
 testing
 testDetectGetter
 
-	self deny: (detector isSideEffecting: (MethodReference class: self class selector: #getter))
+	self deny: (detector isSideEffecting: (self referenceFor: #getter))

@@ -1,4 +1,4 @@
 testing
 testDetectTransitiveSetter
 
-	self assert: (detector isSideEffecting: (MethodReference class: self class selector: #transitiveSetter))
+	self assert: (detector isSideEffecting: (self referenceFor: #transitiveSetter))

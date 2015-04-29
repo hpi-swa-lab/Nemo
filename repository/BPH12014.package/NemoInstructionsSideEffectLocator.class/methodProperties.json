@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "DS 4/29/2015 15:00",
+		"interpretNextInstructionUsing:" : "DS 4/29/2015 15:16",
+		"isSideEffecting" : "DS 4/29/2015 15:05",
+		"popIntoLiteralVariable:" : "DS 4/29/2015 15:02",
+		"popIntoReceiverVariable:" : "DS 4/29/2015 15:02",
+		"popIntoRemoteTemp:inVectorAt:" : "DS 4/29/2015 15:02",
+		"send:super:numArgs:" : "DS 4/29/2015 15:04",
+		"storeIntoLiteralVariable:" : "DS 4/29/2015 15:04",
+		"storeIntoReceiverVariable:" : "DS 4/29/2015 15:04",
+		"storeIntoRemoteTemp:inVectorAt:" : "DS 4/29/2015 15:05" } }
