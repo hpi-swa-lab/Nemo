@@ -10,9 +10,6 @@ layout: aMorph in: box
 		aSubMorph fullBounds.
 		currentTop := currentTop + aSubMorph height.
 	].
-	aMorph class = BPSuggestionListMorph ifTrue: [
-			FileStream stdout nextPutAll: self fillLast asString.
-		].
 	self fillLast
 			ifTrue: [
 					aMorph submorphs last height: aMorph top + aMorph height - (currentTop - aMorph submorphs last height)].
