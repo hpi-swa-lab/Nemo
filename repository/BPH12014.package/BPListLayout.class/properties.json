@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding" ],
+		"padding",
+		"fillLast" ],
 	"name" : "BPListLayout",
 	"pools" : [
 		 ],
