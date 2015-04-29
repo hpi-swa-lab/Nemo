@@ -22,9 +22,9 @@ baseline: spec
 				className: 'ConfigurationOfSwaUtil';
 				repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository']."
 
-		"spec package: 'Traits' with: [
+		spec package: 'Traits' with: [
 			spec
-				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository']."
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
 		"spec package: 'Announcements' with: [
 			spec
@@ -34,6 +34,10 @@ baseline: spec
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
+		"spec package: 'AST-Core' with: [
+			spec
+				repository: 'http://www.squeaksource.com/rb']."
+
 		spec package: 'Tools-MethodFinder' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
@@ -41,7 +45,7 @@ baseline: spec
 		spec package: 'BPH12014' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
-				requires: #('AST-Core' 'VB-Regex')].
+				requires: #('Traits' 'AST-Core' 'VB-Regex')].
 
 		spec
 			group: 'default' with: #('core');
