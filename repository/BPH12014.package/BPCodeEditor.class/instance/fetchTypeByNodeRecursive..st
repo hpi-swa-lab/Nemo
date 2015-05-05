@@ -2,7 +2,7 @@ as yet unclassified
 fetchTypeByNodeRecursive: aProgramNode "aProgramNode := RBMessageNode new"
 
 	| receiver selector |
-	aProgramNode isMessage ifTrue: [ | type mr |
+	(aProgramNode notNil and: [ aProgramNode isMessage ]) ifTrue: [ | type mr |
 		receiver := aProgramNode receiver.
 		receiver isVariable
 			ifTrue: [
