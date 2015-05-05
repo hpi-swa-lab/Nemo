@@ -11,6 +11,11 @@ baseline: spec
 		spec package: 'VB-Regex' with: [
 			spec
 				repository: 'http://www.squeaksource.com/Regex'].
+			
+		spec project: 'CommandShell' with: [
+			spec
+				className: 'ConfigurationOfCommandShell';
+				repository: 'http://www.squeaksource.com/MetacelloRepository'].
 
 		spec project: 'SqueakOverflow' with: [
 			spec
@@ -45,7 +50,7 @@ baseline: spec
 		spec package: 'BPH12014' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
-				requires: #('Traits' 'AST-Core' 'VB-Regex')].
+				requires: #('Traits' 'AST-Core' 'VB-Regex' 'CommandShell')].
 
 		spec
 			group: 'default' with: #('core');

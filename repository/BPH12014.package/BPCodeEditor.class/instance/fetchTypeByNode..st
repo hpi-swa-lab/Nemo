@@ -1,7 +1,7 @@
 as yet unclassified
 fetchTypeByNode: aProgramNode
 
-	^ (self fetchTypeByNodeRecursive: aProgramNode) ifNotNil: [ :type |
+	^ (self fetchTypeByNodeRecursive: aProgramNode) ifNotNil: [ :returnValue |
 		BPGuessedType
-			type: type
+			type: returnValue class
 			guessedFrom: #methodReturnType ]

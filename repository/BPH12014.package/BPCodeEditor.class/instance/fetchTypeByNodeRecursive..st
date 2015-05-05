@@ -1,21 +1,23 @@
 as yet unclassified
 fetchTypeByNodeRecursive: aProgramNode "aProgramNode := RBMessageNode new"
 
-	| receiver selector |
-	(aProgramNode notNil and: [ aProgramNode isMessage ]) ifTrue: [ | type mr |
-		receiver := aProgramNode receiver.
-		receiver isVariable
+	| receiverNode selector |
+	(aProgramNode notNil and: [ aProgramNode isMessage ]) ifTrue: [ | receiver mr |
+		receiverNode := aProgramNode receiver.
+		receiverNode isVariable
 			ifTrue: [
-				type := Smalltalk at: receiver token value asSymbol ifAbsent: [ ^ nil ].
-				type := type class ]
+				receiver := self fetchValueByBinding: receiverNode token value.
+				receiver ifNil: [
+					receiver := Smalltalk at: receiverNode token value asSymbol ifAbsent: [] ] ]
 			ifFalse: [
-				type := self fetchTypeByNodeRecursive: receiver ].
-		type ifNotNil: [
+				receiver := self fetchTypeByNodeRecursive: receiverNode ].
+		receiver ifNotNil: [
 			selector := aProgramNode selector.
 			(selector includes: $:) ifTrue: [ ^ nil ].
-			mr := BPClassUtil methodReferenceOnClassOrSuper: type for: selector.
+			mr := BPClassUtil methodReferenceOnClassOrSuper: receiver class for: selector.
 			(BPSideEffectDetector isSideEffecting: mr)
+				ifTrue: [ ^ OSProcess isUnix ifTrue: [ NemoRemoteMethodEvaluator call: mr forkedOn: receiver ] ifFalse: [] ]
 				ifFalse: [ | result |
 					result := receiver withArgs: #() executeMethod: mr compiledMethod.
-					^ result class ] ] ].
+					^ result ] ] ].
 	^ nil

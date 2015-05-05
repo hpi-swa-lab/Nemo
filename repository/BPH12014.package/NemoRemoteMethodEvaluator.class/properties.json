@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Remote",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NemoRemoteMethodEvaluator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
