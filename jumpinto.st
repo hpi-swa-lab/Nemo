@@ -1,4 +1,4 @@
 Metacello new
-  baseline: 'BPH12014';
+  baseline: 'Nemo';
   repository: 'filetree://checkout/repository';
   load.
