@@ -34,10 +34,10 @@ FileStream stdout nextPutAll: 'Installed Metacello'; cr; flush.
 FileStream stdout nextPutAll: 'Bootstrapped Metacello Preview'; cr; flush.
 
 (Smalltalk at: #Metacello) new
-  baseline: 'BPH12014';
+  baseline: 'Nemo';
   repository: 'filetree://', FileDirectory default fullName, '/repository';
   load.
-FileStream stdout nextPutAll: 'Installed BPH12014 baseline'; cr; flush.
+FileStream stdout nextPutAll: 'Installed Nemo baseline'; cr; flush.
 
 "Prepare image for saving"
 Preferences setPreference: #warnIfNoChangesFile toValue: false.

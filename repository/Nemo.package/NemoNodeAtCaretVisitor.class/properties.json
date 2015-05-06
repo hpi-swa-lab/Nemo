@@ -1,0 +1,16 @@
+{
+	"category" : "Nemo-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"caretPosition",
+		"enclosingNode",
+		"lastAcceptedNode" ],
+	"name" : "NemoNodeAtCaretVisitor",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNodeVisitor",
+	"type" : "normal" }

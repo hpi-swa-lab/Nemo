@@ -1,0 +1,4 @@
+accessing
+guessedType
+
+	^ guessedType

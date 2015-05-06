@@ -10,12 +10,12 @@ gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
   ifNotNil: [:fileDirectoryClass | (fileDirectoryClass default directoryNamed: gitCache ) fullName].
 
 Metacello new
-  baseline: 'BPH12014';
+  baseline: 'Nemo';
   repository: 'filetree://', gitPath, '/BP2014H1/repository';
   get.
 
 Metacello new
-  baseline: 'BPH12014';
+  baseline: 'Nemo';
   repository: 'filetree://', gitPath, '/BP2014H1/repository';
   load: 'TravisCI'.
   
@@ -24,6 +24,6 @@ FileStream stdout nextPutAll: 'Author set'; cr; flush.
 
 "Run the tests"
 TravisCIHarness
-  value: #( 'BaselineOfBPH12014' )
+  value: #( 'BaselineOfNemo' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.

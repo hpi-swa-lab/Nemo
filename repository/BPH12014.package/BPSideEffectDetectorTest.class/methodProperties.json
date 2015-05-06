@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"aVeryUniqueMessageCallABCD" : "DS 4/29/2015 16:30",
 		"constantGetter" : "DS 4/29/2015 14:20",
 		"getter" : "DS 3/25/2015 16:54:46.041",
 		"primitiveMethod" : "DS 4/29/2015 15:35",
@@ -22,4 +23,6 @@
 		"testDetectTemporaryGetter" : "DS 4/29/2015 15:56",
 		"testDetectTemporaryGetterWithSetter" : "DS 4/29/2015 15:57",
 		"testDetectTransitiveSetter" : "DS 4/29/2015 15:57",
-		"transitiveSetter" : "DS 3/26/2015 14:43:06.756" } }
+		"testDetectUniqueMessageCall" : "DS 4/29/2015 16:36",
+		"transitiveSetter" : "DS 3/26/2015 14:43:06.756",
+		"uniqueMessageCall" : "DS 4/29/2015 16:30" } }

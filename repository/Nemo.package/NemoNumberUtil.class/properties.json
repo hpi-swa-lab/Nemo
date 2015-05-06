@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NemoNumberUtil",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

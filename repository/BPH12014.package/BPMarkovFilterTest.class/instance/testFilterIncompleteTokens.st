@@ -2,7 +2,7 @@ as yet unclassified
 testFilterIncompleteTokens
 
 	| tokenLists difference |
-	tokenLists := BPMarkovFilter splitTokensByDelimiter: (BPParserUtil parseTokensIn: (MethodReference class: self class selector: #exampleTestMethod3:) sourceString for: self class).
+	tokenLists := BPMarkovFilter splitTokensByDelimiter: (NemoParserUtil parseTokensIn: (MethodReference class: self class selector: #exampleTestMethod3:) sourceString for: self class).
 
 	difference := BPMarkovFilter leftRightParenthesisDifference: (tokenLists at: 4).
 	self assert: 0 equals: difference.

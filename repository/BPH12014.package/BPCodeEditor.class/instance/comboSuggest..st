@@ -8,10 +8,10 @@ comboSuggest: aKeyboardEvent
 		^ true ].
 	guessedType := self fetchTypeForReceiver: "(self receiverFrom: "self nodeAtCaret")" orWord: self wordBeforeCaret.
 	guessedType ifNil: [
-		suggestionMorph := self displayAvailableVariables: (BPParserUtil parseMethodArgsAndTempVarNamesIn: paragraph string for: self model selectedClass).
+		suggestionMorph := self displayAvailableVariables: (NemoParserUtil parseMethodArgsAndTempVarNamesIn: paragraph string for: self model selectedClass).
 		suggestionMorph informationText: 'Available variables'.
 		^ true ].
-	entries := (BPMarkovUtil methodsRankedByMarkovCount: guessedType type withRanker: NemoMethodRanker new)
+	entries := (NemoMarkovUtil methodsRankedByMarkovCount: guessedType type withRanker: NemoMethodRanker new)
 		collect: [ :selectorToCount |
 			self createSuggestionEntry: selectorToCount key
 				fromType: guessedType

@@ -12,6 +12,6 @@ fetchTypeByNameFor: anExpressionString
 			ifNotNilDo: [ :aClass | ^ BPGuessedType type: aClass guessedFrom: #variableName ].
 		curVarName := (RxMatcher
 			forString: '^([a-zA-Z][a-z0-9]*)')
-			copy: (BPParserUtil escapeForRegEx: curVarName)
+			copy: (NemoParserUtil escapeForRegEx: curVarName)
 			replacingMatchesWith: '' ].
 	^nil

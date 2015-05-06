@@ -14,7 +14,7 @@ fetchTypeByNodeRecursive: aProgramNode "aProgramNode := RBMessageNode new"
 		receiver ifNotNil: [
 			selector := aProgramNode selector.
 			(selector includes: $:) ifTrue: [ ^ nil ].
-			mr := BPClassUtil methodReferenceOnClassOrSuper: receiver class for: selector.
+			mr := NemoClassUtil methodReferenceOnClassOrSuper: receiver class for: selector.
 			(BPSideEffectDetector isSideEffecting: mr)
 				ifTrue: [ ^ OSProcess isUnix ifTrue: [ NemoRemoteMethodEvaluator call: mr forkedOn: receiver ] ifFalse: [] ]
 				ifFalse: [ | result |

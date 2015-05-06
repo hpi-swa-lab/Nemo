@@ -11,7 +11,7 @@ suggestHelp4: aKeyboardEvent
 			BPMarkovFilter
 				enrichChain: chain
 				forMethodReference: methodRef
-				withTokens: (BPParserUtil parseTokensIn: methodRef sourceString for: methodRef actualClass)
+				withTokens: (NemoParserUtil parseTokensIn: methodRef sourceString for: methodRef actualClass)
 				usingOrder: 0].
  
 	methods := (((chain at: filter variableToken type ifAbsent: [Dictionary new])

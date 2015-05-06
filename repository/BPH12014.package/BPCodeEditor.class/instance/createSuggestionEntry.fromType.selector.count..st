@@ -3,6 +3,6 @@ createSuggestionEntry: anId fromType: aBPGuessedType selector: aSelector count: 
 
 	^ BPSuggestionEntry new
 		id: aSelector;
-		data: (BPClassUtil methodReferenceOnClassOrSuper: aBPGuessedType type
+		data: (NemoClassUtil methodReferenceOnClassOrSuper: aBPGuessedType type
 			for: aSelector);
 		displayValue: aSelector , ' (' , anInteger , ')'

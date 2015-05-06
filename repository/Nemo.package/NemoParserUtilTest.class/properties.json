@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Util-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceCode" ],
+	"name" : "NemoParserUtilTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

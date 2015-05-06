@@ -16,7 +16,7 @@ initialize
 				
 				index at: token type ifAbsentPut: [ Dictionary new ].
 				(index at: token type) at: tokenSource ifAbsentPut: [ OrderedCollection new ].
-				((index at: token type) at: tokenSource) add: (TokenReference new 
+				((index at: token type) at: tokenSource) add: (NemoTokenReference new 
 					method: method methodReference;
 					token: token;
 					yourself) ]]]

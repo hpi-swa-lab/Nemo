@@ -4,7 +4,7 @@ methodFinderResults
 	| line prefix postfix compiledPrefixes compiledPostfix parts results tokens lineIndices questionMarkToken |
 	lineIndices := [self lines detect: [ :l | self startIndex - 1 <= l last ]] ifError: [ ^ nil ].
 	line := (self string copyFrom: lineIndices first to: lineIndices last).
-	tokens := BPParserUtil parseTokensIn: line for: nil.
+	tokens := NemoParserUtil parseTokensIn: line for: nil.
 	questionMarkToken := tokens detect: [ :token | (line copyFrom: token start to: token end) = '?'] ifNone: [ ^ nil ].
 
 	prefix := line first: questionMarkToken start - 1. 

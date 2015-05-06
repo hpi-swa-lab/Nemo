@@ -1,0 +1,16 @@
+{
+	"category" : "Nemo-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"guessedType",
+		"variableName",
+		"selectors" ],
+	"name" : "NemoTypeGuessingNodeVisitor",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNodeVisitor",
+	"type" : "normal" }

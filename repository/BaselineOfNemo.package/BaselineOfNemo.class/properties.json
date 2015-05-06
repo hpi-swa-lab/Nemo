@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfNemo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfNemo",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

@@ -13,7 +13,7 @@ displayAvailableVariables: aDictionary
 		[ entries addAll: (self model selectedClass instVarNames collect: [ :variableName |
 			BPSuggestionEntry new id: variableName; data: variableName; displayValue: variableName ]) ].
 	
-	rankedClasses := BPMarkovUtil classesRankedByMarkovCount: SystemNavigation allClasses.
+	rankedClasses := NemoMarkovUtil classesRankedByMarkovCount: SystemNavigation allClasses.
 	entries addAll: (rankedClasses collect: [ :clazzToCount |
 		BPSuggestionEntry new id: clazzToCount key name; data: clazzToCount key name; displayValue: clazzToCount key name , ' (' , clazzToCount value , ')' ]).
 	entries add: (BPSuggestionEntry new id: 'super'; data: 'super'; displayValue: 'super').

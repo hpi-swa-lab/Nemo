@@ -1,0 +1,15 @@
+{
+	"category" : "Nemo-Util-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instanceVariable1",
+		"instanceVariable2" ],
+	"name" : "NemoSampleClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
