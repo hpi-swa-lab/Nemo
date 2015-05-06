@@ -1,0 +1,15 @@
+{
+	"category" : "Nemo-Observation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectorUnderstandings",
+		"dictionary" ],
+	"name" : "NemoSelectorInfoObserver",
+	"pools" : [
+		 ],
+	"super" : "NemoObserver",
+	"type" : "normal" }

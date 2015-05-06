@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Observation",
+	"classinstvars" : [
+		"DefaultInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NemoObserver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

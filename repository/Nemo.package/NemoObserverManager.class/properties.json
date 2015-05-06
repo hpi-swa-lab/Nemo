@@ -1,0 +1,16 @@
+{
+	"category" : "Nemo-Observation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isStarted",
+		"observers",
+		"observedPackages" ],
+	"name" : "NemoObserverManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

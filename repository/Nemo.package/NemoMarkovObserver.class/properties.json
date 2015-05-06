@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Observation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NemoMarkovObserver",
+	"pools" : [
+		 ],
+	"super" : "NemoObserver",
+	"type" : "normal" }

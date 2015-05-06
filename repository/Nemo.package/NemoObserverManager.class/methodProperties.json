@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"DefaultInstance" : "LS 5/6/2015 15:23",
+		"DefaultInstance:" : "LS 5/6/2015 15:23",
+		"default" : "LS 5/6/2015 15:23" },
+	"instance" : {
+		"addObserver:" : "LS 5/6/2015 15:43",
+		"addPackage:" : "LS 5/6/2015 16:47",
+		"isStarted" : "LS 5/6/2015 15:14",
+		"isStarted:" : "LS 5/6/2015 15:15",
+		"methodAdded:" : "LS 5/6/2015 15:31",
+		"methodRemoved:" : "LS 5/6/2015 15:30",
+		"observedPackages" : "LS 5/6/2015 16:46",
+		"observedPackages:" : "LS 5/6/2015 16:46",
+		"observers" : "LS 5/6/2015 15:25",
+		"observers:" : "LS 5/6/2015 15:25",
+		"removeObserver:" : "LS 5/6/2015 15:44",
+		"removePackage:" : "LS 5/6/2015 16:47",
+		"reset" : "LS 5/6/2015 16:47",
+		"start" : "LS 5/6/2015 16:47",
+		"startPackage:" : "LS 5/6/2015 15:14",
+		"stop" : "LS 5/6/2015 16:47",
+		"stopPackage:" : "LS 5/6/2015 15:16" } }
