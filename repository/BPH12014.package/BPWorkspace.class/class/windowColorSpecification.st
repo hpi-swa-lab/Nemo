@@ -4,8 +4,8 @@ windowColorSpecification
 
 	^ WindowColorSpec
 		classSymbol: self name
-		wording: 'Suggestion Browser'
+		wording: 'Suggestion Workspace'
 		brightColor: #lightGreen
 		pastelColor: #paleGreen
 		normalColor: (Color r: 0.525 g: 0.688 b: 0.449)
-		helpMessage: 'A cooler system browser.'
+		helpMessage: 'A cooler workspace.'
