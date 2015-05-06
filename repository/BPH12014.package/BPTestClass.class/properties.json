@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-Util-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instanceVariable1",
+		"instanceVariable2" ],
+	"name" : "BPTestClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

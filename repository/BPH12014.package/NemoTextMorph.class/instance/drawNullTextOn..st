@@ -1,0 +1,3 @@
+drawing
+drawNullTextOn: aCanvas
+	

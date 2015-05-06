@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"display:inParent:with:do:onEnterAction:" : "LS 12/16/2014 14:20:16.23" },
+	"instance" : {
+		"actionListener" : "DS 12/4/2014 11:20",
+		"actionListener:" : "DS 12/4/2014 11:20",
+		"actionSelector" : "DS 12/4/2014 11:53",
+		"actionSelector:" : "DS 12/4/2014 11:53",
+		"buildInputFieldWith:" : "DS 12/3/2014 17:10",
+		"buildWith:" : "DS 12/4/2014 11:16",
+		"closeInput" : "LS 12/16/2014 15:41:50.722",
+		"contents:" : "LS 12/16/2014 16:27:42.354",
+		"enterAction" : "DS 12/4/2014 11:24",
+		"enterAction:" : "DS 12/4/2014 11:24",
+		"fancyKeyStroke:" : "LS 12/16/2014 15:41:40.717",
+		"fancyUI" : "DS 12/11/2014 11:11",
+		"fancyUI:" : "DS 12/11/2014 11:11",
+		"initializeContents:" : "DS 12/4/2014 12:07",
+		"onCloseAction" : "LS 12/16/2014 15:37:59.063",
+		"onCloseAction:" : "LS 12/16/2014 15:37:48.094",
+		"open" : "JSA 12/11/2014 16:41:58.433",
+		"parent" : "JSA 12/11/2014 14:54:08.348",
+		"parent:" : "JSA 12/11/2014 14:54:08.358" } }

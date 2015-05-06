@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-AST-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"leftOutput",
+		"rightOutput" ],
+	"name" : "ASTTool",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

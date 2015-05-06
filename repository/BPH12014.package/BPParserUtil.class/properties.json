@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPParserUtil",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

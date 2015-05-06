@@ -1,0 +1,14 @@
+{
+	"category" : "BPH12014-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPMarkovUtil",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

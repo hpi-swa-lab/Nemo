@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"constantGetter" : "DS 4/29/2015 14:20",
+		"getter" : "DS 3/25/2015 16:54:46.041",
+		"primitiveMethod" : "DS 4/29/2015 15:35",
+		"referenceFor:" : "DS 4/29/2015 15:50",
+		"returnColorRed" : "DS 4/29/2015 16:02",
+		"setUp" : "DS 3/25/2015 16:52:29.97",
+		"setter" : "DS 3/26/2015 14:27:08.915",
+		"setter:" : "DS 3/26/2015 14:27:17.845",
+		"temporaryGetter" : "DS 3/26/2015 14:47:38.702",
+		"temporaryGetterWithSetter" : "DS 3/26/2015 15:30:57.264",
+		"testDetectGetter" : "DS 4/29/2015 15:56",
+		"testDetectQuickColorRed" : "DS 4/29/2015 16:06",
+		"testDetectQuickConstantGetter" : "DS 4/29/2015 15:56",
+		"testDetectQuickPrimitive" : "DS 4/29/2015 15:56",
+		"testDetectQuickTemporaryGetter" : "DS 4/29/2015 15:49",
+		"testDetectSetter" : "DS 4/29/2015 15:56",
+		"testDetectSetter2" : "DS 4/29/2015 15:56",
+		"testDetectTemporaryGetter" : "DS 4/29/2015 15:56",
+		"testDetectTemporaryGetterWithSetter" : "DS 4/29/2015 15:57",
+		"testDetectTransitiveSetter" : "DS 4/29/2015 15:57",
+		"transitiveSetter" : "DS 3/26/2015 14:43:06.756" } }

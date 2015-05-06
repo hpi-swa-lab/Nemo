@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"isNotSideEffecting:" : "DS 3/26/2015 15:47:41.016",
+		"isSideEffecting:" : "DS 3/26/2015 15:45:30.65" },
+	"instance" : {
+		"areInstructionsSideEffecting:" : "DS 4/29/2015 15:58",
+		"isSideEffecting:" : "DS 4/23/2015 16:07:54.718",
+		"isTemporaryNode:" : "DS 3/26/2015 15:36:49.679",
+		"quickCheck:" : "DS 4/29/2015 16:07",
+		"visitAssignmentNode:" : "DS 3/26/2015 15:41:42.594",
+		"visitMessageNode:" : "DS 3/26/2015 15:43:04.26",
+		"visitPragmaNode:" : "DS 3/26/2015 16:01:58.811" } }

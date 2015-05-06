@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"initializeCmdKeyShortcuts" : "DS 5/6/2015 15:45" },
+		"initializeCmdKeyShortcuts" : "DS 5/6/2015 15:45",
+		"openForClass:andMethod:" : "DS 2/11/2015 10:59" },
 	"instance" : {
 		"absolutePositionForPopUp" : "DS 4/24/2015 14:28:13.973",
 		"closeSuggestions" : "LS 4/24/2015 16:34",
@@ -30,6 +31,7 @@
 		"globalEventHandler" : "LS 4/24/2015 16:14",
 		"globalEventHandler:" : "LS 4/24/2015 16:14",
 		"guessIt:" : "DS 2/11/2015 12:19",
+		"guessItBySHParser:" : "LS 2/26/2015 12:37:06.477",
 		"informationTextFor:" : "DS 4/17/2015 14:11:50.57",
 		"initialize" : "LS 4/24/2015 16:31",
 		"invalidateEditorMorph" : "DS 2/11/2015 15:02:45.187",

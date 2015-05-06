@@ -1,0 +1,15 @@
+{
+	"category" : "BPH12014-SideEffect-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"detector",
+		"dummy" ],
+	"name" : "BPSideEffectDetectorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

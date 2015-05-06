@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildInputButtonWith:" : "DS 10/21/2014 12:12",
+		"buildInputFieldWith:" : "DS 10/21/2014 12:21",
+		"buildInputPanelWith:" : "DS 10/28/2014 12:49",
+		"buildLeftOutputPanelWith:" : "DS 10/28/2014 13:06",
+		"buildRightOutputPanelWith:" : "DS 10/28/2014 13:06",
+		"buildWith:" : "DS 10/28/2014 12:48",
+		"cleanInput:" : "DS 10/28/2014 13:19",
+		"contents:" : "DS 10/28/2014 13:28",
+		"createLiteralsOutput:" : "DS 11/3/2014 16:01",
+		"createMethodDefinitionsOutput:" : "DS 11/3/2014 15:08",
+		"formatOutput:" : "DS 11/3/2014 16:02",
+		"go" : "DS 10/21/2014 12:17",
+		"leftOutput" : "DS 10/28/2014 12:59",
+		"leftOutput:" : "DS 10/28/2014 12:59",
+		"open" : "DS 10/21/2014 11:22",
+		"rightOutput" : "DS 10/28/2014 12:59",
+		"rightOutput:" : "DS 10/28/2014 12:59" } }
