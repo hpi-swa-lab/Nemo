@@ -8,7 +8,7 @@ buildPluggableSuggestionCodePane: aSpec
 	larger piece of code. So instead we copy the implementation from 
 	buildPlugggableText: here and insert #useDefaultStyler at the right point"
 	| widget |
-	widget := SimplePluggableTextMorphPlus new.
+	widget := NemoPluggableTextMorphPlus new.
 	widget useDefaultStyler.
 	widget on: aSpec model
 				text: aSpec getText 

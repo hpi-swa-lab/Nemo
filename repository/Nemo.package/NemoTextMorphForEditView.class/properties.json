@@ -1,15 +1,14 @@
 {
-	"category" : "BPH12014-AST-UI",
+	"category" : "Nemo-ToolBuilder",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"leftOutput",
-		"rightOutput" ],
-	"name" : "ASTTool",
+		 ],
+	"name" : "NemoTextMorphForEditView",
 	"pools" : [
 		 ],
-	"super" : "StringHolder",
+	"super" : "TextMorphForEditView",
 	"type" : "normal" }
