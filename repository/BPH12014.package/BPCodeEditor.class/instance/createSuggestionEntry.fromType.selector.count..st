@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 createSuggestionEntry: anId fromType: aBPGuessedType selector: aSelector count: anInteger
 
 	^ BPSuggestionEntry new

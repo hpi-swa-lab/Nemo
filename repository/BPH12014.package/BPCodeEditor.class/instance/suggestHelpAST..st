@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 suggestHelpAST: aKeyboardEventOrString
 	| command filter suggestionMorph chains chainKey entries guessedType infoText |
 	command := self selection asString withBlanksTrimmed.

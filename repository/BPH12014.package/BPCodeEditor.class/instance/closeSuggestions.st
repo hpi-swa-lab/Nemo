@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 closeSuggestions
 
 		self suggestionMorph delete.

@@ -1,4 +1,4 @@
-as yet unclassified
+positioning
 absolutePositionForPopUp
 	| y rect x |
 	rect := self paragraph caretRect ifNil: [self paragraph selectionRects last].

@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 suggestionCanceledOn: aSuggestionMorph
 	aSuggestionMorph valueOfProperty: #lastInterval ifPresentDo: [ :lastSelectionInterval |
 		self replace: lastSelectionInterval with: '' and: [] ].

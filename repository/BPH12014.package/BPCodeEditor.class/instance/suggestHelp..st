@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 suggestHelp: aKeyboardEvent
 	| command methods filter suggestionMorph entries |
 	command := self selection asString withBlanksTrimmed.

@@ -1,4 +1,0 @@
-parsing
-escapeForRegEx: aString
-
-	^ aString

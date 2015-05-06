@@ -1,4 +1,4 @@
-as yet unclassified
+editor accessing
 nodeAtCaret
 	| node |
 	[ node := RBParser parseFaultyMethod: paragraph text asString.

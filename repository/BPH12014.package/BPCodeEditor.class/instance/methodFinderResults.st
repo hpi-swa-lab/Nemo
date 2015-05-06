@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 methodFinderResults
 
 	| line prefix postfix compiledPrefixes compiledPostfix parts results tokens lineIndices questionMarkToken |

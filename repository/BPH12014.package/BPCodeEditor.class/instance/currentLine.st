@@ -1,4 +1,4 @@
-as yet unclassified
+editor accessing
 currentLine
 	| textLine |
 	textLine := self paragraph lines at: (self paragraph lineIndexOfCharacterIndex: self pointIndex).

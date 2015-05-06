@@ -1,3 +1,3 @@
-as yet unclassified
+positioning
 positionForPopUp
 	^ self selectionPosition: ''

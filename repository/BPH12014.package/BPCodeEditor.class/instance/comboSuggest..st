@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 comboSuggest: aKeyboardEvent
 
 	| guessedType entries suggestionMorph methodFinderResults |
@@ -6,7 +6,12 @@ comboSuggest: aKeyboardEvent
 	methodFinderResults ifNotNil: [
 		suggestionMorph := self displayMethodFinderResults: methodFinderResults.
 		^ true ].
-	guessedType := self fetchTypeForReceiver: "(self receiverFrom: "self nodeAtCaret")" orWord: self wordBeforeCaret.
+	guessedType := NemoTypeInferencingUtil
+		typeFor: self nodeAtCaret
+		orWord: self wordBeforeCaret
+		selfClass: self model selectedClass
+		currentSourceCode: self string
+		model: self model.
 	guessedType ifNil: [
 		suggestionMorph := self displayAvailableVariables: (NemoParserUtil parseMethodArgsAndTempVarNamesIn: paragraph string for: self model selectedClass).
 		suggestionMorph informationText: 'Available variables'.

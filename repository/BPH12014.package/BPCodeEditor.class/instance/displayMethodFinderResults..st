@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 displayMethodFinderResults: aCollection
 
 	| entries suggestionMorph |

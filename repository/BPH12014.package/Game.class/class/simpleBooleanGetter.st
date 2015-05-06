@@ -1,3 +1,3 @@
 as yet unclassified
 simpleBooleanGetter
-	^ false
+	^ true

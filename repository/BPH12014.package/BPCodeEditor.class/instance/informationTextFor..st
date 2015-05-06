@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 informationTextFor: aBPGuessedType
 
 	| prefix |

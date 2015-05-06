@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 onClickAnwhere: aMouseEvent
 
 		self suggestionMorph ifNotNil: [ :suggestionMorph |

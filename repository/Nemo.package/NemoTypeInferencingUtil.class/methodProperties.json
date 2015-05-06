@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"typeByBinding:for:" : "DS 5/6/2015 16:54",
+		"typeByGlobal:or:" : "DS 5/6/2015 16:33",
+		"typeByNameFor:" : "DS 5/6/2015 16:42",
+		"typeByNode:model:" : "DS 5/6/2015 17:03",
+		"typeByNodeRecursive:model:" : "DS 5/6/2015 17:13",
+		"typeByScanningMessageCalls:on:" : "DS 5/6/2015 17:41",
+		"typeBySelf:or:selfClass:" : "DS 5/6/2015 16:55",
+		"typeBySelfClass:selfClass:" : "DS 5/6/2015 16:55",
+		"typeBySuper:or:selfClass:" : "DS 5/6/2015 17:01",
+		"typeFor:orWord:selfClass:currentSourceCode:model:" : "DS 5/6/2015 17:18",
+		"typeFromLiteral:" : "DS 5/6/2015 16:38",
+		"valueByBinding:for:" : "DS 5/6/2015 16:52" },
+	"instance" : {
+		 } }

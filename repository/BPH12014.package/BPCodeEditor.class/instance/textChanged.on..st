@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 textChanged: aString on: aSuggestionMorph
 	| lastInterval replacement |
 	lastInterval := aSuggestionMorph valueOfProperty: #lastInterval.

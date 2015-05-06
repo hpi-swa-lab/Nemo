@@ -1,4 +1,4 @@
-as yet unclassified
+editor modifying
 paste: aString at: anInterval
 
 	"self afterSelectionInsertAndSelect: aString."

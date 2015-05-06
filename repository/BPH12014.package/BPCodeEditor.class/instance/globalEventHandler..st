@@ -1,4 +1,4 @@
-as yet unclassified
-globalEventHandler: aCodeEditorGlobalEventHandler
+accessing
+globalEventHandler: anObject
 
-		globalEventHandler := aCodeEditorGlobalEventHandler.
+	globalEventHandler := anObject

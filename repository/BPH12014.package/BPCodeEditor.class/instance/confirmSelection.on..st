@@ -1,4 +1,4 @@
-as yet unclassified
+code suggestion
 confirmSelection: selectedDataString on: aSuggestionMorph
 
 	self paste: selectedDataString at: ((aSuggestionMorph valueOfProperty: #lastInterval) ifNil: [self selectionInterval]).
