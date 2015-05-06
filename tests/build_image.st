@@ -72,11 +72,11 @@ on the image''s source code. This only uses a Markov-Chain under
 the hood.' label: 'Welcome'.
 FileStream stdout nextPutAll: 'Created welcome message'; cr; flush.
 
-BPMarkovFromASTObserver default addPackage: 'System'.
+"BPMarkovFromASTObserver default addPackage: 'System'.
 BPMarkovFromASTObserver default addPackage: 'Morphic'.
 BPMarkovFromASTObserver default addPackage: 'Collections'.
 BPMarkovFromASTObserver default start.
-FileStream stdout nextPutAll: 'Finished analysing the relevant Squeak source code AST'; cr; flush.
+FileStream stdout nextPutAll: 'Finished analysing the relevant Squeak source code AST'; cr; flush."
 
 "BPBrowser open."
 FileStream stdout nextPutAll: 'Opened browser, now quitting'; cr; flush.
