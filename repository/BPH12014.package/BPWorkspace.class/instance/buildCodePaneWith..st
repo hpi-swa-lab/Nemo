@@ -1,7 +1,7 @@
 toolbuilder
 buildCodePaneWith: builder
 	| textSpec |
-	textSpec := BPPluggableSuggestionCodePaneSpec new.
+	textSpec := NemoPluggableSuggestionCodePaneSpec new.
 	textSpec 
 		model: self;
 		getText: #contents; 

@@ -1,5 +1,5 @@
 {
-	"category" : "BPH12014-SideEffect-Tests",
+	"category" : "Nemo-SideEffect-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -8,7 +8,7 @@
 	"instvars" : [
 		"detector",
 		"dummy" ],
-	"name" : "BPSideEffectDetectorTest",
+	"name" : "NemoSideEffectDetectorTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

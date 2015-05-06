@@ -3,11 +3,6 @@ baseline: spec
 	<baseline>
 	
 	spec for: #common do: [
-		spec project: 'BaselineOfCOPPlayground' with: [
-			spec
-				className: 'BaselineOfCOPPlayground';
-				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
-
 		spec package: 'VB-Regex' with: [
 			spec
 				repository: 'http://www.squeaksource.com/Regex'].
@@ -15,15 +10,24 @@ baseline: spec
 		spec package: 'Traits' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
+			
+		spec package: 'Announcements' with: [
+			spec
+				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
 		spec package: 'AST-Core' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository'].
 
+		spec project: 'CommandShell' with: [
+			spec
+				className: 'ConfigurationOfCommandShell';
+				repository: 'http://www.squeaksource.com/MetacelloRepository'].
+
 		spec package: 'Nemo' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
-				requires: #('Traits' 'AST-Core' 'VB-Regex')].
+				requires: #('Traits' 'Announcements' 'AST-Core' 'VB-Regex' 'CommandShell')].
 
 		spec
 			group: 'default' with: #('core');

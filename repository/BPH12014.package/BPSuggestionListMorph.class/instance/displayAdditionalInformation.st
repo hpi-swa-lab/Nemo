@@ -13,7 +13,7 @@ displayAdditionalInformation
 			browseMessageList: (Array with: mr)
 			name: mr asStringOrText
 			autoSelect: stringToSelect].
-	(markov isKindOf: BPMarkovFromASTChain) ifTrue: [
+	(markov isKindOf: NemoMarkovFromASTChain) ifTrue: [
 		mr := markov methodReference.
 		SystemNavigation default 
 			browseMessageList: (Array with: mr)

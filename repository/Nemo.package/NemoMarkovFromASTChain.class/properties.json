@@ -1,13 +1,15 @@
 {
-	"category" : "BPH12014-Remote",
+	"category" : "Nemo-Util",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "NemoRemoteMethodEvaluator",
+		"selector",
+		"methodReference",
+		"count" ],
+	"name" : "NemoMarkovFromASTChain",
 	"pools" : [
 		 ],
 	"super" : "Object",

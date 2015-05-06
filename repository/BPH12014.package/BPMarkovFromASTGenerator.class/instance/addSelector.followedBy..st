@@ -1,7 +1,7 @@
 as yet unclassified
 addSelector: aSelector followedBy: anotherSelector
 	| chain |
-	chain := BPMarkovFromASTChain new
+	chain := NemoMarkovFromASTChain new
 		selector: anotherSelector;
 		methodReference: self methodReference;
 		yourself.

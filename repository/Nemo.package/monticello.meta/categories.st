@@ -1,2 +1,6 @@
+SystemOrganization addCategory: #'Nemo-SideEffect-Tests'!
+SystemOrganization addCategory: #'Nemo-SideEffect'!
+SystemOrganization addCategory: #'Nemo-Remote'!
 SystemOrganization addCategory: #'Nemo-Util'!
 SystemOrganization addCategory: #'Nemo-Util-Tests'!
+SystemOrganization addCategory: #'Nemo-ToolBuilder'!

@@ -1,5 +1,5 @@
 remote
-call: aMethodReference forkedOn: aReceiver "aMethodReference:=MethodReference class: Game theMetaClass selector: #getterWithSelf"
+call: aMethodReference forkedOn: aReceiver
 	| remoteResult remoteTask |
 	remoteTask := RemoteTask new
 		task: [ self call: aMethodReference on: aReceiver ];

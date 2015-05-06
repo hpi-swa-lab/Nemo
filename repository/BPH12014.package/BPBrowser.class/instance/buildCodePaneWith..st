@@ -7,7 +7,7 @@ buildCodePaneWith: builder
 		buttonSpec := self buildOptionalButtonsWith: builder.
 		buttonSpec frame: self optionalButtonsFrame.
 		top children add: buttonSpec].
-	textSpec := BPPluggableSuggestionCodePaneSpec new.
+	textSpec := NemoPluggableSuggestionCodePaneSpec new.
 	textSpec 
 		model: self;
 		getText: #contents; 

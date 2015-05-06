@@ -1,14 +1,14 @@
 {
-	"category" : "BPH12014-SideEffect",
+	"category" : "Nemo-ToolBuilder",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sideEffecting" ],
-	"name" : "BPSideEffectDetector",
+		 ],
+	"name" : "NemoPluggableSuggestionCodePaneSpec",
 	"pools" : [
 		 ],
-	"super" : "RBProgramNodeVisitor",
+	"super" : "PluggableCodePaneSpec",
 	"type" : "normal" }

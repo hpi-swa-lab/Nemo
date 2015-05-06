@@ -2,7 +2,7 @@
 	"class" : {
 		"enrichChains:fromAST:andMethodReference:" : "DS 3/12/2015 13:53:42.42" },
 	"instance" : {
-		"addSelector:followedBy:" : "DS 3/12/2015 13:52:08.178",
+		"addSelector:followedBy:" : "DS 5/6/2015 13:30",
 		"chains" : "DS 3/12/2015 11:20:05.559",
 		"chains:" : "DS 3/12/2015 11:20:05.643",
 		"methodReference" : "DS 3/12/2015 13:51:10.465",

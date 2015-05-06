@@ -11,7 +11,7 @@ comboSuggest: aKeyboardEvent
 		suggestionMorph := self displayAvailableVariables: (NemoParserUtil parseMethodArgsAndTempVarNamesIn: paragraph string for: self model selectedClass).
 		suggestionMorph informationText: 'Available variables'.
 		^ true ].
-	entries := (NemoMarkovUtil methodsRankedByMarkovCount: guessedType type withRanker: NemoMethodRanker new)
+	entries := (NemoMarkovUtil methodsRankedByMarkovCount: guessedType type withRanker: NemoMethodRanker new usingChain: BPBookshelf markovASTChainBook markovChain)
 		collect: [ :selectorToCount |
 			self createSuggestionEntry: selectorToCount key
 				fromType: guessedType

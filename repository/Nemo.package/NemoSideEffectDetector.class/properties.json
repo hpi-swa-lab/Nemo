@@ -1,15 +1,13 @@
 {
-	"category" : "BPH12014-Util",
+	"category" : "Nemo-SideEffect",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"caretPosition",
-		"enclosingNode",
-		"lastAcceptedNode" ],
-	"name" : "SimpleNodeVisitor",
+		"sideEffecting" ],
+	"name" : "NemoSideEffectDetector",
 	"pools" : [
 		 ],
 	"super" : "RBProgramNodeVisitor",
