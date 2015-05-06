@@ -78,7 +78,7 @@ BPMarkovFromASTObserver default addPackage: 'Collections'.
 BPMarkovFromASTObserver default start.
 FileStream stdout nextPutAll: 'Finished analysing the relevant Squeak source code AST'; cr; flush.
 
-BPBrowser open.
+"BPBrowser open."
 FileStream stdout nextPutAll: 'Opened browser, now quitting'; cr; flush.
 
 SmalltalkImage current snapshot: true andQuit: true.
