@@ -3,12 +3,11 @@ language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
 env:
-   - ST=Squeak-4.5 SCREENSHOT=60
    - ST=Squeak-Trunk SCREENSHOT=60
 
 # For SqueakSSL
 before_install:
-   - sudo apt-get update   
+   - sudo apt-get update
    - sudo apt-get -qq install libssl0.9.8:i386 --fix-missing
 
 # Boilerplate ... should be no reason to edit the install section
