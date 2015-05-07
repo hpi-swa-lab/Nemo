@@ -1,4 +1,4 @@
-as yet unclassified
+scoring
 scoreForSelector: selector onClass: aClass withUsageCount: anInteger
 	
 	requestedCount := requestedCount + 1.

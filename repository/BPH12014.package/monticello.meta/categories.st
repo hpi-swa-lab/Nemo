@@ -6,4 +6,3 @@ SystemOrganization addCategory: #'BPH12014-Filters-Tests'!
 SystemOrganization addCategory: #'BPH12014-UI'!
 SystemOrganization addCategory: #'BPH12014-UI-Tests'!
 SystemOrganization addCategory: #'BPH12014-Books'!
-SystemOrganization addCategory: #'BPH12014-ToolBuilder'!
