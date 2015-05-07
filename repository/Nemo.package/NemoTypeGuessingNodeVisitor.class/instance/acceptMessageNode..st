@@ -1,6 +1,6 @@
 visiting
-visitMessageNode: aMessageNode
+acceptMessageNode: aMessageNode
 
 	(aMessageNode receiver isVariable and: [aMessageNode receiver name = self variableName])
 		ifTrue: [ self selectors add: aMessageNode selector ].
-	^ super visitMessageNode: aMessageNode
+	^ super acceptMessageNode: aMessageNode

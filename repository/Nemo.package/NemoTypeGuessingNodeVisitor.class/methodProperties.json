@@ -2,6 +2,7 @@
 	"class" : {
 		"forVariable:" : "LS 3/18/2015 16:34:02.16" },
 	"instance" : {
+		"acceptMessageNode:" : "DS 5/7/2015 13:32",
 		"guessType" : "DS 5/6/2015 11:44",
 		"guessTypeOn:" : "LS 3/19/2015 14:30:49.406",
 		"guessedType" : "LS 3/18/2015 16:23:31.775",
@@ -11,5 +12,4 @@
 		"selectors:" : "LS 3/19/2015 14:26:00.28",
 		"variableName" : "LS 3/18/2015 16:33:54.478",
 		"variableName:" : "LS 3/18/2015 16:33:45.572",
-		"visitMessageNode:" : "LS 3/19/2015 14:25:35.332",
 		"visitNode:" : "LS 3/18/2015 16:32:42.902" } }

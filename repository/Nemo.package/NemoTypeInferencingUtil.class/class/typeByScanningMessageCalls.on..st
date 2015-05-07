@@ -4,7 +4,7 @@ typeByScanningMessageCalls: aVariableString on: aSourceCodeString
 	| type |
 	aVariableString ifNil: [ ^ nil ].
 	type := (NemoTypeGuessingNodeVisitor forVariable: aVariableString)
-			guessTypeOn: ([RBParser parseFaultyMethod: aSourceCodeString] ifError: [ ^ nil ]).
+			guessTypeOn: (NemoParserUtil parseASTFor: aSourceCodeString).
 	type ifNil: [ ^ nil ].
 	^ BPGuessedType
 		type: type

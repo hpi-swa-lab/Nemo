@@ -1,0 +1,3 @@
+*Nemo-Util
+isSelf
+	^ false

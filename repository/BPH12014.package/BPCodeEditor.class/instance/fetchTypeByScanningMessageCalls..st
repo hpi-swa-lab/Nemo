@@ -4,7 +4,7 @@ fetchTypeByScanningMessageCalls: aVariableString
 	| type |
 	aVariableString ifNil: [ ^ nil ].
 	type := (NemoTypeGuessingNodeVisitor forVariable: aVariableString)
-			guessTypeOn: ([RBParser parseFaultyMethod: paragraph text asString] ifError: [ ^ nil ]).
+			guessTypeOn: (RBParser parseMethod: self string onError: [ ^ nil ]).
 	type ifNil: [ ^ nil ].
 	^ BPGuessedType
 		type: type
