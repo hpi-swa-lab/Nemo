@@ -1,3 +1,0 @@
-optional panes
-wantsAnnotationPane
-	^ false

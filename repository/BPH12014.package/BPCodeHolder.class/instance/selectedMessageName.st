@@ -1,3 +1,0 @@
-accessing
-selectedMessageName
-	^ self methodName

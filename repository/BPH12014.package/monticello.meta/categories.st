@@ -1,4 +1,3 @@
-SystemOrganization addCategory: #'BPH12014-CodeEditor'!
 SystemOrganization addCategory: #'BPH12014-Core-Tests'!
 SystemOrganization addCategory: #'BPH12014-Core'!
 SystemOrganization addCategory: #'BPH12014-Examples'!

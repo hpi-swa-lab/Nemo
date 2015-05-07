@@ -1,3 +1,0 @@
-toolbuilder
-contents
-	^ super contents

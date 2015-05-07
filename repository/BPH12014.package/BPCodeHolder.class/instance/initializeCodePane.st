@@ -1,3 +1,0 @@
-initialization
-initializeCodePane
-	contents := nil

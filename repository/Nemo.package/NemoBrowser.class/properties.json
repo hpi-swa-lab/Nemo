@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-CodeEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bindings" ],
+	"name" : "NemoBrowser",
+	"pools" : [
+		 ],
+	"super" : "Browser",
+	"type" : "normal" }

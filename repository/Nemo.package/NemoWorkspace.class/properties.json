@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-CodeEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NemoWorkspace",
+	"pools" : [
+		 ],
+	"super" : "Workspace",
+	"type" : "normal" }

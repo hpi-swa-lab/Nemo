@@ -1,0 +1,15 @@
+{
+	"category" : "Nemo-CodeEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"globalEventHandler",
+		"suggestionMorph" ],
+	"name" : "NemoCodeEditor",
+	"pools" : [
+		 ],
+	"super" : "SmalltalkEditor",
+	"type" : "normal" }
