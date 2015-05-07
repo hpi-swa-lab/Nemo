@@ -1,4 +1,4 @@
-*BPH12014-Util
+*Nemo-Util
 selectorOfMyReceiver
 
 	self receiver isMessage ifTrue: [ ^ self receiver selector ].

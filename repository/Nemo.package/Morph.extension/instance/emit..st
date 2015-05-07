@@ -1,4 +1,4 @@
-*BPH12014-UI
+*Nemo-UI
 emit: anEventSymbol
 
 	^ self emit: anEventSymbol withArgs: OrderedCollection new

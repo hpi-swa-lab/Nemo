@@ -2,11 +2,11 @@
 	"class" : {
 		"enrichChains:fromAST:andMethodReference:" : "DS 3/12/2015 13:53:42.42" },
 	"instance" : {
+		"acceptMessageNode:" : "DS 5/7/2015 11:44",
 		"addSelector:followedBy:" : "DS 5/6/2015 13:30",
 		"chains" : "DS 3/12/2015 11:20:05.559",
 		"chains:" : "DS 3/12/2015 11:20:05.643",
 		"methodReference" : "DS 3/12/2015 13:51:10.465",
 		"methodReference:" : "DS 3/12/2015 13:51:10.538",
-		"visitArgument:" : "DS 3/5/2015 14:28:43.014",
 		"visitMessageNode:" : "DS 3/13/2015 14:21:03.654",
 		"visitNode:" : "DS 3/5/2015 14:30:15.472" } }

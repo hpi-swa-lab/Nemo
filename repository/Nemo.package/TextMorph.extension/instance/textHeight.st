@@ -1,4 +1,4 @@
-*BPH12014-UI
+*Nemo-UI
 textHeight
 
 	^(self editor paragraph lines collect: [ :line |

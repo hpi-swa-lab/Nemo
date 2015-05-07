@@ -1,3 +1,3 @@
 positioning
 positionForPopUp
-	^ self selectionPosition: ''
+	^ self currentCaretPosition

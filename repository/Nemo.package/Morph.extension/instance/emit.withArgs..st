@@ -1,4 +1,4 @@
-*BPH12014-UI
+*Nemo-UI
 emit: anEventSymbol withArgs: anOrderedCollection
 
 	(self eventProperty at: anEventSymbol ifAbsentPut: [OrderedCollection new.])

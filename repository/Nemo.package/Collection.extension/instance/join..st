@@ -1,4 +1,4 @@
-*BPH12014
+*Nemo-Util
 join: delimiter
 	"Expects self to be collection of strings and delimiter to be a string.
 	returns the concatenation of the elements separated by the delimiter."

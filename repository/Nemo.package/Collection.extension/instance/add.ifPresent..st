@@ -1,4 +1,4 @@
-*BPH12014
+*Nemo-Util
 add: anObject ifPresent: aBlock
 	"Add an object if it is absent. Else run the block"
 

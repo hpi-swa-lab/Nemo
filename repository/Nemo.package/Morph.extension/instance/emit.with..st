@@ -1,4 +1,4 @@
-*BPH12014-UI
+*Nemo-UI
 emit: anEventSymbol with: anArg
 
 	^ self emit: anEventSymbol withArgs: { anArg }

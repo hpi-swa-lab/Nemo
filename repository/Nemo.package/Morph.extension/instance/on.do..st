@@ -1,4 +1,4 @@
-*BPH12014-UI
+*Nemo-UI
 on: anEventSymbol do: aBlock
 
 	(self eventProperty at: anEventSymbol ifAbsentPut: [OrderedCollection new.])
