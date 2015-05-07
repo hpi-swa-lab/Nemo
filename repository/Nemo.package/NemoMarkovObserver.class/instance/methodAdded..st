@@ -2,7 +2,7 @@ as yet unclassified
 methodAdded: aMethodReference
 
 		| ast |
-		ast := NemoParserUtil parseASTFor: aMethodReference.
+		ast := NemoParserUtil parseASTFromMethodReference: aMethodReference.
 		BPMarkovFromASTGenerator
 				enrichChains: BPBookshelf markovASTChainBook markovChain
 				fromAST: ast

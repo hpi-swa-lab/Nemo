@@ -1,5 +1,5 @@
 parsing
-parseASTFor: aSourceCodeString
+parseASTFromString: aSourceCodeString
 	
 	^ RBParser
 		parseMethod: aSourceCodeString

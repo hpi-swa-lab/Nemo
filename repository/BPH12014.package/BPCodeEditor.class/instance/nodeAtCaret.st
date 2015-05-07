@@ -1,7 +1,7 @@
 editor accessing
 nodeAtCaret
 
-	^ (NemoParserUtil parseASTFor: self string)
+	^ (NemoParserUtil parseASTFromString: self string)
 		ifNotNil: [ :node | 
 			NemoNodeAtCaretVisitor
 				searchEnclosingNodeFor: self startIndex
