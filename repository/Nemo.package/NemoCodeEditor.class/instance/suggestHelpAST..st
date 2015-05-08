@@ -18,8 +18,11 @@ suggestHelpAST: aKeyboardEventOrString
 			aBPMarkovFromASTChain].
 
 	infoText := 'Untyped chain guess'.
-	
-	guessedType := self fetchTypeForReceiver: self nodeAtCaret orWord: chainKey.
+	guessedType := NemoTypeInferencingUtil
+		typeFor: self nodeAtCaret
+		orWord: chainKey
+		selfClass: self model selectedClassOrMetaClass
+		currentSourceCode: self string model: self model.
 	guessedType ifNotNil: [ chains := chains select: [ :aBPMarkovFromASTChain |
 			guessedType type canUnderstand: aBPMarkovFromASTChain selector ].
 		infoText := 'Typed chain guess for: ' , guessedType type name ].

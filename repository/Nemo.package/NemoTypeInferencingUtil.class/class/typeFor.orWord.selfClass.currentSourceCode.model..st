@@ -10,6 +10,7 @@ typeFor: aProgramNode orWord: aString selfClass: aSelfClass currentSourceCode: a
 		[ self typeBySelfClass: aProgramNode selfClass: aSelfClass ].
 		[ self typeBySuper: aString or: aProgramNode selfClass: aSelfClass ].
 		[ self typeFromLiteral: aProgramNode ].
+		[ self typeByRoelTyper: aProgramNode or: aString selfClass: aSelfClass model: aModel ].
 		[ self typeByScanningMessageCalls: (aProgramNode ifNotNil: [aProgramNode formattedCode]) on: aSourceCodeString ].
 		[ self typeByNameFor: aString ] }.
 	^ strategies

@@ -15,11 +15,16 @@ baseline: spec
 			spec
 				className: 'ConfigurationOfCommandShell';
 				repository: 'http://www.squeaksource.com/MetacelloRepository'].
+			
+		spec project: 'RoelTyper' with: [
+			spec
+				className: 'ConfigurationOfRoelTyper';
+				repository: 'http://www.squeaksource.com/MetacelloRepository'].
 
 		spec package: 'Nemo' with: [
 			spec
 				repository: 'github://HPI-SWA-Lab/BP2014H1:master/repository';
-				requires: #('AST-Core' 'VB-Regex' 'CommandShell')].
+				requires: #('AST-Core' 'VB-Regex' 'CommandShell' 'RoelTyper')].
 		
 		spec postLoadDoIt: #postLoadNemoCodeEditorKeyboardShortcuts.
 

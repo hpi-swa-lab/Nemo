@@ -9,7 +9,7 @@ comboSuggest: aKeyboardEvent
 	guessedType := NemoTypeInferencingUtil
 		typeFor: self nodeAtCaret
 		orWord: self wordBeforeCaret
-		selfClass: self model selectedClass
+		selfClass: self model selectedClassOrMetaClass
 		currentSourceCode: self string
 		model: self model.
 	guessedType ifNil: [

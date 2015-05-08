@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"testArgVariablesForClassInSourceCode" : "DS 5/6/2015 11:54",
+		"testHasInstVarInClassOrSuperClasses" : "DS 5/8/2015 14:42",
 		"testTempVariablesForClassInSourceCode" : "DS 5/6/2015 11:54",
 		"testVariablesForClassInSourceCode" : "DS 5/6/2015 11:54" } }

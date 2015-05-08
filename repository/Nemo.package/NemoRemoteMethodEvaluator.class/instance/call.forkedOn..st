@@ -4,7 +4,7 @@ call: aMethodReference forkedOn: aReceiver
 	remoteTask := RemoteTask new
 		task: [ self call: aMethodReference on: aReceiver ];
 		yourself.
-	remoteResult := remoteTask value.
+	remoteResult := [ remoteTask value ] on: MessageNotUnderstood do: [ ^ nil ].
 	remoteResult isString
 		ifTrue: [ (remoteResult beginsWith: 'remote task execution failed')
 			ifTrue: [ Transcript cr; show: remoteResult. 

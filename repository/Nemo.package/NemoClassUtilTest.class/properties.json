@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"aSampleInstVar" ],
 	"name" : "NemoClassUtilTest",
 	"pools" : [
 		 ],
