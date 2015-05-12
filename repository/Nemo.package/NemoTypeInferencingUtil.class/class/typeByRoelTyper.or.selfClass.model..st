@@ -1,7 +1,7 @@
 type inferencing
 typeByRoelTyper: aProgramNode or: aString selfClass: aSelfClass model: aModel
 	| typesDict variableName extractedType |
-	1 halt.
+	aSelfClass ifNil: [ ^ nil ].
 	variableName := aString.
 	aProgramNode ifNotNil: [
 		aProgramNode isVariable ifTrue: [ |  |
