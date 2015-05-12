@@ -3,7 +3,7 @@ typeBySelfClass: aProgramNode selfClass: aSelfClass
 
 	aProgramNode ifNil: [ ^ nil ].
 	aProgramNode isMessage
-		ifTrue: [ aProgramNode receiver token value = 'self'
+		ifTrue: [ aProgramNode isSelf
 			ifTrue: [ aProgramNode selector == #class ifTrue: [
 				^ aSelfClass
 					ifNotNil: [ :clazz |

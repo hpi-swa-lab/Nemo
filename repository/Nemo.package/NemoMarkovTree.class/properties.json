@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DS 5/12/2015 14:38",
+	"instvars" : [
+		"tree" ],
+	"name" : "NemoMarkovTree",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

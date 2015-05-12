@@ -1,4 +1,4 @@
 accessing
 reset
 
-	self markovChain: Dictionary new.
+	self markovChain: NemoMarkovTree new.

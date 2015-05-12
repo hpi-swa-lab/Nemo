@@ -4,6 +4,6 @@ classesRankedByMarkovCount: aClassCollection usingChain: aMarkovChain
 	rankedMethods := SortedCollection
 		sortBlock: [ :assocA :assocB | assocA value > assocB value ].
 	aClassCollection do: [ :clazz | | count |
-		count := (aMarkovChain at: clazz name ifAbsent: [#()]) size.
+		count := (aMarkovChain occurrencesOf: clazz name).
 		rankedMethods add: clazz -> count ].
 	^ rankedMethods
