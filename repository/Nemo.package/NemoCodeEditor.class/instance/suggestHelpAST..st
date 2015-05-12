@@ -10,11 +10,10 @@ suggestHelpAST: aKeyboardEventOrString
 				BPVariableNameAtCaretFilter new caretPosition: self startIndex.}) run.
 			chainKey := filter variableName].
 
-	chains := (((BPBookshelf markovASTChainBook markovChain)
-					at: chainKey ifAbsent: [Bag new]) sortedCounts)
+	chains := ((BPBookshelf markovASTChainBook markovChain) sortedCountsOf: chainKey)
 		collect: [ :assoc | | aBPMarkovFromASTChain |
-			aBPMarkovFromASTChain := assoc value.
-			aBPMarkovFromASTChain count: assoc key.
+			aBPMarkovFromASTChain := assoc.
+			"aBPMarkovFromASTChain count: assoc key".
 			aBPMarkovFromASTChain].
 
 	infoText := 'Untyped chain guess'.
@@ -24,14 +23,14 @@ suggestHelpAST: aKeyboardEventOrString
 		selfClass: self model selectedClassOrMetaClass
 		currentSourceCode: self string model: self model.
 	guessedType ifNotNil: [ chains := chains select: [ :aBPMarkovFromASTChain |
-			guessedType type canUnderstand: aBPMarkovFromASTChain selector ].
+			guessedType type canUnderstand: aBPMarkovFromASTChain value ].
 		infoText := 'Typed chain guess for: ' , guessedType type name ].
 
 	entries := chains collectWithIndex: [ :aBPMarkovFromASTChain :index |
 			[BPSuggestionEntry new
 				id: index;
-				data: aBPMarkovFromASTChain;
-				displayValue: aBPMarkovFromASTChain asText ]].
+				data: aBPMarkovFromASTChain value;
+				displayValue: aBPMarkovFromASTChain value ,  ' (' , aBPMarkovFromASTChain key , ')' ]].
 	suggestionMorph := self displaySuggestionMorphWith: entries.
 	suggestionMorph informationText: infoText.
 	suggestionMorph
