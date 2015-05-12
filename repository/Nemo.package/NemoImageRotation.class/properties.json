@@ -1,0 +1,16 @@
+{
+	"category" : "Nemo-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"containerMorph",
+		"imageMorphs",
+		"currentIndex" ],
+	"name" : "NemoImageRotation",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

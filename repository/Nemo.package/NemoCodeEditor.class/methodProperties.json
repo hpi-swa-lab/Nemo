@@ -32,7 +32,7 @@
 		"initialize" : "LS 4/24/2015 16:31",
 		"isChain:includedInAnotherChainIn:" : "DS 3/4/2015 12:06:44.142",
 		"methodFinderResults" : "DS 5/6/2015 11:39",
-		"nodeAtCaret" : "DS 5/7/2015 14:41",
+		"nodeAtCaret" : "LS 5/12/2015 14:51",
 		"onClickAnwhere:" : "LS 4/24/2015 16:34",
 		"paste:at:" : "DS 4/28/2015 16:19:35.046",
 		"positionForPopUp" : "DS 5/7/2015 11:25",
@@ -42,4 +42,5 @@
 		"suggestionMorph" : "LS 4/24/2015 16:17",
 		"suggestionMorph:" : "LS 4/24/2015 16:17",
 		"textChanged:on:" : "DS 4/28/2015 16:10:12.89",
-		"wordBeforeCaret" : "DS 5/6/2015 11:32" } }
+		"wordBeforeCaret" : "LS 5/12/2015 14:50",
+		"wordPositionBeforeCaret" : "LS 5/12/2015 14:50" } }

@@ -7,3 +7,4 @@ SystemOrganization addCategory: #'Nemo-ToolBuilder'!
 SystemOrganization addCategory: #'Nemo-Core'!
 SystemOrganization addCategory: #'Nemo-Observation'!
 SystemOrganization addCategory: #'Nemo-CodeEditor'!
+SystemOrganization addCategory: #'Nemo-Examples'!

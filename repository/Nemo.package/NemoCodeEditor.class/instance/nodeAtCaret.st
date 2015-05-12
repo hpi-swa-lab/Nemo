@@ -4,5 +4,5 @@ nodeAtCaret
 	^ (NemoParserUtil parseASTFromString: self string)
 		ifNotNil: [ :node | 
 			NemoNodeAtCaretVisitor
-				searchEnclosingNodeFor: self startIndex
+				searchEnclosingNodeFor: self wordPositionBeforeCaret first
 				on: node ]

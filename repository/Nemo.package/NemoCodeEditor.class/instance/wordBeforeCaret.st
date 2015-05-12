@@ -1,4 +1,6 @@
 editor accessing
 wordBeforeCaret
 
-	^ NemoStringUtil wordIn: self string before: self startIndex
+		| wordPosition |
+		wordPosition := self wordPositionBeforeCaret.
+		^ self string copyFrom: wordPosition first to: wordPosition last.
