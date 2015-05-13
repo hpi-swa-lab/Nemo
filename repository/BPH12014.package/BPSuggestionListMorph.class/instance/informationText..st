@@ -1,5 +1,5 @@
 accessing
-informationText: aString
+informationText: aTextOrString
 
-	self dataSourceMorph sourceText: aString.
+	self dataSourceMorph sourceText: aTextOrString.
 	self addMorphFront: self dataSourceMorph

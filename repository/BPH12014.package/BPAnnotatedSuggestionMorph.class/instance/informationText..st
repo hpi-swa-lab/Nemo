@@ -1,4 +1,4 @@
 displaying
-informationText: aString
+informationText: aTextOrString
 
-	self chainSuggestionListMorph informationText: aString 
+	self chainSuggestionListMorph informationText: aTextOrString 

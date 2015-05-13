@@ -1,6 +1,9 @@
 code suggestion
 informationTextFor: aBPGuessedType
 
-	| prefix |
+	| prefix debugInfo |
 	prefix := aBPGuessedType isCertain ifTrue: [ 'Type: ' ] ifFalse: [ 'Guessed type: ' ].
-	^ prefix , aBPGuessedType type , ' (via ' , aBPGuessedType asInfoString , ')'
+	debugInfo := self class displayDebugInformation
+		ifTrue: [ (' (via ' , aBPGuessedType asInfoString , ')') asText addAttribute: TextColor gray ]
+		ifFalse: [ '' ].
+	^ (prefix , aBPGuessedType type) asText , debugInfo
