@@ -6,7 +6,7 @@ completeWordPositionIn: aString before: anInteger
 	index := anInteger.
 	aString size >= anInteger ifTrue: [ | nextCharacter |
 		nextCharacter := aString at: anInteger.
-		isInWord := nextCharacter isSeparator not ].
+		isInWord := nextCharacter isNodeSeparator not ].
 
 	isInWord ifTrue: [
 		[ index > 0 and: [(aString at: index) isSeparator not]] whileTrue: [

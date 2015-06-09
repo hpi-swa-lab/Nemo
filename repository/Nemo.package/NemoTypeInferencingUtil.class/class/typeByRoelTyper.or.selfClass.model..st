@@ -1,6 +1,6 @@
 type inferencing
 typeByRoelTyper: aProgramNode or: aString selfClass: aSelfClass model: aModel
-	| typesDict variableName extractedType |
+	| typesDict variableName extractedType commonSuperClass |
 	aSelfClass ifNil: [ ^ nil ].
 	variableName := aString.
 	aProgramNode ifNotNil: [
@@ -14,8 +14,9 @@ typeByRoelTyper: aProgramNode or: aString selfClass: aSelfClass model: aModel
 		ifNone: [
 			(NemoClassUtil hasInstVar: variableName inClassOrSuperClasses: aSelfClass) ifTrue: 
 				[ extractedType := (TypeCollector typeInstvar: variableName asSymbol ofClassWithLookup: aSelfClass) ] ].
-	^ (extractedType notNil and: [ extractedType types first ~= Object ])
-		ifTrue: [
-			BPGuessedType
-				type: extractedType types first
-				guessedFrom: #roelTyper ]
+	extractedType ifNotNil: [ commonSuperClass :=  (NemoClassUtil commonSuperClassOf: extractedType types) ].
+	commonSuperClass ifNil: [ ^ nil ].
+	commonSuperClass = Object ifTrue: [ ^ nil ].
+	^ BPGuessedType
+				type: commonSuperClass
+				guessedFrom: #roelTyper.
