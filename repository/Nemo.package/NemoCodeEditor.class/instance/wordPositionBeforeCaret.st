@@ -1,4 +1,4 @@
 editor accessing
 wordPositionBeforeCaret
 
-		^ NemoStringUtil wordPositionIn: self string before: self startIndex
+		^ NemoStringUtil completeWordPositionIn: self string before: self startIndex

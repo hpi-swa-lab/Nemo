@@ -12,4 +12,4 @@ wordPositionIn: aString before: anInteger
 		nextCharacter isSeparator ifTrue: [ ^ index to: anInteger ].
 		word := nextCharacter asString , word.
 		index := index - 1 ].
-	^ index + 1 to: anInteger - 1
+	^ index + 1 to: anInteger

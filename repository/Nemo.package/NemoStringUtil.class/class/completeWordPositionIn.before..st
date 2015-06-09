@@ -14,4 +14,4 @@ completeWordPositionIn: aString before: anInteger
 		].
 	].
 	index = 0 ifTrue: [ ^ 1 to: 0 ].
-	^ self wordPositionIn: aString before: index.
+	^ self wordPositionIn: aString before: index - 1.

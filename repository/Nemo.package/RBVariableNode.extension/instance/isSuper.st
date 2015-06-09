@@ -1,3 +1,3 @@
 *Nemo-Util
 isSuper
-	^ token value = 'self'
+	^ token value = 'super'

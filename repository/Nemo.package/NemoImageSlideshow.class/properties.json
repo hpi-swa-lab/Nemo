@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"imageMorphs" ],
+	"name" : "NemoImageSlideshow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
