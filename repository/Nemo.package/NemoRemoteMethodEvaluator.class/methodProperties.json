@@ -1,6 +1,12 @@
 {
 	"class" : {
-		"call:forkedOn:" : "DS 5/5/2015 18:10" },
+		"call:forkedOn:" : "DS 5/5/2015 18:10",
+		"evaluateForked:notifying:" : "DS 6/10/2015 11:04",
+		"evaluateTypeForked:" : "DS 6/10/2015 11:09",
+		"evaluateTypeForked:notifying:" : "DS 6/10/2015 11:32" },
 	"instance" : {
 		"call:forkedOn:" : "DS 5/8/2015 16:16",
-		"call:on:" : "DS 5/5/2015 18:13" } }
+		"call:on:" : "DS 5/5/2015 18:13",
+		"evaluateBlockForked:notifying:" : "DS 6/10/2015 11:11",
+		"evaluateForked:notifying:" : "DS 6/10/2015 11:12",
+		"evaluateTypeForked:notifying:" : "DS 6/10/2015 11:23" } }

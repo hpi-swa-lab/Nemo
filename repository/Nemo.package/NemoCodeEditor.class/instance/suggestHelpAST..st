@@ -21,7 +21,7 @@ suggestHelpAST: aKeyboardEventOrString
 		typeFor: self nodeAtCaret
 		orWord: chainKey
 		selfClass: self model selectedClassOrMetaClass
-		currentSourceCode: self string model: self model.
+		currentSourceCode: self string editor: self.
 	guessedType ifNotNil: [ chains := chains select: [ :aBPMarkovFromASTChain |
 			guessedType type canUnderstand: aBPMarkovFromASTChain value ].
 		infoText := 'Typed chain guess for: ' , guessedType type name ].

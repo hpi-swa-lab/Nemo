@@ -11,7 +11,7 @@ comboSuggest: aKeyboardEvent
 		orWord: self wordBeforeCaret
 		selfClass: self model selectedClassOrMetaClass
 		currentSourceCode: self string
-		model: self model.
+		editor: self.
 	guessedType ifNil: [
 		suggestionMorph := self displayAvailableVariables: (NemoParserUtil parseMethodArgsAndTempVarNamesIn: paragraph string for: self model selectedClass).
 		suggestionMorph informationText: 'Available variables'.
