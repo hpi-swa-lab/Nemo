@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCompleteWordInStringBeforeIndex" : "LS 5/12/2015 14:47" } }
+		"testCompleteWordInStringBeforeIndex" : "LS 5/12/2015 14:47",
+		"testFirstNonWhitespacePositionInStringBeforeIndex" : "DS 6/10/2015 12:57" } }

@@ -1,15 +1,22 @@
 type inferencing
 typeByFork: aProgramNode editor: anEditor
-	"1 halt."
-	"^ (self typeByNodeRecursive: aProgramNode model: aModel) ifNotNil: [ :returnValue |
-		BPGuessedType
-			type: returnValue class
-			guessedFrom: #methodReturnType ]"
+
 	aProgramNode ifNil: [ ^ nil ].
 	^ OSProcess isUnix
-		ifTrue: [
-			( NemoRemoteMethodEvaluator evaluateTypeForked:" Compiler evaluate: "aProgramNode formattedCode notifying: anEditor) ifNotNil: [ :returnValue |
+		ifTrue: [ | remoteResultClassName |
+			remoteResultClassName := (anEditor model isKindOf: NemoDebugger)
+				ifTrue: [
+					NemoRemoteMethodEvaluator
+						evaluateTypeForked: aProgramNode formattedCode
+						notifying: anEditor
+						context: anEditor model doItContext
+						receiver: anEditor model doItReceiver ]
+				ifFalse: [
+					NemoRemoteMethodEvaluator
+						evaluateTypeForked: aProgramNode formattedCode
+						notifying: anEditor ].
+			remoteResultClassName ifNotNil: [
 				BPGuessedType
-					type: (Smalltalk at: returnValue)
+					type: (Smalltalk at: remoteResultClassName ifAbsent: [ ^ nil ])
 					guessedFrom: #methodReturnType ] ]
 		ifFalse: []

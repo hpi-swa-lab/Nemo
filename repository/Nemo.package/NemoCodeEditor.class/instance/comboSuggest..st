@@ -7,7 +7,7 @@ comboSuggest: aKeyboardEvent
 		suggestionMorph := self displayMethodFinderResults: methodFinderResults.
 		^ true ].
 	guessedType := NemoTypeInferencingUtil
-		typeFor: self nodeAtCaret
+		typeFor: self nodeBeforeCaret
 		orWord: self wordBeforeCaret
 		selfClass: self model selectedClassOrMetaClass
 		currentSourceCode: self string

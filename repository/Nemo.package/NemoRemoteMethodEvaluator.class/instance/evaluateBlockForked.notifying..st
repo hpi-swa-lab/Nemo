@@ -2,7 +2,9 @@ remote
 evaluateBlockForked: aBlock notifying: anEditor
 	| remoteResult remoteTask |
 	remoteTask := RemoteTask new
-		task: aBlock;
+		task: [
+			NemoRemoteSecurityManager forceSandbox.
+			aBlock value ];
 		yourself.
 	remoteResult := [ remoteTask value ] on: MessageNotUnderstood do: [ ^ nil ].
 	remoteResult isString

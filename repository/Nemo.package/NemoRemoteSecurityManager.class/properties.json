@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Remote",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NemoRemoteSecurityManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -2,6 +2,7 @@
 	"class" : {
 		"completeWordIn:before:" : "LS 5/12/2015 14:42",
 		"completeWordPositionIn:before:" : "DS 6/9/2015 15:48",
+		"firstNonWhitespaceIndexIn:before:" : "DS 6/10/2015 12:55",
 		"wordIn:before:" : "LS 5/12/2015 14:39",
 		"wordPositionIn:before:" : "DS 6/9/2015 14:52" },
 	"instance" : {
