@@ -8,6 +8,5 @@ evaluateTypeForked: aCodeString notifying: anEditor context: aContext receiver: 
 				in: aContext
 				to: aReceiver
 				notifying: anEditor
-				ifFail: [^ nil]) class name ]
-		notifying: anEditor
+				ifFail: [^ nil]) ifNotNil: [:result | result class name ] ]
 	

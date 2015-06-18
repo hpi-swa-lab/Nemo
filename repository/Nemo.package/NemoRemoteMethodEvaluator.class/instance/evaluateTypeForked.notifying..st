@@ -2,6 +2,8 @@ remote
 evaluateTypeForked: aCodeString notifying: anEditor
 
 	^ self
-		evaluateBlockForked: [ (Compiler evaluate: aCodeString notifying: anEditor) class name ]
+		evaluateTypeForked: aCodeString
 		notifying: anEditor
+		context: nil
+		receiver: nil
 	

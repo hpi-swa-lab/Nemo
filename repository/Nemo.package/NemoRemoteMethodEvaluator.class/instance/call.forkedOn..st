@@ -2,7 +2,9 @@ remote
 call: aMethodReference forkedOn: aReceiver
 	| remoteResult remoteTask |
 	remoteTask := RemoteTask new
-		task: [ self call: aMethodReference on: aReceiver ];
+		task: [ 
+			NemoRemoteSecurityManager forceSandbox.
+			self call: aMethodReference on: aReceiver ];
 		yourself.
 	remoteResult := [ remoteTask value ] on: MessageNotUnderstood do: [ ^ nil ].
 	remoteResult isString

@@ -1,5 +1,5 @@
 remote
-evaluateBlockForked: aBlock notifying: anEditor
+evaluateBlockForked: aBlock
 	| remoteResult remoteTask |
 	remoteTask := RemoteTask new
 		task: [
