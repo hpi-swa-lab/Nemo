@@ -1,15 +1,21 @@
 remote
 evaluateBlockForked: aBlock
-	| remoteResult remoteTask |
-	remoteTask := RemoteTask new
-		task: [
-			NemoRemoteSecurityManager forceSandbox.
-			aBlock value ];
-		yourself.
-	remoteResult := [ remoteTask value ] on: MessageNotUnderstood do: [ ^ nil ].
+	| remoteResult remoteTask sandboxedTask semaphore |
+	sandboxedTask :=  [
+		NemoRemoteSecurityManager forceSandbox.
+		aBlock value ].
+	semaphore := Semaphore new.
+	remoteResult := nil.
+	remoteTask := RemoteTask
+			do: sandboxedTask
+			whenComplete: [ :result | remoteResult := result.
+				semaphore signal ].
+	(semaphore waitTimeoutMSecs: self class forkingTimeout)
+		ifTrue: [ Transcript cr; show: 'remote task timed out'.
+			remoteTask finalize.
+			^ nil ].
 	remoteResult isString
 		ifTrue: [ (remoteResult beginsWith: 'remote task execution failed')
 			ifTrue: [ Transcript cr; show: remoteResult. 
 				^ nil ] ].	
-	^ remoteResult.
-	
+	^ remoteResult
