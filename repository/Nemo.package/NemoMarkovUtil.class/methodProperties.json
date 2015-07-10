@@ -1,6 +1,9 @@
 {
 	"class" : {
 		"classesRankedByMarkovCount:usingChain:" : "DS 5/12/2015 15:08",
-		"methodsRankedByMarkovCount:withRanker:usingChain:" : "DS 5/12/2015 15:18" },
+		"methodsRankedByMarkovCount:withRanker:usingChain:" : "DS 7/3/2015 15:01",
+		"methodsRankedByMarkovCount:withRanker:usingChain:model:" : "DS 7/10/2015 13:25",
+		"rankMethodsByMatchingParameterTypes" : "DS 7/10/2015 14:47",
+		"rankMethodsByMatchingParameterTypes:" : "DS 7/10/2015 12:00" },
 	"instance" : {
 		 } }

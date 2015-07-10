@@ -8,7 +8,7 @@ paste: aString at: anInterval
 	self startIndex > 1 ifTrue:
 		[ (self text at: self startIndex - 1) isSeparator ifFalse: [replacement := ' ' , replacement] ].
 
-	offset := (replacement indexOf: $:) > 0
+	offset := (((replacement indexOf: $:) > 0) and: [replacement last = $:])
 		ifTrue: [replacement indexOf: $:]
 		ifFalse: [replacement size].
 	selectionIndex := self startIndex + offset.

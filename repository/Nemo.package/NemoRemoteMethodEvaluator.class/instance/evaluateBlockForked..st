@@ -8,14 +8,14 @@ evaluateBlockForked: aBlock
 	remoteResult := nil.
 	remoteTask := RemoteTask
 			do: sandboxedTask
-			whenComplete: [ :result | remoteResult := result.
+			whenComplete: [ :result |
+				remoteResult := result.
 				semaphore signal ].
 	(semaphore waitTimeoutMSecs: self class forkingTimeout)
-		ifTrue: [ Transcript cr; show: 'remote task timed out'.
+		ifTrue: [
+			Transcript cr; show: 'remote task timed out'.
 			remoteTask finalize.
 			^ nil ].
-	remoteResult isString
-		ifTrue: [ (remoteResult beginsWith: 'remote task execution failed')
-			ifTrue: [ Transcript cr; show: remoteResult. 
-				^ nil ] ].	
-	^ remoteResult
+	^ (self processFailureResult: remoteResult)
+		ifTrue: [ nil ]
+		ifFalse: [ remoteResult ]

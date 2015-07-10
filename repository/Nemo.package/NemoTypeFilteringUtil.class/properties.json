@@ -1,16 +1,13 @@
 {
-	"category" : "BPH12014-UI",
+	"category" : "Nemo-Util",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
-		"displayValue",
-		"id",
-		"dataParam" ],
-	"name" : "BPSuggestionEntry",
+		 ],
+	"name" : "NemoTypeFilteringUtil",
 	"pools" : [
 		 ],
 	"super" : "Object",

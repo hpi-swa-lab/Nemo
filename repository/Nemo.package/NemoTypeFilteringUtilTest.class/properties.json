@@ -1,14 +1,14 @@
 {
-	"category" : "Nemo-Util",
+	"category" : "Nemo-Util-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"RankMethodsByMatchingParameterTypes" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "NemoMarkovUtil",
+	"name" : "NemoTypeFilteringUtilTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

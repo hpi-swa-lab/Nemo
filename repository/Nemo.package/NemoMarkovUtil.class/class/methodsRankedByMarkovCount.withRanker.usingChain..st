@@ -8,5 +8,6 @@ methodsRankedByMarkovCount: aClass withRanker: ranker usingChain: aMarkovChain
 			scoreForSelector: selector
 			onClass: aClass theNonMetaClass
 			withUsageCount: (aMarkovChain occurrencesOf: selector).
+		NemoTypeFilteringUtil isMethod: (MethodReference class: aClass selector: selector) matchingTypes: nil.
 		rankedMethods add: selector -> score ].
 	^ rankedMethods
