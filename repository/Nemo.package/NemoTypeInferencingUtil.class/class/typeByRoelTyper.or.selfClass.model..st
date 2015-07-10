@@ -17,6 +17,6 @@ typeByRoelTyper: aProgramNode or: aString selfClass: aSelfClass model: aModel
 	extractedType ifNotNil: [ commonSuperClass :=  (NemoClassUtil commonSuperClassOf: extractedType types) ].
 	commonSuperClass ifNil: [ ^ nil ].
 	commonSuperClass = Object ifTrue: [ ^ nil ].
-	^ BPGuessedType
+	^ NemoGuessedType
 				type: commonSuperClass
 				guessedFrom: #roelTyper.

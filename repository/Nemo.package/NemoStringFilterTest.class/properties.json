@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-UI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stringFilter" ],
+	"name" : "NemoStringFilterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -6,6 +6,6 @@ typeByScanningMessageCalls: aVariableString on: aSourceCodeString
 	type := (NemoTypeGuessingNodeVisitor forVariable: aVariableString)
 			guessTypeOn: (NemoParserUtil parseASTFromString: aSourceCodeString).
 	type ifNil: [ ^ nil ].
-	^ BPGuessedType
+	^ NemoGuessedType
 		type: type
 		guessedFrom: #messageCallScanning

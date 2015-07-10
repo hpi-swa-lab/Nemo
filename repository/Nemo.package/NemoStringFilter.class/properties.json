@@ -1,0 +1,16 @@
+{
+	"category" : "Nemo-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"entries",
+		"remainingEntries",
+		"regex" ],
+	"name" : "NemoStringFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

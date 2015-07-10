@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Books",
+	"classinstvars" : [
+		"index" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"markovChain" ],
+	"name" : "NemoSearchIndexBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

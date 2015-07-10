@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"codeMorph" ],
+	"name" : "NemoCodeUsageMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

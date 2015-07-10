@@ -1,0 +1,15 @@
+{
+	"category" : "Nemo-UI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ownerMorph",
+		"childMorph" ],
+	"name" : "NemoMorphicEventHandlerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"morph" : "LS 1/20/2015 16:09:37.517",
+		"morph:" : "LS 1/20/2015 16:10:01.969",
+		"setUp" : "DS 7/10/2015 15:32",
+		"tearDown" : "LS 1/21/2015 13:27:55.147",
+		"testChangeOfEntries" : "DS 7/10/2015 15:33",
+		"testConfirmSelection" : "DS 3/13/2015 16:34:36.172",
+		"testConfirmSelectionOnEnter" : "DS 3/13/2015 16:37:52.987",
+		"testFilterString" : "DS 3/13/2015 16:37:07.712",
+		"testItemsWidth" : "DS 4/22/2015 12:08:45.901",
+		"testLimitNumberEntries" : "DS 7/10/2015 15:33",
+		"testLimitNumberOfEntries" : "DS 7/10/2015 15:33",
+		"testLimitNumberOfEntriesWithFilter" : "DS 7/10/2015 15:33",
+		"testMouseSelection" : "LS 2/11/2015 16:26:17.194",
+		"testNumberListItems" : "LS 1/21/2015 14:00",
+		"testSelectingNext" : "LS 2/11/2015 11:06:25.975",
+		"testSelectingPrevious" : "LS 2/5/2015 15:36:13.07" } }

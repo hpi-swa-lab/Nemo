@@ -1,0 +1,25 @@
+{
+	"category" : "Nemo-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"entries",
+		"maxItems",
+		"listMorph",
+		"filterMorph",
+		"filterString",
+		"itemMorphs",
+		"selectIndex",
+		"onSelectBlock",
+		"onConfirmSelectionBlock",
+		"onEscapeBlock",
+		"onNavigateRIghtBlock",
+		"dataSourceMorph" ],
+	"name" : "NemoSuggestionListMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

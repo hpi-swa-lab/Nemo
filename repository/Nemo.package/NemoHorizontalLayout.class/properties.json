@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fillVertical" ],
+	"name" : "NemoHorizontalLayout",
+	"pools" : [
+		 ],
+	"super" : "LayoutPolicy",
+	"type" : "normal" }

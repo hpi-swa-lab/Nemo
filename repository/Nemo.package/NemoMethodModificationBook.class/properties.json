@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Books",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UniqueInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodList" ],
+	"name" : "NemoMethodModificationBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

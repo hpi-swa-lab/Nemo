@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "DS 7/10/2015 15:25",
+		"stringFilter" : "LS 1/15/2015 11:41:28.753",
+		"stringFilter:" : "LS 1/15/2015 11:35:53.62",
+		"testEmptyFilter" : "DS 3/25/2015 15:18:29.393",
+		"testFilter" : "DS 4/23/2015 11:35:57.755",
+		"testFilterByPermutationMatches" : "DS 4/28/2015 17:41:08.139",
+		"testFilterContaining" : "DS 3/25/2015 15:23:28.489",
+		"testFilterContainingRankedHigherThanRegex" : "DS 3/25/2015 15:24:51.415",
+		"testFilterStartingWith" : "DS 4/23/2015 11:34:26.275",
+		"testFilterWithLimit" : "DS 3/18/2015 15:10:51.858" } }

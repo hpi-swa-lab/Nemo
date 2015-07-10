@@ -3,7 +3,7 @@ typeFromLiteral: aProgramNode
 
 	aProgramNode ifNil: [ ^ nil ].
 	aProgramNode isLiteral
-		ifTrue: [ ^ BPGuessedType
+		ifTrue: [ ^ NemoGuessedType
 					type: aProgramNode value class
 					guessedFrom: #literal ]
 		ifFalse: [ ^ nil ]

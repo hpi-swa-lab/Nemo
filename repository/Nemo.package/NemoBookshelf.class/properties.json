@@ -1,0 +1,17 @@
+{
+	"category" : "Nemo-Books",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MarkovASTChainBook",
+		"MarkovChainBook",
+		"VariableTypeBook" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dictionary",
+		"variableTypeBook" ],
+	"name" : "NemoBookshelf",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

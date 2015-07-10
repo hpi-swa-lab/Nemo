@@ -1,0 +1,15 @@
+{
+	"category" : "Nemo-Books",
+	"classinstvars" : [
+		"dictionary",
+		"selectorUnderstandings" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dictionary" ],
+	"name" : "NemoSelectorInfoStore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Books",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dictionary" ],
+	"name" : "NemoVariableTypeBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Nemo-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"colors",
+		"widths" ],
+	"name" : "CustomBorder",
+	"pools" : [
+		 ],
+	"super" : "BorderStyle",
+	"type" : "normal" }

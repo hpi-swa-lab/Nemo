@@ -11,7 +11,7 @@ typeBySubStringNameFor: anExpressionString
 		lastVarName := curVarName.
 		curVarName := curVarName first asUppercase asString, curVarName allButFirst.
 		(Smalltalk at: curVarName asSymbol ifAbsent: [])
-			ifNotNilDo: [ :aClass | ^ BPGuessedType type: aClass guessedFrom: #variableName ].
+			ifNotNilDo: [ :aClass | ^ NemoGuessedType type: aClass guessedFrom: #variableName ].
 		curVarName := matcher
 			copy: (NemoParserUtil escapeForRegEx: curVarName)
 			replacingMatchesWith: ''.

@@ -3,7 +3,7 @@ methodAdded: aMethodReference
 
 		| ast |
 		ast := NemoParserUtil parseASTFromMethodReference: aMethodReference.
-		BPMarkovFromASTGenerator
-				enrichChains: BPBookshelf markovASTChainBook markovChain
+		NemoMarkovFromASTGenerator
+				enrichChains: NemoBookshelf markovASTChainBook markovChain
 				fromAST: ast
 				andMethodReference: aMethodReference

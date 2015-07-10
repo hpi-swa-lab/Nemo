@@ -16,7 +16,7 @@ typeByFork: aProgramNode editor: anEditor
 						evaluateTypeForked: aProgramNode formattedCode
 						notifying: anEditor ].
 			remoteResultClassName ifNotNil: [
-				BPGuessedType
+				NemoGuessedType
 					type: (Smalltalk at: remoteResultClassName ifAbsent: [ ^ nil ])
 					guessedFrom: #methodReturnType ] ]
 		ifFalse: []

@@ -9,7 +9,7 @@ createSuggestionEntry: anId fromType: aBPGuessedType selector: aSelector count: 
 	debugText := self class displayDebugInformation
 		ifTrue: [ ('  ' , anInteger) asText addAttribute: TextColor gray ]
 		ifFalse: [ '' ].
-	^ BPSuggestionEntry new
+	^ NemoSuggestionEntry new
 		id: selector;
 		data: (NemoClassUtil methodReferenceOnClassOrSuper: aBPGuessedType type
 			for: selector);

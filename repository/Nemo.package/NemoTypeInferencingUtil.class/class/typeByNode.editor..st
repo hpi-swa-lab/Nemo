@@ -2,6 +2,6 @@ type inferencing
 typeByNode: aProgramNode editor: anEditor
 
 	^ (self typeByNodeRecursive: aProgramNode model: anEditor model) ifNotNil: [ :returnValue |
-		BPGuessedType
+		NemoGuessedType
 			type: returnValue class
 			guessedFrom: #methodReturnType ]

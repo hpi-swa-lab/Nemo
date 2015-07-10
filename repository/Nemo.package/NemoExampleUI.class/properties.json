@@ -1,0 +1,14 @@
+{
+	"category" : "Nemo-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NemoExampleUI",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

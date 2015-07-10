@@ -1,0 +1,15 @@
+{
+	"category" : "Nemo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"guessingSource" ],
+	"name" : "NemoGuessedType",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

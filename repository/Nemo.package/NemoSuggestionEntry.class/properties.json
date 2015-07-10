@@ -1,0 +1,17 @@
+{
+	"category" : "Nemo-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"displayValue",
+		"id",
+		"dataParam" ],
+	"name" : "NemoSuggestionEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

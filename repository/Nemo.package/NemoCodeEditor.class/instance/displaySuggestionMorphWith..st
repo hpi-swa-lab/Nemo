@@ -2,7 +2,7 @@ code suggestion
 displaySuggestionMorphWith: entries
 
 	| suggestionMorph |
-	suggestionMorph := BPAnnotatedSuggestionMorph new
+	suggestionMorph := NemoAnnotatedSuggestionMorph new
 		updateEntries: entries;
 		position: self absolutePositionForPopUp;
 		openInWorld;

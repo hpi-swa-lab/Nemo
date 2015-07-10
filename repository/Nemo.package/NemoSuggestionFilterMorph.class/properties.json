@@ -1,0 +1,18 @@
+{
+	"category" : "Nemo-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"onChangeBlock",
+		"textMorph",
+		"onEscapeBlock",
+		"onArrowBlock",
+		"onEnterBlock" ],
+	"name" : "NemoSuggestionFilterMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

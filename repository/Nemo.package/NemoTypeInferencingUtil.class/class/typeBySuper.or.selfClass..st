@@ -8,6 +8,6 @@ typeBySuper: aString or: aProgramNode selfClass: aSelfClass
 	^ isSuper ifTrue: [ 
 		aSelfClass
 			ifNotNil: [ :clazz |
-				BPGuessedType
+				NemoGuessedType
 					type: clazz superclass
 					guessedFrom: #super ] ]

@@ -8,6 +8,6 @@ typeBySelf: aString or: aProgramNode selfClass: aSelfClass
 	^ isSelf ifTrue: [ 
 		aSelfClass
 			ifNotNil: [ :clazz |
-				BPGuessedType
+				NemoGuessedType
 					type: clazz
 					guessedFrom: #self ] ]

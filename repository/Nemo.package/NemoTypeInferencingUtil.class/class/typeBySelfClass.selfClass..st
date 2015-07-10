@@ -7,7 +7,7 @@ typeBySelfClass: aProgramNode selfClass: aSelfClass
 			ifTrue: [ aProgramNode selector == #class ifTrue: [
 				^ aSelfClass
 					ifNotNil: [ :clazz |
-						BPGuessedType
+						NemoGuessedType
 							type: clazz class
 							guessedFrom: #selfClass ] ] ] ].
 	^ nil

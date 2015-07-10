@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"exampleTestMethod1" : "DS 2/13/2015 14:45:28.116",
-		"exampleTestMethod2" : "DS 2/13/2015 16:42:22.303",
-		"exampleTestMethod3" : "DS 2/13/2015 14:45:47.216",
-		"setUp" : "DS 4/24/2015 15:18:59.242",
-		"testMarkovChainTail" : "DS 2/13/2015 16:51:47.828" } }

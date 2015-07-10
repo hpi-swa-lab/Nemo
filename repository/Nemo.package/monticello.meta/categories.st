@@ -8,3 +8,6 @@ SystemOrganization addCategory: #'Nemo-Core'!
 SystemOrganization addCategory: #'Nemo-Observation'!
 SystemOrganization addCategory: #'Nemo-CodeEditor'!
 SystemOrganization addCategory: #'Nemo-Examples'!
+SystemOrganization addCategory: #'Nemo-UI'!
+SystemOrganization addCategory: #'Nemo-UI-Tests'!
+SystemOrganization addCategory: #'Nemo-Books'!

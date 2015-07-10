@@ -1,0 +1,17 @@
+{
+	"category" : "Nemo-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"entry",
+		"textMorph",
+		"onMouseEnterBlock",
+		"onClickBlock" ],
+	"name" : "NemoSuggestionItemMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

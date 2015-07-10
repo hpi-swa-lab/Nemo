@@ -4,7 +4,7 @@ displayMethodFinderResults: aCollection
 	| entries suggestionMorph |
 	entries := aCollection
 		collect: [ :expression |
-			BPSuggestionEntry new id: expression; data: expression; displayValue: expression ].
+			NemoSuggestionEntry new id: expression; data: expression; displayValue: expression ].
 	suggestionMorph := self displaySuggestionMorphWith: entries.
 	suggestionMorph informationText: 'Method Finder'.
 	suggestionMorph
