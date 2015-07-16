@@ -4,7 +4,7 @@
 
 [![Try Now](http://img.shields.io/badge/try-now-green.svg)](https://bertfreudenberg.github.io/SqueakJS/run#url=http://www.lively-kernel.org/babelsberg/BP2014H1/&files=[Nemo.image,Nemo.changes,SqueakV41.sources]) = in your browser
 
-### Nemo: Finden Statt Suchen! _Find
+### Nemo: Finden Statt Suchen! _Find, Don't Seek!_
 
 > We're on trunk / 4.6!
 
