@@ -9,7 +9,6 @@ typeFor: aProgramNode orWord: aString selfClass: aSelfClass currentSourceCode: a
 		[ self typeBySelfClass: aProgramNode selfClass: aSelfClass ].
 		[ self typeBySuper: aString or: aProgramNode selfClass: aSelfClass ].
 		[ self typeFromLiteral: aProgramNode ].
-		"[ self typeByNode: aProgramNode editor: anEditor ]."
 		[ self typeByFork: aProgramNode editor: anEditor ].
 		[ self typeByRoelTyper: aProgramNode or: aString selfClass: aSelfClass model: anEditor model ].
 		[ self typeByScanningMessageCalls: (aProgramNode ifNotNil: [aProgramNode formattedCode]) on: aSourceCodeString ].

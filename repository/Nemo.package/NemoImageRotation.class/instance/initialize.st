@@ -2,7 +2,7 @@ as yet unclassified
 initialize
 
 		super initialize.
-		self layoutPolicy: BPListLayout new.
+		self layoutPolicy: NemoListLayout new.
 		self imageMorphs: OrderedCollection new.
 		FileDirectory default fullNamesOfAllFilesInSubtree do: [ :fileName |
 				(fileName endsWith: '.jpg') ifTrue: [

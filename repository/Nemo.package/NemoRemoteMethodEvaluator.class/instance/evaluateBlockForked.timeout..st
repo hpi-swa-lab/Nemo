@@ -1,5 +1,5 @@
 remote
-evaluateBlockForked: aBlock
+evaluateBlockForked: aBlock timeout: aNumber
 	| remoteResult remoteTask sandboxedTask semaphore |
 	sandboxedTask :=  [
 		NemoRemoteSecurityManager forceSandbox.
@@ -11,7 +11,7 @@ evaluateBlockForked: aBlock
 			whenComplete: [ :result |
 				remoteResult := result.
 				semaphore signal ].
-	(semaphore waitTimeoutMSecs: self class forkingTimeout)
+	(semaphore waitTimeoutMSecs: aNumber)
 		ifTrue: [
 			Transcript cr; show: 'remote task timed out'.
 			remoteTask finalize.

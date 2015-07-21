@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"ForkingTimeout" ],
+		"ForkingTimeout",
+		"ForkingTimeoutDebug" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
