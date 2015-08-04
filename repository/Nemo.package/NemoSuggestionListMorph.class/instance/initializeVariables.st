@@ -2,6 +2,6 @@ initialization
 initializeVariables
 
 	self selectIndex: 1.
-	self maxItems: SmallInteger maxVal.
+	self maxItems: 9.
 	self color: Color white.
 	self filterString: ''.
