@@ -41,38 +41,30 @@ FileStream stdout nextPutAll: 'Closed all windows'; cr; flush.
 
 UIManager default
   edit: 'Welcome to Nemo.
+To open a modified Browser, evaluate:
+  
+  NemoBrowser open
 
-In the open browser window you can try a few of our showcases.
-Some interesting Hotkey combinations that work in there are:
 
-[ALT] + Q - Invokes first the MethodFinder that will try to
-evaluate the line. If that yields no results, it will invoke
-the type inferencing methods, and display methods that can possibly
-be invoked on the given arguments.
+ALT+Q - Move the cursor behind a code snippet (literal, global or instance or temporary varibale) and press ALT+Q to trigger type inferencing to displays methods that can be invoked on the given return value. If you are using UNIX-based OS, you can also get suggestions for the return value of expressions (e.g. "Morph new" or "Color red" or "(Color red alpha 0.5)").
 
-E.g. for the method finder try:
+To get a ranked list of selectors, you need to scan some packages of the image, so that we can build Markov-chains. Do-it:
 
-3 4 7
-
-for the type-inferencing try (caret after the morph on the 2nd line):
-
-morph := Morph new.
-morph
-
-[ALT] + J - Tries to find results solely based 
-on the image''s source code. This only uses a Markov-Chain under 
-the hood.' label: 'Welcome to Nemo'.
+  "Register some observers"
+  NemoObserverManager default
+    reset;
+    addObserver: NemoMarkovObserver new;
+    addObserver: NemoSelectorInfoObserver new.
+    
+  "Add Packages to scan"
+  NemoObserverManager default
+    addPackage: ''Morphic'';
+    addPackage: ''System'';
+    addPackage: ''Collections'';
+    "..."
+    start.' label: 'Welcome to Nemo'.
 
 FileStream stdout nextPutAll: 'Created welcome message'; cr; flush.
-
-"BPMarkovFromASTObserver default addPackage: 'System'.
-BPMarkovFromASTObserver default addPackage: 'Morphic'.
-BPMarkovFromASTObserver default addPackage: 'Collections'.
-BPMarkovFromASTObserver default start.
-FileStream stdout nextPutAll: 'Finished analysing the relevant Squeak source code AST'; cr; flush."
-
-"BPBrowser open.
-FileStream stdout nextPutAll: 'Opened browser, now quitting'; cr; flush."
 
 SmalltalkImage current snapshot: true andQuit: true.
 !
